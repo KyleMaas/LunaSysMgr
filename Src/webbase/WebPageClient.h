@@ -115,14 +115,98 @@ public:
 	 * @see WebAppManager
 	 */
 	virtual void close() = 0;
+	
+	/**
+	 * Returns the current window's size
+	 * 
+	 * The current window size appears to be the
+	 * current outer dimensions of a card, app,
+	 * or anything else being displayed in a
+	 * WebPageClient.
+	 * 
+	 * @param	width			Width of current window, in pixels.
+	 * @param	height			Height of current window, in pixels.
+	 */
 	virtual void windowSize(int& width, int& height) = 0;
+	
+	/**
+	 * Unknown at this point
+	 * 
+	 * @todo Document this once an actual use for it is found.
+	 */
 	virtual void resizedContents(int contentsWidth, int contentsHeight) = 0;
+	
+	/**
+	 * Unknown at this point
+	 * 
+	 * @todo Document this once an actual use for it is found.
+	 */
 	virtual void zoomedContents(double scaleFactor, int contentsWidth, int contentsHeight,
 								int newScrollOffsetX, int newScrollOffsetY) = 0;
+	/**
+	 * Invalidate a portion of the display and ask for it to be repainted
+	 * 
+	 * Should be called any time this window is
+	 * overlapped or otherwise has a portion of it
+	 * covered where it needs to be redrawn.
+	 * 
+	 * This method clips the rectangle to the
+	 * window and adds it to the redraw list.
+	 * Then, it sets a timer to redraw that portion.
+	 * 
+	 * @note Coordinates are given in window-space pixels.
+	 * 
+	 * @param	x			Left coordinate of the rectangle to repaint.
+	 * @param	y			Top coordinate of the rectangle to repaint.
+	 * @param	width			Width of rectangle to repaint.
+	 * @param	height			Height of rectangle to repaint.
+	 */
 	virtual void invalContents(int x, int y, int width, int height) = 0;
+	
+	/**
+	 * Unknown at this time
+	 * 
+	 * Doesn't appear to actually be used anywhere.
+	 * 
+	 * @todo See if we can remove this.
+	 * 
+	 * @param	newContentsX		Unknown.
+	 * @param	newContentsY		Unknown.
+	 */
 	virtual void scrolledContents(int newContentsX, int newContentsY) = 0;
+	
+	/**
+	 * Should be called any time that the URI of the displayed page has changed
+	 * 
+	 * Updates us to let us know that our page now
+	 * has a different URI.  Someone should call
+	 * this method at least once after the contents
+	 * of this class are displaying a different URI.
+	 * 
+	 * @param	url			New URI we're looking at.
+	 */
 	virtual void uriChanged(const char* url) = 0;
+	
+	/**
+	 * Unknown at this time
+	 * 
+	 * Doesn't appear to actually be used anywhere.
+	 * 
+	 * @todo See if we can remove this.
+	 * 
+	 * @param	title			Presumably the new title of the contents of the page we're displaying.
+	 */
 	virtual void titleChanged(const char* title) = 0;
+	
+	/**
+	 * Unknown at this time
+	 * 
+	 * Doesn't appear to actually be used anywhere.
+	 * 
+	 * @todo See if we can remove this.
+	 * 
+	 * @param	message			Presumably the text for the status bar of the page we're displaying.
+	 */
 	virtual void statusMessage(const char* message) = 0;
 	
 	/**
@@ -144,6 +228,16 @@ public:
 	 */
 	virtual void dispatchFailedLoad(const char* domain, int errorCode,
 			const char* failingURL, const char* localizedDescription) = 0;
+	
+	/**
+	 * Finish up any tasks to be completed when a page finishes loading
+	 * 
+	 * This method should be called any time that
+	 * this page is finished loading, be it by it
+	 * actually successfully loading a page, by
+	 * stop being tapped, or by closing the
+	 * window.
+	 */
 	virtual void loadFinished() = 0;
 
 	/**
@@ -162,6 +256,16 @@ public:
 	 * @param	enabled			true to enable auto-capitalization, false to disable it.
 	 */
 	virtual void autoCapEnabled(bool enabled) = 0;
+	
+	/**
+	 * Enables/disables whether touch events should be passed to the scripts running on this page
+	 * 
+	 * @note Can be overridden in a Luna preference - see CardWindow::onEnableTouchEvents().
+	 * 
+	 * @see CardWindow::onEnableTouchEvents()
+	 * 
+	 * @param	needTouchEvents		true to enable touch events, false to disable them.
+	 */
 	virtual void needTouchEvents(bool needTouchEvents) = 0;
 	
 	/**
@@ -181,28 +285,59 @@ public:
 	 * @return				OpenGL ES context pointer.
 	 */
 	virtual Palm::WebGLES2Context* getGLES2Context() = 0;
-
+	
+	/**
+	 * Disables drawing of the contents of this page, even if requested
+	 * 
+	 * Can be overridden in some cases.
+	 * See CardWebApp::forcePaint().
+	 * 
+	 * @see CardWebApp::forcePaint()
+	 * @see WebPageClient::resumeAppRendering()
+	 */
 	virtual void suspendAppRendering() = 0;
+	
+	/**
+	 * Re-enables drawing of the contents of this page
+	 * 
+	 * @see WebPageClient::suspendAppRendering()
+	 */
 	virtual void resumeAppRendering() = 0;
+	
+	/**
+	 * Returns the screen width and height as reported by WebAppManager
+	 * 
+	 * Wraps
+	 * {@link WebAppManager::currentUiWidth() WebAppManager::currentUiWidth()}
+	 * and
+	 * {@link WebAppManager::currentUiHeight() WebAppManager::currentUiHeight()}.
+	 * 
+	 * @see WebAppManager::currentUiWidth()
+	 * @see WebAppManager::currentUiHeight()
+	 * 
+	 * @param	width			Width of screen, in pixels, as reported by WebAppManager.
+	 * @param	height			Height of screen, in pixels, as reported by WebAppManager.
+	 */
 	virtual void screenSize(int& width, int& height) = 0;
-    /**
-     * Function initializes(opens)/De-initializes the appropriate sensor
-     *
-     * @param[in] aSensorType   - Sensor Type
-     * @param[in] aNeedEvents   - flag indicating whether to start or stop the sensor
-     *
-     * @return true if successful, false otherwise
-     */
-    virtual bool enableSensor(Palm::SensorType aSensorType, bool aNeedEvents) = 0;
-
-    /**
-      * Function sets the Accelerometer rate to highest level.
-      * Currently the there is no means of setting fastAccelerometer to OFF.
-      * So, the enable argument is not utilized at this point of time.
-      *
-      * @param[in] enable   - Whether to enable/disable
-      */
-    virtual void fastAccelerometerOn(bool enable) = 0;
+	
+	/**
+	 * Function initializes(opens)/De-initializes the appropriate sensor
+	 *
+	 * @param[in] aSensorType   - Sensor Type
+	 * @param[in] aNeedEvents   - flag indicating whether to start or stop the sensor
+	 *
+	 * @return true if successful, false otherwise
+	 */
+	virtual bool enableSensor(Palm::SensorType aSensorType, bool aNeedEvents) = 0;
+	
+	/**
+	 * Function sets the Accelerometer rate to highest level.
+	 * Currently the there is no means of setting fastAccelerometer to OFF.
+	 * So, the enable argument is not utilized at this point of time.
+	 *
+	 * @param[in] enable   - Whether to enable/disable
+	 */
+	virtual void fastAccelerometerOn(bool enable) = 0;
 };	
 
 #endif /* WEBPAGECLIENT_H */
