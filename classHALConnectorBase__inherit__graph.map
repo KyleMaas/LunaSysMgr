@@ -1,0 +1,19 @@
+<map id="G" name="G">
+<area shape="rect" id="node5" href="$classHALAccelerationSensorConnector.htm" title="HALAccelerationSensorConnector" alt="" coords="348,5,585,35"/>
+<area shape="rect" id="node7" href="$classHALAlsSensorConnector.htm" title="HALAlsSensorConnector" alt="" coords="377,59,556,88"/>
+<area shape="rect" id="node9" href="$classHALAngularVelocitySensorConnector.htm" title="HALAngularVelocitySensorConnector" alt="" coords="339,112,595,141"/>
+<area shape="rect" id="node11" href="$classHALBearingSensorConnector.htm" title="HALBearingSensorConnector" alt="" coords="363,165,571,195"/>
+<area shape="rect" id="node13" href="$classHALGravitySensorConnector.htm" title="HALGravitySensorConnector" alt="" coords="364,219,569,248"/>
+<area shape="rect" id="node15" href="$classHALLinearAccelearationSensorConnector.htm" title="HALLinearAccelearationSensorConnector" alt="" coords="324,272,609,301"/>
+<area shape="rect" id="node17" href="$classHALLogicalSensorConnectorBase.htm" title="HALLogicalSensorConnectorBase" alt="" coords="348,325,585,355"/>
+<area shape="rect" id="node27" href="$classHALMagneticFieldSensorConnector.htm" title="HALMagneticFieldSensorConnector" alt="" coords="343,379,591,408"/>
+<area shape="rect" id="node29" href="$classHALOrientationSensorConnector.htm" title="HALOrientationSensorConnector" alt="" coords="352,432,581,461"/>
+<area shape="rect" id="node31" href="$classHALRotationSensorConnector.htm" title="HALRotationSensorConnector" alt="" coords="360,485,573,515"/>
+<area shape="rect" id="node33" href="$classHALScreenProximitySensorConnector.htm" title="HALScreenProximitySensorConnector" alt="" coords="336,539,597,568"/>
+<area shape="rect" id="node35" href="$classHALShakeSensorConnector.htm" title="HALShakeSensorConnector" alt="" coords="367,592,567,621"/>
+<area shape="rect" id="node2" href="$classQObject.htm" title="QObject" alt="" coords="7,299,79,328"/>
+<area shape="rect" id="node19" href="$classHALLogicalAccelerometerSensorConnector.htm" title="HALLogicalAccelerometerSensorConnector" alt="" coords="671,245,967,275"/>
+<area shape="rect" id="node21" href="$classHALLogicalDeviceMotionSensorConnector.htm" title="HALLogicalDeviceMotionSensorConnector" alt="" coords="673,299,964,328"/>
+<area shape="rect" id="node23" href="$classHALLogicalDeviceOrientationSensorConnector.htm" title="HALLogicalDeviceOrientationSensorConnector" alt="" coords="660,352,977,381"/>
+<area shape="rect" id="node25" href="$classHALLogicalOrientationSensorConnector.htm" title="HALLogicalOrientationSensorConnector" alt="" coords="681,405,956,435"/>
+</map>

@@ -1,0 +1,21 @@
+var searchData=
+[
+  ['tab_5fhighlighted_5fbackground_5ffilepath',['TAB_HIGHLIGHTED_BACKGROUND_FILEPATH',['../pagetabbar_8cpp.htm#adc7dab7ade66ee10ef4cbd5c7601ffad',1,'pagetabbar.cpp']]],
+  ['tab_5flauncher_5fbackground_5ffilepath',['TAB_LAUNCHER_BACKGROUND_FILEPATH',['../dimensionslauncher_8cpp.htm#a02e73d310c2e64399bfd7e96e19c9891',1,'dimensionslauncher.cpp']]],
+  ['tab_5fnormal_5fbackground_5ffilepath',['TAB_NORMAL_BACKGROUND_FILEPATH',['../dimensionslauncher_8cpp.htm#acaa26531e61d782a45f0d3bea91b4594',1,'TAB_NORMAL_BACKGROUND_FILEPATH():&#160;dimensionslauncher.cpp'],['../pagetabbar_8cpp.htm#acaa26531e61d782a45f0d3bea91b4594',1,'TAB_NORMAL_BACKGROUND_FILEPATH():&#160;pagetabbar.cpp']]],
+  ['tab_5fselected_5fbackground_5ffilepath',['TAB_SELECTED_BACKGROUND_FILEPATH',['../pagetabbar_8cpp.htm#ac48a26c6d33e79f1cd07c3080ed488c9',1,'pagetabbar.cpp']]],
+  ['tab_5fshadow_5fbackground_5ffilepath',['TAB_SHADOW_BACKGROUND_FILEPATH',['../pagetabbar_8cpp.htm#ad9352cdda54e8931db0625cc60783b1a',1,'pagetabbar.cpp']]],
+  ['tab_5fshadow_5ffilepath',['TAB_SHADOW_FILEPATH',['../dimensionslauncher_8cpp.htm#ac80173c4e33d565224937f2189f12b80',1,'dimensionslauncher.cpp']]],
+  ['tab_5fvdiv_5ffilepath',['TAB_VDIV_FILEPATH',['../pagetabbar_8cpp.htm#a5d906f9102838a18b24a39614c75b56e',1,'pagetabbar.cpp']]],
+  ['tap_5fgesture_5fscale',['TAP_GESTURE_SCALE',['../GestureFeedbackItem_8cpp.htm#a1811910b55a911d41c299243a883d290',1,'GestureFeedbackItem.cpp']]],
+  ['tap_5fthreshold',['TAP_THRESHOLD',['../VirtualGestureStrip_8cpp.htm#ae8a93adf0c0929d5cd331b61b64d9bbb',1,'VirtualGestureStrip.cpp']]],
+  ['test_5fdisable_5flauncher3',['TEST_DISABLE_LAUNCHER3',['../dimensionsmain_8cpp.htm#ac15a1a0adf425344bc90703d35452c2b',1,'TEST_DISABLE_LAUNCHER3():&#160;dimensionsmain.cpp'],['../OverlayWindowManager_8cpp.htm#ac15a1a0adf425344bc90703d35452c2b',1,'TEST_DISABLE_LAUNCHER3():&#160;OverlayWindowManager.cpp']]],
+  ['test_5fdisallow_5fresize',['TEST_DISALLOW_RESIZE',['../dimensionsmain_8cpp.htm#ae49037eeb01b2b360a570cf7f2a5be7e',1,'dimensionsmain.cpp']]],
+  ['test_5finstaller_5fupdate_5fmanually',['TEST_INSTALLER_UPDATE_MANUALLY',['../ApplicationManagerService_8cpp.htm#a34c6f0824639bf619c7cf4731d8034b8',1,'ApplicationManagerService.cpp']]],
+  ['text_5fbaseline_5foffset',['TEXT_BASELINE_OFFSET',['../StatusBarBattery_8cpp.htm#a4cb9fe38114d20f5b7cc255ccf359ac2',1,'TEXT_BASELINE_OFFSET():&#160;StatusBarBattery.cpp'],['../StatusBarClock_8cpp.htm#a4cb9fe38114d20f5b7cc255ccf359ac2',1,'TEXT_BASELINE_OFFSET():&#160;StatusBarClock.cpp'],['../StatusBarTitle_8cpp.htm#a4cb9fe38114d20f5b7cc255ccf359ac2',1,'TEXT_BASELINE_OFFSET():&#160;StatusBarTitle.cpp'],['../StatusBarVersion_8cpp.htm#a4cb9fe38114d20f5b7cc255ccf359ac2',1,'TEXT_BASELINE_OFFSET():&#160;StatusBarVersion.cpp']]],
+  ['title_5fwidth_5fpadding',['TITLE_WIDTH_PADDING',['../StatusBarTitle_8cpp.htm#a150ef2be94f96aa1837e19ec0df202c4',1,'StatusBarTitle.cpp']]],
+  ['top_5fleft_5fcorner',['TOP_LEFT_CORNER',['../DockModeWindowManager_8cpp.htm#a2a3239f12fd9f93eb26730fdec6f3db3',1,'TOP_LEFT_CORNER():&#160;DockModeWindowManager.cpp'],['../LockWindow_8cpp.htm#a2a3239f12fd9f93eb26730fdec6f3db3',1,'TOP_LEFT_CORNER():&#160;LockWindow.cpp']]],
+  ['top_5fright_5fcorner',['TOP_RIGHT_CORNER',['../DockModeWindowManager_8cpp.htm#a534b88264eed644d5ebf6fa07b494b7e',1,'TOP_RIGHT_CORNER():&#160;DockModeWindowManager.cpp'],['../LockWindow_8cpp.htm#a534b88264eed644d5ebf6fa07b494b7e',1,'TOP_RIGHT_CORNER():&#160;LockWindow.cpp']]],
+  ['touchpanel_5fdelay',['TOUCHPANEL_DELAY',['../DisplayManager_8cpp.htm#a1176a36473bb140c0a8a16ec4a18510a',1,'DisplayManager.cpp']]],
+  ['trace_5fdebug_5fthis_5ffile',['TRACE_DEBUG_THIS_FILE',['../SoundPlayer_8cpp.htm#ae1b5e86a497a56a712df92119f01f0ca',1,'SoundPlayer.cpp']]]
+];

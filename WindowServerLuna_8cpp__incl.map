@@ -1,0 +1,36 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$Common_8h.htm" title="Common.h" alt="" coords="2537,315,2625,344"/>
+<area shape="rect" id="node5" href="$WindowServerLuna_8h.htm" title="WindowServerLuna.h" alt="" coords="817,83,972,112"/>
+<area shape="rect" id="node42" href="$WindowManagerBase_8h.htm" title="WindowManagerBase.h" alt="" coords="2373,160,2544,189"/>
+<area shape="rect" id="node48" href="$UiNavigationController_8h.htm" title="UiNavigationController.h" alt="" coords="2720,237,2893,267"/>
+<area shape="rect" id="node51" href="$CardWindowManager_8h.htm" title="CardWindowManager.h" alt="" coords="1293,83,1464,112"/>
+<area shape="rect" id="node55" href="$Preferences_8h.htm" title="Preferences.h" alt="" coords="1507,160,1616,189"/>
+<area shape="rect" id="node63" href="$CardWindow_8h.htm" title="CardWindow.h" alt="" coords="1104,83,1219,112"/>
+<area shape="rect" id="node67" href="$SystemUiController_8h.htm" title="SystemUiController.h" alt="" coords="2669,160,2824,189"/>
+<area shape="rect" id="node77" href="$DashboardWindowManager_8h.htm" title="DashboardWindowManager.h" alt="" coords="1941,83,2149,112"/>
+<area shape="rect" id="node83" href="$EmergencyWindowManager_8h.htm" title="EmergencyWindowManager.h" alt="" coords="2632,83,2843,112"/>
+<area shape="rect" id="node90" href="$FullEraseConfirmationWindow_8h.htm" title="FullEraseConfirmationWindow.h" alt="" coords="957,160,1179,189"/>
+<area shape="rect" id="node96" href="$Logging_8h.htm" title="Logging.h" alt="" coords="3419,237,3501,267"/>
+<area shape="rect" id="node99" href="$OverlayWindowManager_8h.htm" title="OverlayWindowManager.h" alt="" coords="2368,83,2557,112"/>
+<area shape="rect" id="node105" href="$MenuWindowManager_8h.htm" title="MenuWindowManager.h" alt="" coords="3192,83,3365,112"/>
+<area shape="rect" id="node110" href="$TopLevelWindowManager_8h.htm" title="TopLevelWindowManager.h" alt="" coords="1720,83,1917,112"/>
+<area shape="rect" id="node115" href="$MetaKeyManager_8h.htm" title="MetaKeyManager.h" alt="" coords="3508,160,3655,189"/>
+<area shape="rect" id="node119" href="$CoreNaviManager_8h.htm" title="CoreNaviManager.h" alt="" coords="2917,83,3067,112"/>
+<area shape="rect" id="node122" href="$HostBase_8h.htm" title="HostBase.h" alt="" coords="2951,160,3044,189"/>
+<area shape="rect" id="node128" href="$SystemService_8h.htm" title="SystemService.h" alt="" coords="131,160,256,189"/>
+<area shape="rect" id="node135" href="$NativeAlertManager_8h.htm" title="NativeAlertManager.h" alt="" coords="3679,160,3836,189"/>
+<area shape="rect" id="node138" href="$DockModeWindowManager_8h.htm" title="DockModeWindowManager.h" alt="" coords="1488,83,1696,112"/>
+<area shape="rect" id="node145" href="$DockModeMenuManager_8h.htm" title="DockModeMenuManager.h" alt="" coords="3389,83,3581,112"/>
+<area shape="rect" id="node150" href="$AnimationSettings_8h.htm" title="AnimationSettings.h" alt="" coords="3683,237,3829,267"/>
+<area shape="rect" id="node153" href="$WebAppMgrProxy_8h.htm" title="WebAppMgrProxy.h" alt="" coords="3911,160,4057,189"/>
+<area shape="rect" id="node156" href="$KeyboardMapping_8h.htm" title="KeyboardMapping.h" alt="" coords="3929,237,4076,267"/>
+<area shape="rect" id="node159" href="$ReticleItem_8h.htm" title="ReticleItem.h" alt="" coords="5,160,107,189"/>
+<area shape="rect" id="node164" href="$InputWindowManager_8h.htm" title="InputWindowManager.h" alt="" coords="2173,83,2344,112"/>
+<area shape="rect" id="node168" href="$Localization_8h.htm" title="Localization.h" alt="" coords="4132,160,4239,189"/>
+<area shape="rect" id="node171" href="$MemoryMonitor_8h.htm" title="MemoryMonitor.h" alt="" coords="4157,237,4288,267"/>
+<area shape="rect" id="node8" href="$WindowServer_8h.htm" title="WindowServer.h" alt="" coords="432,160,557,189"/>
+<area shape="rect" id="node11" href="$VariantAnimation_8h.htm" title="VariantAnimation.h" alt="" coords="1403,237,1541,267"/>
+<area shape="rect" id="node14" href="$HostWindow_8h.htm" title="HostWindow.h" alt="" coords="941,237,1053,267"/>
+<area shape="rect" id="node38" href="$QmlAlertWindow_8h.htm" title="QmlAlertWindow.h" alt="" coords="205,237,341,267"/>
+<area shape="rect" id="node58" href="$BezelGesture_8h.htm" title="BezelGesture.h" alt="" coords="2181,237,2299,267"/>
+</map>

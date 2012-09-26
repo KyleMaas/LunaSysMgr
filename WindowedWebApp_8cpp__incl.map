@@ -1,0 +1,28 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$Common_8h.htm" title="Common.h" alt="" coords="1268,469,1356,499"/>
+<area shape="rect" id="node17" href="$Debug_8h.htm" title="Debug.h" alt="" coords="368,160,440,189"/>
+<area shape="rect" id="node20" href="$EventThrottler_8h.htm" title="EventThrottler.h" alt="" coords="820,237,943,267"/>
+<area shape="rect" id="node34" href="$EventReporter_8h.htm" title="EventReporter.h" alt="" coords="1376,237,1501,267"/>
+<area shape="rect" id="node44" href="$Logging_8h.htm" title="Logging.h" alt="" coords="192,315,275,344"/>
+<area shape="rect" id="node51" href="$Preferences_8h.htm" title="Preferences.h" alt="" coords="1525,237,1635,267"/>
+<area shape="rect" id="node63" href="$WebAppFactory_8h.htm" title="WebAppFactory.h" alt="" coords="2097,237,2231,267"/>
+<area shape="rect" id="node72" href="$WindowedWebApp_8h.htm" title="WindowedWebApp.h" alt="" coords="972,83,1124,112"/>
+<area shape="rect" id="node92" href="$WebAppManager_8h.htm" title="WebAppManager.h" alt="" coords="1211,237,1352,267"/>
+<area shape="rect" id="node118" href="$WebPage_8h.htm" title="WebPage.h" alt="" coords="2479,237,2572,267"/>
+<area shape="rect" id="node134" href="$RemoteWindowData_8h.htm" title="RemoteWindowData.h" alt="" coords="43,160,205,189"/>
+<area shape="rect" id="node137" href="$Settings_8h.htm" title="Settings.h" alt="" coords="2552,315,2635,344"/>
+<area shape="rect" id="node143" href="$Time_8h.htm" title="Time.h" alt="" coords="280,160,344,189"/>
+<area shape="rect" id="node146" href="$Utils_8h.htm" title="Utils.h" alt="" coords="2419,315,2477,344"/>
+<area shape="rect" id="node152" href="$WebKitKeyMap_8h.htm" title="WebKitKeyMap.h" alt="" coords="1793,237,1921,267"/>
+<area shape="rect" id="node156" href="$WindowMetaData_8h.htm" title="WindowMetaData.h" alt="" coords="3167,83,3311,112"/>
+<area shape="rect" id="node158" href="$DeviceInfo_8h.htm" title="DeviceInfo.h" alt="" coords="2255,237,2353,267"/>
+<area shape="rect" id="node23" href="$Event_8h.htm" title="Event.h" alt="" coords="915,315,984,344"/>
+<area shape="rect" id="node30" href="$sptr_8h.htm" title="sptr.h" alt="" coords="1676,392,1732,421"/>
+<area shape="rect" id="node39" href="$Mutex_8h.htm" title="Mutex.h" alt="" coords="1547,315,1616,344"/>
+<area shape="rect" id="node58" href="$CustomEvents_8h.htm" title="CustomEvents.h" alt="" coords="1251,392,1373,421"/>
+<area shape="rect" id="node67" href="$Window_8h.htm" title="Window.h" alt="" coords="2109,315,2192,344"/>
+<area shape="rect" id="node79" href="$AsyncCaller_8h.htm" title="AsyncCaller.h" alt="" coords="1923,392,2029,421"/>
+<area shape="rect" id="node83" href="$GraphicsDefs_8h.htm" title="GraphicsDefs.h" alt="" coords="551,160,668,189"/>
+<area shape="rect" id="node86" href="$WebAppBase_8h.htm" title="WebAppBase.h" alt="" coords="1219,160,1336,189"/>
+<area shape="rect" id="node100" href="$Timer_8h.htm" title="Timer.h" alt="" coords="1640,315,1709,344"/>
+</map>

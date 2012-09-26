@@ -1,0 +1,13 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classWindowManagerBase.htm" title="WindowManagerBase" alt="" coords="161,245,321,275"/>
+<area shape="rect" id="node5" href="$classCardWindowManager.htm" title="CardWindowManager" alt="" coords="391,5,551,35"/>
+<area shape="rect" id="node7" href="$classDashboardWindowManager.htm" title="DashboardWindowManager" alt="" coords="372,59,569,88"/>
+<area shape="rect" id="node9" href="$classDockModeMenuManager.htm" title="DockModeMenuManager" alt="" coords="380,112,561,141"/>
+<area shape="rect" id="node11" href="$classDockModeWindowManager.htm" title="DockModeWindowManager" alt="" coords="372,165,569,195"/>
+<area shape="rect" id="node13" href="$classEmergencyWindowManager.htm" title="EmergencyWindowManager" alt="" coords="371,219,571,248"/>
+<area shape="rect" id="node15" href="$classInputWindowManager.htm" title="InputWindowManager" alt="" coords="391,272,551,301"/>
+<area shape="rect" id="node17" href="$classMenuWindowManager.htm" title="MenuWindowManager" alt="" coords="389,325,552,355"/>
+<area shape="rect" id="node19" href="$classOverlayWindowManager.htm" title="OverlayWindowManager" alt="" coords="381,379,560,408"/>
+<area shape="rect" id="node21" href="$classTopLevelWindowManager.htm" title="TopLevelWindowManager" alt="" coords="377,432,564,461"/>
+<area shape="rect" id="node23" href="$classWindowManagerMinimal.htm" title="WindowManagerMinimal" alt="" coords="383,485,559,515"/>
+</map>

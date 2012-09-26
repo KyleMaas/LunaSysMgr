@@ -1,0 +1,15 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$JsSysObject_8cpp.htm" title="JsSysObject.cpp" alt="" coords="5,83,131,112"/>
+<area shape="rect" id="node5" href="$CardWebApp_8cpp.htm" title="CardWebApp.cpp" alt="" coords="155,83,285,112"/>
+<area shape="rect" id="node7" href="$DockWebApp_8cpp.htm" title="DockWebApp.cpp" alt="" coords="309,83,443,112"/>
+<area shape="rect" id="node9" href="$AlertWebApp_8cpp.htm" title="AlertWebApp.cpp" alt="" coords="467,83,597,112"/>
+<area shape="rect" id="node11" href="$DashboardWebApp_8cpp.htm" title="DashboardWebApp.cpp" alt="" coords="621,83,792,112"/>
+<area shape="rect" id="node13" href="$WebAppFactoryLuna_8cpp.htm" title="WebAppFactoryLuna.cpp" alt="" coords="816,83,995,112"/>
+<area shape="rect" id="node15" href="$WebAppFactoryMinimal_8cpp.htm" title="WebAppFactoryMinimal.cpp" alt="" coords="1019,83,1213,112"/>
+<area shape="rect" id="node17" href="$WebAppBase_8cpp.htm" title="WebAppBase.cpp" alt="" coords="1237,83,1371,112"/>
+<area shape="rect" id="node19" href="$WebAppDeferredUpdateHandler_8cpp.htm" title="WebAppDeferredUpdateHandler.cpp" alt="" coords="1395,83,1648,112"/>
+<area shape="rect" id="node21" href="$WebAppManager_8cpp.htm" title="WebAppManager.cpp" alt="" coords="1672,83,1829,112"/>
+<area shape="rect" id="node23" href="$WebFrame_8cpp.htm" title="WebFrame.cpp" alt="" coords="1853,83,1968,112"/>
+<area shape="rect" id="node25" href="$WebPage_8cpp.htm" title="WebPage.cpp" alt="" coords="1992,83,2101,112"/>
+<area shape="rect" id="node27" href="$WindowedWebApp_8cpp.htm" title="WindowedWebApp.cpp" alt="" coords="2125,83,2291,112"/>
+</map>

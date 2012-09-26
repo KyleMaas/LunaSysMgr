@@ -1,0 +1,20 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$Common_8h.htm" title="Common.h" alt="" coords="731,469,819,499"/>
+<area shape="rect" id="node5" href="$RemoteWindowDataSoftware_8h.htm" title="RemoteWindowDataSoftware.h" alt="" coords="163,160,381,189"/>
+<area shape="rect" id="node23" href="$Logging_8h.htm" title="Logging.h" alt="" coords="357,315,440,344"/>
+<area shape="rect" id="node31" href="$WebAppManager_8h.htm" title="WebAppManager.h" alt="" coords="1356,83,1497,112"/>
+<area shape="rect" id="node131" href="$WindowMetaData_8h.htm" title="WindowMetaData.h" alt="" coords="3581,83,3725,112"/>
+<area shape="rect" id="node134" href="$Settings_8h.htm" title="Settings.h" alt="" coords="2121,315,2204,344"/>
+<area shape="rect" id="node10" href="$RemoteWindowData_8h.htm" title="RemoteWindowData.h" alt="" coords="93,237,256,267"/>
+<area shape="rect" id="node15" href="$CardWebApp_8h.htm" title="CardWebApp.h" alt="" coords="565,315,683,344"/>
+<area shape="rect" id="node18" href="$sptr_8h.htm" title="sptr.h" alt="" coords="812,392,868,421"/>
+<area shape="rect" id="node42" href="$SyncTask_8h.htm" title="SyncTask.h" alt="" coords="757,160,851,189"/>
+<area shape="rect" id="node51" href="$Event_8h.htm" title="Event.h" alt="" coords="983,315,1052,344"/>
+<area shape="rect" id="node66" href="$MemoryWatcher_8h.htm" title="MemoryWatcher.h" alt="" coords="1771,237,1907,267"/>
+<area shape="rect" id="node71" href="$SignalSlot_8h.htm" title="SignalSlot.h" alt="" coords="1465,315,1561,344"/>
+<area shape="rect" id="node77" href="$Timer_8h.htm" title="Timer.h" alt="" coords="1795,315,1864,344"/>
+<area shape="rect" id="node84" href="$Window_8h.htm" title="Window.h" alt="" coords="1939,315,2021,344"/>
+<area shape="rect" id="node90" href="$WebAppCache_8h.htm" title="WebAppCache.h" alt="" coords="507,237,632,267"/>
+<area shape="rect" id="node93" href="$HostBase_8h.htm" title="HostBase.h" alt="" coords="925,160,1019,189"/>
+<area shape="rect" id="node45" href="$TaskBase_8h.htm" title="TaskBase.h" alt="" coords="808,237,904,267"/>
+</map>

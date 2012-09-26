@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node1" href="$classFunctionWrapper.htm" title="FunctionWrapper\&lt; void(*)()\&gt;" alt="" coords="44,5,247,35"/>
+<area shape="rect" id="node3" href="$classSlot.htm" title="Slot\&lt; Receiver, Arg0, Arg1, Arg2, Arg3, Arg4 \&gt;" alt="" coords="335,32,644,61"/>
+<area shape="rect" id="node4" href="$classSlotBase.htm" title="SlotBase\&lt; Arg0, Arg1, Arg2, Arg3, Arg4 \&gt;" alt="" coords="5,59,285,88"/>
+</map>

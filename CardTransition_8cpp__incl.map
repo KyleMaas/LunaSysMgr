@@ -1,0 +1,18 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$Common_8h.htm" title="Common.h" alt="" coords="1255,392,1343,421"/>
+<area shape="rect" id="node5" href="$CardTransition_8h.htm" title="CardTransition.h" alt="" coords="277,237,403,267"/>
+<area shape="rect" id="node16" href="$AnimationEquations_8h.htm" title="AnimationEquations.h" alt="" coords="165,315,323,344"/>
+<area shape="rect" id="node22" href="$AnimationSettings_8h.htm" title="AnimationSettings.h" alt="" coords="5,237,152,267"/>
+<area shape="rect" id="node31" href="$CardWindow_8h.htm" title="CardWindow.h" alt="" coords="1149,83,1264,112"/>
+<area shape="rect" id="node128" href="$Time_8h.htm" title="Time.h" alt="" coords="2541,237,2605,267"/>
+<area shape="rect" id="node34" href="$Settings_8h.htm" title="Settings.h" alt="" coords="1077,237,1160,267"/>
+<area shape="rect" id="node45" href="$Event_8h.htm" title="Event.h" alt="" coords="1485,237,1555,267"/>
+<area shape="rect" id="node62" href="$HostWindow_8h.htm" title="HostWindow.h" alt="" coords="1151,160,1263,189"/>
+<area shape="rect" id="node83" href="$Timer_8h.htm" title="Timer.h" alt="" coords="1341,237,1411,267"/>
+<area shape="rect" id="node90" href="$SystemUiController_8h.htm" title="SystemUiController.h" alt="" coords="1749,160,1904,189"/>
+<area shape="rect" id="node125" href="$CardRoundedCornerShaderStage_8h.htm" title="CardRoundedCornerShaderStage.h" alt="" coords="2189,160,2437,189"/>
+<area shape="rect" id="node58" href="$sptr_8h.htm" title="sptr.h" alt="" coords="1528,315,1584,344"/>
+<area shape="rect" id="node65" href="$Window_8h.htm" title="Window.h" alt="" coords="1235,237,1317,267"/>
+<area shape="rect" id="node72" href="$HostWindowData_8h.htm" title="HostWindowData.h" alt="" coords="739,237,880,267"/>
+<area shape="rect" id="node76" href="$InputClient_8h.htm" title="InputClient.h" alt="" coords="904,237,1003,267"/>
+</map>

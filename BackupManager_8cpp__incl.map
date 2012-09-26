@@ -1,0 +1,17 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$BackupManager_8h.htm" title="BackupManager.h" alt="" coords="1983,83,2119,112"/>
+<area shape="rect" id="node5" href="$Common_8h.htm" title="Common.h" alt="" coords="1079,392,1167,421"/>
+<area shape="rect" id="node22" href="$HostBase_8h.htm" title="HostBase.h" alt="" coords="696,83,790,112"/>
+<area shape="rect" id="node86" href="$JSONUtils_8h.htm" title="JSONUtils.h" alt="" coords="1639,83,1735,112"/>
+<area shape="rect" id="node88" href="$Settings_8h.htm" title="Settings.h" alt="" coords="1646,160,1728,189"/>
+<area shape="rect" id="node104" href="$Logging_8h.htm" title="Logging.h" alt="" coords="1287,237,1370,267"/>
+<area shape="rect" id="node112" href="$pagesaver_8h.htm" title="pagesaver.h" alt="" coords="2194,83,2292,112"/>
+<area shape="rect" id="node31" href="$TaskBase_8h.htm" title="TaskBase.h" alt="" coords="563,160,659,189"/>
+<area shape="rect" id="node60" href="$Mutex_8h.htm" title="Mutex.h" alt="" coords="183,237,252,267"/>
+<area shape="rect" id="node71" href="$CustomEvents_8h.htm" title="CustomEvents.h" alt="" coords="867,160,990,189"/>
+<area shape="rect" id="node76" href="$InputControl_8h.htm" title="InputControl.h" alt="" coords="734,160,843,189"/>
+<area shape="rect" id="node37" href="$sptr_8h.htm" title="sptr.h" alt="" coords="255,315,311,344"/>
+<area shape="rect" id="node41" href="$AsyncCaller_8h.htm" title="AsyncCaller.h" alt="" coords="23,315,130,344"/>
+<area shape="rect" id="node45" href="$Event_8h.htm" title="Event.h" alt="" coords="576,237,646,267"/>
+<area shape="rect" id="node65" href="$SingletonTimer_8h.htm" title="SingletonTimer.h" alt="" coords="370,237,498,267"/>
+</map>

@@ -1,0 +1,27 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$page_8h.htm" title="page.h" alt="" coords="1549,160,1613,189"/>
+<area shape="rect" id="node23" href="$icon_8h.htm" title="icon.h" alt="" coords="1363,237,1421,267"/>
+<area shape="rect" id="node35" href="$pixmapobject_8h.htm" title="pixmapobject.h" alt="" coords="1067,315,1181,344"/>
+<area shape="rect" id="node51" href="$pagemovement_8h.htm" title="pagemovement.h" alt="" coords="805,237,936,267"/>
+<area shape="rect" id="node55" href="$dimensionsmain_8h.htm" title="dimensionsmain.h" alt="" coords="701,160,835,189"/>
+<area shape="rect" id="node75" href="$dimensionslauncher_8h.htm" title="dimensionslauncher.h" alt="" coords="2437,83,2595,112"/>
+<area shape="rect" id="node101" href="$dimensionsglobal_8h.htm" title="../../dimensionsglobal.h" alt="" coords="2872,315,3032,344"/>
+<area shape="rect" id="node105" href="$debugglobal_8h.htm" title="debugglobal.h" alt="" coords="3204,237,3311,267"/>
+<area shape="rect" id="node114" href="$gfxsettings_8h.htm" title="gfxsettings.h" alt="" coords="43,160,144,189"/>
+<area shape="rect" id="node117" href="$layoutsettings_8h.htm" title="layoutsettings.h" alt="" coords="168,160,285,189"/>
+<area shape="rect" id="node120" href="$dynamicssettings_8h.htm" title="dynamicssettings.h" alt="" coords="2988,83,3129,112"/>
+<area shape="rect" id="node122" href="$layoutitem_8h.htm" title="layoutitem.h" alt="" coords="2651,315,2747,344"/>
+<area shape="rect" id="node126" href="$iconlayout_8h.htm" title="iconlayout.h" alt="" coords="2817,237,2913,267"/>
+<area shape="rect" id="node135" href="$propertysettingsignaltransition_8h.htm" title="propertysettingsignaltransition.h" alt="" coords="1944,237,2165,267"/>
+<area shape="rect" id="node140" href="$Settings_8h.htm" title="Settings.h" alt="" coords="3305,83,3388,112"/>
+<area shape="rect" id="node163" href="$FlickGesture_8h.htm" title="FlickGesture.h" alt="" coords="4359,83,4468,112"/>
+<area shape="rect" id="node166" href="$Localization_8h.htm" title="Localization.h" alt="" coords="4492,83,4599,112"/>
+<area shape="rect" id="node19" href="$thingpaintable_8h.htm" title="thingpaintable.h" alt="" coords="1400,315,1520,344"/>
+<area shape="rect" id="node42" href="$frictiontransform_8h.htm" title="frictiontransform.h" alt="" coords="1640,237,1773,267"/>
+<area shape="rect" id="node44" href="$dimensionstypes_8h.htm" title="dimensionstypes.h" alt="" coords="904,315,1043,344"/>
+<area shape="rect" id="node46" href="$KineticScroller_8h.htm" title="KineticScroller.h" alt="" coords="1797,237,1920,267"/>
+<area shape="rect" id="node58" href="$quicklaunchbar_8h.htm" title="quicklaunchbar.h" alt="" coords="1163,237,1288,267"/>
+<area shape="rect" id="node69" href="$Window_8h.htm" title="Window.h" alt="" coords="547,237,629,267"/>
+<area shape="rect" id="node86" href="$groupanchoritem_8h.htm" title="groupanchoritem.h" alt="" coords="2392,237,2531,267"/>
+<area shape="rect" id="node94" href="$vcamera_8h.htm" title="vcamera.h" alt="" coords="2555,237,2640,267"/>
+</map>

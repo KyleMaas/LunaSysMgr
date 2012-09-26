@@ -1,0 +1,19 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$Common_8h.htm" title="Common.h" alt="" coords="977,469,1065,499"/>
+<area shape="rect" id="node5" href="$CardHostWindow_8h.htm" title="CardHostWindow.h" alt="" coords="167,83,308,112"/>
+<area shape="rect" id="node8" href="$CardWindow_8h.htm" title="CardWindow.h" alt="" coords="1265,160,1380,189"/>
+<area shape="rect" id="node93" href="$GraphicsDefs_8h.htm" title="GraphicsDefs.h" alt="" coords="1461,392,1579,421"/>
+<area shape="rect" id="node128" href="$AnimationEquations_8h.htm" title="AnimationEquations.h" alt="" coords="43,160,200,189"/>
+<area shape="rect" id="node11" href="$Settings_8h.htm" title="Settings.h" alt="" coords="959,315,1041,344"/>
+<area shape="rect" id="node24" href="$Event_8h.htm" title="Event.h" alt="" coords="2599,315,2668,344"/>
+<area shape="rect" id="node42" href="$HostWindow_8h.htm" title="HostWindow.h" alt="" coords="1472,237,1584,267"/>
+<area shape="rect" id="node62" href="$Timer_8h.htm" title="Timer.h" alt="" coords="2505,315,2575,344"/>
+<area shape="rect" id="node69" href="$SystemUiController_8h.htm" title="SystemUiController.h" alt="" coords="1685,237,1840,267"/>
+<area shape="rect" id="node124" href="$CardRoundedCornerShaderStage_8h.htm" title="CardRoundedCornerShaderStage.h" alt="" coords="275,237,523,267"/>
+<area shape="rect" id="node38" href="$sptr_8h.htm" title="sptr.h" alt="" coords="2159,392,2215,421"/>
+<area shape="rect" id="node45" href="$Window_8h.htm" title="Window.h" alt="" coords="1487,315,1569,344"/>
+<area shape="rect" id="node52" href="$HostWindowData_8h.htm" title="HostWindowData.h" alt="" coords="545,392,687,421"/>
+<area shape="rect" id="node55" href="$InputClient_8h.htm" title="InputClient.h" alt="" coords="1116,315,1215,344"/>
+<area shape="rect" id="node87" href="$ApplicationDescription_8h.htm" title="ApplicationDescription.h" alt="" coords="1289,315,1463,344"/>
+<area shape="rect" id="node103" href="$SuspendBlocker_8h.htm" title="SuspendBlocker.h" alt="" coords="1911,392,2044,421"/>
+</map>

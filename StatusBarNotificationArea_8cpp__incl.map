@@ -1,0 +1,25 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$StatusBarNotificationArea_8h.htm" title="StatusBarNotificationArea.h" alt="" coords="2752,83,2947,112"/>
+<area shape="rect" id="node75" href="$Settings_8h.htm" title="Settings.h" alt="" coords="72,315,155,344"/>
+<area shape="rect" id="node86" href="$Preferences_8h.htm" title="Preferences.h" alt="" coords="1364,160,1473,189"/>
+<area shape="rect" id="node98" href="$DashboardWindowManager_8h.htm" title="DashboardWindowManager.h" alt="" coords="880,237,1088,267"/>
+<area shape="rect" id="node131" href="$DashboardWindowContainer_8h.htm" title="DashboardWindowContainer.h" alt="" coords="2872,237,3085,267"/>
+<area shape="rect" id="node146" href="$DashboardWindow_8h.htm" title="DashboardWindow.h" alt="" coords="1497,160,1649,189"/>
+<area shape="rect" id="node5" href="$StatusBar_8h.htm" title="StatusBar.h" alt="" coords="2755,237,2848,267"/>
+<area shape="rect" id="node22" href="$VariantAnimation_8h.htm" title="VariantAnimation.h" alt="" coords="2688,315,2827,344"/>
+<area shape="rect" id="node32" href="$StatusBarItem_8h.htm" title="StatusBarItem.h" alt="" coords="2839,160,2959,189"/>
+<area shape="rect" id="node36" href="$StatusBarIcon_8h.htm" title="StatusBarIcon.h" alt="" coords="3275,237,3395,267"/>
+<area shape="rect" id="node49" href="$BannerMessageHandler_8h.htm" title="BannerMessageHandler.h" alt="" coords="2131,160,2317,189"/>
+<area shape="rect" id="node7" href="$Window_8h.htm" title="Window.h" alt="" coords="1400,315,1483,344"/>
+<area shape="rect" id="node27" href="$CustomEvents_8h.htm" title="CustomEvents.h" alt="" coords="493,315,616,344"/>
+<area shape="rect" id="node9" href="$Common_8h.htm" title="Common.h" alt="" coords="1357,392,1445,421"/>
+<area shape="rect" id="node54" href="$sptr_8h.htm" title="sptr.h" alt="" coords="1269,315,1325,344"/>
+<area shape="rect" id="node58" href="$SoundPlayerPool_8h.htm" title="SoundPlayerPool.h" alt="" coords="1745,237,1887,267"/>
+<area shape="rect" id="node67" href="$Timer_8h.htm" title="Timer.h" alt="" coords="963,315,1032,344"/>
+<area shape="rect" id="node91" href="$Mutex_8h.htm" title="Mutex.h" alt="" coords="1112,237,1181,267"/>
+<area shape="rect" id="node101" href="$GraphicsDefs_8h.htm" title="GraphicsDefs.h" alt="" coords="352,315,469,344"/>
+<area shape="rect" id="node112" href="$WindowManagerBase_8h.htm" title="WindowManagerBase.h" alt="" coords="1608,315,1779,344"/>
+<area shape="rect" id="node117" href="$GraphicsItemContainer_8h.htm" title="GraphicsItemContainer.h" alt="" coords="2389,315,2568,344"/>
+<area shape="rect" id="node149" href="$Event_8h.htm" title="Event.h" alt="" coords="1205,237,1275,267"/>
+<area shape="rect" id="node155" href="$HostWindow_8h.htm" title="HostWindow.h" alt="" coords="1400,237,1512,267"/>
+</map>

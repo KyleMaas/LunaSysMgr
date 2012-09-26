@@ -1,0 +1,29 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$Common_8h.htm" title="Common.h" alt="" coords="1740,392,1828,421"/>
+<area shape="rect" id="node19" href="$AlertWindow_8h.htm" title="AlertWindow.h" alt="" coords="2444,83,2556,112"/>
+<area shape="rect" id="node40" href="$HostWindowData_8h.htm" title="HostWindowData.h" alt="" coords="320,237,461,267"/>
+<area shape="rect" id="node47" href="$ApplicationManager_8h.htm" title="ApplicationManager.h" alt="" coords="3029,83,3187,112"/>
+<area shape="rect" id="node85" href="$ApplicationDescription_8h.htm" title="ApplicationDescription.h" alt="" coords="1455,160,1628,189"/>
+<area shape="rect" id="node109" href="$BannerMessageHandler_8h.htm" title="BannerMessageHandler.h" alt="" coords="1992,160,2179,189"/>
+<area shape="rect" id="node115" href="$SoundPlayerPool_8h.htm" title="SoundPlayerPool.h" alt="" coords="2029,237,2171,267"/>
+<area shape="rect" id="node123" href="$Logging_8h.htm" title="Logging.h" alt="" coords="61,315,144,344"/>
+<area shape="rect" id="node131" href="$PersistentWindowCache_8h.htm" title="PersistentWindowCache.h" alt="" coords="2496,160,2683,189"/>
+<area shape="rect" id="node139" href="$Preferences_8h.htm" title="Preferences.h" alt="" coords="3211,160,3320,189"/>
+<area shape="rect" id="node149" href="$Settings_8h.htm" title="Settings.h" alt="" coords="2757,160,2840,189"/>
+<area shape="rect" id="node157" href="$Utils_8h.htm" title="Utils.h" alt="" coords="3963,237,4021,267"/>
+<area shape="rect" id="node164" href="$WebAppMgrProxy_8h.htm" title="WebAppMgrProxy.h" alt="" coords="936,83,1083,112"/>
+<area shape="rect" id="node167" href="$IpcClientHost_8h.htm" title="IpcClientHost.h" alt="" coords="2304,160,2421,189"/>
+<area shape="rect" id="node177" href="$WindowServer_8h.htm" title="WindowServer.h" alt="" coords="780,83,905,112"/>
+<area shape="rect" id="node187" href="$Time_8h.htm" title="Time.h" alt="" coords="957,237,1021,267"/>
+<area shape="rect" id="node191" href="$QtUtils_8h.htm" title="QtUtils.h" alt="" coords="1096,237,1171,267"/>
+<area shape="rect" id="node22" href="$sptr_8h.htm" title="sptr.h" alt="" coords="3235,315,3291,344"/>
+<area shape="rect" id="node27" href="$Window_8h.htm" title="Window.h" alt="" coords="1872,237,1955,267"/>
+<area shape="rect" id="node35" href="$HostWindow_8h.htm" title="HostWindow.h" alt="" coords="781,160,893,189"/>
+<area shape="rect" id="node61" href="$Mutex_8h.htm" title="Mutex.h" alt="" coords="3667,237,3736,267"/>
+<area shape="rect" id="node66" href="$MimeSystem_8h.htm" title="MimeSystem.h" alt="" coords="3519,160,3631,189"/>
+<area shape="rect" id="node74" href="$CmdResourceHandlers_8h.htm" title="CmdResourceHandlers.h" alt="" coords="2805,237,2984,267"/>
+<area shape="rect" id="node92" href="$GraphicsDefs_8h.htm" title="GraphicsDefs.h" alt="" coords="1003,315,1120,344"/>
+<area shape="rect" id="node95" href="$LaunchPoint_8h.htm" title="LaunchPoint.h" alt="" coords="1347,237,1456,267"/>
+<area shape="rect" id="node102" href="$KeywordMap_8h.htm" title="KeywordMap.h" alt="" coords="1531,237,1645,267"/>
+<area shape="rect" id="node145" href="$CustomEvents_8h.htm" title="CustomEvents.h" alt="" coords="811,237,933,267"/>
+</map>

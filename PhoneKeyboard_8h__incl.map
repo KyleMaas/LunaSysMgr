@@ -1,0 +1,15 @@
+<map id="G" name="G">
+<area shape="rect" id="node11" href="$VirtualKeyboard_8h.htm" title="VirtualKeyboard.h" alt="" coords="653,160,784,189"/>
+<area shape="rect" id="node35" href="$PhoneKeymap_8h.htm" title="PhoneKeymap.h" alt="" coords="1431,83,1556,112"/>
+<area shape="rect" id="node62" href="$IMEPixmap_8h.htm" title="IMEPixmap.h" alt="" coords="184,83,288,112"/>
+<area shape="rect" id="node71" href="$GlyphCache_8h.htm" title="GlyphCache.h" alt="" coords="481,83,591,112"/>
+<area shape="rect" id="node79" href="$ShortcutsHandler_8h.htm" title="ShortcutsHandler.h" alt="" coords="1631,83,1772,112"/>
+<area shape="rect" id="node86" href="$CandidateBar_8h.htm" title="CandidateBar.h" alt="" coords="997,83,1117,112"/>
+<area shape="rect" id="node13" href="$IMEDataInterface_8h.htm" title="IMEDataInterface.h" alt="" coords="1321,237,1465,267"/>
+<area shape="rect" id="node31" href="$InputMethod_8h.htm" title="InputMethod.h" alt="" coords="671,315,783,344"/>
+<area shape="rect" id="node15" href="$IMEData_8h.htm" title="IMEData.h" alt="" coords="1248,315,1336,344"/>
+<area shape="rect" id="node44" href="$PalmIMEHelpers_8h.htm" title="PalmIMEHelpers.h" alt="" coords="1205,160,1344,189"/>
+<area shape="rect" id="node52" href="$Logging_8h.htm" title="Logging.h" alt="" coords="812,237,895,267"/>
+<area shape="rect" id="node54" href="$Common_8h.htm" title="Common.h" alt="" coords="807,315,895,344"/>
+<area shape="rect" id="node95" href="$CandidateBarRemote_8h.htm" title="CandidateBarRemote.h" alt="" coords="896,160,1064,189"/>
+</map>

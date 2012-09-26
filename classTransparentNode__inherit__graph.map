@@ -1,0 +1,7 @@
+<map id="G" name="G">
+<area shape="rect" id="node5" href="$classBannerAlerts.htm" title="BannerAlerts" alt="" coords="5,160,109,189"/>
+<area shape="rect" id="node7" href="$classDashboardAlerts.htm" title="DashboardAlerts" alt="" coords="133,160,259,189"/>
+<area shape="rect" id="node9" href="$classHelpWindow.htm" title="HelpWindow" alt="" coords="283,160,384,189"/>
+<area shape="rect" id="node11" href="$classPopUpAlert.htm" title="PopUpAlert" alt="" coords="408,160,501,189"/>
+<area shape="rect" id="node2" href="$classQGraphicsObject.htm" title="QGraphicsObject" alt="" coords="199,5,329,35"/>
+</map>

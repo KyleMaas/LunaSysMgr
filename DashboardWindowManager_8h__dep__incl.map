@@ -1,0 +1,13 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$SystemUiController_8cpp.htm" title="SystemUiController.cpp" alt="" coords="5,83,173,112"/>
+<area shape="rect" id="node5" href="$DockModeWindowManager_8cpp.htm" title="DockModeWindowManager.cpp" alt="" coords="197,83,419,112"/>
+<area shape="rect" id="node7" href="$LockWindow_8cpp.htm" title="LockWindow.cpp" alt="" coords="443,83,571,112"/>
+<area shape="rect" id="node9" href="$BannerWindow_8cpp.htm" title="BannerWindow.cpp" alt="" coords="595,83,739,112"/>
+<area shape="rect" id="node11" href="$DashboardWindowContainer_8cpp.htm" title="DashboardWindowContainer.cpp" alt="" coords="763,83,992,112"/>
+<area shape="rect" id="node13" href="$DashboardWindowManager_8cpp.htm" title="DashboardWindowManager.cpp" alt="" coords="1016,83,1240,112"/>
+<area shape="rect" id="node15" href="$DashboardWindowManagerStates_8cpp.htm" title="DashboardWindowManagerStates.cpp" alt="" coords="1264,83,1528,112"/>
+<area shape="rect" id="node17" href="$NativeAlertManager_8cpp.htm" title="NativeAlertManager.cpp" alt="" coords="1552,83,1725,112"/>
+<area shape="rect" id="node19" href="$StatusBar_8cpp.htm" title="StatusBar.cpp" alt="" coords="1749,83,1859,112"/>
+<area shape="rect" id="node21" href="$StatusBarNotificationArea_8cpp.htm" title="StatusBarNotificationArea.cpp" alt="" coords="1883,83,2091,112"/>
+<area shape="rect" id="node23" href="$WindowServerLuna_8cpp.htm" title="WindowServerLuna.cpp" alt="" coords="2115,83,2285,112"/>
+</map>

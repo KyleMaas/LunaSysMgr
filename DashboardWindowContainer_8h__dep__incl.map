@@ -1,0 +1,9 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$LockWindow_8cpp.htm" title="LockWindow.cpp" alt="" coords="5,83,133,112"/>
+<area shape="rect" id="node5" href="$BannerWindow_8cpp.htm" title="BannerWindow.cpp" alt="" coords="157,83,301,112"/>
+<area shape="rect" id="node7" href="$DashboardWindowContainer_8cpp.htm" title="DashboardWindowContainer.cpp" alt="" coords="325,83,555,112"/>
+<area shape="rect" id="node9" href="$DashboardWindowManager_8cpp.htm" title="DashboardWindowManager.cpp" alt="" coords="579,83,803,112"/>
+<area shape="rect" id="node11" href="$DashboardWindowManagerStates_8cpp.htm" title="DashboardWindowManagerStates.cpp" alt="" coords="827,83,1091,112"/>
+<area shape="rect" id="node13" href="$StatusBar_8cpp.htm" title="StatusBar.cpp" alt="" coords="1115,83,1224,112"/>
+<area shape="rect" id="node15" href="$StatusBarNotificationArea_8cpp.htm" title="StatusBarNotificationArea.cpp" alt="" coords="1248,83,1456,112"/>
+</map>

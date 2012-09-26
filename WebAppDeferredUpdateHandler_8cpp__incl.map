@@ -1,0 +1,20 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$Common_8h.htm" title="Common.h" alt="" coords="1689,469,1777,499"/>
+<area shape="rect" id="node13" href="$WebAppDeferredUpdateHandler_8h.htm" title="WebAppDeferredUpdateHandler.h" alt="" coords="465,83,703,112"/>
+<area shape="rect" id="node15" href="$WebPage_8h.htm" title="WebPage.h" alt="" coords="684,237,777,267"/>
+<area shape="rect" id="node46" href="$WindowedWebApp_8h.htm" title="WindowedWebApp.h" alt="" coords="2868,83,3020,112"/>
+<area shape="rect" id="node32" href="$ProcessBase_8h.htm" title="ProcessBase.h" alt="" coords="920,315,1035,344"/>
+<area shape="rect" id="node36" href="$Timer_8h.htm" title="Timer.h" alt="" coords="2283,392,2352,421"/>
+<area shape="rect" id="node52" href="$AsyncCaller_8h.htm" title="AsyncCaller.h" alt="" coords="3419,392,3525,421"/>
+<area shape="rect" id="node56" href="$GraphicsDefs_8h.htm" title="GraphicsDefs.h" alt="" coords="897,160,1015,189"/>
+<area shape="rect" id="node65" href="$WebAppBase_8h.htm" title="WebAppBase.h" alt="" coords="2051,160,2168,189"/>
+<area shape="rect" id="node96" href="$Event_8h.htm" title="Event.h" alt="" coords="2648,315,2717,344"/>
+<area shape="rect" id="node109" href="$sptr_8h.htm" title="sptr.h" alt="" coords="2848,392,2904,421"/>
+<area shape="rect" id="node126" href="$Window_8h.htm" title="Window.h" alt="" coords="3155,315,3237,344"/>
+<area shape="rect" id="node77" href="$WebPageClient_8h.htm" title="WebPageClient.h" alt="" coords="1735,237,1865,267"/>
+<area shape="rect" id="node85" href="$WebAppManager_8h.htm" title="WebAppManager.h" alt="" coords="2168,237,2309,267"/>
+<area shape="rect" id="node93" href="$SyncTask_8h.htm" title="SyncTask.h" alt="" coords="1771,392,1864,421"/>
+<area shape="rect" id="node113" href="$MemoryWatcher_8h.htm" title="MemoryWatcher.h" alt="" coords="2091,315,2227,344"/>
+<area shape="rect" id="node118" href="$SignalSlot_8h.htm" title="SignalSlot.h" alt="" coords="2011,392,2107,421"/>
+<area shape="rect" id="node136" href="$WebAppCache_8h.htm" title="WebAppCache.h" alt="" coords="1571,392,1696,421"/>
+</map>

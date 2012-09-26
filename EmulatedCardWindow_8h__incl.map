@@ -1,0 +1,22 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$CardWindow_8h.htm" title="CardWindow.h" alt="" coords="1611,83,1725,112"/>
+<area shape="rect" id="node20" href="$Event_8h.htm" title="Event.h" alt="" coords="1843,237,1912,267"/>
+<area shape="rect" id="node88" href="$StatusBar_8h.htm" title="StatusBar.h" alt="" coords="2447,237,2540,267"/>
+<area shape="rect" id="node111" href="$CardRoundedCornerShaderStage_8h.htm" title="CardRoundedCornerShaderStage.h" alt="" coords="1944,160,2192,189"/>
+<area shape="rect" id="node115" href="$PixmapButton_8h.htm" title="PixmapButton.h" alt="" coords="2892,160,3009,189"/>
+<area shape="rect" id="node125" href="$VirtualCoreNavi_8h.htm" title="VirtualCoreNavi.h" alt="" coords="183,83,313,112"/>
+<area shape="rect" id="node143" href="$CardSmoothEdgeShaderStage_8h.htm" title="CardSmoothEdgeShaderStage.h" alt="" coords="2709,83,2936,112"/>
+<area shape="rect" id="node5" href="$Common_8h.htm" title="Common.h" alt="" coords="2097,392,2185,421"/>
+<area shape="rect" id="node7" href="$Settings_8h.htm" title="Settings.h" alt="" coords="457,315,540,344"/>
+<area shape="rect" id="node38" href="$HostWindow_8h.htm" title="HostWindow.h" alt="" coords="1035,237,1147,267"/>
+<area shape="rect" id="node60" href="$Timer_8h.htm" title="Timer.h" alt="" coords="1207,315,1276,344"/>
+<area shape="rect" id="node67" href="$SystemUiController_8h.htm" title="SystemUiController.h" alt="" coords="2216,160,2371,189"/>
+<area shape="rect" id="node34" href="$sptr_8h.htm" title="sptr.h" alt="" coords="1516,315,1572,344"/>
+<area shape="rect" id="node41" href="$Window_8h.htm" title="Window.h" alt="" coords="1049,315,1132,344"/>
+<area shape="rect" id="node50" href="$HostWindowData_8h.htm" title="HostWindowData.h" alt="" coords="1300,315,1441,344"/>
+<area shape="rect" id="node53" href="$InputClient_8h.htm" title="InputClient.h" alt="" coords="615,315,713,344"/>
+<area shape="rect" id="node80" href="$VariantAnimation_8h.htm" title="VariantAnimation.h" alt="" coords="2305,315,2444,344"/>
+<area shape="rect" id="node84" href="$CustomEvents_8h.htm" title="CustomEvents.h" alt="" coords="2468,315,2591,344"/>
+<area shape="rect" id="node131" href="$VirtualGestureStrip_8h.htm" title="VirtualGestureStrip.h" alt="" coords="132,237,281,267"/>
+<area shape="rect" id="node136" href="$GestureFeedbackItem_8h.htm" title="GestureFeedbackItem.h" alt="" coords="101,160,272,189"/>
+</map>

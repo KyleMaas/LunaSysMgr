@@ -1,0 +1,24 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$JsSysObject_8cpp.htm" title="JsSysObject.cpp" alt="" coords="5,83,131,112"/>
+<area shape="rect" id="node5" href="$JsSysObjectAnimationRunner_8cpp.htm" title="JsSysObjectAnimationRunner.cpp" alt="" coords="155,83,387,112"/>
+<area shape="rect" id="node7" href="$CardWebApp_8cpp.htm" title="CardWebApp.cpp" alt="" coords="551,160,681,189"/>
+<area shape="rect" id="node9" href="$DockWebApp_8h.htm" title="DockWebApp.h" alt="" coords="461,83,579,112"/>
+<area shape="rect" id="node13" href="$WebAppFactoryLuna_8cpp.htm" title="WebAppFactoryLuna.cpp" alt="" coords="191,160,369,189"/>
+<area shape="rect" id="node16" href="$WindowContentTransitionRunner_8cpp.htm" title="WindowContentTransitionRunner.cpp" alt="" coords="840,83,1096,112"/>
+<area shape="rect" id="node18" href="$WebAppFactoryMinimal_8cpp.htm" title="WebAppFactoryMinimal.cpp" alt="" coords="1120,83,1315,112"/>
+<area shape="rect" id="node20" href="$RemoteWindowData_8h.htm" title="RemoteWindowData.h" alt="" coords="653,83,816,112"/>
+<area shape="rect" id="node49" href="$WebAppManager_8cpp.htm" title="WebAppManager.cpp" alt="" coords="1339,83,1496,112"/>
+<area shape="rect" id="node11" href="$DockWebApp_8cpp.htm" title="DockWebApp.cpp" alt="" coords="393,160,527,189"/>
+<area shape="rect" id="node24" href="$RemoteWindowData_8cpp.htm" title="RemoteWindowData.cpp" alt="" coords="1456,237,1632,267"/>
+<area shape="rect" id="node26" href="$RemoteWindowDataSoftware_8h.htm" title="RemoteWindowDataSoftware.h" alt="" coords="1228,160,1447,189"/>
+<area shape="rect" id="node39" href="$RemoteWindowDataOpenGL_8h.htm" title="RemoteWindowDataOpenGL.h" alt="" coords="1601,160,1817,189"/>
+<area shape="rect" id="node43" href="$RemoteWindowDataOpenGLTextureShared_8h.htm" title="RemoteWindowDataOpenGLTextureShared.h" alt="" coords="895,160,1204,189"/>
+<area shape="rect" id="node47" href="$WindowedWebApp_8cpp.htm" title="WindowedWebApp.cpp" alt="" coords="705,160,871,189"/>
+<area shape="rect" id="node29" href="$RemoteWindowDataSoftware_8cpp.htm" title="RemoteWindowDataSoftware.cpp" alt="" coords="1200,237,1432,267"/>
+<area shape="rect" id="node31" href="$RemoteWindowDataSoftwareOpenGLComposited_8h.htm" title="RemoteWindowDataSoftwareOpenGLComposited.h" alt="" coords="829,237,1176,267"/>
+<area shape="rect" id="node33" href="$RemoteWindowDataSoftwareOpenGLComposited_8cpp.htm" title="RemoteWindowDataSoftwareOpenGLComposited.cpp" alt="" coords="640,315,1003,344"/>
+<area shape="rect" id="node35" href="$RemoteWindowDataSoftwareTextureShared_8h.htm" title="RemoteWindowDataSoftwareTextureShared.h" alt="" coords="1027,315,1339,344"/>
+<area shape="rect" id="node37" href="$RemoteWindowDataSoftwareTextureShared_8cpp.htm" title="RemoteWindowDataSoftwareTextureShared.cpp" alt="" coords="1020,392,1345,421"/>
+<area shape="rect" id="node41" href="$RemoteWindowDataOpenGL_8cpp.htm" title="RemoteWindowDataOpenGL.cpp" alt="" coords="1656,237,1885,267"/>
+<area shape="rect" id="node45" href="$RemoteWindowDataOpenGLTextureShared_8cpp.htm" title="RemoteWindowDataOpenGLTextureShared.cpp" alt="" coords="480,237,805,267"/>
+</map>

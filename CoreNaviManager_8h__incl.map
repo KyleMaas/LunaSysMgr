@@ -1,0 +1,24 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$Common_8h.htm" title="Common.h" alt="" coords="1983,392,2071,421"/>
+<area shape="rect" id="node5" href="$HostBase_8h.htm" title="HostBase.h" alt="" coords="500,83,593,112"/>
+<area shape="rect" id="node68" href="$CoreNaviLeds_8h.htm" title="CoreNaviLeds.h" alt="" coords="1125,237,1248,267"/>
+<area shape="rect" id="node85" href="$DisplayManager_8h.htm" title="DisplayManager.h" alt="" coords="1576,83,1712,112"/>
+<area shape="rect" id="node96" href="$AmbientLightSensor_8h.htm" title="AmbientLightSensor.h" alt="" coords="1732,160,1889,189"/>
+<area shape="rect" id="node111" href="$SystemUiController_8h.htm" title="SystemUiController.h" alt="" coords="2812,83,2967,112"/>
+<area shape="rect" id="node14" href="$TaskBase_8h.htm" title="TaskBase.h" alt="" coords="676,160,772,189"/>
+<area shape="rect" id="node42" href="$Mutex_8h.htm" title="Mutex.h" alt="" coords="416,237,485,267"/>
+<area shape="rect" id="node53" href="$CustomEvents_8h.htm" title="CustomEvents.h" alt="" coords="2385,237,2508,267"/>
+<area shape="rect" id="node58" href="$InputControl_8h.htm" title="InputControl.h" alt="" coords="5,237,115,267"/>
+<area shape="rect" id="node21" href="$sptr_8h.htm" title="sptr.h" alt="" coords="732,315,788,344"/>
+<area shape="rect" id="node25" href="$AsyncCaller_8h.htm" title="AsyncCaller.h" alt="" coords="249,315,356,344"/>
+<area shape="rect" id="node29" href="$Event_8h.htm" title="Event.h" alt="" coords="1467,237,1536,267"/>
+<area shape="rect" id="node47" href="$SingletonTimer_8h.htm" title="SingletonTimer.h" alt="" coords="523,237,651,267"/>
+<area shape="rect" id="node88" href="$Timer_8h.htm" title="Timer.h" alt="" coords="1619,237,1688,267"/>
+<area shape="rect" id="node102" href="$DisplayStates_8h.htm" title="DisplayStates.h" alt="" coords="1439,160,1556,189"/>
+<area shape="rect" id="node128" href="$ApplicationDescription_8h.htm" title="ApplicationDescription.h" alt="" coords="3193,160,3367,189"/>
+<area shape="rect" id="node135" href="$SuspendBlocker_8h.htm" title="SuspendBlocker.h" alt="" coords="2212,160,2345,189"/>
+<area shape="rect" id="node140" href="$VariantAnimation_8h.htm" title="VariantAnimation.h" alt="" coords="3003,237,3141,267"/>
+<area shape="rect" id="node143" href="$Window_8h.htm" title="Window.h" alt="" coords="2896,237,2979,267"/>
+<area shape="rect" id="node150" href="$StatusBar_8h.htm" title="StatusBar.h" alt="" coords="2975,160,3068,189"/>
+<area shape="rect" id="node155" href="$BezelGesture_8h.htm" title="BezelGesture.h" alt="" coords="3368,237,3485,267"/>
+</map>

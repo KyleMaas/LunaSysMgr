@@ -1,0 +1,13 @@
+<map id="G" name="G">
+<area shape="rect" id="node5" href="$classFocusState.htm" title="FocusState" alt="" coords="397,5,488,35"/>
+<area shape="rect" id="node7" href="$classGroupState.htm" title="GroupState" alt="" coords="396,59,489,88"/>
+<area shape="rect" id="node9" href="$classLoadingState.htm" title="LoadingState" alt="" coords="389,112,496,141"/>
+<area shape="rect" id="node11" href="$classMaximizeState.htm" title="MaximizeState" alt="" coords="385,165,500,195"/>
+<area shape="rect" id="node13" href="$classMinimizeGestureState.htm" title="MinimizeGestureState" alt="" coords="363,219,523,248"/>
+<area shape="rect" id="node15" href="$classMinimizeState.htm" title="MinimizeState" alt="" coords="388,272,497,301"/>
+<area shape="rect" id="node17" href="$classPreparingState.htm" title="PreparingState" alt="" coords="384,325,501,355"/>
+<area shape="rect" id="node19" href="$classReorderState.htm" title="ReorderState" alt="" coords="389,379,496,408"/>
+<area shape="rect" id="node21" href="$classSpreadGestureState.htm" title="SpreadGestureState" alt="" coords="368,432,517,461"/>
+<area shape="rect" id="node23" href="$classSwitchGestureState.htm" title="SwitchGestureState" alt="" coords="369,485,516,515"/>
+<area shape="rect" id="node2" href="$classQState.htm" title="QState" alt="" coords="5,245,72,275"/>
+</map>

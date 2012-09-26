@@ -1,0 +1,31 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$Common_8h.htm" title="Common.h" alt="" coords="2473,392,2561,421"/>
+<area shape="rect" id="node27" href="$ApplicationDescription_8h.htm" title="ApplicationDescription.h" alt="" coords="1520,237,1693,267"/>
+<area shape="rect" id="node60" href="$ApplicationManager_8h.htm" title="ApplicationManager.h" alt="" coords="1224,160,1381,189"/>
+<area shape="rect" id="node87" href="$AnimationSettings_8h.htm" title="AnimationSettings.h" alt="" coords="2043,237,2189,267"/>
+<area shape="rect" id="node96" href="$DisplayManager_8h.htm" title="DisplayManager.h" alt="" coords="2805,237,2941,267"/>
+<area shape="rect" id="node102" href="$HostBase_8h.htm" title="HostBase.h" alt="" coords="1925,237,2019,267"/>
+<area shape="rect" id="node106" href="$Logging_8h.htm" title="Logging.h" alt="" coords="1117,315,1200,344"/>
+<area shape="rect" id="node110" href="$Settings_8h.htm" title="Settings.h" alt="" coords="1768,237,1851,267"/>
+<area shape="rect" id="node117" href="$SystemService_8h.htm" title="SystemService.h" alt="" coords="3189,237,3315,267"/>
+<area shape="rect" id="node123" href="$SystemUiController_8h.htm" title="SystemUiController.h" alt="" coords="2164,160,2319,189"/>
+<area shape="rect" id="node129" href="$Utils_8h.htm" title="Utils.h" alt="" coords="1035,315,1093,344"/>
+<area shape="rect" id="node135" href="$WindowServer_8h.htm" title="WindowServer.h" alt="" coords="2661,160,2787,189"/>
+<area shape="rect" id="node142" href="$WebAppMgrProxy_8h.htm" title="WebAppMgrProxy.h" alt="" coords="4000,160,4147,189"/>
+<area shape="rect" id="node145" href="$MemoryMonitor_8h.htm" title="MemoryMonitor.h" alt="" coords="1365,237,1496,267"/>
+<area shape="rect" id="node152" href="$Security_8h.htm" title="Security.h" alt="" coords="3339,237,3421,267"/>
+<area shape="rect" id="node160" href="$EASPolicyManager_8h.htm" title="EASPolicyManager.h" alt="" coords="3445,237,3600,267"/>
+<area shape="rect" id="node167" href="$StatusBarServicesConnector_8h.htm" title="StatusBarServicesConnector.h" alt="" coords="2467,237,2680,267"/>
+<area shape="rect" id="node172" href="$IMEController_8h.htm" title="IMEController.h" alt="" coords="2360,160,2480,189"/>
+<area shape="rect" id="node175" href="$VirtualKeyboardPreferences_8h.htm" title="VirtualKeyboardPreferences.h" alt="" coords="448,315,656,344"/>
+<area shape="rect" id="node179" href="$SingleClickGestureRecognizer_8h.htm" title="SingleClickGestureRecognizer.h" alt="" coords="3752,160,3976,189"/>
+<area shape="rect" id="node182" href="$CardWindow_8h.htm" title="CardWindow.h" alt="" coords="2067,83,2181,112"/>
+<area shape="rect" id="node190" href="$JSONUtils_8h.htm" title="JSONUtils.h" alt="" coords="3005,160,3101,189"/>
+<area shape="rect" id="node37" href="$GraphicsDefs_8h.htm" title="GraphicsDefs.h" alt="" coords="2261,315,2379,344"/>
+<area shape="rect" id="node40" href="$LaunchPoint_8h.htm" title="LaunchPoint.h" alt="" coords="1723,315,1832,344"/>
+<area shape="rect" id="node46" href="$KeywordMap_8h.htm" title="KeywordMap.h" alt="" coords="1584,315,1699,344"/>
+<area shape="rect" id="node52" href="$CmdResourceHandlers_8h.htm" title="CmdResourceHandlers.h" alt="" coords="781,315,960,344"/>
+<area shape="rect" id="node70" href="$Mutex_8h.htm" title="Mutex.h" alt="" coords="1339,315,1408,344"/>
+<area shape="rect" id="node74" href="$MimeSystem_8h.htm" title="MimeSystem.h" alt="" coords="1128,237,1240,267"/>
+<area shape="rect" id="node93" href="$AnimationEquations_8h.htm" title="AnimationEquations.h" alt="" coords="2555,315,2712,344"/>
+</map>

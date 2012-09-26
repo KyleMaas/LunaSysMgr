@@ -1,0 +1,7 @@
+<map id="G" name="G">
+<area shape="rect" id="node11" href="$classDockWebApp.htm" title="DockWebApp" alt="" coords="88,315,195,344"/>
+<area shape="rect" id="node2" href="$classWindowedWebApp.htm" title="WindowedWebApp" alt="" coords="71,160,212,189"/>
+<area shape="rect" id="node4" href="$classWebAppBase.htm" title="WebAppBase" alt="" coords="11,83,117,112"/>
+<area shape="rect" id="node6" href="$classWebPageClient.htm" title="WebPageClient" alt="" coords="5,5,123,35"/>
+<area shape="rect" id="node8" href="$classPIpcChannelListener.htm" title="PIpcChannelListener" alt="" coords="141,83,296,112"/>
+</map>

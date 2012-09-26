@@ -1,0 +1,10 @@
+<map id="G" name="G">
+<area shape="rect" id="node2" href="$classPage.htm" title="Page" alt="" coords="1629,873,1683,902"/>
+<area shape="rect" id="node4" href="$classThingPaintable.htm" title="ThingPaintable" alt="" coords="601,491,716,521"/>
+<area shape="rect" id="node20" href="$classScrollableObject.htm" title="ScrollableObject" alt="" coords="1032,683,1155,713"/>
+<area shape="rect" id="node6" href="$classThing.htm" title="Thing" alt="" coords="321,483,380,513"/>
+<area shape="rect" id="node8" href="$classQGraphicsObject.htm" title="QGraphicsObject" alt="" coords="9,457,140,486"/>
+<area shape="rect" id="node16" href="$classint.htm" title="int" alt="" coords="332,809,369,838"/>
+<area shape="rect" id="node36" href="$classKineticScroller.htm" title="KineticScroller" alt="" coords="1037,1129,1149,1158"/>
+<area shape="rect" id="node38" href="$classQObject.htm" title="QObject" alt="" coords="623,1129,695,1158"/>
+</map>

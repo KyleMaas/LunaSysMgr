@@ -1,0 +1,12 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$ApplicationManager_8cpp.htm" title="ApplicationManager.cpp" alt="" coords="5,83,179,112"/>
+<area shape="rect" id="node5" href="$CoreNaviLeds_8cpp.htm" title="CoreNaviLeds.cpp" alt="" coords="203,83,341,112"/>
+<area shape="rect" id="node7" href="$CoreNaviManager_8cpp.htm" title="CoreNaviManager.cpp" alt="" coords="365,83,528,112"/>
+<area shape="rect" id="node9" href="$DisplayManager_8cpp.htm" title="DisplayManager.cpp" alt="" coords="552,83,701,112"/>
+<area shape="rect" id="node11" href="$DeviceInfo_8cpp.htm" title="DeviceInfo.cpp" alt="" coords="725,83,840,112"/>
+<area shape="rect" id="node13" href="$JsSysObject_8cpp.htm" title="JsSysObject.cpp" alt="" coords="864,83,989,112"/>
+<area shape="rect" id="node15" href="$StatusBarServicesConnector_8cpp.htm" title="StatusBarServicesConnector.cpp" alt="" coords="1013,83,1243,112"/>
+<area shape="rect" id="node17" href="$SystemMenu_8cpp.htm" title="SystemMenu.cpp" alt="" coords="1267,83,1395,112"/>
+<area shape="rect" id="node19" href="$Main_8cpp.htm" title="Main.cpp" alt="" coords="1419,83,1496,112"/>
+<area shape="rect" id="node21" href="$WindowedWebApp_8cpp.htm" title="WindowedWebApp.cpp" alt="" coords="1520,83,1685,112"/>
+</map>

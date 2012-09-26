@@ -1,0 +1,20 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$CandidateBarRemote_8h.htm" title="CandidateBarRemote.h" alt="" coords="472,83,640,112"/>
+<area shape="rect" id="node31" href="$Logging_8h.htm" title="Logging.h" alt="" coords="689,315,772,344"/>
+<area shape="rect" id="node44" href="$JSONUtils_8h.htm" title="JSONUtils.h" alt="" coords="948,83,1044,112"/>
+<area shape="rect" id="node63" href="$HostBase_8h.htm" title="HostBase.h" alt="" coords="2551,83,2644,112"/>
+<area shape="rect" id="node5" href="$CandidateBar_8h.htm" title="CandidateBar.h" alt="" coords="440,160,560,189"/>
+<area shape="rect" id="node7" href="$IMEDataInterface_8h.htm" title="IMEDataInterface.h" alt="" coords="95,237,239,267"/>
+<area shape="rect" id="node23" href="$PalmIMEHelpers_8h.htm" title="PalmIMEHelpers.h" alt="" coords="556,237,695,267"/>
+<area shape="rect" id="node9" href="$IMEData_8h.htm" title="IMEData.h" alt="" coords="123,315,211,344"/>
+<area shape="rect" id="node33" href="$Common_8h.htm" title="Common.h" alt="" coords="2125,392,2213,421"/>
+<area shape="rect" id="node46" href="$Settings_8h.htm" title="Settings.h" alt="" coords="1033,237,1116,267"/>
+<area shape="rect" id="node72" href="$TaskBase_8h.htm" title="TaskBase.h" alt="" coords="2144,160,2240,189"/>
+<area shape="rect" id="node100" href="$Mutex_8h.htm" title="Mutex.h" alt="" coords="2313,237,2383,267"/>
+<area shape="rect" id="node111" href="$CustomEvents_8h.htm" title="CustomEvents.h" alt="" coords="2452,160,2575,189"/>
+<area shape="rect" id="node116" href="$InputControl_8h.htm" title="InputControl.h" alt="" coords="2945,160,3055,189"/>
+<area shape="rect" id="node78" href="$sptr_8h.htm" title="sptr.h" alt="" coords="2175,315,2231,344"/>
+<area shape="rect" id="node82" href="$AsyncCaller_8h.htm" title="AsyncCaller.h" alt="" coords="1431,315,1537,344"/>
+<area shape="rect" id="node86" href="$Event_8h.htm" title="Event.h" alt="" coords="1867,237,1936,267"/>
+<area shape="rect" id="node105" href="$SingletonTimer_8h.htm" title="SingletonTimer.h" alt="" coords="1456,237,1584,267"/>
+</map>

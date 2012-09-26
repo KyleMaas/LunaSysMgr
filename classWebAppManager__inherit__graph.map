@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" id="node2" href="$classSyncTask.htm" title="SyncTask" alt="" coords="12,160,95,189"/>
+<area shape="rect" id="node4" href="$classTaskBase.htm" title="TaskBase" alt="" coords="11,83,96,112"/>
+<area shape="rect" id="node6" href="$classRefCounted.htm" title="RefCounted" alt="" coords="5,5,101,35"/>
+<area shape="rect" id="node8" href="$classTrackable.htm" title="Trackable" alt="" coords="119,160,201,189"/>
+<area shape="rect" id="node10" href="$classPIpcClient.htm" title="PIpcClient" alt="" coords="225,160,311,189"/>
+<area shape="rect" id="node12" href="$classPIpcChannelListener.htm" title="PIpcChannelListener" alt="" coords="335,160,489,189"/>
+</map>

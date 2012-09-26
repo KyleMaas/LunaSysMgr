@@ -1,0 +1,9 @@
+<map id="G" name="G">
+<area shape="rect" id="node5" href="$classIconCell.htm" title="IconCell" alt="" coords="119,160,191,189"/>
+<area shape="rect" id="node7" href="$classIconLayout.htm" title="IconLayout" alt="" coords="215,160,305,189"/>
+<area shape="rect" id="node13" href="$classIconRow.htm" title="IconRow" alt="" coords="357,160,435,189"/>
+<area shape="rect" id="node2" href="$classQObject.htm" title="QObject" alt="" coords="224,5,296,35"/>
+<area shape="rect" id="node9" href="$classAlphabetIconLayout.htm" title="AlphabetIconLayout" alt="" coords="5,237,152,267"/>
+<area shape="rect" id="node11" href="$classReorderableIconLayout.htm" title="ReorderableIconLayout" alt="" coords="176,237,344,267"/>
+<area shape="rect" id="node15" href="$classIconRowAlpha.htm" title="IconRowAlpha" alt="" coords="368,237,480,267"/>
+</map>

@@ -1,0 +1,27 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$DockModeClock_8h.htm" title="DockModeClock.h" alt="" coords="2997,160,3133,189"/>
+<area shape="rect" id="node38" href="$Timer_8h.htm" title="Timer.h" alt="" coords="2139,315,2208,344"/>
+<area shape="rect" id="node45" href="$HostBase_8h.htm" title="HostBase.h" alt="" coords="656,160,749,189"/>
+<area shape="rect" id="node80" href="$Settings_8h.htm" title="Settings.h" alt="" coords="2964,315,3047,344"/>
+<area shape="rect" id="node91" href="$ClockWindow_8h.htm" title="ClockWindow.h" alt="" coords="1951,160,2068,189"/>
+<area shape="rect" id="node101" href="$Localization_8h.htm" title="Localization.h" alt="" coords="3392,237,3499,267"/>
+<area shape="rect" id="node111" href="$DisplayManager_8h.htm" title="DisplayManager.h" alt="" coords="2143,160,2279,189"/>
+<area shape="rect" id="node133" href="$WindowServer_8h.htm" title="WindowServer.h" alt="" coords="1744,83,1869,112"/>
+<area shape="rect" id="node5" href="$Common_8h.htm" title="Common.h" alt="" coords="1969,469,2057,499"/>
+<area shape="rect" id="node7" href="$LaunchPoint_8h.htm" title="LaunchPoint.h" alt="" coords="2831,315,2940,344"/>
+<area shape="rect" id="node16" href="$ApplicationDescription_8h.htm" title="ApplicationDescription.h" alt="" coords="3048,237,3221,267"/>
+<area shape="rect" id="node26" href="$DockModeWindow_8h.htm" title="DockModeWindow.h" alt="" coords="2299,237,2448,267"/>
+<area shape="rect" id="node29" href="$Event_8h.htm" title="Event.h" alt="" coords="1805,315,1875,344"/>
+<area shape="rect" id="node34" href="$sptr_8h.htm" title="sptr.h" alt="" coords="1140,392,1196,421"/>
+<area shape="rect" id="node54" href="$TaskBase_8h.htm" title="TaskBase.h" alt="" coords="928,237,1024,267"/>
+<area shape="rect" id="node61" href="$Mutex_8h.htm" title="Mutex.h" alt="" coords="909,315,979,344"/>
+<area shape="rect" id="node67" href="$CustomEvents_8h.htm" title="CustomEvents.h" alt="" coords="1149,237,1272,267"/>
+<area shape="rect" id="node72" href="$InputControl_8h.htm" title="InputControl.h" alt="" coords="5,237,115,267"/>
+<area shape="rect" id="node104" href="$QtUtils_8h.htm" title="QtUtils.h" alt="" coords="3425,315,3500,344"/>
+<area shape="rect" id="node118" href="$AmbientLightSensor_8h.htm" title="AmbientLightSensor.h" alt="" coords="2664,237,2821,267"/>
+<area shape="rect" id="node124" href="$DisplayStates_8h.htm" title="DisplayStates.h" alt="" coords="2472,237,2589,267"/>
+<area shape="rect" id="node139" href="$InputManager_8h.htm" title="InputManager.h" alt="" coords="1856,237,1976,267"/>
+<area shape="rect" id="node148" href="$VariantAnimation_8h.htm" title="VariantAnimation.h" alt="" coords="1347,160,1485,189"/>
+<area shape="rect" id="node151" href="$HostWindow_8h.htm" title="HostWindow.h" alt="" coords="1063,160,1175,189"/>
+<area shape="rect" id="node155" href="$ProgressAnimation_8h.htm" title="ProgressAnimation.h" alt="" coords="1509,160,1661,189"/>
+</map>

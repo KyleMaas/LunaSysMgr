@@ -1,0 +1,17 @@
+<map id="G" name="G">
+<area shape="rect" id="node2" href="$classWindowedWebApp.htm" title="WindowedWebApp" alt="" coords="1115,941,1256,971"/>
+<area shape="rect" id="node4" href="$classWebAppBase.htm" title="WebAppBase" alt="" coords="707,204,813,233"/>
+<area shape="rect" id="node6" href="$classWebPageClient.htm" title="WebPageClient" alt="" coords="236,252,353,281"/>
+<area shape="rect" id="node10" href="$classApplicationDescription.htm" title="ApplicationDescription" alt="" coords="213,73,376,103"/>
+<area shape="rect" id="node12" href="$classWebPage.htm" title="WebPage" alt="" coords="253,127,336,156"/>
+<area shape="rect" id="node14" href="$classPalm_1_1WebViewClient.htm" title="Palm::WebViewClient" alt="" coords="8,73,160,103"/>
+<area shape="rect" id="node16" href="$classPalm_1_1WebPageClient.htm" title="Palm::WebPageClient" alt="" coords="7,127,161,156"/>
+<area shape="rect" id="node18" href="$classProcessBase.htm" title="ProcessBase" alt="" coords="32,180,136,209"/>
+<area shape="rect" id="node28" href="$structWindowMetaData.htm" title="WindowMetaData" alt="" coords="693,865,827,895"/>
+<area shape="rect" id="node47" href="$classRemoteWindowData.htm" title="RemoteWindowData" alt="" coords="685,425,835,455"/>
+<area shape="rect" id="node53" href="$structWindowProperties.htm" title="WindowProperties" alt="" coords="692,919,828,948"/>
+<area shape="rect" id="node24" href="$classPIpcChannelListener.htm" title="PIpcChannelListener" alt="" coords="683,572,837,601"/>
+<area shape="rect" id="node30" href="$classint.htm" title="int" alt="" coords="276,1093,313,1123"/>
+<area shape="rect" id="node33" href="$classTimer.htm" title="Timer\&lt; WindowedWebApp \&gt;" alt="" coords="660,1403,860,1432"/>
+<area shape="rect" id="node35" href="$classTimerBase.htm" title="TimerBase" alt="" coords="249,1552,340,1581"/>
+</map>

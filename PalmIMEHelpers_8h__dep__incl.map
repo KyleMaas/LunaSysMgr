@@ -1,0 +1,25 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$CandidateBar_8h.htm" title="CandidateBar.h" alt="" coords="275,83,395,112"/>
+<area shape="rect" id="node5" href="$CandidateBar_8cpp.htm" title="CandidateBar.cpp" alt="" coords="5,160,139,189"/>
+<area shape="rect" id="node14" href="$PhoneKeyboard_8cpp.htm" title="PhoneKeyboard.cpp" alt="" coords="461,237,611,267"/>
+<area shape="rect" id="node18" href="$TabletKeyboard_8cpp.htm" title="TabletKeyboard.cpp" alt="" coords="761,237,908,267"/>
+<area shape="rect" id="node21" href="$PalmIMEHelpers_8cpp.htm" title="PalmIMEHelpers.cpp" alt="" coords="721,83,873,112"/>
+<area shape="rect" id="node23" href="$PhoneKeymap_8h.htm" title="PhoneKeymap.h" alt="" coords="519,83,644,112"/>
+<area shape="rect" id="node29" href="$ShortcutsHandler_8cpp.htm" title="ShortcutsHandler.cpp" alt="" coords="948,83,1105,112"/>
+<area shape="rect" id="node31" href="$TabletKeymap_8h.htm" title="TabletKeymap.h" alt="" coords="1129,83,1252,112"/>
+<area shape="rect" id="node7" href="$CandidateBarRemote_8h.htm" title="CandidateBarRemote.h" alt="" coords="163,160,331,189"/>
+<area shape="rect" id="node12" href="$PhoneKeyboard_8h.htm" title="PhoneKeyboard.h" alt="" coords="355,160,488,189"/>
+<area shape="rect" id="node16" href="$TabletKeyboard_8h.htm" title="TabletKeyboard.h" alt="" coords="743,160,873,189"/>
+<area shape="rect" id="node10" href="$CandidateBarRemote_8cpp.htm" title="CandidateBarRemote.cpp" alt="" coords="155,237,339,267"/>
+<area shape="rect" id="node26" href="$PhoneKeymap_8cpp.htm" title="PhoneKeymap.cpp" alt="" coords="512,160,651,189"/>
+<area shape="rect" id="node34" href="$TabletKeymap_8cpp.htm" title="TabletKeymap.cpp" alt="" coords="1175,315,1313,344"/>
+<area shape="rect" id="node36" href="$uk_8h.htm" title="uk.h" alt="" coords="1221,237,1267,267"/>
+<area shape="rect" id="node39" href="$common__keys_8h.htm" title="common_keys.h" alt="" coords="1216,160,1339,189"/>
+<area shape="rect" id="node42" href="$se_8h.htm" title="se.h" alt="" coords="1291,237,1339,267"/>
+<area shape="rect" id="node45" href="$ru_8h.htm" title="ru.h" alt="" coords="1363,237,1408,267"/>
+<area shape="rect" id="node48" href="$no_8h.htm" title="no.h" alt="" coords="1432,237,1480,267"/>
+<area shape="rect" id="node51" href="$de_8h.htm" title="de.h" alt="" coords="1504,237,1552,267"/>
+<area shape="rect" id="node54" href="$fr_8h.htm" title="fr.h" alt="" coords="1011,237,1053,267"/>
+<area shape="rect" id="node57" href="$en_8h.htm" title="en.h" alt="" coords="1077,237,1125,267"/>
+<area shape="rect" id="node60" href="$dk_8h.htm" title="dk.h" alt="" coords="1149,237,1197,267"/>
+</map>

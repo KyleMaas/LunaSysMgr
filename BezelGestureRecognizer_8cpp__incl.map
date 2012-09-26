@@ -1,0 +1,14 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$BezelGesture_8h.htm" title="BezelGesture.h" alt="" coords="85,160,203,189"/>
+<area shape="rect" id="node13" href="$BezelGestureRecognizer_8h.htm" title="BezelGestureRecognizer.h" alt="" coords="209,83,399,112"/>
+<area shape="rect" id="node18" href="$HostBase_8h.htm" title="HostBase.h" alt="" coords="1075,83,1168,112"/>
+<area shape="rect" id="node5" href="$Common_8h.htm" title="Common.h" alt="" coords="1172,392,1260,421"/>
+<area shape="rect" id="node27" href="$TaskBase_8h.htm" title="TaskBase.h" alt="" coords="1563,160,1659,189"/>
+<area shape="rect" id="node57" href="$Mutex_8h.htm" title="Mutex.h" alt="" coords="2076,237,2145,267"/>
+<area shape="rect" id="node68" href="$CustomEvents_8h.htm" title="CustomEvents.h" alt="" coords="651,160,773,189"/>
+<area shape="rect" id="node73" href="$InputControl_8h.htm" title="InputControl.h" alt="" coords="517,160,627,189"/>
+<area shape="rect" id="node34" href="$sptr_8h.htm" title="sptr.h" alt="" coords="2083,315,2139,344"/>
+<area shape="rect" id="node38" href="$AsyncCaller_8h.htm" title="AsyncCaller.h" alt="" coords="1253,315,1360,344"/>
+<area shape="rect" id="node42" href="$Event_8h.htm" title="Event.h" alt="" coords="1689,237,1759,267"/>
+<area shape="rect" id="node62" href="$SingletonTimer_8h.htm" title="SingletonTimer.h" alt="" coords="1389,237,1517,267"/>
+</map>

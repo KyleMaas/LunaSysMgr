@@ -1,0 +1,27 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$Common_8h.htm" title="Common.h" alt="" coords="1869,392,1957,421"/>
+<area shape="rect" id="node21" href="$AlertWebApp_8h.htm" title="AlertWebApp.h" alt="" coords="2481,83,2596,112"/>
+<area shape="rect" id="node32" href="$Event_8h.htm" title="Event.h" alt="" coords="1281,237,1351,267"/>
+<area shape="rect" id="node46" href="$Window_8h.htm" title="Window.h" alt="" coords="2255,237,2337,267"/>
+<area shape="rect" id="node52" href="$CardWebApp_8h.htm" title="CardWebApp.h" alt="" coords="2721,83,2839,112"/>
+<area shape="rect" id="node59" href="$DeviceInfo_8h.htm" title="DeviceInfo.h" alt="" coords="2144,160,2243,189"/>
+<area shape="rect" id="node65" href="$KeyboardMapping_8h.htm" title="KeyboardMapping.h" alt="" coords="2863,83,3009,112"/>
+<area shape="rect" id="node72" href="$JsSysObject_8h.htm" title="JsSysObject.h" alt="" coords="423,237,532,267"/>
+<area shape="rect" id="node82" href="$JsSysObjectAnimationRunner_8h.htm" title="JsSysObjectAnimationRunner.h" alt="" coords="556,237,775,267"/>
+<area shape="rect" id="node89" href="$Localization_8h.htm" title="Localization.h" alt="" coords="17,160,124,189"/>
+<area shape="rect" id="node99" href="$Logging_8h.htm" title="Logging.h" alt="" coords="316,237,399,267"/>
+<area shape="rect" id="node106" href="$Preferences_8h.htm" title="Preferences.h" alt="" coords="1743,160,1852,189"/>
+<area shape="rect" id="node112" href="$Settings_8h.htm" title="Settings.h" alt="" coords="2463,237,2545,267"/>
+<area shape="rect" id="node117" href="$Utils_8h.htm" title="Utils.h" alt="" coords="2993,237,3052,267"/>
+<area shape="rect" id="node122" href="$WebAppFactory_8h.htm" title="WebAppFactory.h" alt="" coords="2317,160,2451,189"/>
+<area shape="rect" id="node127" href="$WebAppManager_8h.htm" title="WebAppManager.h" alt="" coords="1368,160,1509,189"/>
+<area shape="rect" id="node135" href="$WebFrame_8h.htm" title="WebFrame.h" alt="" coords="1156,237,1257,267"/>
+<area shape="rect" id="node139" href="$WebPage_8h.htm" title="WebPage.h" alt="" coords="937,237,1031,267"/>
+<area shape="rect" id="node145" href="$WebPageClient_8h.htm" title="WebPageClient.h" alt="" coords="1604,237,1735,267"/>
+<area shape="rect" id="node150" href="$Time_8h.htm" title="Time.h" alt="" coords="849,237,913,267"/>
+<area shape="rect" id="node154" href="$BannerMessageEventFactory_8h.htm" title="BannerMessageEventFactory.h" alt="" coords="1860,237,2079,267"/>
+<area shape="rect" id="node160" href="$NewContentIndicatorEventFactory_8h.htm" title="NewContentIndicatorEventFactory.h" alt="" coords="2620,237,2868,267"/>
+<area shape="rect" id="node24" href="$WindowedWebApp_8h.htm" title="WindowedWebApp.h" alt="" coords="2671,160,2823,189"/>
+<area shape="rect" id="node27" href="$sptr_8h.htm" title="sptr.h" alt="" coords="2721,315,2777,344"/>
+<area shape="rect" id="node92" href="$QtUtils_8h.htm" title="QtUtils.h" alt="" coords="84,237,159,267"/>
+</map>

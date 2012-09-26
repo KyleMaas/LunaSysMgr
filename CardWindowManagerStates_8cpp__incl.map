@@ -1,0 +1,19 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$Common_8h.htm" title="Common.h" alt="" coords="1978,392,2066,421"/>
+<area shape="rect" id="node5" href="$CardWindowManagerStates_8h.htm" title="CardWindowManagerStates.h" alt="" coords="31,237,242,267"/>
+<area shape="rect" id="node23" href="$CardWindowManager_8h.htm" title="CardWindowManager.h" alt="" coords="848,160,1019,189"/>
+<area shape="rect" id="node56" href="$CardWindow_8h.htm" title="CardWindow.h" alt="" coords="2354,160,2468,189"/>
+<area shape="rect" id="node59" href="$Settings_8h.htm" title="Settings.h" alt="" coords="3538,237,3620,267"/>
+<area shape="rect" id="node77" href="$SystemUiController_8h.htm" title="SystemUiController.h" alt="" coords="1671,237,1826,267"/>
+<area shape="rect" id="node108" href="$CardGroup_8h.htm" title="CardGroup.h" alt="" coords="2543,83,2644,112"/>
+<area shape="rect" id="node121" href="$SystemService_8h.htm" title="SystemService.h" alt="" coords="3223,237,3348,267"/>
+<area shape="rect" id="node128" href="$SoundPlayerPool_8h.htm" title="SoundPlayerPool.h" alt="" coords="3372,237,3514,267"/>
+<area shape="rect" id="node133" href="$Time_8h.htm" title="Time.h" alt="" coords="88,315,152,344"/>
+<area shape="rect" id="node8" href="$BezelGesture_8h.htm" title="BezelGesture.h" alt="" coords="1031,315,1148,344"/>
+<area shape="rect" id="node26" href="$WindowManagerBase_8h.htm" title="WindowManagerBase.h" alt="" coords="996,237,1167,267"/>
+<area shape="rect" id="node32" href="$Preferences_8h.htm" title="Preferences.h" alt="" coords="1900,237,2010,267"/>
+<area shape="rect" id="node63" href="$Event_8h.htm" title="Event.h" alt="" coords="1427,315,1496,344"/>
+<area shape="rect" id="node67" href="$HostWindow_8h.htm" title="HostWindow.h" alt="" coords="2156,315,2268,344"/>
+<area shape="rect" id="node71" href="$Timer_8h.htm" title="Timer.h" alt="" coords="1915,315,1984,344"/>
+<area shape="rect" id="node105" href="$CardRoundedCornerShaderStage_8h.htm" title="CardRoundedCornerShaderStage.h" alt="" coords="2608,315,2856,344"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="G" name="G">
+<area shape="rect" id="node9" href="$classPixButton2State.htm" title="PixButton2State" alt="" coords="5,315,128,344"/>
+<area shape="rect" id="node11" href="$classPixButtonSimple.htm" title="PixButtonSimple" alt="" coords="152,315,275,344"/>
+<area shape="rect" id="node2" href="$classThingPaintable.htm" title="ThingPaintable" alt="" coords="83,160,197,189"/>
+<area shape="rect" id="node4" href="$classThing.htm" title="Thing" alt="" coords="111,83,169,112"/>
+<area shape="rect" id="node6" href="$classQGraphicsObject.htm" title="QGraphicsObject" alt="" coords="75,5,205,35"/>
+</map>

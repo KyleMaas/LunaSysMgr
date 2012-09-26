@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classFpsCounter.htm" title="FpsCounter" alt="" coords="5,83,99,112"/>
+<area shape="rect" id="node5" href="$classPixmapButtonHitTarget.htm" title="PixmapButtonHitTarget" alt="" coords="123,83,288,112"/>
+<area shape="rect" id="node7" href="$classReorderGrid.htm" title="ReorderGrid" alt="" coords="312,83,413,112"/>
+<area shape="rect" id="node9" href="$classTouchPlot.htm" title="TouchPlot" alt="" coords="437,83,523,112"/>
+<area shape="rect" id="node11" href="$classUiRootItem.htm" title="UiRootItem" alt="" coords="547,83,637,112"/>
+<area shape="rect" id="node13" href="$classWindowServerOverlay.htm" title="WindowServerOverlay" alt="" coords="661,83,824,112"/>
+</map>

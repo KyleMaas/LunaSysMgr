@@ -1,0 +1,26 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$Common_8h.htm" title="Common.h" alt="" coords="2355,392,2443,421"/>
+<area shape="rect" id="node5" href="$CardHostWindow_8h.htm" title="CardHostWindow.h" alt="" coords="2237,83,2379,112"/>
+<area shape="rect" id="node11" href="$Settings_8h.htm" title="Settings.h" alt="" coords="928,237,1011,267"/>
+<area shape="rect" id="node24" href="$SystemUiController_8h.htm" title="SystemUiController.h" alt="" coords="1435,237,1589,267"/>
+<area shape="rect" id="node65" href="$AnimationSettings_8h.htm" title="AnimationSettings.h" alt="" coords="2752,237,2899,267"/>
+<area shape="rect" id="node73" href="$BannerMessageHandler_8h.htm" title="BannerMessageHandler.h" alt="" coords="2821,160,3008,189"/>
+<area shape="rect" id="node87" href="$CardTransition_8h.htm" title="CardTransition.h" alt="" coords="587,237,712,267"/>
+<area shape="rect" id="node96" href="$HostBase_8h.htm" title="HostBase.h" alt="" coords="3083,83,3176,112"/>
+<area shape="rect" id="node124" href="$IpcClientHost_8h.htm" title="IpcClientHost.h" alt="" coords="2112,237,2229,267"/>
+<area shape="rect" id="node137" href="$Time_8h.htm" title="Time.h" alt="" coords="5,315,69,344"/>
+<area shape="rect" id="node141" href="$CardDropShadowEffect_8h.htm" title="CardDropShadowEffect.h" alt="" coords="2421,237,2603,267"/>
+<area shape="rect" id="node145" href="$WindowServer_8h.htm" title="WindowServer.h" alt="" coords="437,237,563,267"/>
+<area shape="rect" id="node152" href="$WindowServerLuna_8h.htm" title="WindowServerLuna.h" alt="" coords="871,160,1025,189"/>
+<area shape="rect" id="node156" href="$AppDirectRenderingArbitrator_8h.htm" title="AppDirectRenderingArbitrator.h" alt="" coords="1829,83,2048,112"/>
+<area shape="rect" id="node8" href="$CardWindow_8h.htm" title="CardWindow.h" alt="" coords="1455,160,1569,189"/>
+<area shape="rect" id="node53" href="$GraphicsDefs_8h.htm" title="GraphicsDefs.h" alt="" coords="2371,160,2488,189"/>
+<area shape="rect" id="node58" href="$AnimationEquations_8h.htm" title="AnimationEquations.h" alt="" coords="2379,315,2536,344"/>
+<area shape="rect" id="node40" href="$Window_8h.htm" title="Window.h" alt="" coords="1648,315,1731,344"/>
+<area shape="rect" id="node47" href="$CustomEvents_8h.htm" title="CustomEvents.h" alt="" coords="347,315,469,344"/>
+<area shape="rect" id="node78" href="$sptr_8h.htm" title="sptr.h" alt="" coords="3291,315,3347,344"/>
+<area shape="rect" id="node82" href="$SoundPlayerPool_8h.htm" title="SoundPlayerPool.h" alt="" coords="2973,237,3115,267"/>
+<area shape="rect" id="node104" href="$TaskBase_8h.htm" title="TaskBase.h" alt="" coords="3240,160,3336,189"/>
+<area shape="rect" id="node109" href="$Mutex_8h.htm" title="Mutex.h" alt="" coords="3392,237,3461,267"/>
+<area shape="rect" id="node116" href="$InputControl_8h.htm" title="InputControl.h" alt="" coords="3637,160,3747,189"/>
+</map>

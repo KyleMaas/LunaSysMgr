@@ -1,0 +1,23 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$Common_8h.htm" title="Common.h" alt="" coords="1695,469,1783,499"/>
+<area shape="rect" id="node9" href="$Window_8h.htm" title="Window.h" alt="" coords="1644,315,1727,344"/>
+<area shape="rect" id="node22" href="$ApplicationManager_8h.htm" title="ApplicationManager.h" alt="" coords="563,160,720,189"/>
+<area shape="rect" id="node65" href="$WindowServer_8h.htm" title="WindowServer.h" alt="" coords="2281,83,2407,112"/>
+<area shape="rect" id="node36" href="$Mutex_8h.htm" title="Mutex.h" alt="" coords="124,315,193,344"/>
+<area shape="rect" id="node44" href="$MimeSystem_8h.htm" title="MimeSystem.h" alt="" coords="477,237,589,267"/>
+<area shape="rect" id="node39" href="$sptr_8h.htm" title="sptr.h" alt="" coords="648,392,704,421"/>
+<area shape="rect" id="node54" href="$CmdResourceHandlers_8h.htm" title="CmdResourceHandlers.h" alt="" coords="423,315,601,344"/>
+<area shape="rect" id="node70" href="$DisplayManager_8h.htm" title="DisplayManager.h" alt="" coords="1372,160,1508,189"/>
+<area shape="rect" id="node100" href="$InputManager_8h.htm" title="InputManager.h" alt="" coords="1669,237,1789,267"/>
+<area shape="rect" id="node110" href="$CustomEvents_8h.htm" title="CustomEvents.h" alt="" coords="2389,237,2512,267"/>
+<area shape="rect" id="node114" href="$VariantAnimation_8h.htm" title="VariantAnimation.h" alt="" coords="2016,160,2155,189"/>
+<area shape="rect" id="node119" href="$HostWindow_8h.htm" title="HostWindow.h" alt="" coords="2229,237,2341,267"/>
+<area shape="rect" id="node136" href="$ProgressAnimation_8h.htm" title="ProgressAnimation.h" alt="" coords="2928,315,3080,344"/>
+<area shape="rect" id="node141" href="$TouchPlot_8h.htm" title="TouchPlot.h" alt="" coords="2788,315,2884,344"/>
+<area shape="rect" id="node73" href="$Timer_8h.htm" title="Timer.h" alt="" coords="1551,315,1620,344"/>
+<area shape="rect" id="node79" href="$Event_8h.htm" title="Event.h" alt="" coords="1284,315,1353,344"/>
+<area shape="rect" id="node86" href="$AmbientLightSensor_8h.htm" title="AmbientLightSensor.h" alt="" coords="1195,237,1352,267"/>
+<area shape="rect" id="node91" href="$DisplayStates_8h.htm" title="DisplayStates.h" alt="" coords="1528,237,1645,267"/>
+<area shape="rect" id="node124" href="$HostWindowData_8h.htm" title="HostWindowData.h" alt="" coords="2209,315,2351,344"/>
+<area shape="rect" id="node129" href="$InputClient_8h.htm" title="InputClient.h" alt="" coords="1428,315,1527,344"/>
+</map>

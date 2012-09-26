@@ -1,0 +1,25 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$Common_8h.htm" title="Common.h" alt="" coords="2760,392,2848,421"/>
+<area shape="rect" id="node29" href="$ApplicationDescription_8h.htm" title="ApplicationDescription.h" alt="" coords="1106,237,1280,267"/>
+<area shape="rect" id="node54" href="$CmdResourceHandlers_8h.htm" title="CmdResourceHandlers.h" alt="" coords="1985,315,2164,344"/>
+<area shape="rect" id="node63" href="$WebPage_8h.htm" title="WebPage.h" alt="" coords="566,237,660,267"/>
+<area shape="rect" id="node90" href="$WebPageClient_8h.htm" title="WebPageClient.h" alt="" coords="3214,237,3345,267"/>
+<area shape="rect" id="node98" href="$Settings_8h.htm" title="Settings.h" alt="" coords="3265,315,3348,344"/>
+<area shape="rect" id="node107" href="$WebAppBase_8h.htm" title="WebAppBase.h" alt="" coords="2649,160,2766,189"/>
+<area shape="rect" id="node114" href="$WebAppManager_8h.htm" title="WebAppManager.h" alt="" coords="2433,237,2574,267"/>
+<area shape="rect" id="node120" href="$Event_8h.htm" title="Event.h" alt="" coords="4049,315,4118,344"/>
+<area shape="rect" id="node128" href="$WebAppFactory_8h.htm" title="WebAppFactory.h" alt="" coords="1828,315,1961,344"/>
+<area shape="rect" id="node133" href="$Logging_8h.htm" title="Logging.h" alt="" coords="4193,315,4276,344"/>
+<area shape="rect" id="node138" href="$Utils_8h.htm" title="Utils.h" alt="" coords="3865,315,3924,344"/>
+<area shape="rect" id="node146" href="$Time_8h.htm" title="Time.h" alt="" coords="3516,315,3580,344"/>
+<area shape="rect" id="node150" href="$WebFrame_8h.htm" title="WebFrame.h" alt="" coords="1368,237,1469,267"/>
+<area shape="rect" id="node155" href="$WindowedWebApp_8h.htm" title="WindowedWebApp.h" alt="" coords="2778,83,2930,112"/>
+<area shape="rect" id="node163" href="$ProcessManager_8h.htm" title="ProcessManager.h" alt="" coords="2625,315,2766,344"/>
+<area shape="rect" id="node169" href="$NewContentIndicatorEventFactory_8h.htm" title="NewContentIndicatorEventFactory.h" alt="" coords="2892,315,3140,344"/>
+<area shape="rect" id="node174" href="$WebKitSensorConnector_8h.htm" title="WebKitSensorConnector.h" alt="" coords="3654,315,3841,344"/>
+<area shape="rect" id="node39" href="$GraphicsDefs_8h.htm" title="GraphicsDefs.h" alt="" coords="2433,315,2550,344"/>
+<area shape="rect" id="node42" href="$LaunchPoint_8h.htm" title="LaunchPoint.h" alt="" coords="1076,315,1185,344"/>
+<area shape="rect" id="node48" href="$KeywordMap_8h.htm" title="KeywordMap.h" alt="" coords="937,315,1052,344"/>
+<area shape="rect" id="node77" href="$ProcessBase_8h.htm" title="ProcessBase.h" alt="" coords="1361,315,1476,344"/>
+<area shape="rect" id="node81" href="$Timer_8h.htm" title="Timer.h" alt="" coords="3422,315,3492,344"/>
+</map>

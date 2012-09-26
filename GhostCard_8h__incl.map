@@ -1,0 +1,20 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$Common_8h.htm" title="Common.h" alt="" coords="1947,392,2035,421"/>
+<area shape="rect" id="node5" href="$CardWindow_8h.htm" title="CardWindow.h" alt="" coords="2484,83,2599,112"/>
+<area shape="rect" id="node8" href="$Settings_8h.htm" title="Settings.h" alt="" coords="84,315,167,344"/>
+<area shape="rect" id="node21" href="$Event_8h.htm" title="Event.h" alt="" coords="649,237,719,267"/>
+<area shape="rect" id="node39" href="$HostWindow_8h.htm" title="HostWindow.h" alt="" coords="1231,237,1343,267"/>
+<area shape="rect" id="node65" href="$Timer_8h.htm" title="Timer.h" alt="" coords="241,315,311,344"/>
+<area shape="rect" id="node72" href="$SystemUiController_8h.htm" title="SystemUiController.h" alt="" coords="1723,160,1877,189"/>
+<area shape="rect" id="node135" href="$CardRoundedCornerShaderStage_8h.htm" title="CardRoundedCornerShaderStage.h" alt="" coords="2115,160,2363,189"/>
+<area shape="rect" id="node35" href="$sptr_8h.htm" title="sptr.h" alt="" coords="335,315,391,344"/>
+<area shape="rect" id="node42" href="$Window_8h.htm" title="Window.h" alt="" coords="2028,315,2111,344"/>
+<area shape="rect" id="node53" href="$HostWindowData_8h.htm" title="HostWindowData.h" alt="" coords="1812,315,1953,344"/>
+<area shape="rect" id="node58" href="$InputClient_8h.htm" title="InputClient.h" alt="" coords="1639,315,1737,344"/>
+<area shape="rect" id="node90" href="$ApplicationDescription_8h.htm" title="ApplicationDescription.h" alt="" coords="921,315,1095,344"/>
+<area shape="rect" id="node97" href="$SuspendBlocker_8h.htm" title="SuspendBlocker.h" alt="" coords="1169,315,1303,344"/>
+<area shape="rect" id="node101" href="$VariantAnimation_8h.htm" title="VariantAnimation.h" alt="" coords="2236,315,2375,344"/>
+<area shape="rect" id="node105" href="$CustomEvents_8h.htm" title="CustomEvents.h" alt="" coords="2467,315,2589,344"/>
+<area shape="rect" id="node109" href="$StatusBar_8h.htm" title="StatusBar.h" alt="" coords="2452,237,2545,267"/>
+<area shape="rect" id="node117" href="$BezelGesture_8h.htm" title="BezelGesture.h" alt="" coords="1863,237,1980,267"/>
+</map>

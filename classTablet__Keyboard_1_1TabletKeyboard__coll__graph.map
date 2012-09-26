@@ -1,0 +1,12 @@
+<map id="G" name="G">
+<area shape="rect" id="node2" href="$classVirtualKeyboard.htm" title="VirtualKeyboard" alt="" coords="775,94,895,124"/>
+<area shape="rect" id="node4" href="$classInputMethod.htm" title="InputMethod" alt="" coords="320,6,421,36"/>
+<area shape="rect" id="node6" href="$classQObject.htm" title="QObject" alt="" coords="7,184,79,213"/>
+<area shape="rect" id="node8" href="$classIMEDataInterface.htm" title="IMEDataInterface" alt="" coords="456,182,589,212"/>
+<area shape="rect" id="node11" href="$classIMEData__QRegion.htm" title="IMEData_QRegion" alt="" coords="137,101,279,130"/>
+<area shape="rect" id="node14" href="$classIMEData__QRect.htm" title="IMEData_QRect" alt="" coords="145,154,271,184"/>
+<area shape="rect" id="node17" href="$classIMEData__bool.htm" title="IMEData_bool" alt="" coords="153,208,263,237"/>
+<area shape="rect" id="node20" href="$classIMEData__EditorState.htm" title="IMEData_EditorState" alt="" coords="131,261,285,290"/>
+<area shape="rect" id="node23" href="$classIMEData__QSize.htm" title="IMEData_QSize" alt="" coords="147,314,269,344"/>
+<area shape="rect" id="node26" href="$classIMEData__qint32.htm" title="IMEData_qint32" alt="" coords="147,368,269,397"/>
+</map>

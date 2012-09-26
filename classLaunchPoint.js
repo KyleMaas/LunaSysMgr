@@ -1,0 +1,27 @@
+var classLaunchPoint =
+[
+    [ "LaunchPoint", "classLaunchPoint.htm#a279814c1d60c04810e45ec12d0adc664", null ],
+    [ "~LaunchPoint", "classLaunchPoint.htm#a75445a44203e24a5ff31d34eb31ec22a", null ],
+    [ "appDesc", "classLaunchPoint.htm#a24ac72edcf6785b8fa7a9ad59afb1922", null ],
+    [ "category", "classLaunchPoint.htm#a09c63ac5121f2778ace20237b63311ae", null ],
+    [ "compareByKeys", "classLaunchPoint.htm#aa6e0bed9dc929ce13a239b62f73821ff", null ],
+    [ "entryPoint", "classLaunchPoint.htm#a247e074b8fe701c826042ff206ff3cbf", null ],
+    [ "fromFile", "classLaunchPoint.htm#ac543be8b58fbd430e5f7abd79bb4ee81", null ],
+    [ "icon", "classLaunchPoint.htm#a2137cf0e75b88a8856059e459c8c3b8c", null ],
+    [ "iconPath", "classLaunchPoint.htm#afd4067fd83e333e6d7b0b90d3cd9314f", null ],
+    [ "id", "classLaunchPoint.htm#adcd4c33f135d62ae83e2410baf459978", null ],
+    [ "isDefault", "classLaunchPoint.htm#a1ac1f6270a0db38d07be84380d7f643a", null ],
+    [ "isRemovable", "classLaunchPoint.htm#a59e2fa48c39ef1cfd43eb05e0f537a05", null ],
+    [ "isVisible", "classLaunchPoint.htm#ace0e68ee64f53733f6210d569e2027fa", null ],
+    [ "launchPointId", "classLaunchPoint.htm#a63333d3fe072749f0d41c748b9ee645b", null ],
+    [ "matchesTitle", "classLaunchPoint.htm#a8def4d1c4f09a3d56b726dffa3d41e77", null ],
+    [ "menuName", "classLaunchPoint.htm#ad7eb6e840ee1e11c9658943c6418fc72", null ],
+    [ "params", "classLaunchPoint.htm#a6eb4e7b02e2faf7019ee99506f413981", null ],
+    [ "setAppDesc", "classLaunchPoint.htm#a41f57df04bfce6cb5cf5c039edd931ee", null ],
+    [ "setAsDefault", "classLaunchPoint.htm#afc7debf2bbd00cb36a674d932e0a0613", null ],
+    [ "setRemovable", "classLaunchPoint.htm#a1e17865cd4b1de7c8404221e72f28600", null ],
+    [ "title", "classLaunchPoint.htm#a40fae0c9de4762e9b891900cc31457c8", null ],
+    [ "toJSON", "classLaunchPoint.htm#a8084510ceda5c24a97fbca7023a18919", null ],
+    [ "updateIconPath", "classLaunchPoint.htm#afa709a3bc771da4646b8a8a63793316a", null ],
+    [ "updateTitle", "classLaunchPoint.htm#a12c25a7a03b2b69983a3c3746d41c053", null ]
+];

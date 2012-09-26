@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" id="node2" href="$classCardWindowManagerState.htm" title="CardWindowManagerState" alt="" coords="25,277,217,307"/>
+<area shape="rect" id="node4" href="$classQState.htm" title="QState" alt="" coords="43,181,109,211"/>
+<area shape="rect" id="node6" href="$classCardWindowManager.htm" title="CardWindowManager" alt="" coords="133,181,293,211"/>
+<area shape="rect" id="node8" href="$classWindowManagerBase.htm" title="WindowManagerBase" alt="" coords="133,101,293,131"/>
+<area shape="rect" id="node10" href="$classQGraphicsObject.htm" title="QGraphicsObject" alt="" coords="5,5,136,35"/>
+<area shape="rect" id="node12" href="$classKeyNavigator.htm" title="KeyNavigator" alt="" coords="160,5,267,35"/>
+</map>

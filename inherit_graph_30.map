@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node1" href="$classCommandParams.htm" title="CommandParams" alt="" coords="7,32,140,61"/>
+<area shape="rect" id="node3" href="$classInstallParams.htm" title="InstallParams" alt="" coords="197,5,304,35"/>
+<area shape="rect" id="node5" href="$classRemoveParams.htm" title="RemoveParams" alt="" coords="189,59,312,88"/>
+</map>

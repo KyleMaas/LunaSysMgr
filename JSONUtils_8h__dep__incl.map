@@ -1,0 +1,15 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$AmbientLightSensor_8cpp.htm" title="AmbientLightSensor.cpp" alt="" coords="5,83,179,112"/>
+<area shape="rect" id="node5" href="$ApplicationInstaller_8cpp.htm" title="ApplicationInstaller.cpp" alt="" coords="203,83,368,112"/>
+<area shape="rect" id="node7" href="$ApplicationManagerService_8cpp.htm" title="ApplicationManagerService.cpp" alt="" coords="392,83,613,112"/>
+<area shape="rect" id="node9" href="$BackupManager_8cpp.htm" title="BackupManager.cpp" alt="" coords="637,83,787,112"/>
+<area shape="rect" id="node11" href="$DisplayManager_8cpp.htm" title="DisplayManager.cpp" alt="" coords="811,83,960,112"/>
+<area shape="rect" id="node13" href="$HapticsController_8cpp.htm" title="HapticsController.cpp" alt="" coords="984,83,1141,112"/>
+<area shape="rect" id="node15" href="$InputManager_8cpp.htm" title="InputManager.cpp" alt="" coords="1165,83,1301,112"/>
+<area shape="rect" id="node17" href="$JSONUtils_8cpp.htm" title="JSONUtils.cpp" alt="" coords="1325,83,1437,112"/>
+<area shape="rect" id="node19" href="$Preferences_8cpp.htm" title="Preferences.cpp" alt="" coords="1461,83,1587,112"/>
+<area shape="rect" id="node21" href="$SystemService_8cpp.htm" title="SystemService.cpp" alt="" coords="1611,83,1752,112"/>
+<area shape="rect" id="node23" href="$CandidateBarRemote_8cpp.htm" title="CandidateBarRemote.cpp" alt="" coords="1776,83,1960,112"/>
+<area shape="rect" id="node25" href="$VirtualKeyboardPreferences_8cpp.htm" title="VirtualKeyboardPreferences.cpp" alt="" coords="1984,83,2208,112"/>
+<area shape="rect" id="node27" href="$WebAppManager_8cpp.htm" title="WebAppManager.cpp" alt="" coords="2232,83,2389,112"/>
+</map>

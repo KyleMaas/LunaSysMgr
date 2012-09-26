@@ -1,0 +1,26 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$WebAppManager_8h.htm" title="WebAppManager.h" alt="" coords="243,315,384,344"/>
+<area shape="rect" id="node5" href="$Common_8h.htm" title="Common.h" alt="" coords="1895,469,1983,499"/>
+<area shape="rect" id="node13" href="$MemoryWatcher_8h.htm" title="MemoryWatcher.h" alt="" coords="248,392,384,421"/>
+<area shape="rect" id="node23" href="$ApplicationDescription_8h.htm" title="ApplicationDescription.h" alt="" coords="1715,315,1888,344"/>
+<area shape="rect" id="node28" href="$ApplicationInstaller_8h.htm" title="ApplicationInstaller.h" alt="" coords="661,315,813,344"/>
+<area shape="rect" id="node37" href="$BannerMessageEventFactory_8h.htm" title="BannerMessageEventFactory.h" alt="" coords="2563,315,2781,344"/>
+<area shape="rect" id="node41" href="$CardWebApp_8h.htm" title="CardWebApp.h" alt="" coords="1416,83,1533,112"/>
+<area shape="rect" id="node44" href="$WindowedWebApp_8h.htm" title="WindowedWebApp.h" alt="" coords="900,160,1052,189"/>
+<area shape="rect" id="node48" href="$WebAppBase_8h.htm" title="WebAppBase.h" alt="" coords="576,237,693,267"/>
+<area shape="rect" id="node56" href="$EventReporter_8h.htm" title="EventReporter.h" alt="" coords="1149,315,1275,344"/>
+<area shape="rect" id="node60" href="$JSONUtils_8h.htm" title="JSONUtils.h" alt="" coords="1461,237,1557,267"/>
+<area shape="rect" id="node62" href="$Settings_8h.htm" title="Settings.h" alt="" coords="2304,315,2387,344"/>
+<area shape="rect" id="node67" href="$Localization_8h.htm" title="Localization.h" alt="" coords="2753,160,2860,189"/>
+<area shape="rect" id="node70" href="$Logging_8h.htm" title="Logging.h" alt="" coords="3231,237,3313,267"/>
+<area shape="rect" id="node74" href="$Preferences_8h.htm" title="Preferences.h" alt="" coords="1299,315,1408,344"/>
+<area shape="rect" id="node79" href="$ProcessManager_8h.htm" title="ProcessManager.h" alt="" coords="1549,315,1691,344"/>
+<area shape="rect" id="node84" href="$SharedGlobalProperties_8h.htm" title="SharedGlobalProperties.h" alt="" coords="2115,83,2299,112"/>
+<area shape="rect" id="node86" href="$SystemUiController_8h.htm" title="SystemUiController.h" alt="" coords="1784,237,1939,267"/>
+<area shape="rect" id="node91" href="$Time_8h.htm" title="Time.h" alt="" coords="2475,83,2539,112"/>
+<area shape="rect" id="node96" href="$Utils_8h.htm" title="Utils.h" alt="" coords="2013,315,2072,344"/>
+<area shape="rect" id="node101" href="$WebAppFactory_8h.htm" title="WebAppFactory.h" alt="" coords="2147,315,2280,344"/>
+<area shape="rect" id="node106" href="$WebPage_8h.htm" title="WebPage.h" alt="" coords="1432,315,1525,344"/>
+<area shape="rect" id="node116" href="$BackupManager_8h.htm" title="BackupManager.h" alt="" coords="939,315,1075,344"/>
+<area shape="rect" id="node133" href="$WebKitEventListener_8h.htm" title="WebKitEventListener.h" alt="" coords="2715,83,2877,112"/>
+</map>

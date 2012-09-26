@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classConditionalSignalTransition.htm" title="ConditionalSignalTransition" alt="" coords="215,5,409,35"/>
+<area shape="rect" id="node5" href="$classDWMTransitionClosedToAlertOpen.htm" title="DWMTransitionClosedToAlertOpen" alt="" coords="189,59,435,88"/>
+<area shape="rect" id="node7" href="$classMaximizeToFocusTransition.htm" title="MaximizeToFocusTransition" alt="" coords="213,112,411,141"/>
+<area shape="rect" id="node9" href="$classPropertySettingSignalTransition.htm" title="PropertySettingSignalTransition" alt="" coords="201,165,423,195"/>
+<area shape="rect" id="node11" href="$classTimeDelayTransition.htm" title="TimeDelayTransition" alt="" coords="236,219,388,248"/>
+<area shape="rect" id="node13" href="$classVariableAnimationSignalTransition.htm" title="VariableAnimationSignalTransition" alt="" coords="193,272,431,301"/>
+</map>

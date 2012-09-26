@@ -1,0 +1,14 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$PreKeymap_8h.htm" title="PreKeymap.h" alt="" coords="89,83,195,112"/>
+<area shape="rect" id="node13" href="$KeyLocationRecorder_8h.htm" title="KeyLocationRecorder.h" alt="" coords="335,83,506,112"/>
+<area shape="rect" id="node25" href="$Localization_8h.htm" title="Localization.h" alt="" coords="561,83,667,112"/>
+<area shape="rect" id="node38" href="$Logging_8h.htm" title="Logging.h" alt="" coords="906,83,989,112"/>
+<area shape="rect" id="node46" href="$Utils_8h.htm" title="Utils.h" alt="" coords="1347,83,1406,112"/>
+<area shape="rect" id="node67" href="$VirtualKeyboardPreferences_8h.htm" title="VirtualKeyboardPreferences.h" alt="" coords="1794,83,2002,112"/>
+<area shape="rect" id="node27" href="$Common_8h.htm" title="Common.h" alt="" coords="869,237,957,267"/>
+<area shape="rect" id="node29" href="$QtUtils_8h.htm" title="QtUtils.h" alt="" coords="531,160,606,189"/>
+<area shape="rect" id="node71" href="$VirtualKeyboard_8h.htm" title="VirtualKeyboard.h" alt="" coords="2003,160,2134,189"/>
+<area shape="rect" id="node73" href="$IMEDataInterface_8h.htm" title="IMEDataInterface.h" alt="" coords="1205,237,1349,267"/>
+<area shape="rect" id="node89" href="$InputMethod_8h.htm" title="InputMethod.h" alt="" coords="1319,315,1431,344"/>
+<area shape="rect" id="node75" href="$IMEData_8h.htm" title="IMEData.h" alt="" coords="1053,315,1141,344"/>
+</map>

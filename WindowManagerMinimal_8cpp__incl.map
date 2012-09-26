@@ -1,0 +1,26 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$Common_8h.htm" title="Common.h" alt="" coords="2087,392,2175,421"/>
+<area shape="rect" id="node5" href="$WindowManagerMinimal_8h.htm" title="WindowManagerMinimal.h" alt="" coords="1817,160,2003,189"/>
+<area shape="rect" id="node36" href="$AlertWindow_8h.htm" title="AlertWindow.h" alt="" coords="2346,160,2458,189"/>
+<area shape="rect" id="node49" href="$CardWindow_8h.htm" title="CardWindow.h" alt="" coords="1347,83,1462,112"/>
+<area shape="rect" id="node71" href="$SystemUiController_8h.htm" title="SystemUiController.h" alt="" coords="1146,160,1301,189"/>
+<area shape="rect" id="node104" href="$HostBase_8h.htm" title="HostBase.h" alt="" coords="2869,83,2962,112"/>
+<area shape="rect" id="node134" href="$Logging_8h.htm" title="Logging.h" alt="" coords="3106,237,3189,267"/>
+<area shape="rect" id="node142" href="$WebAppMgrProxy_8h.htm" title="WebAppMgrProxy.h" alt="" coords="2175,160,2322,189"/>
+<area shape="rect" id="node147" href="$WindowServer_8h.htm" title="WindowServer.h" alt="" coords="191,160,317,189"/>
+<area shape="rect" id="node156" href="$Utils_8h.htm" title="Utils.h" alt="" coords="685,315,743,344"/>
+<area shape="rect" id="node10" href="$WindowManagerBase_8h.htm" title="WindowManagerBase.h" alt="" coords="2135,237,2306,267"/>
+<area shape="rect" id="node15" href="$GraphicsItemContainer_8h.htm" title="GraphicsItemContainer.h" alt="" coords="1882,237,2061,267"/>
+<area shape="rect" id="node20" href="$StatusBar_8h.htm" title="StatusBar.h" alt="" coords="1173,237,1266,267"/>
+<area shape="rect" id="node22" href="$Window_8h.htm" title="Window.h" alt="" coords="1381,315,1463,344"/>
+<area shape="rect" id="node31" href="$CustomEvents_8h.htm" title="CustomEvents.h" alt="" coords="869,315,991,344"/>
+<area shape="rect" id="node39" href="$sptr_8h.htm" title="sptr.h" alt="" coords="2766,315,2822,344"/>
+<area shape="rect" id="node44" href="$HostWindow_8h.htm" title="HostWindow.h" alt="" coords="1442,237,1554,267"/>
+<area shape="rect" id="node52" href="$Settings_8h.htm" title="Settings.h" alt="" coords="1274,315,1357,344"/>
+<area shape="rect" id="node57" href="$Event_8h.htm" title="Event.h" alt="" coords="2583,237,2653,267"/>
+<area shape="rect" id="node65" href="$Timer_8h.htm" title="Timer.h" alt="" coords="2571,315,2641,344"/>
+<area shape="rect" id="node101" href="$CardRoundedCornerShaderStage_8h.htm" title="CardRoundedCornerShaderStage.h" alt="" coords="1538,315,1786,344"/>
+<area shape="rect" id="node113" href="$TaskBase_8h.htm" title="TaskBase.h" alt="" coords="2634,160,2730,189"/>
+<area shape="rect" id="node119" href="$Mutex_8h.htm" title="Mutex.h" alt="" coords="2829,237,2898,267"/>
+<area shape="rect" id="node126" href="$InputControl_8h.htm" title="InputControl.h" alt="" coords="3157,160,3266,189"/>
+</map>

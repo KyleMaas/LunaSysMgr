@@ -1,0 +1,18 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$Common_8h.htm" title="Common.h" alt="" coords="771,392,859,421"/>
+<area shape="rect" id="node5" href="$ActiveCallBanner_8h.htm" title="ActiveCallBanner.h" alt="" coords="85,315,227,344"/>
+<area shape="rect" id="node18" href="$Settings_8h.htm" title="Settings.h" alt="" coords="1667,315,1749,344"/>
+<area shape="rect" id="node31" href="$HostBase_8h.htm" title="HostBase.h" alt="" coords="816,83,909,112"/>
+<area shape="rect" id="node84" href="$WebAppMgrProxy_8h.htm" title="WebAppMgrProxy.h" alt="" coords="1456,160,1603,189"/>
+<area shape="rect" id="node106" href="$Utils_8h.htm" title="Utils.h" alt="" coords="2033,315,2092,344"/>
+<area shape="rect" id="node126" href="$QtUtils_8h.htm" title="QtUtils.h" alt="" coords="968,315,1043,344"/>
+<area shape="rect" id="node40" href="$TaskBase_8h.htm" title="TaskBase.h" alt="" coords="704,160,800,189"/>
+<area shape="rect" id="node60" href="$Mutex_8h.htm" title="Mutex.h" alt="" coords="848,237,917,267"/>
+<area shape="rect" id="node71" href="$CustomEvents_8h.htm" title="CustomEvents.h" alt="" coords="992,237,1115,267"/>
+<area shape="rect" id="node76" href="$InputControl_8h.htm" title="InputControl.h" alt="" coords="925,160,1035,189"/>
+<area shape="rect" id="node46" href="$sptr_8h.htm" title="sptr.h" alt="" coords="787,315,843,344"/>
+<area shape="rect" id="node50" href="$AsyncCaller_8h.htm" title="AsyncCaller.h" alt="" coords="656,315,763,344"/>
+<area shape="rect" id="node54" href="$Event_8h.htm" title="Event.h" alt="" coords="704,237,773,267"/>
+<area shape="rect" id="node65" href="$SingletonTimer_8h.htm" title="SingletonTimer.h" alt="" coords="453,315,581,344"/>
+<area shape="rect" id="node91" href="$IpcClientHost_8h.htm" title="IpcClientHost.h" alt="" coords="1525,315,1643,344"/>
+</map>

@@ -1,0 +1,23 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$Common_8h.htm" title="Common.h" alt="" coords="1561,469,1649,499"/>
+<area shape="rect" id="node13" href="$RemoteWindowDataSoftwareTextureShared_8h.htm" title="RemoteWindowDataSoftwareTextureShared.h" alt="" coords="5,83,317,112"/>
+<area shape="rect" id="node25" href="$Logging_8h.htm" title="Logging.h" alt="" coords="877,315,960,344"/>
+<area shape="rect" id="node38" href="$SharedGlobalProperties_8h.htm" title="SharedGlobalProperties.h" alt="" coords="1085,83,1269,112"/>
+<area shape="rect" id="node40" href="$WebAppManager_8h.htm" title="WebAppManager.h" alt="" coords="1880,83,2021,112"/>
+<area shape="rect" id="node16" href="$RemoteWindowDataSoftwareOpenGLComposited_8h.htm" title="RemoteWindowDataSoftwareOpenGLComposited.h" alt="" coords="365,160,712,189"/>
+<area shape="rect" id="node22" href="$RemoteWindowDataSoftware_8h.htm" title="RemoteWindowDataSoftware.h" alt="" coords="640,237,859,267"/>
+<area shape="rect" id="node34" href="$NAppWindow_8h.htm" title="NAppWindow.h" alt="" coords="1085,315,1203,344"/>
+<area shape="rect" id="node51" href="$SyncTask_8h.htm" title="SyncTask.h" alt="" coords="1904,160,1997,189"/>
+<area shape="rect" id="node63" href="$Event_8h.htm" title="Event.h" alt="" coords="2028,315,2097,344"/>
+<area shape="rect" id="node83" href="$MemoryWatcher_8h.htm" title="MemoryWatcher.h" alt="" coords="1492,237,1628,267"/>
+<area shape="rect" id="node88" href="$SignalSlot_8h.htm" title="SignalSlot.h" alt="" coords="1427,315,1523,344"/>
+<area shape="rect" id="node94" href="$Timer_8h.htm" title="Timer.h" alt="" coords="1620,315,1689,344"/>
+<area shape="rect" id="node101" href="$Window_8h.htm" title="Window.h" alt="" coords="2796,315,2879,344"/>
+<area shape="rect" id="node111" href="$WebAppCache_8h.htm" title="WebAppCache.h" alt="" coords="1227,315,1352,344"/>
+<area shape="rect" id="node114" href="$HostBase_8h.htm" title="HostBase.h" alt="" coords="1787,160,1880,189"/>
+<area shape="rect" id="node54" href="$TaskBase_8h.htm" title="TaskBase.h" alt="" coords="2487,237,2583,267"/>
+<area shape="rect" id="node59" href="$sptr_8h.htm" title="sptr.h" alt="" coords="2408,392,2464,421"/>
+<area shape="rect" id="node77" href="$Mutex_8h.htm" title="Mutex.h" alt="" coords="2313,315,2383,344"/>
+<area shape="rect" id="node125" href="$CustomEvents_8h.htm" title="CustomEvents.h" alt="" coords="1753,237,1876,267"/>
+<area shape="rect" id="node128" href="$InputControl_8h.htm" title="InputControl.h" alt="" coords="2303,237,2412,267"/>
+</map>

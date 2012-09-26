@@ -1,0 +1,22 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classHostWindow.htm" title="HostWindow" alt="" coords="228,192,329,221"/>
+<area shape="rect" id="node27" href="$classIpcClientHost.htm" title="IpcClientHost" alt="" coords="225,299,332,328"/>
+<area shape="rect" id="node31" href="$classWebAppManager.htm" title="WebAppManager" alt="" coords="213,352,344,381"/>
+<area shape="rect" id="node33" href="$classWindowedWebApp.htm" title="WindowedWebApp" alt="" coords="208,405,349,435"/>
+<area shape="rect" id="node5" href="$classAlertWindow.htm" title="AlertWindow" alt="" coords="419,59,520,88"/>
+<area shape="rect" id="node11" href="$classCardWindow.htm" title="CardWindow" alt="" coords="419,139,520,168"/>
+<area shape="rect" id="node23" href="$classDashboardWindow.htm" title="DashboardWindow" alt="" coords="399,192,540,221"/>
+<area shape="rect" id="node25" href="$classMenuWindow.htm" title="MenuWindow" alt="" coords="416,245,523,275"/>
+<area shape="rect" id="node7" href="$classQmlAlertWindow.htm" title="QmlAlertWindow" alt="" coords="624,5,749,35"/>
+<area shape="rect" id="node9" href="$classVolumeControlAlertWindow.htm" title="VolumeControlAlertWindow" alt="" coords="591,59,783,88"/>
+<area shape="rect" id="node13" href="$classCardHostWindow.htm" title="CardHostWindow" alt="" coords="621,112,752,141"/>
+<area shape="rect" id="node17" href="$classDockModeWindow.htm" title="DockModeWindow" alt="" coords="617,165,756,195"/>
+<area shape="rect" id="node21" href="$classEmulatedCardWindow.htm" title="EmulatedCardWindow" alt="" coords="607,219,767,248"/>
+<area shape="rect" id="node15" href="$classQtHostWindow.htm" title="QtHostWindow" alt="" coords="863,112,977,141"/>
+<area shape="rect" id="node19" href="$classDockModeClockWindow.htm" title="DockModeClockWindow" alt="" coords="833,165,1007,195"/>
+<area shape="rect" id="node29" href="$classWebAppMgrProxy.htm" title="WebAppMgrProxy" alt="" coords="401,299,537,328"/>
+<area shape="rect" id="node35" href="$classAlertWebApp.htm" title="AlertWebApp" alt="" coords="417,352,521,381"/>
+<area shape="rect" id="node37" href="$classCardWebApp.htm" title="CardWebApp" alt="" coords="416,405,523,435"/>
+<area shape="rect" id="node41" href="$classDashboardWebApp.htm" title="DashboardWebApp" alt="" coords="397,459,541,488"/>
+<area shape="rect" id="node39" href="$classDockWebApp.htm" title="DockWebApp" alt="" coords="633,405,740,435"/>
+</map>

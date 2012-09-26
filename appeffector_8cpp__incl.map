@@ -1,0 +1,26 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$appeffector_8h.htm" title="appeffector.h" alt="" coords="252,237,356,267"/>
+<area shape="rect" id="node11" href="$externalapp_8h.htm" title="externalapp.h" alt="" coords="182,315,289,344"/>
+<area shape="rect" id="node15" href="$webosapp_8h.htm" title="webosapp.h" alt="" coords="430,237,526,267"/>
+<area shape="rect" id="node23" href="$appmonitor_8h.htm" title="appmonitor.h" alt="" coords="514,160,618,189"/>
+<area shape="rect" id="node36" href="$stringtranslator_8h.htm" title="stringtranslator.h" alt="" coords="1460,83,1588,112"/>
+<area shape="rect" id="node39" href="$ApplicationDescription_8h.htm" title="ApplicationDescription.h" alt="" coords="2252,160,2425,189"/>
+<area shape="rect" id="node54" href="$LaunchPoint_8h.htm" title="LaunchPoint.h" alt="" coords="1940,237,2049,267"/>
+<area shape="rect" id="node78" href="$ApplicationManager_8h.htm" title="ApplicationManager.h" alt="" coords="2136,83,2293,112"/>
+<area shape="rect" id="node104" href="$dimensionslauncher_8h.htm" title="dimensionslauncher.h" alt="" coords="1048,83,1205,112"/>
+<area shape="rect" id="node155" href="$WebAppMgrProxy_8h.htm" title="WebAppMgrProxy.h" alt="" coords="3257,160,3404,189"/>
+<area shape="rect" id="node27" href="$blacklist_8h.htm" title="blacklist.h" alt="" coords="44,237,126,267"/>
+<area shape="rect" id="node41" href="$Common_8h.htm" title="Common.h" alt="" coords="2608,315,2696,344"/>
+<area shape="rect" id="node51" href="$GraphicsDefs_8h.htm" title="GraphicsDefs.h" alt="" coords="2364,237,2481,267"/>
+<area shape="rect" id="node63" href="$KeywordMap_8h.htm" title="KeywordMap.h" alt="" coords="2073,237,2188,267"/>
+<area shape="rect" id="node69" href="$CmdResourceHandlers_8h.htm" title="CmdResourceHandlers.h" alt="" coords="2750,237,2929,267"/>
+<area shape="rect" id="node88" href="$Mutex_8h.htm" title="Mutex.h" alt="" coords="2556,237,2625,267"/>
+<area shape="rect" id="node92" href="$MimeSystem_8h.htm" title="MimeSystem.h" alt="" coords="2846,160,2958,189"/>
+<area shape="rect" id="node116" href="$groupanchoritem_8h.htm" title="groupanchoritem.h" alt="" coords="1313,237,1452,267"/>
+<area shape="rect" id="node121" href="$dimensionstypes_8h.htm" title="dimensionstypes.h" alt="" coords="809,237,948,267"/>
+<area shape="rect" id="node123" href="$icon_8h.htm" title="icon.h" alt="" coords="1230,237,1289,267"/>
+<area shape="rect" id="node130" href="$page_8h.htm" title="page.h" alt="" coords="953,160,1017,189"/>
+<area shape="rect" id="node139" href="$vcamera_8h.htm" title="vcamera.h" alt="" coords="1526,237,1612,267"/>
+<area shape="rect" id="node147" href="$pagetab_8h.htm" title="pagetab.h" alt="" coords="601,237,684,267"/>
+<area shape="rect" id="node162" href="$IpcClientHost_8h.htm" title="IpcClientHost.h" alt="" coords="3257,237,3374,267"/>
+</map>

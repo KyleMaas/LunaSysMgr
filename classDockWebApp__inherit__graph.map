@@ -1,0 +1,7 @@
+<map id="G" name="G">
+<area shape="rect" id="node2" href="$classCardWebApp.htm" title="CardWebApp" alt="" coords="88,237,195,267"/>
+<area shape="rect" id="node4" href="$classWindowedWebApp.htm" title="WindowedWebApp" alt="" coords="71,160,212,189"/>
+<area shape="rect" id="node6" href="$classWebAppBase.htm" title="WebAppBase" alt="" coords="11,83,117,112"/>
+<area shape="rect" id="node8" href="$classWebPageClient.htm" title="WebPageClient" alt="" coords="5,5,123,35"/>
+<area shape="rect" id="node10" href="$classPIpcChannelListener.htm" title="PIpcChannelListener" alt="" coords="141,83,296,112"/>
+</map>

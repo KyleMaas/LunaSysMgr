@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" id="node7" href="$classHALLogicalAccelerometerSensorConnector.htm" title="HALLogicalAccelerometerSensorConnector" alt="" coords="620,5,916,35"/>
+<area shape="rect" id="node9" href="$classHALLogicalDeviceMotionSensorConnector.htm" title="HALLogicalDeviceMotionSensorConnector" alt="" coords="623,59,913,88"/>
+<area shape="rect" id="node11" href="$classHALLogicalDeviceOrientationSensorConnector.htm" title="HALLogicalDeviceOrientationSensorConnector" alt="" coords="609,112,927,141"/>
+<area shape="rect" id="node13" href="$classHALLogicalOrientationSensorConnector.htm" title="HALLogicalOrientationSensorConnector" alt="" coords="631,165,905,195"/>
+<area shape="rect" id="node2" href="$classHALConnectorBase.htm" title="HALConnectorBase" alt="" coords="128,85,275,115"/>
+<area shape="rect" id="node4" href="$classQObject.htm" title="QObject" alt="" coords="7,85,79,115"/>
+</map>

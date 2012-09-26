@@ -1,0 +1,24 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$ApplicationDescription_8h.htm" title="ApplicationDescription.h" alt="" coords="1523,160,1697,189"/>
+<area shape="rect" id="node5" href="$Common_8h.htm" title="Common.h" alt="" coords="2209,315,2297,344"/>
+<area shape="rect" id="node42" href="$ApplicationInstaller_8h.htm" title="ApplicationInstaller.h" alt="" coords="841,83,993,112"/>
+<area shape="rect" id="node69" href="$ApplicationManager_8h.htm" title="ApplicationManager.h" alt="" coords="1323,83,1481,112"/>
+<area shape="rect" id="node79" href="$MimeSystem_8h.htm" title="MimeSystem.h" alt="" coords="1177,160,1289,189"/>
+<area shape="rect" id="node92" href="$HostBase_8h.htm" title="HostBase.h" alt="" coords="3119,83,3213,112"/>
+<area shape="rect" id="node118" href="$JSONUtils_8h.htm" title="JSONUtils.h" alt="" coords="2101,83,2197,112"/>
+<area shape="rect" id="node120" href="$Settings_8h.htm" title="Settings.h" alt="" coords="2107,160,2190,189"/>
+<area shape="rect" id="node129" href="$PackageDescription_8h.htm" title="PackageDescription.h" alt="" coords="58,83,215,112"/>
+<area shape="rect" id="node135" href="$ServiceDescription_8h.htm" title="ServiceDescription.h" alt="" coords="497,237,646,267"/>
+<area shape="rect" id="node139" href="$Utils_8h.htm" title="Utils.h" alt="" coords="2889,237,2947,267"/>
+<area shape="rect" id="node149" href="$WebAppMgrProxy_8h.htm" title="WebAppMgrProxy.h" alt="" coords="2403,83,2550,112"/>
+<area shape="rect" id="node153" href="$WindowServerLuna_8h.htm" title="WindowServerLuna.h" alt="" coords="2363,237,2518,267"/>
+<area shape="rect" id="node15" href="$GraphicsDefs_8h.htm" title="GraphicsDefs.h" alt="" coords="2121,237,2238,267"/>
+<area shape="rect" id="node20" href="$LaunchPoint_8h.htm" title="LaunchPoint.h" alt="" coords="1785,237,1894,267"/>
+<area shape="rect" id="node27" href="$KeywordMap_8h.htm" title="KeywordMap.h" alt="" coords="1646,237,1761,267"/>
+<area shape="rect" id="node33" href="$CmdResourceHandlers_8h.htm" title="CmdResourceHandlers.h" alt="" coords="873,237,1051,267"/>
+<area shape="rect" id="node56" href="$MutexLocker_8h.htm" title="MutexLocker.h" alt="" coords="2214,160,2329,189"/>
+<area shape="rect" id="node59" href="$Mutex_8h.htm" title="Mutex.h" alt="" coords="2694,237,2763,267"/>
+<area shape="rect" id="node100" href="$TaskBase_8h.htm" title="TaskBase.h" alt="" coords="2753,160,2849,189"/>
+<area shape="rect" id="node107" href="$CustomEvents_8h.htm" title="CustomEvents.h" alt="" coords="2505,160,2627,189"/>
+<area shape="rect" id="node110" href="$InputControl_8h.htm" title="InputControl.h" alt="" coords="3699,160,3809,189"/>
+</map>

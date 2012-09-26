@@ -1,0 +1,33 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$blacklist_8h.htm" title="blacklist.h" alt="" coords="1295,83,1378,112"/>
+<area shape="rect" id="node81" href="$staticmatchlist_8cpp.htm" title="staticmatchlist.cpp" alt="" coords="1402,83,1538,112"/>
+<area shape="rect" id="node5" href="$appmonitor_8h.htm" title="appmonitor.h" alt="" coords="1223,160,1327,189"/>
+<area shape="rect" id="node79" href="$blacklist_8cpp.htm" title="blacklist.cpp" alt="" coords="1351,160,1447,189"/>
+<area shape="rect" id="node7" href="$ApplicationManager_8cpp.htm" title="ApplicationManager.cpp" alt="" coords="77,469,250,499"/>
+<area shape="rect" id="node9" href="$dimensionslauncher_8h.htm" title="dimensionslauncher.h" alt="" coords="1518,315,1675,344"/>
+<area shape="rect" id="node11" href="$dimensionslauncher_8cpp.htm" title="dimensionslauncher.cpp" alt="" coords="1035,392,1209,421"/>
+<area shape="rect" id="node17" href="$quicklaunchbar_8cpp.htm" title="quicklaunchbar.cpp" alt="" coords="25,392,166,421"/>
+<area shape="rect" id="node37" href="$appeffector_8cpp.htm" title="appeffector.cpp" alt="" coords="2649,392,2769,421"/>
+<area shape="rect" id="node39" href="$appmonitor_8cpp.htm" title="appmonitor.cpp" alt="" coords="2793,392,2910,421"/>
+<area shape="rect" id="node41" href="$pagesaver_8cpp.htm" title="pagesaver.cpp" alt="" coords="1331,392,1446,421"/>
+<area shape="rect" id="node44" href="$quicklaunchbar_8h.htm" title="quicklaunchbar.h" alt="" coords="769,237,894,267"/>
+<area shape="rect" id="node65" href="$pagerestore_8cpp.htm" title="pagerestore.cpp" alt="" coords="190,392,315,421"/>
+<area shape="rect" id="node77" href="$webosapp_8cpp.htm" title="webosapp.cpp" alt="" coords="1801,237,1913,267"/>
+<area shape="rect" id="node13" href="$dimensionsmain_8cpp.htm" title="dimensionsmain.cpp" alt="" coords="887,469,1037,499"/>
+<area shape="rect" id="node15" href="$pagetabbar_8cpp.htm" title="pagetabbar.cpp" alt="" coords="1825,392,1942,421"/>
+<area shape="rect" id="node19" href="$icon_8cpp.htm" title="icon.cpp" alt="" coords="1233,392,1307,421"/>
+<area shape="rect" id="node21" href="$alphabetpage_8cpp.htm" title="alphabetpage.cpp" alt="" coords="1966,392,2099,421"/>
+<area shape="rect" id="node23" href="$reorderableiconlayout_8cpp.htm" title="reorderableiconlayout.cpp" alt="" coords="2123,392,2307,421"/>
+<area shape="rect" id="node25" href="$page_8cpp.htm" title="page.cpp" alt="" coords="931,392,1011,421"/>
+<area shape="rect" id="node27" href="$pagemovement_8cpp.htm" title="pagemovement.cpp" alt="" coords="2331,392,2475,421"/>
+<area shape="rect" id="node29" href="$reorderablepage_8cpp.htm" title="reorderablepage.cpp" alt="" coords="755,392,907,421"/>
+<area shape="rect" id="node31" href="$overlaylayer_8cpp.htm" title="overlaylayer.cpp" alt="" coords="2499,392,2625,421"/>
+<area shape="rect" id="node33" href="$vcamera_8cpp.htm" title="vcamera.cpp" alt="" coords="1470,392,1571,421"/>
+<area shape="rect" id="node35" href="$groupanchoritem_8cpp.htm" title="groupanchoritem.cpp" alt="" coords="1595,392,1750,421"/>
+<area shape="rect" id="node46" href="$dimensionsmain_8h.htm" title="dimensionsmain.h" alt="" coords="651,315,785,344"/>
+<area shape="rect" id="node51" href="$OverlayWindowManager_8h.htm" title="OverlayWindowManager.h" alt="" coords="491,392,681,421"/>
+<area shape="rect" id="node67" href="$thing_8cpp.htm" title="thing.cpp" alt="" coords="390,392,467,421"/>
+<area shape="rect" id="node54" href="$SystemUiController_8cpp.htm" title="SystemUiController.cpp" alt="" coords="695,469,863,499"/>
+<area shape="rect" id="node57" href="$OverlayWindowManager_8cpp.htm" title="OverlayWindowManager.cpp" alt="" coords="274,469,477,499"/>
+<area shape="rect" id="node59" href="$WindowServerLuna_8cpp.htm" title="WindowServerLuna.cpp" alt="" coords="501,469,671,499"/>
+</map>

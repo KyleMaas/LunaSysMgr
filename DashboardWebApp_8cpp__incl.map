@@ -1,0 +1,22 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$Common_8h.htm" title="Common.h" alt="" coords="888,701,976,731"/>
+<area shape="rect" id="node5" href="$DashboardWebApp_8h.htm" title="DashboardWebApp.h" alt="" coords="639,83,793,112"/>
+<area shape="rect" id="node35" href="$WebAppManager_8h.htm" title="WebAppManager.h" alt="" coords="1144,315,1285,344"/>
+<area shape="rect" id="node123" href="$WebPage_8h.htm" title="WebPage.h" alt="" coords="2713,469,2807,499"/>
+<area shape="rect" id="node149" href="$IpcClientHost_8h.htm" title="IpcClientHost.h" alt="" coords="2259,469,2376,499"/>
+<area shape="rect" id="node8" href="$WindowedWebApp_8h.htm" title="WindowedWebApp.h" alt="" coords="640,160,792,189"/>
+<area shape="rect" id="node15" href="$AsyncCaller_8h.htm" title="AsyncCaller.h" alt="" coords="1683,624,1789,653"/>
+<area shape="rect" id="node20" href="$GraphicsDefs_8h.htm" title="GraphicsDefs.h" alt="" coords="93,315,211,344"/>
+<area shape="rect" id="node23" href="$WebAppBase_8h.htm" title="WebAppBase.h" alt="" coords="544,237,661,267"/>
+<area shape="rect" id="node52" href="$sptr_8h.htm" title="sptr.h" alt="" coords="1275,624,1331,653"/>
+<area shape="rect" id="node57" href="$Event_8h.htm" title="Event.h" alt="" coords="1103,547,1172,576"/>
+<area shape="rect" id="node82" href="$Timer_8h.htm" title="Timer.h" alt="" coords="1620,547,1689,576"/>
+<area shape="rect" id="node89" href="$Window_8h.htm" title="Window.h" alt="" coords="2055,547,2137,576"/>
+<area shape="rect" id="node30" href="$ProcessBase_8h.htm" title="ProcessBase.h" alt="" coords="2583,547,2697,576"/>
+<area shape="rect" id="node44" href="$SyncTask_8h.htm" title="SyncTask.h" alt="" coords="1008,392,1101,421"/>
+<area shape="rect" id="node71" href="$MemoryWatcher_8h.htm" title="MemoryWatcher.h" alt="" coords="1483,469,1619,499"/>
+<area shape="rect" id="node76" href="$SignalSlot_8h.htm" title="SignalSlot.h" alt="" coords="1399,547,1495,576"/>
+<area shape="rect" id="node99" href="$WebAppCache_8h.htm" title="WebAppCache.h" alt="" coords="447,469,572,499"/>
+<area shape="rect" id="node102" href="$HostBase_8h.htm" title="HostBase.h" alt="" coords="891,392,984,421"/>
+<area shape="rect" id="node47" href="$TaskBase_8h.htm" title="TaskBase.h" alt="" coords="1005,469,1101,499"/>
+</map>

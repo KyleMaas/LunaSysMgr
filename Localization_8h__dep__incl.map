@@ -1,0 +1,35 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$LaunchPoint_8cpp.htm" title="LaunchPoint.cpp" alt="" coords="5,83,131,112"/>
+<area shape="rect" id="node5" href="$BootupAnimation_8cpp.htm" title="BootupAnimation.cpp" alt="" coords="155,83,309,112"/>
+<area shape="rect" id="node7" href="$Localization_8cpp.htm" title="Localization.cpp" alt="" coords="333,83,456,112"/>
+<area shape="rect" id="node9" href="$ProgressAnimation_8cpp.htm" title="ProgressAnimation.cpp" alt="" coords="480,83,645,112"/>
+<area shape="rect" id="node11" href="$DeviceInfo_8cpp.htm" title="DeviceInfo.cpp" alt="" coords="669,83,784,112"/>
+<area shape="rect" id="node13" href="$Preferences_8cpp.htm" title="Preferences.cpp" alt="" coords="808,83,933,112"/>
+<area shape="rect" id="node15" href="$SystemUiController_8cpp.htm" title="SystemUiController.cpp" alt="" coords="957,83,1125,112"/>
+<area shape="rect" id="node17" href="$WindowServer_8cpp.htm" title="WindowServer.cpp" alt="" coords="1149,83,1288,112"/>
+<area shape="rect" id="node19" href="$PhoneKeymap_8cpp.htm" title="PhoneKeymap.cpp" alt="" coords="1312,83,1451,112"/>
+<area shape="rect" id="node21" href="$PreKeymap_8cpp.htm" title="PreKeymap.cpp" alt="" coords="1475,83,1595,112"/>
+<area shape="rect" id="node23" href="$TabletKeymap_8cpp.htm" title="TabletKeymap.cpp" alt="" coords="1619,83,1757,112"/>
+<area shape="rect" id="node25" href="$JsSysObject_8cpp.htm" title="JsSysObject.cpp" alt="" coords="1781,83,1907,112"/>
+<area shape="rect" id="node27" href="$DockModeAppMenuContainer_8cpp.htm" title="DockModeAppMenuContainer.cpp" alt="" coords="1931,83,2168,112"/>
+<area shape="rect" id="node29" href="$DockModeClock_8cpp.htm" title="DockModeClock.cpp" alt="" coords="2192,83,2341,112"/>
+<area shape="rect" id="node31" href="$DockModeMenuManager_8cpp.htm" title="DockModeMenuManager.cpp" alt="" coords="2365,83,2573,112"/>
+<area shape="rect" id="node33" href="$DockModeWindowManager_8cpp.htm" title="DockModeWindowManager.cpp" alt="" coords="2597,83,2819,112"/>
+<area shape="rect" id="node35" href="$FullEraseConfirmationWindow_8cpp.htm" title="FullEraseConfirmationWindow.cpp" alt="" coords="2843,83,3077,112"/>
+<area shape="rect" id="node37" href="$dimensionslauncher_8cpp.htm" title="dimensionslauncher.cpp" alt="" coords="3101,83,3275,112"/>
+<area shape="rect" id="node39" href="$pagetab_8cpp.htm" title="pagetab.cpp" alt="" coords="3299,83,3397,112"/>
+<area shape="rect" id="node41" href="$iconlayoutsettings_8cpp.htm" title="iconlayoutsettings.cpp" alt="" coords="3421,83,3581,112"/>
+<area shape="rect" id="node43" href="$page_8cpp.htm" title="page.cpp" alt="" coords="3605,83,3685,112"/>
+<area shape="rect" id="node45" href="$reorderablepage_8cpp.htm" title="reorderablepage.cpp" alt="" coords="3709,83,3861,112"/>
+<area shape="rect" id="node47" href="$OverlayWindowManager__p_8h.htm" title="OverlayWindowManager_p.h" alt="" coords="3885,83,4091,112"/>
+<area shape="rect" id="node49" href="$OverlayWindowManager_8cpp.htm" title="OverlayWindowManager.cpp" alt="" coords="3956,160,4159,189"/>
+<area shape="rect" id="node52" href="$ClockWindow_8cpp.htm" title="ClockWindow.cpp" alt="" coords="4165,83,4299,112"/>
+<area shape="rect" id="node54" href="$LockWindow_8cpp.htm" title="LockWindow.cpp" alt="" coords="4323,83,4451,112"/>
+<area shape="rect" id="node56" href="$StatusBarClock_8cpp.htm" title="StatusBarClock.cpp" alt="" coords="4475,83,4619,112"/>
+<area shape="rect" id="node58" href="$StatusBarServicesConnector_8cpp.htm" title="StatusBarServicesConnector.cpp" alt="" coords="4643,83,4872,112"/>
+<area shape="rect" id="node60" href="$StatusBarVersion_8cpp.htm" title="StatusBarVersion.cpp" alt="" coords="4896,83,5053,112"/>
+<area shape="rect" id="node62" href="$SystemMenu_8cpp.htm" title="SystemMenu.cpp" alt="" coords="5077,83,5205,112"/>
+<area shape="rect" id="node64" href="$WindowServerLuna_8cpp.htm" title="WindowServerLuna.cpp" alt="" coords="5229,83,5400,112"/>
+<area shape="rect" id="node66" href="$Main_8cpp.htm" title="Main.cpp" alt="" coords="5424,83,5501,112"/>
+<area shape="rect" id="node68" href="$WebAppManager_8cpp.htm" title="WebAppManager.cpp" alt="" coords="5525,83,5683,112"/>
+</map>

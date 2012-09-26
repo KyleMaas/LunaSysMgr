@@ -1,0 +1,7 @@
+<map id="G" name="G">
+<area shape="rect" id="node2" href="$classEvent.htm" title="Event" alt="" coords="92,85,151,115"/>
+<area shape="rect" id="node4" href="$classSysMgrEvent.htm" title="SysMgrEvent" alt="" coords="5,5,112,35"/>
+<area shape="rect" id="node6" href="$classRefCounted.htm" title="RefCounted" alt="" coords="136,5,232,35"/>
+<area shape="rect" id="node8" href="$classsptr.htm" title="sptr\&lt; Event \&gt;" alt="" coords="175,85,281,115"/>
+<area shape="rect" id="node10" href="$classint.htm" title="int" alt="" coords="305,85,343,115"/>
+</map>

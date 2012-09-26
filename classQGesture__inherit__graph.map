@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classBezelGesture.htm" title="BezelGesture" alt="" coords="5,83,112,112"/>
+<area shape="rect" id="node5" href="$classFlickGesture.htm" title="FlickGesture" alt="" coords="136,83,235,112"/>
+<area shape="rect" id="node7" href="$classSingleClickGesture.htm" title="SingleClickGesture" alt="" coords="259,83,400,112"/>
+</map>

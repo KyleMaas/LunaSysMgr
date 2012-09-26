@@ -1,0 +1,16 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$CardWebApp_8cpp.htm" title="CardWebApp.cpp" alt="" coords="7,83,137,112"/>
+<area shape="rect" id="node5" href="$DockWebApp_8cpp.htm" title="DockWebApp.cpp" alt="" coords="161,83,295,112"/>
+<area shape="rect" id="node7" href="$RemoteWindowData_8cpp.htm" title="RemoteWindowData.cpp" alt="" coords="5,160,181,189"/>
+<area shape="rect" id="node9" href="$RemoteWindowDataSoftware_8h.htm" title="RemoteWindowDataSoftware.h" alt="" coords="369,83,588,112"/>
+<area shape="rect" id="node22" href="$RemoteWindowDataOpenGL_8h.htm" title="RemoteWindowDataOpenGL.h" alt="" coords="612,83,828,112"/>
+<area shape="rect" id="node26" href="$RemoteWindowDataOpenGLTextureShared_8h.htm" title="RemoteWindowDataOpenGLTextureShared.h" alt="" coords="852,83,1161,112"/>
+<area shape="rect" id="node30" href="$WindowedWebApp_8cpp.htm" title="WindowedWebApp.cpp" alt="" coords="1185,83,1351,112"/>
+<area shape="rect" id="node12" href="$RemoteWindowDataSoftware_8cpp.htm" title="RemoteWindowDataSoftware.cpp" alt="" coords="205,160,437,189"/>
+<area shape="rect" id="node14" href="$RemoteWindowDataSoftwareOpenGLComposited_8h.htm" title="RemoteWindowDataSoftwareOpenGLComposited.h" alt="" coords="461,160,808,189"/>
+<area shape="rect" id="node16" href="$RemoteWindowDataSoftwareOpenGLComposited_8cpp.htm" title="RemoteWindowDataSoftwareOpenGLComposited.cpp" alt="" coords="272,237,635,267"/>
+<area shape="rect" id="node18" href="$RemoteWindowDataSoftwareTextureShared_8h.htm" title="RemoteWindowDataSoftwareTextureShared.h" alt="" coords="659,237,971,267"/>
+<area shape="rect" id="node20" href="$RemoteWindowDataSoftwareTextureShared_8cpp.htm" title="RemoteWindowDataSoftwareTextureShared.cpp" alt="" coords="652,315,977,344"/>
+<area shape="rect" id="node24" href="$RemoteWindowDataOpenGL_8cpp.htm" title="RemoteWindowDataOpenGL.cpp" alt="" coords="832,160,1061,189"/>
+<area shape="rect" id="node28" href="$RemoteWindowDataOpenGLTextureShared_8cpp.htm" title="RemoteWindowDataOpenGLTextureShared.cpp" alt="" coords="1085,160,1411,189"/>
+</map>

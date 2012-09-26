@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node7" href="$classProcessManager.htm" title="ProcessManager" alt="" coords="5,237,136,267"/>
+<area shape="rect" id="node9" href="$classWebAppManager.htm" title="WebAppManager" alt="" coords="160,237,291,267"/>
+<area shape="rect" id="node2" href="$classTaskBase.htm" title="TaskBase" alt="" coords="105,83,191,112"/>
+<area shape="rect" id="node4" href="$classRefCounted.htm" title="RefCounted" alt="" coords="100,5,196,35"/>
+</map>

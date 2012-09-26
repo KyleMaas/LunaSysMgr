@@ -1,0 +1,18 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$DockModeAppMenuContainer_8cpp.htm" title="DockModeAppMenuContainer.cpp" alt="" coords="5,160,243,189"/>
+<area shape="rect" id="node5" href="$DockModeLaunchPoint_8h.htm" title="DockModeLaunchPoint.h" alt="" coords="465,83,644,112"/>
+<area shape="rect" id="node8" href="$DockModeLaunchPoint_8cpp.htm" title="DockModeLaunchPoint.cpp" alt="" coords="549,160,744,189"/>
+<area shape="rect" id="node10" href="$DockModeMenuManager_8cpp.htm" title="DockModeMenuManager.cpp" alt="" coords="267,160,475,189"/>
+<area shape="rect" id="node12" href="$DockModeWindow_8cpp.htm" title="DockModeWindow.cpp" alt="" coords="768,160,933,189"/>
+<area shape="rect" id="node14" href="$DockModeWindowManager_8cpp.htm" title="DockModeWindowManager.cpp" alt="" coords="860,237,1081,267"/>
+<area shape="rect" id="node16" href="$DockModeWindow_8h.htm" title="DockModeWindow.h" alt="" coords="944,83,1093,112"/>
+<area shape="rect" id="node30" href="$DockModePositionManager_8cpp.htm" title="DockModePositionManager.cpp" alt="" coords="1117,83,1339,112"/>
+<area shape="rect" id="node34" href="$LockWindow_8cpp.htm" title="LockWindow.cpp" alt="" coords="1363,83,1491,112"/>
+<area shape="rect" id="node36" href="$DashboardWindowContainer_8cpp.htm" title="DashboardWindowContainer.cpp" alt="" coords="1515,83,1744,112"/>
+<area shape="rect" id="node38" href="$DashboardWindowManager_8cpp.htm" title="DashboardWindowManager.cpp" alt="" coords="1768,83,1992,112"/>
+<area shape="rect" id="node40" href="$StatusBar_8cpp.htm" title="StatusBar.cpp" alt="" coords="2016,83,2125,112"/>
+<area shape="rect" id="node42" href="$WindowServerLuna_8cpp.htm" title="WindowServerLuna.cpp" alt="" coords="2149,83,2320,112"/>
+<area shape="rect" id="node18" href="$DockModeClock_8h.htm" title="DockModeClock.h" alt="" coords="1059,160,1195,189"/>
+<area shape="rect" id="node26" href="$WebAppMgrProxy_8cpp.htm" title="WebAppMgrProxy.cpp" alt="" coords="1219,160,1381,189"/>
+<area shape="rect" id="node20" href="$DockModeClock_8cpp.htm" title="DockModeClock.cpp" alt="" coords="1105,237,1255,267"/>
+</map>

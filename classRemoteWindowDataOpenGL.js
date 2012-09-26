@@ -1,0 +1,25 @@
+var classRemoteWindowDataOpenGL =
+[
+    [ "RemoteWindowDataOpenGL", "classRemoteWindowDataOpenGL.htm#a34d780df8ccef37f7cf61820986c6973", null ],
+    [ "~RemoteWindowDataOpenGL", "classRemoteWindowDataOpenGL.htm#a3625c72e9f8609c8791d134f1e08a35c", null ],
+    [ "beginPaint", "classRemoteWindowDataOpenGL.htm#a1c68c51a007e771d55a3dfa81a76f440", null ],
+    [ "cleanupSceneTransition", "classRemoteWindowDataOpenGL.htm#ae5c560431163faebe7e9b4ba8e5f3e35", null ],
+    [ "crossAppSceneActive", "classRemoteWindowDataOpenGL.htm#aa004fba82caa12931d1325c79a386f75", null ],
+    [ "directRenderingAllowed", "classRemoteWindowDataOpenGL.htm#a55125f359c5d8042f696fe52bebd4bda", null ],
+    [ "endPaint", "classRemoteWindowDataOpenGL.htm#a68d536aa75bfc802b24dcab0ddebb98c", null ],
+    [ "flip", "classRemoteWindowDataOpenGL.htm#ac065dafa0af03ec184ed3291b65901e9", null ],
+    [ "hasAlpha", "classRemoteWindowDataOpenGL.htm#a465462055ca48c0a6d61c9fd80a1b655", null ],
+    [ "hasDirectRendering", "classRemoteWindowDataOpenGL.htm#a459cd72ded67f606a7426b6317d10e0e", null ],
+    [ "height", "classRemoteWindowDataOpenGL.htm#ac753385baf6b66200ecb89152eb19fd7", null ],
+    [ "key", "classRemoteWindowDataOpenGL.htm#ab35fd8706abfbc5cbb6e65972f2fc4da", null ],
+    [ "needsClear", "classRemoteWindowDataOpenGL.htm#a44a4f2b0891849b70a7d69b755fd72a4", null ],
+    [ "prepareCrossAppSceneTransition", "classRemoteWindowDataOpenGL.htm#ad5908e971d5d3f9e3dc8adb9f2d0fae6", null ],
+    [ "prepareSceneTransition", "classRemoteWindowDataOpenGL.htm#ad5a1f6b3f777a948114868a04b657739", null ],
+    [ "renderingContext", "classRemoteWindowDataOpenGL.htm#ae7626db65a26982e8aa9b14106cba363", null ],
+    [ "resize", "classRemoteWindowDataOpenGL.htm#a164501475a3fb7d169d0c2d266b759ff", null ],
+    [ "runSceneTransition", "classRemoteWindowDataOpenGL.htm#a42c5ae80d6ff3364817a92464d546cc0", null ],
+    [ "sendWindowUpdate", "classRemoteWindowDataOpenGL.htm#a0969d4390cbdadeabd0951a378d630ef", null ],
+    [ "setWindowMetaDataBuffer", "classRemoteWindowDataOpenGL.htm#a7db812701b2f7dddf3f26b0f71f8d13f", null ],
+    [ "supportsPartialUpdates", "classRemoteWindowDataOpenGL.htm#a36f2d4ad0e31e268ef8e86491c164541", null ],
+    [ "width", "classRemoteWindowDataOpenGL.htm#a4072e064989a5911e0340491de1afc0a", null ]
+];

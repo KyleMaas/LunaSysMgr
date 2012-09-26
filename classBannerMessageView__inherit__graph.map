@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classBannerAlerts.htm" title="BannerAlerts" alt="" coords="5,83,109,112"/>
+<area shape="rect" id="node5" href="$classBannerWindow.htm" title="BannerWindow" alt="" coords="133,83,251,112"/>
+<area shape="rect" id="node7" href="$classStatusBarNotificationArea.htm" title="StatusBarNotificationArea" alt="" coords="275,83,456,112"/>
+</map>

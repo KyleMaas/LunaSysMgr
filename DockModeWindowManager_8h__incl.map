@@ -1,0 +1,13 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$Common_8h.htm" title="Common.h" alt="" coords="708,392,796,421"/>
+<area shape="rect" id="node7" href="$GraphicsDefs_8h.htm" title="GraphicsDefs.h" alt="" coords="227,83,344,112"/>
+<area shape="rect" id="node16" href="$WindowManagerBase_8h.htm" title="WindowManagerBase.h" alt="" coords="619,83,789,112"/>
+<area shape="rect" id="node30" href="$PtrArray_8h.htm" title="PtrArray.h" alt="" coords="1101,315,1187,344"/>
+<area shape="rect" id="node35" href="$VariantAnimation_8h.htm" title="VariantAnimation.h" alt="" coords="792,315,931,344"/>
+<area shape="rect" id="node40" href="$CustomEvents_8h.htm" title="CustomEvents.h" alt="" coords="955,315,1077,344"/>
+<area shape="rect" id="node45" href="$SystemMenu_8h.htm" title="SystemMenu.h" alt="" coords="1323,83,1437,112"/>
+<area shape="rect" id="node23" href="$UiNavigationController_8h.htm" title="UiNavigationController.h" alt="" coords="741,160,915,189"/>
+<area shape="rect" id="node53" href="$StatusBarServicesConnector_8h.htm" title="StatusBarServicesConnector.h" alt="" coords="1165,160,1379,189"/>
+<area shape="rect" id="node59" href="$StatusBar_8h.htm" title="StatusBar.h" alt="" coords="1251,237,1344,267"/>
+<area shape="rect" id="node61" href="$Window_8h.htm" title="Window.h" alt="" coords="1256,315,1339,344"/>
+</map>

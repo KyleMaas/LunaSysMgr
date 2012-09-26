@@ -1,0 +1,25 @@
+var classPixmapJUPOCRefObject =
+[
+    [ "~PixmapJUPOCRefObject", "classPixmapJUPOCRefObject.htm#ad54d9e799b0dbd51e4837e68299be205", null ],
+    [ "PixmapJUPOCRefObject", "classPixmapJUPOCRefObject.htm#acada8db85a4ca52b1b15cc934c8995d5", null ],
+    [ "fill", "classPixmapJUPOCRefObject.htm#a2e0e31a9bb2fd089b6168e4f303f67fc", null ],
+    [ "height", "classPixmapJUPOCRefObject.htm#a880e33d5c6544dec80f6d4670e8a09f5", null ],
+    [ "isSquare", "classPixmapJUPOCRefObject.htm#aadec43cbf53ea4e6e3e88b703f321f02", null ],
+    [ "nativeHeight", "classPixmapJUPOCRefObject.htm#aed5694a96d81ccfc2dc394837f064891", null ],
+    [ "nativeSize", "classPixmapJUPOCRefObject.htm#af1a1f0eb6bceae89ad8158dfe5c5fc64", null ],
+    [ "nativeSizeF", "classPixmapJUPOCRefObject.htm#aecbdc985e7f29a4a6fa2d580dae2e7e5", null ],
+    [ "nativeWidth", "classPixmapJUPOCRefObject.htm#a15f16335075417c81ed3183f1957b66b", null ],
+    [ "paint", "classPixmapJUPOCRefObject.htm#aecc306f5431e9a6d9440e9b7a2a51b8a", null ],
+    [ "paint", "classPixmapJUPOCRefObject.htm#ae9bad6b44f5e573f132c71a2ba4fb233", null ],
+    [ "paint", "classPixmapJUPOCRefObject.htm#afc5600766f1b56118cee79fdff7a55d3", null ],
+    [ "paint", "classPixmapJUPOCRefObject.htm#a9a455dff208db3cf467616c3505c2300", null ],
+    [ "size", "classPixmapJUPOCRefObject.htm#aaed6071909223bc5502f414c1870f3fd", null ],
+    [ "sizeF", "classPixmapJUPOCRefObject.htm#aa873fc5aa6776d0599873e96ecadbd65", null ],
+    [ "sizeOf", "classPixmapJUPOCRefObject.htm#a2ee0c6a7a204f9208ce143da453379ae", null ],
+    [ "valid", "classPixmapJUPOCRefObject.htm#af53aff6b6cdca1bd98c53bcba37e3187", null ],
+    [ "width", "classPixmapJUPOCRefObject.htm#a3d3f23ca32be1419e829e702e9643819", null ],
+    [ "PixmapJUPOCObject", "classPixmapJUPOCRefObject.htm#a4fb4d04774fb3dab8f5f4c827458c54c", null ],
+    [ "m_jupocSrcRect", "classPixmapJUPOCRefObject.htm#a101aba0143be1175d438d4a98ba8793a", null ],
+    [ "m_qp_refJupocPmo", "classPixmapJUPOCRefObject.htm#a6bab699e3faa8a4ff64f8e632ae18b7a", null ],
+    [ "m_refJupocPmoUid", "classPixmapJUPOCRefObject.htm#a37de12f9b9f032d76a13eb35c018e35a", null ]
+];

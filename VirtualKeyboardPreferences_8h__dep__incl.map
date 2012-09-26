@@ -1,0 +1,11 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$Preferences_8cpp.htm" title="Preferences.cpp" alt="" coords="5,83,131,112"/>
+<area shape="rect" id="node5" href="$SystemService_8cpp.htm" title="SystemService.cpp" alt="" coords="155,83,296,112"/>
+<area shape="rect" id="node7" href="$PhoneKeyboard_8cpp.htm" title="PhoneKeyboard.cpp" alt="" coords="320,83,469,112"/>
+<area shape="rect" id="node9" href="$PhoneKeymap_8cpp.htm" title="PhoneKeymap.cpp" alt="" coords="493,83,632,112"/>
+<area shape="rect" id="node11" href="$PreKeymap_8cpp.htm" title="PreKeymap.cpp" alt="" coords="656,83,776,112"/>
+<area shape="rect" id="node13" href="$ShortcutsHandler_8cpp.htm" title="ShortcutsHandler.cpp" alt="" coords="800,83,957,112"/>
+<area shape="rect" id="node15" href="$TabletKeyboard_8cpp.htm" title="TabletKeyboard.cpp" alt="" coords="981,83,1128,112"/>
+<area shape="rect" id="node17" href="$TabletKeymap_8cpp.htm" title="TabletKeymap.cpp" alt="" coords="1152,83,1291,112"/>
+<area shape="rect" id="node19" href="$VirtualKeyboardPreferences_8cpp.htm" title="VirtualKeyboardPreferences.cpp" alt="" coords="1315,83,1539,112"/>
+</map>

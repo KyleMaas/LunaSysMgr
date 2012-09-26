@@ -1,0 +1,23 @@
+var searchData=
+[
+  ['background',['BACKGROUND',['../EmulatedCardWindow_8cpp.htm#a850b2f07a67b73890889e63fb8a49fda',1,'EmulatedCardWindow.cpp']]],
+  ['bar_5fbright_5fopacity',['BAR_BRIGHT_OPACITY',['../VirtualCoreNavi_8cpp.htm#aa93b9cad94a53ec32f3973649ecae02c',1,'VirtualCoreNavi.cpp']]],
+  ['bar_5fglow_5fanim_5fduration',['BAR_GLOW_ANIM_DURATION',['../VirtualCoreNavi_8cpp.htm#a322596f83bbb6921d4c2d57ac354b35a',1,'VirtualCoreNavi.cpp']]],
+  ['battery_5fimage_5fwidth_5fpadding',['BATTERY_IMAGE_WIDTH_PADDING',['../StatusBarBattery_8cpp.htm#a02f2e73defd686eb6fbd8092207b5185',1,'StatusBarBattery.cpp']]],
+  ['bkgd_5fleft_5fwidth',['BKGD_LEFT_WIDTH',['../StatusBarTitle_8cpp.htm#a888c4e6e319c824b850b633e8b16b8e4',1,'StatusBarTitle.cpp']]],
+  ['bkgd_5fright_5fwidth',['BKGD_RIGHT_WIDTH',['../StatusBarTitle_8cpp.htm#a0ab3364349fb05c4cf9ed52930cf1ab3',1,'StatusBarTitle.cpp']]],
+  ['blueoverblack',['BLUEOVERBLACK',['../Logging_8cpp.htm#a65f2e9f03455c0d255ad37bda24c9a7d',1,'Logging.cpp']]],
+  ['bluetooth_5fprefs_5fapp_5fid',['BLUETOOTH_PREFS_APP_ID',['../SystemMenu_8cpp.htm#a00ca1fb3269cd5f180b91ce44d7f3e72',1,'SystemMenu.cpp']]],
+  ['boldcolor',['BOLDCOLOR',['../Logging_8cpp.htm#a13fb6570e90e97de54e6f89dce4139c0',1,'Logging.cpp']]],
+  ['boost_5fno_5frtti',['BOOST_NO_RTTI',['../SoundPlayer_8h.htm#ad5806f9ad0d62bb56ccf649ea83f058f',1,'SoundPlayer.h']]],
+  ['boost_5fno_5ftypeid',['BOOST_NO_TYPEID',['../SoundPlayer_8h.htm#aa46228b85589b73622426a0e48130966',1,'SoundPlayer.h']]],
+  ['boot_5fanim_5fmessage_5fend_5fanimation',['BOOT_ANIM_MESSAGE_END_ANIMATION',['../BootupAnimation_8h.htm#a51c5fd9cc43a91f80f96376c73dc6480',1,'BootupAnimation.h']]],
+  ['boot_5fanim_5fmessage_5fend_5fprogress',['BOOT_ANIM_MESSAGE_END_PROGRESS',['../BootupAnimation_8h.htm#ac014c8e59cf88846ce6710bf32845f1c',1,'BootupAnimation.h']]],
+  ['boot_5fanim_5fmessage_5flenght',['BOOT_ANIM_MESSAGE_LENGHT',['../BootupAnimation_8h.htm#ad40011266ca43a7b41288ed0c88eb498',1,'BootupAnimation.h']]],
+  ['boot_5fanim_5fmessage_5fprogress_5fupdate',['BOOT_ANIM_MESSAGE_PROGRESS_UPDATE',['../BootupAnimation_8h.htm#a47698467966be5265dd2c4e5f6887353',1,'BootupAnimation.h']]],
+  ['boot_5fanim_5fmessage_5fstart_5fprogress',['BOOT_ANIM_MESSAGE_START_PROGRESS',['../BootupAnimation_8h.htm#a8b8016685fc5b759ff4471e3f438680d',1,'BootupAnimation.h']]],
+  ['border_5ftitle_5fleft_5fpadding',['BORDER_TITLE_LEFT_PADDING',['../StatusBarTitle_8cpp.htm#ab3fdea7843c276a19ce51263df65b17c',1,'StatusBarTitle.cpp']]],
+  ['bottom_5fleft_5fcorner',['BOTTOM_LEFT_CORNER',['../DockModeWindowManager_8cpp.htm#a4d333093278eccdfded1be7afcce23a1',1,'BOTTOM_LEFT_CORNER():&#160;DockModeWindowManager.cpp'],['../LockWindow_8cpp.htm#a4d333093278eccdfded1be7afcce23a1',1,'BOTTOM_LEFT_CORNER():&#160;LockWindow.cpp']]],
+  ['bottom_5fright_5fcorner',['BOTTOM_RIGHT_CORNER',['../DockModeWindowManager_8cpp.htm#aba066fed58b0eef6c274b61c571c501a',1,'BOTTOM_RIGHT_CORNER():&#160;DockModeWindowManager.cpp'],['../LockWindow_8cpp.htm#aba066fed58b0eef6c274b61c571c501a',1,'BOTTOM_RIGHT_CORNER():&#160;LockWindow.cpp']]],
+  ['bottom_5frow',['BOTTOM_ROW',['../PreKeymap_8cpp.htm#a7b55e87550874687b3e25a64e1cfda9d',1,'PreKeymap.cpp']]]
+];

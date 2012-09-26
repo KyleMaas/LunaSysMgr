@@ -1,0 +1,35 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$Common_8h.htm" title="Common.h" alt="" coords="1876,392,1964,421"/>
+<area shape="rect" id="node5" href="$CardWindow_8h.htm" title="CardWindow.h" alt="" coords="1404,160,1519,189"/>
+<area shape="rect" id="node8" href="$Settings_8h.htm" title="Settings.h" alt="" coords="2056,237,2139,267"/>
+<area shape="rect" id="node25" href="$SystemUiController_8h.htm" title="SystemUiController.h" alt="" coords="1629,237,1784,267"/>
+<area shape="rect" id="node28" href="$ApplicationDescription_8h.htm" title="ApplicationDescription.h" alt="" coords="1643,315,1816,344"/>
+<area shape="rect" id="node47" href="$AppDirectRenderingArbitrator_8h.htm" title="AppDirectRenderingArbitrator.h" alt="" coords="3424,83,3643,112"/>
+<area shape="rect" id="node49" href="$AlertWindow_8h.htm" title="AlertWindow.h" alt="" coords="267,160,379,189"/>
+<area shape="rect" id="node53" href="$AnimationSettings_8h.htm" title="AnimationSettings.h" alt="" coords="2035,315,2181,344"/>
+<area shape="rect" id="node56" href="$CardTransition_8h.htm" title="CardTransition.h" alt="" coords="2693,160,2819,189"/>
+<area shape="rect" id="node60" href="$EventThrottler_8h.htm" title="EventThrottler.h" alt="" coords="1859,237,1981,267"/>
+<area shape="rect" id="node64" href="$FlickGesture_8h.htm" title="FlickGesture.h" alt="" coords="2339,83,2448,112"/>
+<area shape="rect" id="node69" href="$IMEController_8h.htm" title="IMEController.h" alt="" coords="3667,83,3787,112"/>
+<area shape="rect" id="node71" href="$Logging_8h.htm" title="Logging.h" alt="" coords="2851,315,2933,344"/>
+<area shape="rect" id="node74" href="$MenuWindowManager_8h.htm" title="MenuWindowManager.h" alt="" coords="2472,83,2645,112"/>
+<area shape="rect" id="node77" href="$WindowManagerBase_8h.htm" title="WindowManagerBase.h" alt="" coords="2499,160,2669,189"/>
+<area shape="rect" id="node83" href="$SharedGlobalProperties_8h.htm" title="SharedGlobalProperties.h" alt="" coords="3811,83,3995,112"/>
+<area shape="rect" id="node86" href="$WebAppMgrProxy_8h.htm" title="WebAppMgrProxy.h" alt="" coords="21,237,168,267"/>
+<area shape="rect" id="node89" href="$IpcClientHost_8h.htm" title="IpcClientHost.h" alt="" coords="36,315,153,344"/>
+<area shape="rect" id="node93" href="$WindowServer_8h.htm" title="WindowServer.h" alt="" coords="532,160,657,189"/>
+<area shape="rect" id="node96" href="$DisplayManager_8h.htm" title="DisplayManager.h" alt="" coords="555,237,691,267"/>
+<area shape="rect" id="node103" href="$WindowServerLuna_8h.htm" title="WindowServerLuna.h" alt="" coords="485,83,640,112"/>
+<area shape="rect" id="node110" href="$Time_8h.htm" title="Time.h" alt="" coords="3032,160,3096,189"/>
+<area shape="rect" id="node113" href="$CardLoading_8h.htm" title="CardLoading.h" alt="" coords="2843,160,2957,189"/>
+<area shape="rect" id="node118" href="$CardDropShadowEffect_8h.htm" title="CardDropShadowEffect.h" alt="" coords="3008,315,3189,344"/>
+<area shape="rect" id="node121" href="$CardGroup_8h.htm" title="CardGroup.h" alt="" coords="1411,83,1512,112"/>
+<area shape="rect" id="node126" href="$HostBase_8h.htm" title="HostBase.h" alt="" coords="3171,160,3264,189"/>
+<area shape="rect" id="node129" href="$WindowMetaData_8h.htm" title="WindowMetaData.h" alt="" coords="4019,83,4163,112"/>
+<area shape="rect" id="node131" href="$GhostCard_8h.htm" title="GhostCard.h" alt="" coords="1632,83,1733,112"/>
+<area shape="rect" id="node135" href="$QtUtils_8h.htm" title="QtUtils.h" alt="" coords="3264,315,3339,344"/>
+<area shape="rect" id="node149" href="$SingleClickGesture_8h.htm" title="SingleClickGesture.h" alt="" coords="2112,83,2264,112"/>
+<area shape="rect" id="node11" href="$Event_8h.htm" title="Event.h" alt="" coords="1465,315,1535,344"/>
+<area shape="rect" id="node14" href="$HostWindow_8h.htm" title="HostWindow.h" alt="" coords="293,237,405,267"/>
+<area shape="rect" id="node20" href="$Timer_8h.htm" title="Timer.h" alt="" coords="752,315,821,344"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" id="node2" href="$classWebPageClient.htm" title="WebPageClient" alt="" coords="5,85,123,115"/>
+<area shape="rect" id="node6" href="$classApplicationDescription.htm" title="ApplicationDescription" alt="" coords="312,85,475,115"/>
+<area shape="rect" id="node8" href="$classWebPage.htm" title="WebPage" alt="" coords="499,85,581,115"/>
+<area shape="rect" id="node10" href="$classPalm_1_1WebViewClient.htm" title="Palm::WebViewClient" alt="" coords="287,5,439,35"/>
+<area shape="rect" id="node12" href="$classPalm_1_1WebPageClient.htm" title="Palm::WebPageClient" alt="" coords="463,5,617,35"/>
+<area shape="rect" id="node14" href="$classProcessBase.htm" title="ProcessBase" alt="" coords="641,5,745,35"/>
+</map>

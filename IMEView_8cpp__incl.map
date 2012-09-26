@@ -1,0 +1,22 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$IMEView_8h.htm" title="IMEView.h" alt="" coords="1848,83,1936,112"/>
+<area shape="rect" id="node17" href="$HostBase_8h.htm" title="HostBase.h" alt="" coords="737,83,831,112"/>
+<area shape="rect" id="node50" href="$IMEController_8h.htm" title="IMEController.h" alt="" coords="5,160,125,189"/>
+<area shape="rect" id="node55" href="$WindowServer_8h.htm" title="WindowServer.h" alt="" coords="2261,83,2387,112"/>
+<area shape="rect" id="node119" href="$SingleClickGesture_8h.htm" title="SingleClickGesture.h" alt="" coords="3369,83,3521,112"/>
+<area shape="rect" id="node132" href="$FlickGesture_8h.htm" title="FlickGesture.h" alt="" coords="3568,83,3677,112"/>
+<area shape="rect" id="node7" href="$IMEDataInterface_8h.htm" title="IMEDataInterface.h" alt="" coords="971,160,1115,189"/>
+<area shape="rect" id="node9" href="$IMEData_8h.htm" title="IMEData.h" alt="" coords="999,237,1087,267"/>
+<area shape="rect" id="node19" href="$Common_8h.htm" title="Common.h" alt="" coords="2132,315,2220,344"/>
+<area shape="rect" id="node27" href="$TaskBase_8h.htm" title="TaskBase.h" alt="" coords="1189,160,1285,189"/>
+<area shape="rect" id="node34" href="$Mutex_8h.htm" title="Mutex.h" alt="" coords="1240,237,1309,267"/>
+<area shape="rect" id="node39" href="$CustomEvents_8h.htm" title="CustomEvents.h" alt="" coords="1571,160,1693,189"/>
+<area shape="rect" id="node42" href="$InputControl_8h.htm" title="InputControl.h" alt="" coords="648,160,757,189"/>
+<area shape="rect" id="node61" href="$DisplayManager_8h.htm" title="DisplayManager.h" alt="" coords="1360,160,1496,189"/>
+<area shape="rect" id="node66" href="$InputManager_8h.htm" title="InputManager.h" alt="" coords="2141,160,2261,189"/>
+<area shape="rect" id="node72" href="$VariantAnimation_8h.htm" title="VariantAnimation.h" alt="" coords="2319,237,2457,267"/>
+<area shape="rect" id="node75" href="$HostWindow_8h.htm" title="HostWindow.h" alt="" coords="3248,237,3360,267"/>
+<area shape="rect" id="node79" href="$ProgressAnimation_8h.htm" title="ProgressAnimation.h" alt="" coords="3077,160,3229,189"/>
+<area shape="rect" id="node85" href="$TouchPlot_8h.htm" title="TouchPlot.h" alt="" coords="1869,160,1965,189"/>
+<area shape="rect" id="node127" href="$Settings_8h.htm" title="Settings.h" alt="" coords="3253,160,3336,189"/>
+</map>

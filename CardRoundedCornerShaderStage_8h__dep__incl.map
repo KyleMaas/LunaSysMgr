@@ -1,0 +1,32 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$CardWindow_8h.htm" title="CardWindow.h" alt="" coords="1625,83,1740,112"/>
+<area shape="rect" id="node30" href="$CardLoading_8cpp.htm" title="CardLoading.cpp" alt="" coords="3040,160,3171,189"/>
+<area shape="rect" id="node43" href="$EmulatedCardWindow_8h.htm" title="EmulatedCardWindow.h" alt="" coords="404,160,575,189"/>
+<area shape="rect" id="node5" href="$SystemService_8cpp.htm" title="SystemService.cpp" alt="" coords="2709,160,2851,189"/>
+<area shape="rect" id="node7" href="$SystemUiController_8cpp.htm" title="SystemUiController.cpp" alt="" coords="216,237,384,267"/>
+<area shape="rect" id="node9" href="$CardGroup_8h.htm" title="CardGroup.h" alt="" coords="1544,160,1645,189"/>
+<area shape="rect" id="node13" href="$CardWindow_8cpp.htm" title="CardWindow.cpp" alt="" coords="1355,237,1483,267"/>
+<area shape="rect" id="node15" href="$CardWindowManager_8cpp.htm" title="CardWindowManager.cpp" alt="" coords="1507,237,1693,267"/>
+<area shape="rect" id="node17" href="$CardWindowManagerStates_8cpp.htm" title="CardWindowManagerStates.cpp" alt="" coords="1859,237,2085,267"/>
+<area shape="rect" id="node19" href="$CardHostWindow_8h.htm" title="CardHostWindow.h" alt="" coords="2875,160,3016,189"/>
+<area shape="rect" id="node32" href="$CardTransition_8cpp.htm" title="CardTransition.cpp" alt="" coords="1720,160,1861,189"/>
+<area shape="rect" id="node35" href="$GhostCard_8h.htm" title="GhostCard.h" alt="" coords="1368,160,1469,189"/>
+<area shape="rect" id="node48" href="$WebAppMgrProxy_8cpp.htm" title="WebAppMgrProxy.cpp" alt="" coords="408,237,571,267"/>
+<area shape="rect" id="node50" href="$DockModeWindow_8h.htm" title="DockModeWindow.h" alt="" coords="908,160,1057,189"/>
+<area shape="rect" id="node64" href="$EmergencyWindowManager_8cpp.htm" title="EmergencyWindowManager.cpp" alt="" coords="1885,160,2112,189"/>
+<area shape="rect" id="node66" href="$LockWindow_8cpp.htm" title="LockWindow.cpp" alt="" coords="2136,160,2264,189"/>
+<area shape="rect" id="node68" href="$WindowServerLuna_8cpp.htm" title="WindowServerLuna.cpp" alt="" coords="2288,160,2459,189"/>
+<area shape="rect" id="node70" href="$WindowManagerMinimal_8cpp.htm" title="WindowManagerMinimal.cpp" alt="" coords="2483,160,2685,189"/>
+<area shape="rect" id="node11" href="$CardGroup_8cpp.htm" title="CardGroup.cpp" alt="" coords="1717,237,1835,267"/>
+<area shape="rect" id="node21" href="$CardHostWindow_8cpp.htm" title="CardHostWindow.cpp" alt="" coords="2701,237,2859,267"/>
+<area shape="rect" id="node23" href="$QtHostWindow_8h.htm" title="QtHostWindow.h" alt="" coords="2883,237,3008,267"/>
+<area shape="rect" id="node27" href="$IpcClientHost_8cpp.htm" title="IpcClientHost.cpp" alt="" coords="2980,315,3111,344"/>
+<area shape="rect" id="node25" href="$QtHostWindow_8cpp.htm" title="QtHostWindow.cpp" alt="" coords="2815,315,2956,344"/>
+<area shape="rect" id="node39" href="$GhostCard_8cpp.htm" title="GhostCard.cpp" alt="" coords="1213,237,1331,267"/>
+<area shape="rect" id="node46" href="$EmulatedCardWindow_8cpp.htm" title="EmulatedCardWindow.cpp" alt="" coords="5,237,192,267"/>
+<area shape="rect" id="node52" href="$DockModeClock_8h.htm" title="DockModeClock.h" alt="" coords="1003,237,1139,267"/>
+<area shape="rect" id="node56" href="$DockModeWindowManager_8cpp.htm" title="DockModeWindowManager.cpp" alt="" coords="1065,315,1287,344"/>
+<area shape="rect" id="node58" href="$DockModeLaunchPoint_8cpp.htm" title="DockModeLaunchPoint.cpp" alt="" coords="595,237,789,267"/>
+<area shape="rect" id="node60" href="$DockModeWindow_8cpp.htm" title="DockModeWindow.cpp" alt="" coords="813,237,979,267"/>
+<area shape="rect" id="node54" href="$DockModeClock_8cpp.htm" title="DockModeClock.cpp" alt="" coords="892,315,1041,344"/>
+</map>

@@ -1,0 +1,20 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$WSOverlayScreenShotAnimation_8h.htm" title="WSOverlayScreenShotAnimation.h" alt="" coords="3283,83,3523,112"/>
+<area shape="rect" id="node23" href="$AnimationSettings_8h.htm" title="AnimationSettings.h" alt="" coords="1264,160,1411,189"/>
+<area shape="rect" id="node37" href="$HostBase_8h.htm" title="HostBase.h" alt="" coords="724,83,817,112"/>
+<area shape="rect" id="node68" href="$Settings_8h.htm" title="Settings.h" alt="" coords="115,160,197,189"/>
+<area shape="rect" id="node79" href="$SystemService_8h.htm" title="SystemService.h" alt="" coords="2088,160,2213,189"/>
+<area shape="rect" id="node89" href="$WindowServer_8h.htm" title="WindowServer.h" alt="" coords="2457,83,2583,112"/>
+<area shape="rect" id="node5" href="$Common_8h.htm" title="Common.h" alt="" coords="1591,315,1679,344"/>
+<area shape="rect" id="node32" href="$AnimationEquations_8h.htm" title="AnimationEquations.h" alt="" coords="664,237,821,267"/>
+<area shape="rect" id="node46" href="$TaskBase_8h.htm" title="TaskBase.h" alt="" coords="272,160,368,189"/>
+<area shape="rect" id="node52" href="$Mutex_8h.htm" title="Mutex.h" alt="" coords="459,237,528,267"/>
+<area shape="rect" id="node57" href="$CustomEvents_8h.htm" title="CustomEvents.h" alt="" coords="1435,160,1557,189"/>
+<area shape="rect" id="node60" href="$InputControl_8h.htm" title="InputControl.h" alt="" coords="891,160,1000,189"/>
+<area shape="rect" id="node94" href="$DisplayManager_8h.htm" title="DisplayManager.h" alt="" coords="1928,160,2064,189"/>
+<area shape="rect" id="node100" href="$InputManager_8h.htm" title="InputManager.h" alt="" coords="1733,160,1853,189"/>
+<area shape="rect" id="node108" href="$VariantAnimation_8h.htm" title="VariantAnimation.h" alt="" coords="2423,237,2561,267"/>
+<area shape="rect" id="node111" href="$HostWindow_8h.htm" title="HostWindow.h" alt="" coords="1804,237,1916,267"/>
+<area shape="rect" id="node115" href="$ProgressAnimation_8h.htm" title="ProgressAnimation.h" alt="" coords="2885,160,3037,189"/>
+<area shape="rect" id="node123" href="$TouchPlot_8h.htm" title="TouchPlot.h" alt="" coords="3264,160,3360,189"/>
+</map>

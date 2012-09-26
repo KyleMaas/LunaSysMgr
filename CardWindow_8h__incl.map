@@ -1,0 +1,19 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$Common_8h.htm" title="Common.h" alt="" coords="2015,315,2103,344"/>
+<area shape="rect" id="node5" href="$Settings_8h.htm" title="Settings.h" alt="" coords="252,237,335,267"/>
+<area shape="rect" id="node18" href="$Event_8h.htm" title="Event.h" alt="" coords="1227,160,1296,189"/>
+<area shape="rect" id="node36" href="$HostWindow_8h.htm" title="HostWindow.h" alt="" coords="633,160,745,189"/>
+<area shape="rect" id="node64" href="$Timer_8h.htm" title="Timer.h" alt="" coords="1679,237,1748,267"/>
+<area shape="rect" id="node71" href="$SystemUiController_8h.htm" title="SystemUiController.h" alt="" coords="1717,83,1872,112"/>
+<area shape="rect" id="node134" href="$CardRoundedCornerShaderStage_8h.htm" title="CardRoundedCornerShaderStage.h" alt="" coords="2109,83,2357,112"/>
+<area shape="rect" id="node32" href="$sptr_8h.htm" title="sptr.h" alt="" coords="895,237,951,267"/>
+<area shape="rect" id="node39" href="$Window_8h.htm" title="Window.h" alt="" coords="1929,237,2012,267"/>
+<area shape="rect" id="node50" href="$HostWindowData_8h.htm" title="HostWindowData.h" alt="" coords="87,237,228,267"/>
+<area shape="rect" id="node57" href="$InputClient_8h.htm" title="InputClient.h" alt="" coords="671,237,769,267"/>
+<area shape="rect" id="node89" href="$ApplicationDescription_8h.htm" title="ApplicationDescription.h" alt="" coords="1431,237,1604,267"/>
+<area shape="rect" id="node96" href="$SuspendBlocker_8h.htm" title="SuspendBlocker.h" alt="" coords="1772,237,1905,267"/>
+<area shape="rect" id="node100" href="$VariantAnimation_8h.htm" title="VariantAnimation.h" alt="" coords="2240,237,2379,267"/>
+<area shape="rect" id="node104" href="$CustomEvents_8h.htm" title="CustomEvents.h" alt="" coords="2453,237,2576,267"/>
+<area shape="rect" id="node108" href="$StatusBar_8h.htm" title="StatusBar.h" alt="" coords="2483,160,2576,189"/>
+<area shape="rect" id="node116" href="$BezelGesture_8h.htm" title="BezelGesture.h" alt="" coords="1920,160,2037,189"/>
+</map>

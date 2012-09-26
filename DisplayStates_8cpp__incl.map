@@ -1,0 +1,28 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$Common_8h.htm" title="Common.h" alt="" coords="1892,469,1980,499"/>
+<area shape="rect" id="node5" href="$AppDirectRenderingArbitrator_8h.htm" title="AppDirectRenderingArbitrator.h" alt="" coords="2204,83,2423,112"/>
+<area shape="rect" id="node11" href="$HostBase_8h.htm" title="HostBase.h" alt="" coords="701,160,795,189"/>
+<area shape="rect" id="node50" href="$CoreNaviManager_8h.htm" title="CoreNaviManager.h" alt="" coords="1683,83,1832,112"/>
+<area shape="rect" id="node57" href="$DisplayManager_8h.htm" title="DisplayManager.h" alt="" coords="1689,160,1825,189"/>
+<area shape="rect" id="node72" href="$DisplayStates_8h.htm" title="DisplayStates.h" alt="" coords="1685,237,1803,267"/>
+<area shape="rect" id="node85" href="$SystemUiController_8h.htm" title="SystemUiController.h" alt="" coords="2043,160,2197,189"/>
+<area shape="rect" id="node105" href="$WindowServer_8h.htm" title="WindowServer.h" alt="" coords="3148,83,3273,112"/>
+<area shape="rect" id="node154" href="$SystemService_8h.htm" title="SystemService.h" alt="" coords="2685,160,2811,189"/>
+<area shape="rect" id="node161" href="$Preferences_8h.htm" title="Preferences.h" alt="" coords="2451,160,2560,189"/>
+<area shape="rect" id="node170" href="$Time_8h.htm" title="Time.h" alt="" coords="3671,83,3735,112"/>
+<area shape="rect" id="node20" href="$TaskBase_8h.htm" title="TaskBase.h" alt="" coords="1080,237,1176,267"/>
+<area shape="rect" id="node32" href="$Mutex_8h.htm" title="Mutex.h" alt="" coords="1015,315,1084,344"/>
+<area shape="rect" id="node37" href="$CustomEvents_8h.htm" title="CustomEvents.h" alt="" coords="2381,237,2504,267"/>
+<area shape="rect" id="node42" href="$InputControl_8h.htm" title="InputControl.h" alt="" coords="693,237,803,267"/>
+<area shape="rect" id="node25" href="$sptr_8h.htm" title="sptr.h" alt="" coords="1352,392,1408,421"/>
+<area shape="rect" id="node28" href="$Event_8h.htm" title="Event.h" alt="" coords="1537,315,1607,344"/>
+<area shape="rect" id="node54" href="$CoreNaviLeds_8h.htm" title="CoreNaviLeds.h" alt="" coords="781,392,904,421"/>
+<area shape="rect" id="node66" href="$AmbientLightSensor_8h.htm" title="AmbientLightSensor.h" alt="" coords="1301,237,1459,267"/>
+<area shape="rect" id="node60" href="$Timer_8h.htm" title="Timer.h" alt="" coords="1797,315,1867,344"/>
+<area shape="rect" id="node77" href="$Settings_8h.htm" title="Settings.h" alt="" coords="1941,315,2024,344"/>
+<area shape="rect" id="node96" href="$VariantAnimation_8h.htm" title="VariantAnimation.h" alt="" coords="3173,237,3312,267"/>
+<area shape="rect" id="node111" href="$InputManager_8h.htm" title="InputManager.h" alt="" coords="2675,237,2795,267"/>
+<area shape="rect" id="node121" href="$HostWindow_8h.htm" title="HostWindow.h" alt="" coords="3725,392,3837,421"/>
+<area shape="rect" id="node125" href="$ProgressAnimation_8h.htm" title="ProgressAnimation.h" alt="" coords="3856,160,4008,189"/>
+<area shape="rect" id="node132" href="$TouchPlot_8h.htm" title="TouchPlot.h" alt="" coords="3584,160,3680,189"/>
+</map>

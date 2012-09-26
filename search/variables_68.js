@@ -1,0 +1,20 @@
+var searchData=
+[
+  ['h_5faccel_5fconst1',['h_accel_const1',['../classSettings.htm#a103eb42f87d0683b689df2d438ecc3ef',1,'Settings']]],
+  ['h_5faccel_5fconst2',['h_accel_const2',['../classSettings.htm#a214cbbc928d8e1236cced4ab0771b2ea',1,'Settings']]],
+  ['h_5faccel_5frate1',['h_accel_rate1',['../classSettings.htm#a403e4b23fe4854101eb1e13ad2c73574',1,'Settings']]],
+  ['h_5faccel_5frate2',['h_accel_rate2',['../classSettings.htm#af8d3e1c78b90d497ad4b6972acf8a16f',1,'Settings']]],
+  ['h_5ftrackball_5fpixels_5fper_5fmove',['h_trackball_pixels_per_move',['../classSettings.htm#aecfe56e0027e5ddd8a64271035a59b9f',1,'Settings']]],
+  ['haspauseui',['hasPauseUi',['../structWindowProperties.htm#a1aa221191f4d4794289107c98c8a5c5d',1,'WindowProperties']]],
+  ['hideopacityanimation',['hideOpacityAnimation',['../classBannerMessage.htm#acbd5e63b6452924afed615f93be7d866',1,'BannerMessage']]],
+  ['hideposanimation',['hidePosAnimation',['../classBannerMessage.htm#a5bede1a92c1a7e4513efb0779b9424f5',1,'BannerMessage']]],
+  ['homebuttonorientationangle',['homeButtonOrientationAngle',['../classSettings.htm#a6155306328ac749287097677bb2a2d17',1,'Settings']]],
+  ['homedoubleclickduration',['homeDoubleClickDuration',['../classSettings.htm#a2cffc2446ba10d9fec8ebec37e263f2b',1,'Settings']]],
+  ['horizlabeleddivider_5falignmentheightpx',['horizLabeledDivider_alignmentHeightPx',['../classStaticElementSettings.htm#a5753a43a0ace3fc72a690e2859e3bc4d',1,'StaticElementSettings']]],
+  ['horizlabeleddivider_5flabelfontcolor',['horizLabeledDivider_labelFontColor',['../classStaticElementSettings.htm#ad7c515a26ff1e34ec32956551af5cd5d',1,'StaticElementSettings']]],
+  ['horizlabeleddivider_5flabelfontembolden',['horizLabeledDivider_labelFontEmbolden',['../classStaticElementSettings.htm#aec508daa92107a4a2792b50f40738f62',1,'StaticElementSettings']]],
+  ['horizlabeleddivider_5flabelfontsizepx',['horizLabeledDivider_labelFontSizePx',['../classStaticElementSettings.htm#a265fb0c7a45e4abda271ebdb67eb53ff',1,'StaticElementSettings']]],
+  ['horizlabeleddivider_5flabeltopixmapspacingpx',['horizLabeledDivider_labelToPixmapSpacingPx',['../classStaticElementSettings.htm#aa6b8f05ee8fe15ed9dc3cb6149a156dd',1,'StaticElementSettings']]],
+  ['horizlabeleddivider_5fusealignmentgeom',['horizLabeledDivider_useAlignmentGeom',['../classStaticElementSettings.htm#a97f23e6f677238411fe80987952184f2',1,'StaticElementSettings']]],
+  ['hour',['hour',['../classStatusBarClock.htm#ae2701db370c99f2a6cb3c4a30693e86d',1,'StatusBarClock']]]
+];

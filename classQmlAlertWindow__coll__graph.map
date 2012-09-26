@@ -1,0 +1,13 @@
+<map id="G" name="G">
+<area shape="rect" id="node2" href="$classAlertWindow.htm" title="AlertWindow" alt="" coords="795,813,896,843"/>
+<area shape="rect" id="node4" href="$classHostWindow.htm" title="HostWindow" alt="" coords="643,813,744,843"/>
+<area shape="rect" id="node6" href="$classWindow.htm" title="Window" alt="" coords="373,249,445,279"/>
+<area shape="rect" id="node8" href="$classQGraphicsObject.htm" title="QGraphicsObject" alt="" coords="21,5,152,35"/>
+<area shape="rect" id="node10" href="$classApplicationDescription.htm" title="ApplicationDescription" alt="" coords="5,59,168,88"/>
+<area shape="rect" id="node18" href="$classint.htm" title="int" alt="" coords="68,399,105,428"/>
+<area shape="rect" id="node34" href="$classIpcClientHost.htm" title="IpcClientHost" alt="" coords="356,760,463,789"/>
+<area shape="rect" id="node26" href="$classPIpcChannelListener.htm" title="PIpcChannelListener" alt="" coords="9,979,164,1008"/>
+<area shape="rect" id="node28" href="$classInputClient.htm" title="InputClient" alt="" coords="365,813,453,843"/>
+<area shape="rect" id="node30" href="$classHostWindowData.htm" title="HostWindowData" alt="" coords="344,867,475,896"/>
+<area shape="rect" id="node36" href="$classQObject.htm" title="QObject" alt="" coords="51,748,123,777"/>
+</map>

@@ -1,0 +1,15 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$Common_8h.htm" title="Common.h" alt="" coords="1205,469,1293,499"/>
+<area shape="rect" id="node5" href="$HostQtDesktop_8h.htm" title="HostQtDesktop.h" alt="" coords="623,83,751,112"/>
+<area shape="rect" id="node60" href="$CustomEvents_8h.htm" title="CustomEvents.h" alt="" coords="188,237,311,267"/>
+<area shape="rect" id="node95" href="$FlickGesture_8h.htm" title="FlickGesture.h" alt="" coords="1873,83,1983,112"/>
+<area shape="rect" id="node103" href="$FlickGestureRecognizer_8h.htm" title="FlickGestureRecognizer.h" alt="" coords="2057,83,2239,112"/>
+<area shape="rect" id="node10" href="$HostBase_8h.htm" title="HostBase.h" alt="" coords="725,160,819,189"/>
+<area shape="rect" id="node19" href="$TaskBase_8h.htm" title="TaskBase.h" alt="" coords="647,237,743,267"/>
+<area shape="rect" id="node49" href="$Mutex_8h.htm" title="Mutex.h" alt="" coords="360,315,429,344"/>
+<area shape="rect" id="node65" href="$InputControl_8h.htm" title="InputControl.h" alt="" coords="1289,237,1399,267"/>
+<area shape="rect" id="node26" href="$sptr_8h.htm" title="sptr.h" alt="" coords="432,392,488,421"/>
+<area shape="rect" id="node30" href="$AsyncCaller_8h.htm" title="AsyncCaller.h" alt="" coords="251,392,357,421"/>
+<area shape="rect" id="node34" href="$Event_8h.htm" title="Event.h" alt="" coords="735,315,804,344"/>
+<area shape="rect" id="node54" href="$SingletonTimer_8h.htm" title="SingletonTimer.h" alt="" coords="1049,315,1177,344"/>
+</map>

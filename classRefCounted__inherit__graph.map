@@ -1,0 +1,27 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classEvent.htm" title="Event" alt="" coords="175,205,233,235"/>
+<area shape="rect" id="node11" href="$classMutex.htm" title="Mutex" alt="" coords="175,259,233,288"/>
+<area shape="rect" id="node13" href="$classSoundPlayer.htm" title="SoundPlayer" alt="" coords="153,312,255,341"/>
+<area shape="rect" id="node16" href="$classTaskBase.htm" title="TaskBase" alt="" coords="161,365,247,395"/>
+<area shape="rect" id="node5" href="$classInputEvent.htm" title="InputEvent" alt="" coords="344,179,432,208"/>
+<area shape="rect" id="node7" href="$classProcessManagerEvent.htm" title="ProcessManagerEvent" alt="" coords="305,232,471,261"/>
+<area shape="rect" id="node9" href="$classProcessManagerLaunchEvent.htm" title="ProcessManagerLaunchEvent" alt="" coords="521,232,732,261"/>
+<area shape="rect" id="node18" href="$classHostBase.htm" title="HostBase" alt="" coords="347,352,429,381"/>
+<area shape="rect" id="node48" href="$classSyncTask.htm" title="SyncTask" alt="" coords="347,405,429,435"/>
+<area shape="rect" id="node20" href="$classHostArm.htm" title="HostArm" alt="" coords="589,299,664,328"/>
+<area shape="rect" id="node46" href="$classHostQtDesktop.htm" title="HostQtDesktop" alt="" coords="568,352,685,381"/>
+<area shape="rect" id="node22" href="$classHostArmBroadway.htm" title="HostArmBroadway" alt="" coords="788,5,927,35"/>
+<area shape="rect" id="node24" href="$classHostArmCastle.htm" title="HostArmCastle" alt="" coords="800,59,915,88"/>
+<area shape="rect" id="node26" href="$classHostArmChile.htm" title="HostArmChile" alt="" coords="804,112,911,141"/>
+<area shape="rect" id="node28" href="$classHostArmMantaray.htm" title="HostArmMantaray" alt="" coords="789,165,925,195"/>
+<area shape="rect" id="node30" href="$classHostArmOpal.htm" title="HostArmOpal" alt="" coords="804,219,911,248"/>
+<area shape="rect" id="node32" href="$classHostArmPixie.htm" title="HostArmPixie" alt="" coords="804,272,911,301"/>
+<area shape="rect" id="node34" href="$classHostArmQemu.htm" title="HostArmQemu" alt="" coords="801,325,913,355"/>
+<area shape="rect" id="node36" href="$classHostArmTopaz.htm" title="HostArmTopaz" alt="" coords="800,379,915,408"/>
+<area shape="rect" id="node38" href="$classHostArmUnknown.htm" title="HostArmUnknown" alt="" coords="791,432,924,461"/>
+<area shape="rect" id="node40" href="$classHostArmWindsor.htm" title="HostArmWindsor" alt="" coords="793,485,921,515"/>
+<area shape="rect" id="node42" href="$classHostArmWindsorNot.htm" title="HostArmWindsorNot" alt="" coords="783,539,932,568"/>
+<area shape="rect" id="node44" href="$classHostArmZepfloyd.htm" title="HostArmZepfloyd" alt="" coords="792,592,923,621"/>
+<area shape="rect" id="node50" href="$classProcessManager.htm" title="ProcessManager" alt="" coords="561,405,692,435"/>
+<area shape="rect" id="node52" href="$classWebAppManager.htm" title="WebAppManager" alt="" coords="561,459,692,488"/>
+</map>

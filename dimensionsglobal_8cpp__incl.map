@@ -1,0 +1,20 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$dimensionsglobal_8h.htm" title="dimensionsglobal.h" alt="" coords="379,83,520,112"/>
+<area shape="rect" id="node21" href="$WindowServer_8h.htm" title="WindowServer.h" alt="" coords="1304,160,1429,189"/>
+<area shape="rect" id="node115" href="$WindowServerLuna_8h.htm" title="WindowServerLuna.h" alt="" coords="1893,83,2048,112"/>
+<area shape="rect" id="node23" href="$Common_8h.htm" title="Common.h" alt="" coords="2076,547,2164,576"/>
+<area shape="rect" id="node29" href="$DisplayManager_8h.htm" title="DisplayManager.h" alt="" coords="1905,237,2041,267"/>
+<area shape="rect" id="node62" href="$InputManager_8h.htm" title="InputManager.h" alt="" coords="2212,237,2332,267"/>
+<area shape="rect" id="node71" href="$CustomEvents_8h.htm" title="CustomEvents.h" alt="" coords="2065,237,2188,267"/>
+<area shape="rect" id="node75" href="$VariantAnimation_8h.htm" title="VariantAnimation.h" alt="" coords="2599,237,2737,267"/>
+<area shape="rect" id="node78" href="$HostWindow_8h.htm" title="HostWindow.h" alt="" coords="2761,237,2873,267"/>
+<area shape="rect" id="node82" href="$ProgressAnimation_8h.htm" title="ProgressAnimation.h" alt="" coords="939,237,1091,267"/>
+<area shape="rect" id="node93" href="$TouchPlot_8h.htm" title="TouchPlot.h" alt="" coords="657,237,753,267"/>
+<area shape="rect" id="node32" href="$Timer_8h.htm" title="Timer.h" alt="" coords="2196,392,2265,421"/>
+<area shape="rect" id="node35" href="$Mutex_8h.htm" title="Mutex.h" alt="" coords="2039,392,2108,421"/>
+<area shape="rect" id="node38" href="$sptr_8h.htm" title="sptr.h" alt="" coords="1981,469,2037,499"/>
+<area shape="rect" id="node41" href="$Event_8h.htm" title="Event.h" alt="" coords="1895,392,1964,421"/>
+<area shape="rect" id="node46" href="$AmbientLightSensor_8h.htm" title="AmbientLightSensor.h" alt="" coords="1604,315,1761,344"/>
+<area shape="rect" id="node52" href="$DisplayStates_8h.htm" title="DisplayStates.h" alt="" coords="2089,315,2207,344"/>
+<area shape="rect" id="node131" href="$QmlAlertWindow_8h.htm" title="QmlAlertWindow.h" alt="" coords="2972,469,3108,499"/>
+</map>

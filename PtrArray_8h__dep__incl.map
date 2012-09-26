@@ -1,0 +1,25 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$EASPolicyManager_8h.htm" title="EASPolicyManager.h" alt="" coords="357,83,512,112"/>
+<area shape="rect" id="node15" href="$DockModeWindowManager_8h.htm" title="DockModeWindowManager.h" alt="" coords="1468,83,1676,112"/>
+<area shape="rect" id="node19" href="$DockModeLaunchPoint_8h.htm" title="DockModeLaunchPoint.h" alt="" coords="1085,160,1264,189"/>
+<area shape="rect" id="node58" href="$DockModeAppMenuContainer_8h.htm" title="DockModeAppMenuContainer.h" alt="" coords="739,160,960,189"/>
+<area shape="rect" id="node5" href="$EASPolicyManager_8cpp.htm" title="EASPolicyManager.cpp" alt="" coords="272,160,440,189"/>
+<area shape="rect" id="node7" href="$Security_8cpp.htm" title="Security.cpp" alt="" coords="464,160,563,189"/>
+<area shape="rect" id="node9" href="$SystemService_8cpp.htm" title="SystemService.cpp" alt="" coords="5,160,147,189"/>
+<area shape="rect" id="node11" href="$LockWindow_8cpp.htm" title="LockWindow.cpp" alt="" coords="587,160,715,189"/>
+<area shape="rect" id="node13" href="$Main_8cpp.htm" title="Main.cpp" alt="" coords="171,160,248,189"/>
+<area shape="rect" id="node17" href="$DockModeAppMenuContainer_8cpp.htm" title="DockModeAppMenuContainer.cpp" alt="" coords="980,237,1217,267"/>
+<area shape="rect" id="node22" href="$DockModeLaunchPoint_8cpp.htm" title="DockModeLaunchPoint.cpp" alt="" coords="1292,237,1487,267"/>
+<area shape="rect" id="node24" href="$DockModeMenuManager_8cpp.htm" title="DockModeMenuManager.cpp" alt="" coords="748,237,956,267"/>
+<area shape="rect" id="node26" href="$DockModeWindow_8cpp.htm" title="DockModeWindow.cpp" alt="" coords="1511,237,1676,267"/>
+<area shape="rect" id="node28" href="$DockModeWindowManager_8cpp.htm" title="DockModeWindowManager.cpp" alt="" coords="1603,315,1824,344"/>
+<area shape="rect" id="node30" href="$DockModeWindow_8h.htm" title="DockModeWindow.h" alt="" coords="1635,160,1784,189"/>
+<area shape="rect" id="node44" href="$DockModePositionManager_8cpp.htm" title="DockModePositionManager.cpp" alt="" coords="1288,160,1509,189"/>
+<area shape="rect" id="node49" href="$DashboardWindowContainer_8cpp.htm" title="DashboardWindowContainer.cpp" alt="" coords="1808,160,2037,189"/>
+<area shape="rect" id="node51" href="$DashboardWindowManager_8cpp.htm" title="DashboardWindowManager.cpp" alt="" coords="2061,160,2285,189"/>
+<area shape="rect" id="node53" href="$StatusBar_8cpp.htm" title="StatusBar.cpp" alt="" coords="2309,160,2419,189"/>
+<area shape="rect" id="node55" href="$WindowServerLuna_8cpp.htm" title="WindowServerLuna.cpp" alt="" coords="2443,160,2613,189"/>
+<area shape="rect" id="node32" href="$DockModeClock_8h.htm" title="DockModeClock.h" alt="" coords="1937,237,2073,267"/>
+<area shape="rect" id="node40" href="$WebAppMgrProxy_8cpp.htm" title="WebAppMgrProxy.cpp" alt="" coords="1751,237,1913,267"/>
+<area shape="rect" id="node34" href="$DockModeClock_8cpp.htm" title="DockModeClock.cpp" alt="" coords="1931,315,2080,344"/>
+</map>

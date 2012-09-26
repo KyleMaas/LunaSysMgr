@@ -1,0 +1,20 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$ApplicationInstaller_8h.htm" title="ApplicationInstaller.h" alt="" coords="2292,83,2444,112"/>
+<area shape="rect" id="node5" href="$Common_8h.htm" title="Common.h" alt="" coords="948,237,1036,267"/>
+<area shape="rect" id="node32" href="$ApplicationDescription_8h.htm" title="ApplicationDescription.h" alt="" coords="1171,160,1344,189"/>
+<area shape="rect" id="node41" href="$ApplicationInstallerErrors_8h.htm" title="ApplicationInstallerErrors.h" alt="" coords="344,160,533,189"/>
+<area shape="rect" id="node44" href="$ApplicationManager_8h.htm" title="ApplicationManager.h" alt="" coords="1752,160,1909,189"/>
+<area shape="rect" id="node54" href="$BootupAnimation_8h.htm" title="BootupAnimation.h" alt="" coords="2091,160,2229,189"/>
+<area shape="rect" id="node62" href="$EventReporter_8h.htm" title="EventReporter.h" alt="" coords="781,160,907,189"/>
+<area shape="rect" id="node66" href="$HostBase_8h.htm" title="HostBase.h" alt="" coords="5,160,99,189"/>
+<area shape="rect" id="node69" href="$JSONUtils_8h.htm" title="JSONUtils.h" alt="" coords="1868,83,1964,112"/>
+<area shape="rect" id="node71" href="$Settings_8h.htm" title="Settings.h" alt="" coords="1933,160,2016,189"/>
+<area shape="rect" id="node79" href="$Logging_8h.htm" title="Logging.h" alt="" coords="761,83,844,112"/>
+<area shape="rect" id="node85" href="$PackageDescription_8h.htm" title="PackageDescription.h" alt="" coords="2643,160,2800,189"/>
+<area shape="rect" id="node91" href="$Preferences_8h.htm" title="Preferences.h" alt="" coords="1419,160,1528,189"/>
+<area shape="rect" id="node98" href="$SystemService_8h.htm" title="SystemService.h" alt="" coords="1552,160,1677,189"/>
+<area shape="rect" id="node104" href="$Time_8h.htm" title="Time.h" alt="" coords="693,160,757,189"/>
+<area shape="rect" id="node108" href="$Utils_8h.htm" title="Utils.h" alt="" coords="2824,160,2883,189"/>
+<area shape="rect" id="node118" href="$WebAppMgrProxy_8h.htm" title="WebAppMgrProxy.h" alt="" coords="173,160,320,189"/>
+<area shape="rect" id="node23" href="$MutexLocker_8h.htm" title="MutexLocker.h" alt="" coords="981,160,1096,189"/>
+</map>

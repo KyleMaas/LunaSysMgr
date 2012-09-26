@@ -1,0 +1,18 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$Common_8h.htm" title="Common.h" alt="" coords="1940,392,2028,421"/>
+<area shape="rect" id="node5" href="$SoundPlayer_8h.htm" title="SoundPlayer.h" alt="" coords="1048,237,1160,267"/>
+<area shape="rect" id="node38" href="$DisplayManager_8h.htm" title="DisplayManager.h" alt="" coords="1488,83,1624,112"/>
+<area shape="rect" id="node78" href="$HostBase_8h.htm" title="HostBase.h" alt="" coords="2481,83,2575,112"/>
+<area shape="rect" id="node108" href="$SoundPlayerPool_8h.htm" title="SoundPlayerPool.h" alt="" coords="1377,160,1519,189"/>
+<area shape="rect" id="node117" href="$Utils_8h.htm" title="Utils.h" alt="" coords="2716,237,2775,267"/>
+<area shape="rect" id="node138" href="$Logging_8h.htm" title="Logging.h" alt="" coords="2072,237,2155,267"/>
+<area shape="rect" id="node16" href="$sptr_8h.htm" title="sptr.h" alt="" coords="1411,315,1467,344"/>
+<area shape="rect" id="node26" href="$Timer_8h.htm" title="Timer.h" alt="" coords="40,315,109,344"/>
+<area shape="rect" id="node42" href="$Mutex_8h.htm" title="Mutex.h" alt="" coords="1855,237,1924,267"/>
+<area shape="rect" id="node47" href="$Event_8h.htm" title="Event.h" alt="" coords="533,237,603,267"/>
+<area shape="rect" id="node62" href="$AmbientLightSensor_8h.htm" title="AmbientLightSensor.h" alt="" coords="1713,160,1871,189"/>
+<area shape="rect" id="node68" href="$DisplayStates_8h.htm" title="DisplayStates.h" alt="" coords="1089,160,1207,189"/>
+<area shape="rect" id="node87" href="$TaskBase_8h.htm" title="TaskBase.h" alt="" coords="1593,160,1689,189"/>
+<area shape="rect" id="node96" href="$CustomEvents_8h.htm" title="CustomEvents.h" alt="" coords="2868,160,2991,189"/>
+<area shape="rect" id="node100" href="$InputControl_8h.htm" title="InputControl.h" alt="" coords="2148,160,2257,189"/>
+</map>

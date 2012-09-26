@@ -1,0 +1,20 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$Common_8h.htm" title="Common.h" alt="" coords="1155,392,1243,421"/>
+<area shape="rect" id="node5" href="$CardLoading_8h.htm" title="CardLoading.h" alt="" coords="268,160,383,189"/>
+<area shape="rect" id="node21" href="$ApplicationDescription_8h.htm" title="ApplicationDescription.h" alt="" coords="2001,237,2175,267"/>
+<area shape="rect" id="node67" href="$AnimationSettings_8h.htm" title="AnimationSettings.h" alt="" coords="1831,237,1977,267"/>
+<area shape="rect" id="node74" href="$CardWindow_8h.htm" title="CardWindow.h" alt="" coords="1319,83,1433,112"/>
+<area shape="rect" id="node77" href="$Settings_8h.htm" title="Settings.h" alt="" coords="2647,315,2729,344"/>
+<area shape="rect" id="node130" href="$CardRoundedCornerShaderStage_8h.htm" title="CardRoundedCornerShaderStage.h" alt="" coords="457,160,705,189"/>
+<area shape="rect" id="node133" href="$Logging_8h.htm" title="Logging.h" alt="" coords="36,315,119,344"/>
+<area shape="rect" id="node141" href="$SystemService_8h.htm" title="SystemService.h" alt="" coords="831,160,956,189"/>
+<area shape="rect" id="node8" href="$AnimationEquations_8h.htm" title="AnimationEquations.h" alt="" coords="143,315,300,344"/>
+<area shape="rect" id="node32" href="$GraphicsDefs_8h.htm" title="GraphicsDefs.h" alt="" coords="1676,315,1793,344"/>
+<area shape="rect" id="node41" href="$LaunchPoint_8h.htm" title="LaunchPoint.h" alt="" coords="1956,315,2065,344"/>
+<area shape="rect" id="node50" href="$KeywordMap_8h.htm" title="KeywordMap.h" alt="" coords="1817,315,1932,344"/>
+<area shape="rect" id="node56" href="$CmdResourceHandlers_8h.htm" title="CmdResourceHandlers.h" alt="" coords="2191,315,2369,344"/>
+<area shape="rect" id="node86" href="$Event_8h.htm" title="Event.h" alt="" coords="1388,315,1457,344"/>
+<area shape="rect" id="node97" href="$HostWindow_8h.htm" title="HostWindow.h" alt="" coords="1201,237,1313,267"/>
+<area shape="rect" id="node101" href="$Timer_8h.htm" title="Timer.h" alt="" coords="1481,315,1551,344"/>
+<area shape="rect" id="node108" href="$SystemUiController_8h.htm" title="SystemUiController.h" alt="" coords="1551,160,1705,189"/>
+</map>

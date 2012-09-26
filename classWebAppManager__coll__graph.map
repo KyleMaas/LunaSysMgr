@@ -1,0 +1,12 @@
+<map id="G" name="G">
+<area shape="rect" id="node2" href="$classSyncTask.htm" title="SyncTask" alt="" coords="695,173,777,203"/>
+<area shape="rect" id="node4" href="$classTaskBase.htm" title="TaskBase" alt="" coords="523,173,608,203"/>
+<area shape="rect" id="node6" href="$classRefCounted.htm" title="RefCounted" alt="" coords="23,32,119,61"/>
+<area shape="rect" id="node18" href="$classMutex.htm" title="Mutex" alt="" coords="249,67,308,96"/>
+<area shape="rect" id="node8" href="$classAsyncCaller.htm" title="AsyncCaller\&lt; TaskBase \&gt;" alt="" coords="187,120,371,149"/>
+<area shape="rect" id="node10" href="$classAsyncCallerBase.htm" title="AsyncCallerBase" alt="" coords="7,120,135,149"/>
+<area shape="rect" id="node16" href="$classSingletonTimer.htm" title="SingletonTimer" alt="" coords="220,280,337,309"/>
+<area shape="rect" id="node23" href="$classTrackable.htm" title="Trackable" alt="" coords="695,227,777,256"/>
+<area shape="rect" id="node25" href="$classPIpcClient.htm" title="PIpcClient" alt="" coords="693,280,779,309"/>
+<area shape="rect" id="node27" href="$classPIpcChannelListener.htm" title="PIpcChannelListener" alt="" coords="659,333,813,363"/>
+</map>

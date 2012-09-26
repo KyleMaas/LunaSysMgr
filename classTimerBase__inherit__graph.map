@@ -1,0 +1,24 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classTimer.htm" title="Timer\&lt; Target \&gt;" alt="" coords="215,5,337,35"/>
+<area shape="rect" id="node5" href="$classTimer.htm" title="Timer\&lt; CardHostWindow \&gt;" alt="" coords="180,59,372,88"/>
+<area shape="rect" id="node7" href="$classTimer.htm" title="Timer\&lt; CardWindow \&gt;" alt="" coords="195,112,357,141"/>
+<area shape="rect" id="node9" href="$classTimer.htm" title="Timer\&lt; CoreNaviManager \&gt;" alt="" coords="177,165,375,195"/>
+<area shape="rect" id="node11" href="$classTimer.htm" title="Timer\&lt; DisplayDim \&gt;" alt="" coords="200,219,352,248"/>
+<area shape="rect" id="node13" href="$classTimer.htm" title="Timer\&lt; DisplayDockMode \&gt;" alt="" coords="179,272,373,301"/>
+<area shape="rect" id="node15" href="$classTimer.htm" title="Timer\&lt; DisplayManager \&gt;" alt="" coords="184,325,368,355"/>
+<area shape="rect" id="node17" href="$classTimer.htm" title="Timer\&lt; DisplayOn \&gt;" alt="" coords="203,379,349,408"/>
+<area shape="rect" id="node19" href="$classTimer.htm" title="Timer\&lt; DisplayOnLocked \&gt;" alt="" coords="180,432,372,461"/>
+<area shape="rect" id="node21" href="$classTimer.htm" title="Timer\&lt; DisplayOnPuck \&gt;" alt="" coords="188,485,364,515"/>
+<area shape="rect" id="node23" href="$classTimer.htm" title="Timer\&lt; InputManager \&gt;" alt="" coords="191,539,361,568"/>
+<area shape="rect" id="node25" href="$classTimer.htm" title="Timer\&lt; IpcServer \&gt;" alt="" coords="205,592,347,621"/>
+<area shape="rect" id="node27" href="$classTimer.htm" title="Timer\&lt; LauncherFeedbackWindow \&gt;" alt="" coords="151,645,401,675"/>
+<area shape="rect" id="node29" href="$classTimer.htm" title="Timer\&lt; LockWindow \&gt;" alt="" coords="195,699,357,728"/>
+<area shape="rect" id="node31" href="$classTimer.htm" title="Timer\&lt; MemoryMonitor \&gt;" alt="" coords="185,752,367,781"/>
+<area shape="rect" id="node33" href="$classTimer.htm" title="Timer\&lt; MemoryWatcher \&gt;" alt="" coords="183,805,369,835"/>
+<area shape="rect" id="node35" href="$classTimer.htm" title="Timer\&lt; NativeAlertManager \&gt;" alt="" coords="172,859,380,888"/>
+<area shape="rect" id="node37" href="$classTimer.htm" title="Timer\&lt; QWSHiddKbdHandlerPrivate \&gt;" alt="" coords="145,912,407,941"/>
+<area shape="rect" id="node39" href="$classTimer.htm" title="Timer\&lt; SoundPlayer \&gt;" alt="" coords="195,965,357,995"/>
+<area shape="rect" id="node41" href="$classTimer.htm" title="Timer\&lt; SoundPlayerPool \&gt;" alt="" coords="181,1019,371,1048"/>
+<area shape="rect" id="node43" href="$classTimer.htm" title="Timer\&lt; WebAppManager \&gt;" alt="" coords="180,1072,372,1101"/>
+<area shape="rect" id="node45" href="$classTimer.htm" title="Timer\&lt; WindowedWebApp \&gt;" alt="" coords="176,1125,376,1155"/>
+</map>

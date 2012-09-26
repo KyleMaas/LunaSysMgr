@@ -1,0 +1,19 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$TabletKeyboard_8h.htm" title="TabletKeyboard.h" alt="" coords="1528,83,1659,112"/>
+<area shape="rect" id="node29" href="$PalmIMEHelpers_8h.htm" title="PalmIMEHelpers.h" alt="" coords="896,237,1035,267"/>
+<area shape="rect" id="node74" href="$KeyLocationRecorder_8h.htm" title="KeyLocationRecorder.h" alt="" coords="165,160,336,189"/>
+<area shape="rect" id="node85" href="$Settings_8h.htm" title="Settings.h" alt="" coords="2136,237,2219,267"/>
+<area shape="rect" id="node94" href="$SingletonTimer_8h.htm" title="SingletonTimer.h" alt="" coords="2256,160,2384,189"/>
+<area shape="rect" id="node99" href="$Utils_8h.htm" title="Utils.h" alt="" coords="2637,237,2696,267"/>
+<area shape="rect" id="node119" href="$VirtualKeyboardPreferences_8h.htm" title="VirtualKeyboardPreferences.h" alt="" coords="2024,160,2232,189"/>
+<area shape="rect" id="node13" href="$VirtualKeyboard_8h.htm" title="VirtualKeyboard.h" alt="" coords="1296,237,1427,267"/>
+<area shape="rect" id="node19" href="$TabletKeymap_8h.htm" title="TabletKeymap.h" alt="" coords="1047,160,1169,189"/>
+<area shape="rect" id="node45" href="$IMEPixmap_8h.htm" title="IMEPixmap.h" alt="" coords="1795,160,1899,189"/>
+<area shape="rect" id="node54" href="$GlyphCache_8h.htm" title="GlyphCache.h" alt="" coords="1447,160,1556,189"/>
+<area shape="rect" id="node62" href="$ShortcutsHandler_8h.htm" title="ShortcutsHandler.h" alt="" coords="525,160,667,189"/>
+<area shape="rect" id="node69" href="$CandidateBar_8h.htm" title="CandidateBar.h" alt="" coords="803,160,923,189"/>
+<area shape="rect" id="node15" href="$IMEDataInterface_8h.htm" title="IMEDataInterface.h" alt="" coords="775,315,919,344"/>
+<area shape="rect" id="node17" href="$InputMethod_8h.htm" title="InputMethod.h" alt="" coords="1305,315,1417,344"/>
+<area shape="rect" id="node37" href="$Logging_8h.htm" title="Logging.h" alt="" coords="1532,315,1615,344"/>
+<area shape="rect" id="node39" href="$Common_8h.htm" title="Common.h" alt="" coords="2299,392,2387,421"/>
+</map>

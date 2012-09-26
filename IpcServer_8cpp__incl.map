@@ -1,0 +1,22 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$Common_8h.htm" title="Common.h" alt="" coords="1488,392,1576,421"/>
+<area shape="rect" id="node5" href="$IpcServer_8h.htm" title="IpcServer.h" alt="" coords="429,237,523,267"/>
+<area shape="rect" id="node45" href="$HostBase_8h.htm" title="HostBase.h" alt="" coords="2973,160,3067,189"/>
+<area shape="rect" id="node79" href="$IpcClientHost_8h.htm" title="IpcClientHost.h" alt="" coords="1239,237,1356,267"/>
+<area shape="rect" id="node95" href="$WebAppMgrProxy_8h.htm" title="WebAppMgrProxy.h" alt="" coords="1852,160,1999,189"/>
+<area shape="rect" id="node110" href="$Settings_8h.htm" title="Settings.h" alt="" coords="581,315,664,344"/>
+<area shape="rect" id="node118" href="$WebAppManager_8h.htm" title="WebAppManager.h" alt="" coords="2333,83,2475,112"/>
+<area shape="rect" id="node128" href="$WindowServer_8h.htm" title="WindowServer.h" alt="" coords="988,237,1113,267"/>
+<area shape="rect" id="node134" href="$ApplicationManager_8h.htm" title="ApplicationManager.h" alt="" coords="657,237,815,267"/>
+<area shape="rect" id="node143" href="$SystemService_8h.htm" title="SystemService.h" alt="" coords="839,237,964,267"/>
+<area shape="rect" id="node148" href="$MemoryMonitor_8h.htm" title="MemoryMonitor.h" alt="" coords="2441,237,2572,267"/>
+<area shape="rect" id="node155" href="$CpuAffinity_8h.htm" title="CpuAffinity.h" alt="" coords="3655,83,3753,112"/>
+<area shape="rect" id="node16" href="$Timer_8h.htm" title="Timer.h" alt="" coords="2508,315,2577,344"/>
+<area shape="rect" id="node21" href="$ApplicationDescription_8h.htm" title="ApplicationDescription.h" alt="" coords="384,315,557,344"/>
+<area shape="rect" id="node54" href="$TaskBase_8h.htm" title="TaskBase.h" alt="" coords="2748,237,2844,267"/>
+<area shape="rect" id="node63" href="$Mutex_8h.htm" title="Mutex.h" alt="" coords="2652,315,2721,344"/>
+<area shape="rect" id="node68" href="$CustomEvents_8h.htm" title="CustomEvents.h" alt="" coords="1581,315,1704,344"/>
+<area shape="rect" id="node71" href="$InputControl_8h.htm" title="InputControl.h" alt="" coords="3321,237,3431,267"/>
+<area shape="rect" id="node58" href="$Event_8h.htm" title="Event.h" alt="" coords="2847,315,2916,344"/>
+<area shape="rect" id="node88" href="$Window_8h.htm" title="Window.h" alt="" coords="2139,315,2221,344"/>
+</map>

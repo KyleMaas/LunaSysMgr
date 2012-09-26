@@ -1,0 +1,19 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$Common_8h.htm" title="Common.h" alt="" coords="1197,315,1285,344"/>
+<area shape="rect" id="node5" href="$DashboardWindow_8h.htm" title="DashboardWindow.h" alt="" coords="493,83,645,112"/>
+<area shape="rect" id="node59" href="$Settings_8h.htm" title="Settings.h" alt="" coords="2761,237,2844,267"/>
+<area shape="rect" id="node72" href="$IpcClientHost_8h.htm" title="IpcClientHost.h" alt="" coords="2057,160,2175,189"/>
+<area shape="rect" id="node84" href="$ApplicationDescription_8h.htm" title="ApplicationDescription.h" alt="" coords="2199,160,2372,189"/>
+<area shape="rect" id="node123" href="$WebAppMgrProxy_8h.htm" title="WebAppMgrProxy.h" alt="" coords="1424,83,1571,112"/>
+<area shape="rect" id="node8" href="$Event_8h.htm" title="Event.h" alt="" coords="965,160,1035,189"/>
+<area shape="rect" id="node27" href="$HostWindow_8h.htm" title="HostWindow.h" alt="" coords="396,160,508,189"/>
+<area shape="rect" id="node23" href="$sptr_8h.htm" title="sptr.h" alt="" coords="1215,237,1271,267"/>
+<area shape="rect" id="node30" href="$Window_8h.htm" title="Window.h" alt="" coords="1295,237,1377,267"/>
+<area shape="rect" id="node42" href="$HostWindowData_8h.htm" title="HostWindowData.h" alt="" coords="217,237,359,267"/>
+<area shape="rect" id="node49" href="$InputClient_8h.htm" title="InputClient.h" alt="" coords="383,237,481,267"/>
+<area shape="rect" id="node92" href="$GraphicsDefs_8h.htm" title="GraphicsDefs.h" alt="" coords="2969,237,3087,267"/>
+<area shape="rect" id="node101" href="$LaunchPoint_8h.htm" title="LaunchPoint.h" alt="" coords="2033,237,2143,267"/>
+<area shape="rect" id="node108" href="$KeywordMap_8h.htm" title="KeywordMap.h" alt="" coords="2217,237,2332,267"/>
+<area shape="rect" id="node114" href="$CmdResourceHandlers_8h.htm" title="CmdResourceHandlers.h" alt="" coords="2508,237,2687,267"/>
+<area shape="rect" id="node131" href="$CustomEvents_8h.htm" title="CustomEvents.h" alt="" coords="1436,160,1559,189"/>
+</map>

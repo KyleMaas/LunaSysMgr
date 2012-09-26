@@ -1,0 +1,25 @@
+var searchData=
+[
+  ['label',['Label',['../namespaceIconRenderStage.htm#af5569cf58ca64356871e874525984727ad4f7003e1c04f1c91a6e5fa514b77f38',1,'IconRenderStage::Label()'],['../namespaceLabeledDivRenderStage.htm#a1c1afa93eebf17c87a9b463ca82cad98acde6ee5532773561ee9221561126726c',1,'LabeledDivRenderStage::Label()']]],
+  ['last',['LAST',['../namespaceIconRenderStage.htm#af5569cf58ca64356871e874525984727ac10e4d5102e547ffdc93b9baf68018ad',1,'IconRenderStage::LAST()'],['../namespaceLabeledDivRenderStage.htm#a1c1afa93eebf17c87a9b463ca82cad98afd47b603d712e9b17c316fa2ce4f1b42',1,'LabeledDivRenderStage::LAST()']]],
+  ['last_5finvalid',['LAST_INVALID',['../namespaceIconActionRequest.htm#a2d38501e93eae047d10d9cbe8c5e226fa520ecdf96a22316b7718468b17618dcf',1,'IconActionRequest']]],
+  ['launcher',['LAUNCHER',['../HostArm_8h.htm#a72a6dcbcdc451f054ade2be11e50e6dcadf77532f58df5db859c097c3d51004cc',1,'LAUNCHER():&#160;HostArm.h'],['../hiddkbd__qws_8h.htm#a72a6dcbcdc451f054ade2be11e50e6dcadf77532f58df5db859c097c3d51004cc',1,'LAUNCHER():&#160;hiddkbd_qws.h'],['../hiddtp__qws_8h.htm#a72a6dcbcdc451f054ade2be11e50e6dcadf77532f58df5db859c097c3d51004cc',1,'LAUNCHER():&#160;hiddtp_qws.h']]],
+  ['launcheract_5fdbg_5factivate_5fscreen_5fgrid',['LAUNCHERACT_DBG_ACTIVATE_SCREEN_GRID',['../classSystemUiController.htm#a6d4fbd911f4133275d91aaa1fbca9d16a28bf1fa17b53df01fd21fb9afb81f668',1,'SystemUiController']]],
+  ['launcheract_5fdbg_5fdeactivate_5fscreen_5fgrid',['LAUNCHERACT_DBG_DEACTIVATE_SCREEN_GRID',['../classSystemUiController.htm#a6d4fbd911f4133275d91aaa1fbca9d16a779bfa87f465c027544294af774ddcad',1,'SystemUiController']]],
+  ['launcheract_5feditingcardtitle',['LAUNCHERACT_EDITINGCARDTITLE',['../classSystemUiController.htm#a6d4fbd911f4133275d91aaa1fbca9d16a40b9c12f629e6d347651ec51e2675b5c',1,'SystemUiController']]],
+  ['launcheract_5finfoactive',['LAUNCHERACT_INFOACTIVE',['../classSystemUiController.htm#a6d4fbd911f4133275d91aaa1fbca9d16a2c0100d408e286cd42c6217388f0e43d',1,'SystemUiController']]],
+  ['launcheract_5fmenuactive',['LAUNCHERACT_MENUACTIVE',['../classSystemUiController.htm#a6d4fbd911f4133275d91aaa1fbca9d16a6928e7a6559bd5029198aaf238842b64',1,'SystemUiController']]],
+  ['launcherether',['LauncherEther',['../namespaceLauncherAreas.htm#a0f41e1a258872123bfa05e0c47653c1ea6e4aec4aca791347a2d8b23125eb9c97',1,'LauncherAreas']]],
+  ['launcherop_5faddcard',['LAUNCHEROP_ADDCARD',['../classSystemUiController.htm#a293ac9c6e78db4a121d9feaa0af60aa3a164a7df0b84a6cb9b403202c3aff897b',1,'SystemUiController']]],
+  ['launcherop_5fdeletecard',['LAUNCHEROP_DELETECARD',['../classSystemUiController.htm#a293ac9c6e78db4a121d9feaa0af60aa3a97815febd5e3c3d65e3557851f4d2dbc',1,'SystemUiController']]],
+  ['launcherop_5finvokerenamecard',['LAUNCHEROP_INVOKERENAMECARD',['../classSystemUiController.htm#a293ac9c6e78db4a121d9feaa0af60aa3a5202c3a40f3b37351a9da03aa0e9ef08',1,'SystemUiController']]],
+  ['launcherop_5freorder',['LAUNCHEROP_REORDER',['../classSystemUiController.htm#a293ac9c6e78db4a121d9feaa0af60aa3ac11ee3c4f0b1ea2c7f30f47b47dd23b6',1,'SystemUiController']]],
+  ['launcherop_5funknown',['LAUNCHEROP_UNKNOWN',['../classSystemUiController.htm#a293ac9c6e78db4a121d9feaa0af60aa3a34afcb100de5eb4488fee098447e4bb5',1,'SystemUiController']]],
+  ['launcherrormax',['LaunchErrorMax',['../classSystemUiController.htm#aea4937d67889f9a6061bb6a54bc6d3efa885d614a8cdc02d0995efd44f8e548ca',1,'SystemUiController']]],
+  ['launching',['Launching',['../classDockModeLaunchPoint.htm#ad770b7d1531587230b53f9778157b605a448b03b8e1d8e92e7e602c592bf59447',1,'DockModeLaunchPoint']]],
+  ['launchunknown',['LaunchUnknown',['../classSystemUiController.htm#aea4937d67889f9a6061bb6a54bc6d3efa8bafe3a63553baf12461b233a0126f94',1,'SystemUiController']]],
+  ['left',['Left',['../classLauncherPageIconTransferRedirectContext.htm#a6ff6de4b6d7ad31585cbe9f23f439c85a09bcd4a6ae2214784b969c83c2428510',1,'LauncherPageIconTransferRedirectContext::Left()'],['../BezelGesture_8h.htm#a5be7c8fa582f7b873d1c6caacb633073a9d4d8b0b72fc2659da772d761a3c5ecb',1,'Left():&#160;BezelGesture.h'],['../namespacePictureBoxHorizontalAlignment.htm#af3836630d08fd0509a0f6256154a952ca0580e9c6b1fd7dc96350fc2fd6d48aec',1,'PictureBoxHorizontalAlignment::Left()'],['../namespaceTextBoxHorizontalAlignment.htm#a212207fef9275e6f10424a456d587ef0a67c0c7f7a5b66cd1d14ae4323c394482',1,'TextBoxHorizontalAlignment::Left()']]],
+  ['leftborder',['LeftBorder',['../namespacePageAreas.htm#a23512a73fc8deb19ac34aadc5190a1e2a84a31d869f8463ef16853b793af7576b',1,'PageAreas']]],
+  ['leftcenter',['LeftCenter',['../namespaceDimensionsGlobal_1_1RectPointName.htm#a2f0f7d76cf8eeaa61858c90cf4552086aee5bbeb14b8e22bf3689888394e3f67b',1,'DimensionsGlobal::RectPointName']]],
+  ['low',['Low',['../classMemoryMonitor.htm#afc3b352463d65244b7dc4352b8cddc06abd8d2fce63fbb75821d3405583d7d52e',1,'MemoryMonitor::Low()'],['../classMemoryWatcher.htm#a7518ac0006816e3d8193891077558c5da6e6254be178e0a6f042a84040bec80bf',1,'MemoryWatcher::Low()']]]
+];

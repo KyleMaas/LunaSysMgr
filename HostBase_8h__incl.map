@@ -1,0 +1,11 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$Common_8h.htm" title="Common.h" alt="" coords="1039,315,1127,344"/>
+<area shape="rect" id="node11" href="$TaskBase_8h.htm" title="TaskBase.h" alt="" coords="661,83,757,112"/>
+<area shape="rect" id="node41" href="$Mutex_8h.htm" title="Mutex.h" alt="" coords="1056,160,1125,189"/>
+<area shape="rect" id="node52" href="$CustomEvents_8h.htm" title="CustomEvents.h" alt="" coords="1280,83,1403,112"/>
+<area shape="rect" id="node57" href="$InputControl_8h.htm" title="InputControl.h" alt="" coords="1779,83,1888,112"/>
+<area shape="rect" id="node18" href="$sptr_8h.htm" title="sptr.h" alt="" coords="997,237,1053,267"/>
+<area shape="rect" id="node22" href="$AsyncCaller_8h.htm" title="AsyncCaller.h" alt="" coords="168,237,275,267"/>
+<area shape="rect" id="node26" href="$Event_8h.htm" title="Event.h" alt="" coords="675,160,744,189"/>
+<area shape="rect" id="node46" href="$SingletonTimer_8h.htm" title="SingletonTimer.h" alt="" coords="304,160,432,189"/>
+</map>

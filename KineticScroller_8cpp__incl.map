@@ -1,0 +1,13 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$KineticScroller_8h.htm" title="KineticScroller.h" alt="" coords="2052,83,2175,112"/>
+<area shape="rect" id="node33" href="$Time_8h.htm" title="Time.h" alt="" coords="1805,83,1869,112"/>
+<area shape="rect" id="node42" href="$Settings_8h.htm" title="Settings.h" alt="" coords="215,237,297,267"/>
+<area shape="rect" id="node55" href="$DisplayManager_8h.htm" title="DisplayManager.h" alt="" coords="1180,83,1316,112"/>
+<area shape="rect" id="node35" href="$Common_8h.htm" title="Common.h" alt="" coords="1119,392,1207,421"/>
+<area shape="rect" id="node58" href="$Timer_8h.htm" title="Timer.h" alt="" coords="1213,237,1283,267"/>
+<area shape="rect" id="node63" href="$Mutex_8h.htm" title="Mutex.h" alt="" coords="472,237,541,267"/>
+<area shape="rect" id="node66" href="$sptr_8h.htm" title="sptr.h" alt="" coords="512,315,568,344"/>
+<area shape="rect" id="node71" href="$Event_8h.htm" title="Event.h" alt="" coords="944,237,1013,267"/>
+<area shape="rect" id="node86" href="$AmbientLightSensor_8h.htm" title="AmbientLightSensor.h" alt="" coords="1480,160,1637,189"/>
+<area shape="rect" id="node93" href="$DisplayStates_8h.htm" title="DisplayStates.h" alt="" coords="1093,160,1211,189"/>
+</map>

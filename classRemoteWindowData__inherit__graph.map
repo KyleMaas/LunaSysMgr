@@ -1,0 +1,7 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classRemoteWindowDataOpenGL.htm" title="RemoteWindowDataOpenGL" alt="" coords="252,5,457,35"/>
+<area shape="rect" id="node5" href="$classRemoteWindowDataOpenGLTextureShared.htm" title="RemoteWindowDataOpenGLTextureShared" alt="" coords="205,59,504,88"/>
+<area shape="rect" id="node7" href="$classRemoteWindowDataSoftware.htm" title="RemoteWindowDataSoftware" alt="" coords="252,112,457,141"/>
+<area shape="rect" id="node9" href="$classRemoteWindowDataSoftwareOpenGLComposited.htm" title="RemoteWindowDataSoftwareOpenGLComposited" alt="" coords="552,112,888,141"/>
+<area shape="rect" id="node11" href="$classRemoteWindowDataSoftwareTextureShared.htm" title="RemoteWindowDataSoftwareTextureShared" alt="" coords="936,112,1237,141"/>
+</map>

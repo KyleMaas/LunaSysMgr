@@ -1,0 +1,31 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$Common_8h.htm" title="Common.h" alt="" coords="1381,469,1469,499"/>
+<area shape="rect" id="node5" href="$DockModeWindow_8h.htm" title="DockModeWindow.h" alt="" coords="1653,83,1803,112"/>
+<area shape="rect" id="node24" href="$Settings_8h.htm" title="Settings.h" alt="" coords="180,315,263,344"/>
+<area shape="rect" id="node46" href="$SystemUiController_8h.htm" title="SystemUiController.h" alt="" coords="811,237,965,267"/>
+<area shape="rect" id="node50" href="$ApplicationDescription_8h.htm" title="ApplicationDescription.h" alt="" coords="684,315,857,344"/>
+<area shape="rect" id="node66" href="$DockModeWindowManager_8h.htm" title="DockModeWindowManager.h" alt="" coords="2105,160,2313,189"/>
+<area shape="rect" id="node69" href="$WindowManagerBase_8h.htm" title="WindowManagerBase.h" alt="" coords="1953,237,2124,267"/>
+<area shape="rect" id="node88" href="$AlertWindow_8h.htm" title="AlertWindow.h" alt="" coords="272,160,384,189"/>
+<area shape="rect" id="node94" href="$CardTransition_8h.htm" title="CardTransition.h" alt="" coords="1076,315,1201,344"/>
+<area shape="rect" id="node105" href="$FlickGesture_8h.htm" title="FlickGesture.h" alt="" coords="3428,83,3537,112"/>
+<area shape="rect" id="node114" href="$Logging_8h.htm" title="Logging.h" alt="" coords="3271,315,3353,344"/>
+<area shape="rect" id="node121" href="$MenuWindowManager_8h.htm" title="MenuWindowManager.h" alt="" coords="2323,83,2496,112"/>
+<area shape="rect" id="node137" href="$WindowServer_8h.htm" title="WindowServer.h" alt="" coords="577,160,703,189"/>
+<area shape="rect" id="node143" href="$WindowServerLuna_8h.htm" title="WindowServerLuna.h" alt="" coords="1232,83,1387,112"/>
+<area shape="rect" id="node152" href="$Time_8h.htm" title="Time.h" alt="" coords="495,315,559,344"/>
+<area shape="rect" id="node156" href="$IpcClientHost_8h.htm" title="IpcClientHost.h" alt="" coords="28,237,145,267"/>
+<area shape="rect" id="node162" href="$DockModeLaunchPoint_8h.htm" title="DockModeLaunchPoint.h" alt="" coords="2829,83,3008,112"/>
+<area shape="rect" id="node171" href="$CardDropShadowEffect_8h.htm" title="CardDropShadowEffect.h" alt="" coords="3103,83,3284,112"/>
+<area shape="rect" id="node175" href="$HostBase_8h.htm" title="HostBase.h" alt="" coords="1827,83,1920,112"/>
+<area shape="rect" id="node178" href="$AnimationSettings_8h.htm" title="AnimationSettings.h" alt="" coords="1225,315,1372,344"/>
+<area shape="rect" id="node8" href="$Event_8h.htm" title="Event.h" alt="" coords="932,315,1001,344"/>
+<area shape="rect" id="node21" href="$CardWindow_8h.htm" title="CardWindow.h" alt="" coords="1345,160,1460,189"/>
+<area shape="rect" id="node41" href="$Timer_8h.htm" title="Timer.h" alt="" coords="1396,315,1465,344"/>
+<area shape="rect" id="node17" href="$sptr_8h.htm" title="sptr.h" alt="" coords="112,392,168,421"/>
+<area shape="rect" id="node31" href="$HostWindow_8h.htm" title="HostWindow.h" alt="" coords="549,237,661,267"/>
+<area shape="rect" id="node34" href="$Window_8h.htm" title="Window.h" alt="" coords="287,315,369,344"/>
+<area shape="rect" id="node73" href="$SystemMenu_8h.htm" title="SystemMenu.h" alt="" coords="2148,237,2263,267"/>
+<area shape="rect" id="node102" href="$AnimationEquations_8h.htm" title="AnimationEquations.h" alt="" coords="1180,392,1337,421"/>
+<area shape="rect" id="node125" href="$GraphicsItemContainer_8h.htm" title="GraphicsItemContainer.h" alt="" coords="2575,160,2753,189"/>
+</map>

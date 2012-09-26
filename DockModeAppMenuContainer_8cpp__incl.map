@@ -1,0 +1,23 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$Common_8h.htm" title="Common.h" alt="" coords="1780,315,1868,344"/>
+<area shape="rect" id="node17" href="$HostBase_8h.htm" title="HostBase.h" alt="" coords="840,83,934,112"/>
+<area shape="rect" id="node48" href="$Settings_8h.htm" title="Settings.h" alt="" coords="158,160,240,189"/>
+<area shape="rect" id="node59" href="$Window_8h.htm" title="Window.h" alt="" coords="3283,237,3366,267"/>
+<area shape="rect" id="node70" href="$SystemUiController_8h.htm" title="SystemUiController.h" alt="" coords="2819,83,2974,112"/>
+<area shape="rect" id="node85" href="$ApplicationDescription_8h.htm" title="ApplicationDescription.h" alt="" coords="1886,160,2059,189"/>
+<area shape="rect" id="node91" href="$LaunchPoint_8h.htm" title="LaunchPoint.h" alt="" coords="1627,237,1736,267"/>
+<area shape="rect" id="node100" href="$StatusBar_8h.htm" title="StatusBar.h" alt="" coords="3355,160,3448,189"/>
+<area shape="rect" id="node105" href="$AnimationSettings_8h.htm" title="AnimationSettings.h" alt="" coords="1128,237,1275,267"/>
+<area shape="rect" id="node110" href="$DockModeWindowManager_8h.htm" title="DockModeWindowManager.h" alt="" coords="2235,160,2443,189"/>
+<area shape="rect" id="node117" href="$DockModeLaunchPoint_8h.htm" title="DockModeLaunchPoint.h" alt="" coords="2058,83,2236,112"/>
+<area shape="rect" id="node123" href="$DockModeAppMenuContainer_8h.htm" title="DockModeAppMenuContainer.h" alt="" coords="3624,160,3846,189"/>
+<area shape="rect" id="node131" href="$WindowServerLuna_8h.htm" title="WindowServerLuna.h" alt="" coords="3542,237,3696,267"/>
+<area shape="rect" id="node135" href="$Localization_8h.htm" title="Localization.h" alt="" coords="1704,160,1811,189"/>
+<area shape="rect" id="node138" href="$QtUtils_8h.htm" title="QtUtils.h" alt="" coords="1528,237,1603,267"/>
+<area shape="rect" id="node144" href="$Preferences_8h.htm" title="Preferences.h" alt="" coords="1571,160,1680,189"/>
+<area shape="rect" id="node152" href="$Utils_8h.htm" title="Utils.h" alt="" coords="24,160,83,189"/>
+<area shape="rect" id="node26" href="$TaskBase_8h.htm" title="TaskBase.h" alt="" coords="264,160,360,189"/>
+<area shape="rect" id="node30" href="$Mutex_8h.htm" title="Mutex.h" alt="" coords="984,237,1054,267"/>
+<area shape="rect" id="node35" href="$CustomEvents_8h.htm" title="CustomEvents.h" alt="" coords="2800,237,2923,267"/>
+<area shape="rect" id="node40" href="$InputControl_8h.htm" title="InputControl.h" alt="" coords="894,160,1003,189"/>
+</map>

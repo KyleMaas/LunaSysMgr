@@ -1,0 +1,21 @@
+<map id="G" name="G">
+<area shape="rect" id="node2" href="$classDockModeWindow.htm" title="DockModeWindow" alt="" coords="1948,1927,2087,1956"/>
+<area shape="rect" id="node4" href="$classCardWindow.htm" title="CardWindow" alt="" coords="1616,1292,1717,1321"/>
+<area shape="rect" id="node6" href="$classHostWindow.htm" title="HostWindow" alt="" coords="1105,1345,1207,1375"/>
+<area shape="rect" id="node8" href="$classWindow.htm" title="Window" alt="" coords="564,1457,636,1487"/>
+<area shape="rect" id="node10" href="$classQGraphicsObject.htm" title="QGraphicsObject" alt="" coords="24,1669,155,1699"/>
+<area shape="rect" id="node12" href="$classApplicationDescription.htm" title="ApplicationDescription" alt="" coords="8,1427,171,1456"/>
+<area shape="rect" id="node20" href="$classint.htm" title="int" alt="" coords="71,299,108,328"/>
+<area shape="rect" id="node36" href="$classIpcClientHost.htm" title="IpcClientHost" alt="" coords="547,1163,653,1192"/>
+<area shape="rect" id="node75" href="$structCardWindow_1_1ModalWindowPlacementInfo.htm" title="CardWindow::ModalWindowPlacementInfo" alt="" coords="456,243,744,272"/>
+<area shape="rect" id="node95" href="$structWindowProperties.htm" title="WindowProperties" alt="" coords="532,603,668,632"/>
+<area shape="rect" id="node28" href="$classPIpcChannelListener.htm" title="PIpcChannelListener" alt="" coords="12,1292,167,1321"/>
+<area shape="rect" id="node30" href="$classInputClient.htm" title="InputClient" alt="" coords="556,1399,644,1428"/>
+<area shape="rect" id="node32" href="$classHostWindowData.htm" title="HostWindowData" alt="" coords="535,1109,665,1139"/>
+<area shape="rect" id="node38" href="$classQObject.htm" title="QObject" alt="" coords="53,885,125,915"/>
+<area shape="rect" id="node105" href="$classCardLoading.htm" title="CardLoading" alt="" coords="832,945,936,975"/>
+<area shape="rect" id="node53" href="$classTimer.htm" title="Timer\&lt; CardWindow \&gt;" alt="" coords="1075,1883,1237,1912"/>
+<area shape="rect" id="node55" href="$classTimerBase.htm" title="TimerBase" alt="" coords="555,1883,645,1912"/>
+<area shape="rect" id="node68" href="$structCardWindow_1_1Position.htm" title="CardWindow::Position" alt="" coords="1077,1621,1235,1651"/>
+<area shape="rect" id="node86" href="$classCardTransition.htm" title="CardTransition" alt="" coords="1099,1079,1213,1108"/>
+</map>

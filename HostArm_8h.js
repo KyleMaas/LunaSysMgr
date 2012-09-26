@@ -1,0 +1,26 @@
+var HostArm_8h =
+[
+    [ "HIDD_ACCELEROMETER_INTERRUPT_MODE", "HostArm_8h.htm#a84c90d6efa51901fba9882039acc89ad", null ],
+    [ "HIDD_ACCELEROMETER_MODE", "HostArm_8h.htm#ac6a7f3cbc4c5954b0e24c11643dad725", null ],
+    [ "HIDD_ACCELEROMETER_POLL_INTERVAL", "HostArm_8h.htm#a61e551253c8f34d7c32196ed5e3c0774", null ],
+    [ "HIDD_ACCELEROMETER_RANGE_URI", "HostArm_8h.htm#a771b74929bd8651e39caebf3978b4466", null ],
+    [ "HIDD_ACCELEROMETER_SET_DEFAULT_INTERVAL", "HostArm_8h.htm#af8087ca8c9022681cd34a8874f223d3f", null ],
+    [ "HIDD_ACCELEROMETER_SET_DEFAULT_MODE", "HostArm_8h.htm#a4a6210f97ac9deaff08487b88f8713ed", null ],
+    [ "HIDD_ACCELEROMETER_SET_DEFAULT_TILT_TIMER", "HostArm_8h.htm#a2268ee23b70a7faed0c14285b9449061", null ],
+    [ "HIDD_ACCELEROMETER_SET_POLL", "HostArm_8h.htm#a4494e882e2a283952421ddb2dcc0e2c5", null ],
+    [ "HIDD_ACCELEROMETER_TILT_TIMER", "HostArm_8h.htm#a302939f1479fe621b91a0ea5c1b53ca4", null ],
+    [ "HIDD_GET_STATE", "HostArm_8h.htm#a11021e2e5f21cc3cf3f648cf6a94b675", null ],
+    [ "HIDD_HEADSET_MIC_URI", "HostArm_8h.htm#ab1766bbb41e72e495e20613970a1440f", null ],
+    [ "HIDD_HEADSET_URI", "HostArm_8h.htm#acee76286b764af6a7ce92585806e48ff", null ],
+    [ "HIDD_LS_ACCELEROMETER_URI", "HostArm_8h.htm#ab8f37ba1c6af2d84322c53aa8c2c5c2b", null ],
+    [ "HIDD_LS_KEYPAD_URI", "HostArm_8h.htm#ab797ac7f326352154038183fbb2bf681", null ],
+    [ "HIDD_RINGER_URI", "HostArm_8h.htm#a34b819e86221713b98f35e3e79d58439", null ],
+    [ "HIDD_SLIDER_URI", "HostArm_8h.htm#a0d2714a94dd5b2c322f483daaf1ccbe6", null ],
+    [ "KEYBOARD_AZERTY", "HostArm_8h.htm#a84fda734f8b2e953e8662fae0fa86a26", null ],
+    [ "KEYBOARD_QWERTY", "HostArm_8h.htm#a16fb893260081dc213bfa2d81a737a9b", null ],
+    [ "KEYBOARD_QWERTZ", "HostArm_8h.htm#afc992c8685dd75a0eccf0fe50390e999", null ],
+    [ "KEYBOARD_TOKEN", "HostArm_8h.htm#a4b3d12eddc6c440a2f173ab5cab9a74d", null ],
+    [ "REPEAT_DELAY", "HostArm_8h.htm#a3d95898a5b29642479de8a2bbb832f6c", null ],
+    [ "REPEAT_PERIOD", "HostArm_8h.htm#a3554c8d81262bd4e2600675d14b7d7eb", null ],
+    [ "GestureType_t", "HostArm_8h.htm#a72a6dcbcdc451f054ade2be11e50e6dc", null ]
+];

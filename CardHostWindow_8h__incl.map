@@ -1,0 +1,19 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$Common_8h.htm" title="Common.h" alt="" coords="1598,392,1686,421"/>
+<area shape="rect" id="node5" href="$CardWindow_8h.htm" title="CardWindow.h" alt="" coords="1326,83,1440,112"/>
+<area shape="rect" id="node90" href="$GraphicsDefs_8h.htm" title="GraphicsDefs.h" alt="" coords="2655,315,2772,344"/>
+<area shape="rect" id="node128" href="$AnimationEquations_8h.htm" title="AnimationEquations.h" alt="" coords="2604,83,2762,112"/>
+<area shape="rect" id="node8" href="$Settings_8h.htm" title="Settings.h" alt="" coords="1956,237,2039,267"/>
+<area shape="rect" id="node21" href="$Event_8h.htm" title="Event.h" alt="" coords="228,237,298,267"/>
+<area shape="rect" id="node39" href="$HostWindow_8h.htm" title="HostWindow.h" alt="" coords="2223,160,2335,189"/>
+<area shape="rect" id="node59" href="$Timer_8h.htm" title="Timer.h" alt="" coords="372,237,442,267"/>
+<area shape="rect" id="node66" href="$SystemUiController_8h.htm" title="SystemUiController.h" alt="" coords="564,160,719,189"/>
+<area shape="rect" id="node124" href="$CardRoundedCornerShaderStage_8h.htm" title="CardRoundedCornerShaderStage.h" alt="" coords="1850,160,2098,189"/>
+<area shape="rect" id="node35" href="$sptr_8h.htm" title="sptr.h" alt="" coords="536,315,592,344"/>
+<area shape="rect" id="node42" href="$Window_8h.htm" title="Window.h" alt="" coords="1378,237,1460,267"/>
+<area shape="rect" id="node49" href="$HostWindowData_8h.htm" title="HostWindowData.h" alt="" coords="2198,315,2339,344"/>
+<area shape="rect" id="node52" href="$InputClient_8h.htm" title="InputClient.h" alt="" coords="1732,237,1831,267"/>
+<area shape="rect" id="node84" href="$ApplicationDescription_8h.htm" title="ApplicationDescription.h" alt="" coords="1535,237,1708,267"/>
+<area shape="rect" id="node100" href="$SuspendBlocker_8h.htm" title="SuspendBlocker.h" alt="" coords="616,315,750,344"/>
+<area shape="rect" id="node104" href="$VariantAnimation_8h.htm" title="VariantAnimation.h" alt="" coords="1298,315,1436,344"/>
+</map>

@@ -1,0 +1,22 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$VirtualKeyboard_8h.htm" title="VirtualKeyboard.h" alt="" coords="1215,83,1345,112"/>
+<area shape="rect" id="node43" href="$SysmgrIMEDataInterface_8h.htm" title="SysmgrIMEDataInterface.h" alt="" coords="1380,83,1569,112"/>
+<area shape="rect" id="node5" href="$GlyphCache_8h.htm" title="GlyphCache.h" alt="" coords="1225,160,1335,189"/>
+<area shape="rect" id="node11" href="$PhoneKeyboard_8h.htm" title="PhoneKeyboard.h" alt="" coords="1397,237,1531,267"/>
+<area shape="rect" id="node15" href="$TabletKeyboard_8h.htm" title="TabletKeyboard.h" alt="" coords="952,237,1083,267"/>
+<area shape="rect" id="node19" href="$IMEManager_8cpp.htm" title="IMEManager.cpp" alt="" coords="1409,160,1540,189"/>
+<area shape="rect" id="node22" href="$VirtualKeyboardPreferences_8h.htm" title="VirtualKeyboardPreferences.h" alt="" coords="660,237,868,267"/>
+<area shape="rect" id="node41" href="$VirtualKeyboard_8cpp.htm" title="VirtualKeyboard.cpp" alt="" coords="1055,160,1201,189"/>
+<area shape="rect" id="node7" href="$GlyphCache_8cpp.htm" title="GlyphCache.cpp" alt="" coords="1248,237,1373,267"/>
+<area shape="rect" id="node9" href="$IMEPixmap_8cpp.htm" title="IMEPixmap.cpp" alt="" coords="1107,237,1224,267"/>
+<area shape="rect" id="node13" href="$PhoneKeyboard_8cpp.htm" title="PhoneKeyboard.cpp" alt="" coords="1389,315,1539,344"/>
+<area shape="rect" id="node17" href="$TabletKeyboard_8cpp.htm" title="TabletKeyboard.cpp" alt="" coords="1219,315,1365,344"/>
+<area shape="rect" id="node24" href="$Preferences_8cpp.htm" title="Preferences.cpp" alt="" coords="5,315,131,344"/>
+<area shape="rect" id="node26" href="$SystemService_8cpp.htm" title="SystemService.cpp" alt="" coords="155,315,296,344"/>
+<area shape="rect" id="node29" href="$PhoneKeymap_8cpp.htm" title="PhoneKeymap.cpp" alt="" coords="320,315,459,344"/>
+<area shape="rect" id="node31" href="$PreKeymap_8cpp.htm" title="PreKeymap.cpp" alt="" coords="483,315,603,344"/>
+<area shape="rect" id="node33" href="$ShortcutsHandler_8cpp.htm" title="ShortcutsHandler.cpp" alt="" coords="627,315,784,344"/>
+<area shape="rect" id="node36" href="$TabletKeymap_8cpp.htm" title="TabletKeymap.cpp" alt="" coords="808,315,947,344"/>
+<area shape="rect" id="node38" href="$VirtualKeyboardPreferences_8cpp.htm" title="VirtualKeyboardPreferences.cpp" alt="" coords="971,315,1195,344"/>
+<area shape="rect" id="node46" href="$SysmgrIMEDataInterface_8cpp.htm" title="SysmgrIMEDataInterface.cpp" alt="" coords="1564,160,1769,189"/>
+</map>

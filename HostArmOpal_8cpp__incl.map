@@ -1,0 +1,14 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$Common_8h.htm" title="Common.h" alt="" coords="1061,469,1149,499"/>
+<area shape="rect" id="node5" href="$HostArm_8h.htm" title="HostArm.h" alt="" coords="2007,83,2092,112"/>
+<area shape="rect" id="node8" href="$HostBase_8h.htm" title="HostBase.h" alt="" coords="1163,160,1256,189"/>
+<area shape="rect" id="node32" href="$Event_8h.htm" title="Event.h" alt="" coords="455,315,524,344"/>
+<area shape="rect" id="node58" href="$CustomEvents_8h.htm" title="CustomEvents.h" alt="" coords="1555,237,1677,267"/>
+<area shape="rect" id="node79" href="$HALSensorConnector_8h.htm" title="hal/HALSensorConnector.h" alt="" coords="1885,160,2080,189"/>
+<area shape="rect" id="node17" href="$TaskBase_8h.htm" title="TaskBase.h" alt="" coords="635,237,731,267"/>
+<area shape="rect" id="node47" href="$Mutex_8h.htm" title="Mutex.h" alt="" coords="877,315,947,344"/>
+<area shape="rect" id="node63" href="$InputControl_8h.htm" title="InputControl.h" alt="" coords="1701,237,1811,267"/>
+<area shape="rect" id="node24" href="$sptr_8h.htm" title="sptr.h" alt="" coords="704,392,760,421"/>
+<area shape="rect" id="node28" href="$AsyncCaller_8h.htm" title="AsyncCaller.h" alt="" coords="885,392,992,421"/>
+<area shape="rect" id="node52" href="$SingletonTimer_8h.htm" title="SingletonTimer.h" alt="" coords="725,315,853,344"/>
+</map>

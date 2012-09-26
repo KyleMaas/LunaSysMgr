@@ -1,0 +1,23 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$Common_8h.htm" title="Common.h" alt="" coords="1532,315,1620,344"/>
+<area shape="rect" id="node5" href="$HostWindow_8h.htm" title="HostWindow.h" alt="" coords="339,160,451,189"/>
+<area shape="rect" id="node22" href="$HostWindowData_8h.htm" title="HostWindowData.h" alt="" coords="324,237,466,267"/>
+<area shape="rect" id="node40" href="$IpcClientHost_8h.htm" title="IpcClientHost.h" alt="" coords="1624,160,1742,189"/>
+<area shape="rect" id="node53" href="$SystemUiController_8h.htm" title="SystemUiController.h" alt="" coords="1132,83,1287,112"/>
+<area shape="rect" id="node109" href="$WindowServer_8h.htm" title="WindowServer.h" alt="" coords="2644,83,2770,112"/>
+<area shape="rect" id="node156" href="$IMEController_8h.htm" title="IMEController.h" alt="" coords="144,160,264,189"/>
+<area shape="rect" id="node8" href="$Window_8h.htm" title="Window.h" alt="" coords="1815,237,1898,267"/>
+<area shape="rect" id="node29" href="$InputClient_8h.htm" title="InputClient.h" alt="" coords="490,237,588,267"/>
+<area shape="rect" id="node70" href="$ApplicationDescription_8h.htm" title="ApplicationDescription.h" alt="" coords="1766,160,1939,189"/>
+<area shape="rect" id="node81" href="$Event_8h.htm" title="Event.h" alt="" coords="978,237,1047,267"/>
+<area shape="rect" id="node86" href="$SuspendBlocker_8h.htm" title="SuspendBlocker.h" alt="" coords="167,237,300,267"/>
+<area shape="rect" id="node90" href="$VariantAnimation_8h.htm" title="VariantAnimation.h" alt="" coords="2074,237,2212,267"/>
+<area shape="rect" id="node94" href="$CustomEvents_8h.htm" title="CustomEvents.h" alt="" coords="2236,237,2359,267"/>
+<area shape="rect" id="node98" href="$StatusBar_8h.htm" title="StatusBar.h" alt="" coords="2166,160,2259,189"/>
+<area shape="rect" id="node106" href="$BezelGesture_8h.htm" title="BezelGesture.h" alt="" coords="550,160,667,189"/>
+<area shape="rect" id="node78" href="$GraphicsDefs_8h.htm" title="GraphicsDefs.h" alt="" coords="1623,237,1740,267"/>
+<area shape="rect" id="node114" href="$DisplayManager_8h.htm" title="DisplayManager.h" alt="" coords="1464,160,1600,189"/>
+<area shape="rect" id="node120" href="$InputManager_8h.htm" title="InputManager.h" alt="" coords="2484,237,2604,267"/>
+<area shape="rect" id="node129" href="$ProgressAnimation_8h.htm" title="ProgressAnimation.h" alt="" coords="3203,237,3355,267"/>
+<area shape="rect" id="node134" href="$TouchPlot_8h.htm" title="TouchPlot.h" alt="" coords="3014,237,3110,267"/>
+</map>

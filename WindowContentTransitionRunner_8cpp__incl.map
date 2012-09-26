@@ -1,0 +1,23 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$Common_8h.htm" title="Common.h" alt="" coords="1143,701,1231,731"/>
+<area shape="rect" id="node9" href="$CardWebApp_8h.htm" title="CardWebApp.h" alt="" coords="1767,83,1884,112"/>
+<area shape="rect" id="node71" href="$SyncTask_8h.htm" title="SyncTask.h" alt="" coords="1487,392,1580,421"/>
+<area shape="rect" id="node153" href="$WindowContentTransitionRunner_8h.htm" title="WindowContentTransitionRunner.h" alt="" coords="2504,624,2747,653"/>
+<area shape="rect" id="node12" href="$sptr_8h.htm" title="sptr.h" alt="" coords="1901,624,1957,653"/>
+<area shape="rect" id="node17" href="$WindowedWebApp_8h.htm" title="WindowedWebApp.h" alt="" coords="1749,160,1901,189"/>
+<area shape="rect" id="node24" href="$AsyncCaller_8h.htm" title="AsyncCaller.h" alt="" coords="1725,547,1832,576"/>
+<area shape="rect" id="node28" href="$GraphicsDefs_8h.htm" title="GraphicsDefs.h" alt="" coords="2079,237,2196,267"/>
+<area shape="rect" id="node35" href="$WebAppBase_8h.htm" title="WebAppBase.h" alt="" coords="712,237,829,267"/>
+<area shape="rect" id="node81" href="$Event_8h.htm" title="Event.h" alt="" coords="2056,547,2125,576"/>
+<area shape="rect" id="node115" href="$Timer_8h.htm" title="Timer.h" alt="" coords="923,547,992,576"/>
+<area shape="rect" id="node122" href="$Window_8h.htm" title="Window.h" alt="" coords="1279,392,1361,421"/>
+<area shape="rect" id="node46" href="$ProcessBase_8h.htm" title="ProcessBase.h" alt="" coords="679,392,793,421"/>
+<area shape="rect" id="node51" href="$WebPageClient_8h.htm" title="WebPageClient.h" alt="" coords="388,547,519,576"/>
+<area shape="rect" id="node62" href="$WebAppManager_8h.htm" title="WebAppManager.h" alt="" coords="1095,315,1236,344"/>
+<area shape="rect" id="node106" href="$MemoryWatcher_8h.htm" title="MemoryWatcher.h" alt="" coords="917,469,1053,499"/>
+<area shape="rect" id="node111" href="$SignalSlot_8h.htm" title="SignalSlot.h" alt="" coords="1139,547,1235,576"/>
+<area shape="rect" id="node132" href="$WebAppCache_8h.htm" title="WebAppCache.h" alt="" coords="717,469,843,499"/>
+<area shape="rect" id="node74" href="$TaskBase_8h.htm" title="TaskBase.h" alt="" coords="1851,469,1947,499"/>
+<area shape="rect" id="node95" href="$Mutex_8h.htm" title="Mutex.h" alt="" coords="1856,547,1925,576"/>
+<area shape="rect" id="node100" href="$SingletonTimer_8h.htm" title="SingletonTimer.h" alt="" coords="1573,547,1701,576"/>
+</map>

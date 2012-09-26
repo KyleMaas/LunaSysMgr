@@ -1,0 +1,19 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$Common_8h.htm" title="Common.h" alt="" coords="1407,392,1495,421"/>
+<area shape="rect" id="node15" href="$CardWindow_8h.htm" title="CardWindow.h" alt="" coords="1489,83,1603,112"/>
+<area shape="rect" id="node18" href="$Settings_8h.htm" title="Settings.h" alt="" coords="2535,315,2618,344"/>
+<area shape="rect" id="node31" href="$Event_8h.htm" title="Event.h" alt="" coords="551,237,621,267"/>
+<area shape="rect" id="node49" href="$HostWindow_8h.htm" title="HostWindow.h" alt="" coords="1069,237,1181,267"/>
+<area shape="rect" id="node69" href="$Timer_8h.htm" title="Timer.h" alt="" coords="29,315,98,344"/>
+<area shape="rect" id="node76" href="$SystemUiController_8h.htm" title="SystemUiController.h" alt="" coords="1162,160,1317,189"/>
+<area shape="rect" id="node134" href="$CardRoundedCornerShaderStage_8h.htm" title="CardRoundedCornerShaderStage.h" alt="" coords="746,237,994,267"/>
+<area shape="rect" id="node45" href="$sptr_8h.htm" title="sptr.h" alt="" coords="173,315,229,344"/>
+<area shape="rect" id="node52" href="$Window_8h.htm" title="Window.h" alt="" coords="1597,315,1679,344"/>
+<area shape="rect" id="node59" href="$HostWindowData_8h.htm" title="HostWindowData.h" alt="" coords="1381,315,1522,344"/>
+<area shape="rect" id="node62" href="$InputClient_8h.htm" title="InputClient.h" alt="" coords="1703,315,1802,344"/>
+<area shape="rect" id="node93" href="$ApplicationDescription_8h.htm" title="ApplicationDescription.h" alt="" coords="2039,315,2213,344"/>
+<area shape="rect" id="node100" href="$SuspendBlocker_8h.htm" title="SuspendBlocker.h" alt="" coords="709,315,842,344"/>
+<area shape="rect" id="node104" href="$VariantAnimation_8h.htm" title="VariantAnimation.h" alt="" coords="1877,315,2015,344"/>
+<area shape="rect" id="node108" href="$CustomEvents_8h.htm" title="CustomEvents.h" alt="" coords="2237,315,2359,344"/>
+<area shape="rect" id="node112" href="$StatusBar_8h.htm" title="StatusBar.h" alt="" coords="2053,237,2146,267"/>
+</map>

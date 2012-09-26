@@ -1,0 +1,31 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$Common_8h.htm" title="Common.h" alt="" coords="1741,392,1829,421"/>
+<area shape="rect" id="node5" href="$OverlayWindowManager_8h.htm" title="OverlayWindowManager.h" alt="" coords="976,83,1165,112"/>
+<area shape="rect" id="node29" href="$Window_8h.htm" title="Window.h" alt="" coords="1403,237,1485,267"/>
+<area shape="rect" id="node41" href="$OverlayWindowManager__p_8h.htm" title="OverlayWindowManager_p.h" alt="" coords="2031,83,2236,112"/>
+<area shape="rect" id="node49" href="$Settings_8h.htm" title="Settings.h" alt="" coords="832,315,915,344"/>
+<area shape="rect" id="node54" href="$HostBase_8h.htm" title="HostBase.h" alt="" coords="2685,160,2779,189"/>
+<area shape="rect" id="node57" href="$Localization_8h.htm" title="Localization.h" alt="" coords="2803,160,2909,189"/>
+<area shape="rect" id="node60" href="$SystemUiController_8h.htm" title="SystemUiController.h" alt="" coords="1416,160,1571,189"/>
+<area shape="rect" id="node68" href="$ApplicationDescription_8h.htm" title="ApplicationDescription.h" alt="" coords="376,237,549,267"/>
+<area shape="rect" id="node72" href="$LaunchPoint_8h.htm" title="LaunchPoint.h" alt="" coords="699,315,808,344"/>
+<area shape="rect" id="node79" href="$layoutsettings_8h.htm" title="layoutsettings.h" alt="" coords="939,315,1056,344"/>
+<area shape="rect" id="node84" href="$CardWindowManager_8h.htm" title="CardWindowManager.h" alt="" coords="3487,83,3657,112"/>
+<area shape="rect" id="node117" href="$AnimationSettings_8h.htm" title="AnimationSettings.h" alt="" coords="477,315,624,344"/>
+<area shape="rect" id="node122" href="$ApplicationManager_8h.htm" title="ApplicationManager.h" alt="" coords="93,315,251,344"/>
+<area shape="rect" id="node127" href="$FlickGesture_8h.htm" title="FlickGesture.h" alt="" coords="3783,83,3892,112"/>
+<area shape="rect" id="node133" href="$WebAppMgrProxy_8h.htm" title="WebAppMgrProxy.h" alt="" coords="2117,160,2264,189"/>
+<area shape="rect" id="node139" href="$WindowServer_8h.htm" title="WindowServer.h" alt="" coords="1524,83,1649,112"/>
+<area shape="rect" id="node143" href="$DisplayManager_8h.htm" title="DisplayManager.h" alt="" coords="1595,160,1731,189"/>
+<area shape="rect" id="node150" href="$HostWindow_8h.htm" title="HostWindow.h" alt="" coords="1805,160,1917,189"/>
+<area shape="rect" id="node161" href="$Logging_8h.htm" title="Logging.h" alt="" coords="1131,315,1213,344"/>
+<area shape="rect" id="node165" href="$Time_8h.htm" title="Time.h" alt="" coords="3999,237,4063,267"/>
+<area shape="rect" id="node172" href="$IMEController_8h.htm" title="IMEController.h" alt="" coords="4311,83,4431,112"/>
+<area shape="rect" id="node174" href="$gfxsettings_8h.htm" title="gfxsettings.h" alt="" coords="1339,315,1440,344"/>
+<area shape="rect" id="node8" href="$Timer_8h.htm" title="Timer.h" alt="" coords="1309,237,1379,267"/>
+<area shape="rect" id="node13" href="$sptr_8h.htm" title="sptr.h" alt="" coords="1565,315,1621,344"/>
+<area shape="rect" id="node17" href="$Event_8h.htm" title="Event.h" alt="" coords="1560,237,1629,267"/>
+<area shape="rect" id="node22" href="$WindowManagerBase_8h.htm" title="WindowManagerBase.h" alt="" coords="2440,160,2611,189"/>
+<area shape="rect" id="node25" href="$dimensionsmain_8h.htm" title="dimensionsmain.h" alt="" coords="1056,160,1189,189"/>
+<area shape="rect" id="node27" href="$dimensionstypes_8h.htm" title="dimensionstypes.h" alt="" coords="927,237,1065,267"/>
+</map>

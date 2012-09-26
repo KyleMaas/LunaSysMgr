@@ -1,0 +1,21 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$Common_8h.htm" title="Common.h" alt="" coords="629,469,717,499"/>
+<area shape="rect" id="node13" href="$QmlAlertWindow_8h.htm" title="QmlAlertWindow.h" alt="" coords="227,160,363,189"/>
+<area shape="rect" id="node53" href="$Settings_8h.htm" title="Settings.h" alt="" coords="69,392,152,421"/>
+<area shape="rect" id="node64" href="$WindowServerLuna_8h.htm" title="WindowServerLuna.h" alt="" coords="1735,83,1889,112"/>
+<area shape="rect" id="node16" href="$AlertWindow_8h.htm" title="AlertWindow.h" alt="" coords="779,237,891,267"/>
+<area shape="rect" id="node19" href="$sptr_8h.htm" title="sptr.h" alt="" coords="493,392,549,421"/>
+<area shape="rect" id="node24" href="$Window_8h.htm" title="Window.h" alt="" coords="1021,392,1104,421"/>
+<area shape="rect" id="node36" href="$HostWindow_8h.htm" title="HostWindow.h" alt="" coords="1337,315,1449,344"/>
+<area shape="rect" id="node41" href="$HostWindowData_8h.htm" title="HostWindowData.h" alt="" coords="1179,392,1320,421"/>
+<area shape="rect" id="node46" href="$InputClient_8h.htm" title="InputClient.h" alt="" coords="1656,392,1755,421"/>
+<area shape="rect" id="node67" href="$WindowServer_8h.htm" title="WindowServer.h" alt="" coords="1472,160,1597,189"/>
+<area shape="rect" id="node97" href="$VariantAnimation_8h.htm" title="VariantAnimation.h" alt="" coords="2101,237,2240,267"/>
+<area shape="rect" id="node73" href="$DisplayManager_8h.htm" title="DisplayManager.h" alt="" coords="535,237,671,267"/>
+<area shape="rect" id="node89" href="$InputManager_8h.htm" title="InputManager.h" alt="" coords="872,315,992,344"/>
+<area shape="rect" id="node94" href="$CustomEvents_8h.htm" title="CustomEvents.h" alt="" coords="1016,315,1139,344"/>
+<area shape="rect" id="node103" href="$ProgressAnimation_8h.htm" title="ProgressAnimation.h" alt="" coords="1824,237,1976,267"/>
+<area shape="rect" id="node112" href="$TouchPlot_8h.htm" title="TouchPlot.h" alt="" coords="1779,392,1875,421"/>
+<area shape="rect" id="node76" href="$Timer_8h.htm" title="Timer.h" alt="" coords="675,392,744,421"/>
+<area shape="rect" id="node81" href="$Mutex_8h.htm" title="Mutex.h" alt="" coords="429,315,499,344"/>
+</map>

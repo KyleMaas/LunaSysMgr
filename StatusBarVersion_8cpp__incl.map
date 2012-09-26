@@ -1,0 +1,15 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$StatusBarVersion_8h.htm" title="StatusBarVersion.h" alt="" coords="185,83,327,112"/>
+<area shape="rect" id="node7" href="$StatusBar_8h.htm" title="StatusBar.h" alt="" coords="240,237,333,267"/>
+<area shape="rect" id="node41" href="$Settings_8h.htm" title="Settings.h" alt="" coords="995,315,1077,344"/>
+<area shape="rect" id="node52" href="$Preferences_8h.htm" title="Preferences.h" alt="" coords="893,160,1003,189"/>
+<area shape="rect" id="node69" href="$Localization_8h.htm" title="Localization.h" alt="" coords="1233,237,1340,267"/>
+<area shape="rect" id="node5" href="$StatusBarItem_8h.htm" title="StatusBarItem.h" alt="" coords="100,160,220,189"/>
+<area shape="rect" id="node9" href="$Window_8h.htm" title="Window.h" alt="" coords="245,315,328,344"/>
+<area shape="rect" id="node26" href="$VariantAnimation_8h.htm" title="VariantAnimation.h" alt="" coords="352,315,491,344"/>
+<area shape="rect" id="node31" href="$CustomEvents_8h.htm" title="CustomEvents.h" alt="" coords="565,315,688,344"/>
+<area shape="rect" id="node11" href="$Common_8h.htm" title="Common.h" alt="" coords="755,392,843,421"/>
+<area shape="rect" id="node58" href="$Mutex_8h.htm" title="Mutex.h" alt="" coords="749,237,819,267"/>
+<area shape="rect" id="node61" href="$sptr_8h.htm" title="sptr.h" alt="" coords="763,315,819,344"/>
+<area shape="rect" id="node72" href="$QtUtils_8h.htm" title="QtUtils.h" alt="" coords="1195,315,1269,344"/>
+</map>

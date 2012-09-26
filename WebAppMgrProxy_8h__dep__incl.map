@@ -1,0 +1,36 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$ApplicationInstaller_8cpp.htm" title="ApplicationInstaller.cpp" alt="" coords="5,83,171,112"/>
+<area shape="rect" id="node5" href="$ApplicationManager_8cpp.htm" title="ApplicationManager.cpp" alt="" coords="195,83,368,112"/>
+<area shape="rect" id="node7" href="$ApplicationManagerService_8cpp.htm" title="ApplicationManagerService.cpp" alt="" coords="392,83,613,112"/>
+<area shape="rect" id="node9" href="$SystemService_8cpp.htm" title="SystemService.cpp" alt="" coords="637,83,779,112"/>
+<area shape="rect" id="node11" href="$SystemUiController_8cpp.htm" title="SystemUiController.cpp" alt="" coords="803,83,971,112"/>
+<area shape="rect" id="node13" href="$HostWindowDataOpenGL_8cpp.htm" title="HostWindowDataOpenGL.cpp" alt="" coords="995,83,1205,112"/>
+<area shape="rect" id="node15" href="$HostWindowDataOpenGLTextureShared_8cpp.htm" title="HostWindowDataOpenGLTextureShared.cpp" alt="" coords="1229,83,1533,112"/>
+<area shape="rect" id="node17" href="$HostWindowDataSoftware_8cpp.htm" title="HostWindowDataSoftware.cpp" alt="" coords="1557,83,1771,112"/>
+<area shape="rect" id="node19" href="$WindowServer_8cpp.htm" title="WindowServer.cpp" alt="" coords="1795,83,1933,112"/>
+<area shape="rect" id="node21" href="$CardWindow_8cpp.htm" title="CardWindow.cpp" alt="" coords="1957,83,2085,112"/>
+<area shape="rect" id="node23" href="$DockModeMenuManager_8cpp.htm" title="DockModeMenuManager.cpp" alt="" coords="2109,83,2317,112"/>
+<area shape="rect" id="node25" href="$DockModeWindowManager_8cpp.htm" title="DockModeWindowManager.cpp" alt="" coords="2341,83,2563,112"/>
+<area shape="rect" id="node27" href="$EmergencyWindowManager_8cpp.htm" title="EmergencyWindowManager.cpp" alt="" coords="2587,83,2813,112"/>
+<area shape="rect" id="node29" href="$OverlayWindowManager_8cpp.htm" title="OverlayWindowManager.cpp" alt="" coords="2837,83,3040,112"/>
+<area shape="rect" id="node31" href="$appeffector_8cpp.htm" title="appeffector.cpp" alt="" coords="3064,83,3184,112"/>
+<area shape="rect" id="node33" href="$LockWindow_8cpp.htm" title="LockWindow.cpp" alt="" coords="3208,83,3336,112"/>
+<area shape="rect" id="node35" href="$TopLevelWindowManager_8cpp.htm" title="TopLevelWindowManager.cpp" alt="" coords="3360,83,3573,112"/>
+<area shape="rect" id="node37" href="$ActiveCallBanner_8cpp.htm" title="ActiveCallBanner.cpp" alt="" coords="3597,83,3752,112"/>
+<area shape="rect" id="node39" href="$AlertWindow_8cpp.htm" title="AlertWindow.cpp" alt="" coords="3776,83,3901,112"/>
+<area shape="rect" id="node41" href="$BannerMessageHandler_8cpp.htm" title="BannerMessageHandler.cpp" alt="" coords="3925,83,4128,112"/>
+<area shape="rect" id="node43" href="$BannerWindow_8cpp.htm" title="BannerWindow.cpp" alt="" coords="4152,83,4296,112"/>
+<area shape="rect" id="node45" href="$DashboardWindow_8cpp.htm" title="DashboardWindow.cpp" alt="" coords="4320,83,4485,112"/>
+<area shape="rect" id="node47" href="$DashboardWindowContainer_8cpp.htm" title="DashboardWindowContainer.cpp" alt="" coords="4509,83,4739,112"/>
+<area shape="rect" id="node49" href="$DashboardWindowManager_8cpp.htm" title="DashboardWindowManager.cpp" alt="" coords="4763,83,4987,112"/>
+<area shape="rect" id="node51" href="$PersistentWindowCache_8cpp.htm" title="PersistentWindowCache.cpp" alt="" coords="5011,83,5213,112"/>
+<area shape="rect" id="node53" href="$MenuWindowManager_8cpp.htm" title="MenuWindowManager.cpp" alt="" coords="5237,83,5427,112"/>
+<area shape="rect" id="node55" href="$SystemMenu_8cpp.htm" title="SystemMenu.cpp" alt="" coords="5451,83,5579,112"/>
+<area shape="rect" id="node57" href="$WindowServerLuna_8cpp.htm" title="WindowServerLuna.cpp" alt="" coords="5603,83,5773,112"/>
+<area shape="rect" id="node59" href="$Main_8cpp.htm" title="Main.cpp" alt="" coords="5797,83,5875,112"/>
+<area shape="rect" id="node61" href="$WindowManagerMinimal_8cpp.htm" title="WindowManagerMinimal.cpp" alt="" coords="5899,83,6101,112"/>
+<area shape="rect" id="node63" href="$WindowServerMinimal_8cpp.htm" title="WindowServerMinimal.cpp" alt="" coords="6125,83,6312,112"/>
+<area shape="rect" id="node65" href="$IpcClientHost_8cpp.htm" title="IpcClientHost.cpp" alt="" coords="6336,83,6467,112"/>
+<area shape="rect" id="node67" href="$IpcServer_8cpp.htm" title="IpcServer.cpp" alt="" coords="6491,83,6600,112"/>
+<area shape="rect" id="node69" href="$WebAppMgrProxy_8cpp.htm" title="WebAppMgrProxy.cpp" alt="" coords="6624,83,6787,112"/>
+</map>

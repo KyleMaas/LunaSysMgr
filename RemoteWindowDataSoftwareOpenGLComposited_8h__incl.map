@@ -1,0 +1,21 @@
+<map id="G" name="G">
+<area shape="rect" id="node7" href="$RemoteWindowDataSoftware_8h.htm" title="RemoteWindowDataSoftware.h" alt="" coords="363,83,581,112"/>
+<area shape="rect" id="node141" href="$NAppWindow_8h.htm" title="NAppWindow.h" alt="" coords="2136,160,2253,189"/>
+<area shape="rect" id="node11" href="$Common_8h.htm" title="Common.h" alt="" coords="735,701,823,731"/>
+<area shape="rect" id="node13" href="$RemoteWindowData_8h.htm" title="RemoteWindowData.h" alt="" coords="37,160,200,189"/>
+<area shape="rect" id="node134" href="$Logging_8h.htm" title="Logging.h" alt="" coords="2136,547,2219,576"/>
+<area shape="rect" id="node18" href="$CardWebApp_8h.htm" title="CardWebApp.h" alt="" coords="317,237,435,267"/>
+<area shape="rect" id="node21" href="$sptr_8h.htm" title="sptr.h" alt="" coords="1803,624,1859,653"/>
+<area shape="rect" id="node26" href="$WindowedWebApp_8h.htm" title="WindowedWebApp.h" alt="" coords="864,315,1016,344"/>
+<area shape="rect" id="node33" href="$AsyncCaller_8h.htm" title="AsyncCaller.h" alt="" coords="1933,624,2040,653"/>
+<area shape="rect" id="node37" href="$GraphicsDefs_8h.htm" title="GraphicsDefs.h" alt="" coords="309,392,427,421"/>
+<area shape="rect" id="node45" href="$WebAppBase_8h.htm" title="WebAppBase.h" alt="" coords="1168,392,1285,421"/>
+<area shape="rect" id="node84" href="$Event_8h.htm" title="Event.h" alt="" coords="1789,547,1859,576"/>
+<area shape="rect" id="node103" href="$Timer_8h.htm" title="Timer.h" alt="" coords="1111,624,1180,653"/>
+<area shape="rect" id="node109" href="$Window_8h.htm" title="Window.h" alt="" coords="304,547,387,576"/>
+<area shape="rect" id="node56" href="$ProcessBase_8h.htm" title="ProcessBase.h" alt="" coords="411,547,525,576"/>
+<area shape="rect" id="node61" href="$WebPageClient_8h.htm" title="WebPageClient.h" alt="" coords="2368,624,2499,653"/>
+<area shape="rect" id="node72" href="$WebAppManager_8h.htm" title="WebAppManager.h" alt="" coords="920,469,1061,499"/>
+<area shape="rect" id="node81" href="$SyncTask_8h.htm" title="SyncTask.h" alt="" coords="651,547,744,576"/>
+<area shape="rect" id="node98" href="$MemoryWatcher_8h.htm" title="MemoryWatcher.h" alt="" coords="1077,547,1213,576"/>
+</map>

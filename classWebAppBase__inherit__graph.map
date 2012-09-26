@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" id="node5" href="$classWindowedWebApp.htm" title="WindowedWebApp" alt="" coords="116,160,257,189"/>
+<area shape="rect" id="node2" href="$classWebPageClient.htm" title="WebPageClient" alt="" coords="128,5,245,35"/>
+<area shape="rect" id="node7" href="$classAlertWebApp.htm" title="AlertWebApp" alt="" coords="5,237,109,267"/>
+<area shape="rect" id="node9" href="$classCardWebApp.htm" title="CardWebApp" alt="" coords="133,237,240,267"/>
+<area shape="rect" id="node13" href="$classDashboardWebApp.htm" title="DashboardWebApp" alt="" coords="264,237,408,267"/>
+<area shape="rect" id="node11" href="$classDockWebApp.htm" title="DockWebApp" alt="" coords="133,315,240,344"/>
+</map>

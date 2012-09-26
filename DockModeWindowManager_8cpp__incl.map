@@ -1,0 +1,33 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$Common_8h.htm" title="Common.h" alt="" coords="2432,392,2520,421"/>
+<area shape="rect" id="node9" href="$HostBase_8h.htm" title="HostBase.h" alt="" coords="755,160,848,189"/>
+<area shape="rect" id="node40" href="$Settings_8h.htm" title="Settings.h" alt="" coords="3441,315,3524,344"/>
+<area shape="rect" id="node47" href="$DockModeWindowManager_8h.htm" title="DockModeWindowManager.h" alt="" coords="3621,237,3829,267"/>
+<area shape="rect" id="node57" href="$Window_8h.htm" title="Window.h" alt="" coords="2765,315,2848,344"/>
+<area shape="rect" id="node62" href="$WindowServer_8h.htm" title="WindowServer.h" alt="" coords="1939,160,2064,189"/>
+<area shape="rect" id="node66" href="$DisplayManager_8h.htm" title="DisplayManager.h" alt="" coords="1197,237,1333,267"/>
+<area shape="rect" id="node72" href="$Logging_8h.htm" title="Logging.h" alt="" coords="939,315,1021,344"/>
+<area shape="rect" id="node76" href="$WebAppMgrProxy_8h.htm" title="WebAppMgrProxy.h" alt="" coords="2397,237,2544,267"/>
+<area shape="rect" id="node80" href="$DockModeWindow_8h.htm" title="DockModeWindow.h" alt="" coords="3288,160,3437,189"/>
+<area shape="rect" id="node85" href="$DockModeMenuManager_8h.htm" title="DockModeMenuManager.h" alt="" coords="4108,160,4300,189"/>
+<area shape="rect" id="node88" href="$LaunchPoint_8h.htm" title="LaunchPoint.h" alt="" coords="1656,315,1765,344"/>
+<area shape="rect" id="node93" href="$Localization_8h.htm" title="Localization.h" alt="" coords="1808,160,1915,189"/>
+<area shape="rect" id="node96" href="$ApplicationDescription_8h.htm" title="ApplicationDescription.h" alt="" coords="1693,237,1867,267"/>
+<area shape="rect" id="node101" href="$DashboardWindowManager_8h.htm" title="DashboardWindowManager.h" alt="" coords="3339,237,3547,267"/>
+<area shape="rect" id="node108" href="$DockModePositionManager_8h.htm" title="DockModePositionManager.h" alt="" coords="4239,315,4447,344"/>
+<area shape="rect" id="node113" href="$DockModeLaunchPoint_8h.htm" title="DockModeLaunchPoint.h" alt="" coords="3855,160,4033,189"/>
+<area shape="rect" id="node120" href="$ApplicationManager_8h.htm" title="ApplicationManager.h" alt="" coords="4360,237,4517,267"/>
+<area shape="rect" id="node126" href="$SystemUiController_8h.htm" title="SystemUiController.h" alt="" coords="2283,160,2437,189"/>
+<area shape="rect" id="node134" href="$WindowServerLuna_8h.htm" title="WindowServerLuna.h" alt="" coords="1960,83,2115,112"/>
+<area shape="rect" id="node139" href="$TopLevelWindowManager_8h.htm" title="TopLevelWindowManager.h" alt="" coords="2965,237,3163,267"/>
+<area shape="rect" id="node143" href="$AnimationSettings_8h.htm" title="AnimationSettings.h" alt="" coords="2043,315,2189,344"/>
+<area shape="rect" id="node148" href="$SystemService_8h.htm" title="SystemService.h" alt="" coords="4089,315,4215,344"/>
+<area shape="rect" id="node152" href="$Utils_8h.htm" title="Utils.h" alt="" coords="4007,315,4065,344"/>
+<area shape="rect" id="node158" href="$DockModeClock_8h.htm" title="DockModeClock.h" alt="" coords="1597,83,1733,112"/>
+<area shape="rect" id="node164" href="$DockModeAppMenuContainer_8h.htm" title="DockModeAppMenuContainer.h" alt="" coords="2669,237,2891,267"/>
+<area shape="rect" id="node170" href="$Preferences_8h.htm" title="Preferences.h" alt="" coords="1357,237,1467,267"/>
+<area shape="rect" id="node18" href="$TaskBase_8h.htm" title="TaskBase.h" alt="" coords="496,237,592,267"/>
+<area shape="rect" id="node22" href="$Mutex_8h.htm" title="Mutex.h" alt="" coords="1360,315,1429,344"/>
+<area shape="rect" id="node27" href="$CustomEvents_8h.htm" title="CustomEvents.h" alt="" coords="2365,315,2488,344"/>
+<area shape="rect" id="node32" href="$InputControl_8h.htm" title="InputControl.h" alt="" coords="667,237,776,267"/>
+</map>

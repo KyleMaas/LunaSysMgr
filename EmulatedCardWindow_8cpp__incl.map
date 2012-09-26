@@ -1,0 +1,30 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$Common_8h.htm" title="Common.h" alt="" coords="1664,469,1752,499"/>
+<area shape="rect" id="node5" href="$Logging_8h.htm" title="Logging.h" alt="" coords="35,392,117,421"/>
+<area shape="rect" id="node14" href="$EmulatedCardWindow_8h.htm" title="EmulatedCardWindow.h" alt="" coords="500,83,671,112"/>
+<area shape="rect" id="node19" href="$Settings_8h.htm" title="Settings.h" alt="" coords="2927,315,3009,344"/>
+<area shape="rect" id="node36" href="$SystemUiController_8h.htm" title="SystemUiController.h" alt="" coords="1176,237,1331,267"/>
+<area shape="rect" id="node54" href="$ApplicationDescription_8h.htm" title="ApplicationDescription.h" alt="" coords="2729,315,2903,344"/>
+<area shape="rect" id="node96" href="$PixmapButton_8h.htm" title="PixmapButton.h" alt="" coords="1815,160,1932,189"/>
+<area shape="rect" id="node109" href="$CardTransition_8h.htm" title="CardTransition.h" alt="" coords="1696,315,1821,344"/>
+<area shape="rect" id="node121" href="$CardDropShadowEffect_8h.htm" title="CardDropShadowEffect.h" alt="" coords="2077,237,2259,267"/>
+<area shape="rect" id="node125" href="$WindowServer_8h.htm" title="WindowServer.h" alt="" coords="2083,315,2208,344"/>
+<area shape="rect" id="node133" href="$ApplicationManager_8h.htm" title="ApplicationManager.h" alt="" coords="3040,315,3197,344"/>
+<area shape="rect" id="node141" href="$IpcClientHost_8h.htm" title="IpcClientHost.h" alt="" coords="2537,315,2655,344"/>
+<area shape="rect" id="node149" href="$WindowServerLuna_8h.htm" title="WindowServerLuna.h" alt="" coords="1848,237,2003,267"/>
+<area shape="rect" id="node162" href="$QtUtils_8h.htm" title="QtUtils.h" alt="" coords="2728,392,2803,421"/>
+<area shape="rect" id="node166" href="$Time_8h.htm" title="Time.h" alt="" coords="2291,392,2355,421"/>
+<area shape="rect" id="node171" href="$IMEController_8h.htm" title="IMEController.h" alt="" coords="2484,160,2604,189"/>
+<area shape="rect" id="node16" href="$CardWindow_8h.htm" title="CardWindow.h" alt="" coords="777,160,892,189"/>
+<area shape="rect" id="node29" href="$Event_8h.htm" title="Event.h" alt="" coords="392,392,461,421"/>
+<area shape="rect" id="node78" href="$StatusBar_8h.htm" title="StatusBar.h" alt="" coords="1389,315,1483,344"/>
+<area shape="rect" id="node92" href="$CardRoundedCornerShaderStage_8h.htm" title="CardRoundedCornerShaderStage.h" alt="" coords="395,237,643,267"/>
+<area shape="rect" id="node101" href="$VirtualCoreNavi_8h.htm" title="VirtualCoreNavi.h" alt="" coords="405,160,536,189"/>
+<area shape="rect" id="node104" href="$CardSmoothEdgeShaderStage_8h.htm" title="CardSmoothEdgeShaderStage.h" alt="" coords="43,160,269,189"/>
+<area shape="rect" id="node61" href="$SuspendBlocker_8h.htm" title="SuspendBlocker.h" alt="" coords="776,392,909,421"/>
+<area shape="rect" id="node65" href="$VariantAnimation_8h.htm" title="VariantAnimation.h" alt="" coords="1283,392,1421,421"/>
+<area shape="rect" id="node68" href="$Window_8h.htm" title="Window.h" alt="" coords="2032,392,2115,421"/>
+<area shape="rect" id="node74" href="$CustomEvents_8h.htm" title="CustomEvents.h" alt="" coords="1136,392,1259,421"/>
+<area shape="rect" id="node83" href="$BezelGesture_8h.htm" title="BezelGesture.h" alt="" coords="680,315,797,344"/>
+<area shape="rect" id="node117" href="$AnimationEquations_8h.htm" title="AnimationEquations.h" alt="" coords="1496,392,1653,421"/>
+</map>

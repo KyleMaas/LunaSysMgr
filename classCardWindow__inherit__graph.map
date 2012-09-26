@@ -1,0 +1,12 @@
+<map id="G" name="G">
+<area shape="rect" id="node13" href="$classCardHostWindow.htm" title="CardHostWindow" alt="" coords="5,315,136,344"/>
+<area shape="rect" id="node17" href="$classDockModeWindow.htm" title="DockModeWindow" alt="" coords="164,315,303,344"/>
+<area shape="rect" id="node21" href="$classEmulatedCardWindow.htm" title="EmulatedCardWindow" alt="" coords="327,315,487,344"/>
+<area shape="rect" id="node2" href="$classHostWindow.htm" title="HostWindow" alt="" coords="183,160,284,189"/>
+<area shape="rect" id="node4" href="$classWindow.htm" title="Window" alt="" coords="60,83,132,112"/>
+<area shape="rect" id="node6" href="$classQGraphicsObject.htm" title="QGraphicsObject" alt="" coords="31,5,161,35"/>
+<area shape="rect" id="node8" href="$classPIpcChannelListener.htm" title="PIpcChannelListener" alt="" coords="156,83,311,112"/>
+<area shape="rect" id="node10" href="$classInputClient.htm" title="InputClient" alt="" coords="335,83,423,112"/>
+<area shape="rect" id="node15" href="$classQtHostWindow.htm" title="QtHostWindow" alt="" coords="11,392,125,421"/>
+<area shape="rect" id="node19" href="$classDockModeClockWindow.htm" title="DockModeClockWindow" alt="" coords="149,392,323,421"/>
+</map>

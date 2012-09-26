@@ -1,0 +1,19 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$PhoneKeyboard_8h.htm" title="PhoneKeyboard.h" alt="" coords="665,83,799,112"/>
+<area shape="rect" id="node29" href="$PalmIMEHelpers_8h.htm" title="PalmIMEHelpers.h" alt="" coords="861,237,1000,267"/>
+<area shape="rect" id="node72" href="$KeyLocationRecorder_8h.htm" title="KeyLocationRecorder.h" alt="" coords="1568,160,1739,189"/>
+<area shape="rect" id="node83" href="$Settings_8h.htm" title="Settings.h" alt="" coords="1885,237,1968,267"/>
+<area shape="rect" id="node92" href="$SingletonTimer_8h.htm" title="SingletonTimer.h" alt="" coords="2464,160,2592,189"/>
+<area shape="rect" id="node97" href="$Utils_8h.htm" title="Utils.h" alt="" coords="2289,237,2348,267"/>
+<area shape="rect" id="node117" href="$VirtualKeyboardPreferences_8h.htm" title="VirtualKeyboardPreferences.h" alt="" coords="1885,160,2093,189"/>
+<area shape="rect" id="node13" href="$VirtualKeyboard_8h.htm" title="VirtualKeyboard.h" alt="" coords="163,237,293,267"/>
+<area shape="rect" id="node19" href="$PhoneKeymap_8h.htm" title="PhoneKeymap.h" alt="" coords="1121,160,1247,189"/>
+<area shape="rect" id="node45" href="$IMEPixmap_8h.htm" title="IMEPixmap.h" alt="" coords="680,160,784,189"/>
+<area shape="rect" id="node54" href="$GlyphCache_8h.htm" title="GlyphCache.h" alt="" coords="405,160,515,189"/>
+<area shape="rect" id="node62" href="$ShortcutsHandler_8h.htm" title="ShortcutsHandler.h" alt="" coords="11,160,152,189"/>
+<area shape="rect" id="node67" href="$CandidateBar_8h.htm" title="CandidateBar.h" alt="" coords="808,160,928,189"/>
+<area shape="rect" id="node15" href="$IMEDataInterface_8h.htm" title="IMEDataInterface.h" alt="" coords="232,315,376,344"/>
+<area shape="rect" id="node17" href="$InputMethod_8h.htm" title="InputMethod.h" alt="" coords="96,315,208,344"/>
+<area shape="rect" id="node37" href="$Logging_8h.htm" title="Logging.h" alt="" coords="721,315,804,344"/>
+<area shape="rect" id="node39" href="$Common_8h.htm" title="Common.h" alt="" coords="2389,392,2477,421"/>
+</map>

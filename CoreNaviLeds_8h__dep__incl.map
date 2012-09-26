@@ -1,0 +1,14 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$CoreNaviLeds_8cpp.htm" title="CoreNaviLeds.cpp" alt="" coords="625,83,764,112"/>
+<area shape="rect" id="node5" href="$CoreNaviManager_8h.htm" title="CoreNaviManager.h" alt="" coords="788,83,937,112"/>
+<area shape="rect" id="node7" href="$CoreNaviManager_8cpp.htm" title="CoreNaviManager.cpp" alt="" coords="5,160,168,189"/>
+<area shape="rect" id="node9" href="$DisplayManager_8cpp.htm" title="DisplayManager.cpp" alt="" coords="192,160,341,189"/>
+<area shape="rect" id="node11" href="$DisplayStates_8cpp.htm" title="DisplayStates.cpp" alt="" coords="365,160,499,189"/>
+<area shape="rect" id="node13" href="$SystemUiController_8cpp.htm" title="SystemUiController.cpp" alt="" coords="523,160,691,189"/>
+<area shape="rect" id="node15" href="$WindowServer_8cpp.htm" title="WindowServer.cpp" alt="" coords="715,160,853,189"/>
+<area shape="rect" id="node17" href="$LockWindow_8cpp.htm" title="LockWindow.cpp" alt="" coords="877,160,1005,189"/>
+<area shape="rect" id="node19" href="$DashboardWindowManager_8cpp.htm" title="DashboardWindowManager.cpp" alt="" coords="1029,160,1253,189"/>
+<area shape="rect" id="node21" href="$WindowServerLuna_8cpp.htm" title="WindowServerLuna.cpp" alt="" coords="1277,160,1448,189"/>
+<area shape="rect" id="node23" href="$WindowServerMinimal_8cpp.htm" title="WindowServerMinimal.cpp" alt="" coords="1472,160,1659,189"/>
+<area shape="rect" id="node25" href="$WebAppMgrProxy_8cpp.htm" title="WebAppMgrProxy.cpp" alt="" coords="1683,160,1845,189"/>
+</map>

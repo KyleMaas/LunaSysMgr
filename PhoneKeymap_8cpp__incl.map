@@ -1,0 +1,15 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$PhoneKeymap_8h.htm" title="PhoneKeymap.h" alt="" coords="177,83,303,112"/>
+<area shape="rect" id="node21" href="$Logging_8h.htm" title="Logging.h" alt="" coords="593,237,676,267"/>
+<area shape="rect" id="node31" href="$KeyLocationRecorder_8h.htm" title="KeyLocationRecorder.h" alt="" coords="455,83,625,112"/>
+<area shape="rect" id="node41" href="$Localization_8h.htm" title="Localization.h" alt="" coords="717,83,824,112"/>
+<area shape="rect" id="node44" href="$QtUtils_8h.htm" title="QtUtils.h" alt="" coords="820,160,895,189"/>
+<area shape="rect" id="node55" href="$Utils_8h.htm" title="Utils.h" alt="" coords="1297,160,1356,189"/>
+<area shape="rect" id="node75" href="$VirtualKeyboardPreferences_8h.htm" title="VirtualKeyboardPreferences.h" alt="" coords="949,83,1157,112"/>
+<area shape="rect" id="node13" href="$PalmIMEHelpers_8h.htm" title="PalmIMEHelpers.h" alt="" coords="105,160,244,189"/>
+<area shape="rect" id="node23" href="$Common_8h.htm" title="Common.h" alt="" coords="704,315,792,344"/>
+<area shape="rect" id="node79" href="$VirtualKeyboard_8h.htm" title="VirtualKeyboard.h" alt="" coords="1625,160,1756,189"/>
+<area shape="rect" id="node81" href="$IMEDataInterface_8h.htm" title="IMEDataInterface.h" alt="" coords="1913,237,2057,267"/>
+<area shape="rect" id="node97" href="$InputMethod_8h.htm" title="InputMethod.h" alt="" coords="1865,315,1977,344"/>
+<area shape="rect" id="node83" href="$IMEData_8h.htm" title="IMEData.h" alt="" coords="1613,315,1701,344"/>
+</map>

@@ -1,0 +1,26 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$VirtualKeyboardPreferences_8h.htm" title="VirtualKeyboardPreferences.h" alt="" coords="5,237,213,267"/>
+<area shape="rect" id="node17" href="$Preferences_8h.htm" title="Preferences.h" alt="" coords="1947,83,2056,112"/>
+<area shape="rect" id="node40" href="$Logging_8h.htm" title="Logging.h" alt="" coords="903,160,985,189"/>
+<area shape="rect" id="node48" href="$SystemUiController_8h.htm" title="SystemUiController.h" alt="" coords="2744,83,2899,112"/>
+<area shape="rect" id="node138" href="$JSONUtils_8h.htm" title="JSONUtils.h" alt="" coords="3797,160,3893,189"/>
+<area shape="rect" id="node9" href="$VirtualKeyboard_8h.htm" title="VirtualKeyboard.h" alt="" coords="108,315,239,344"/>
+<area shape="rect" id="node11" href="$IMEDataInterface_8h.htm" title="IMEDataInterface.h" alt="" coords="25,392,169,421"/>
+<area shape="rect" id="node13" href="$InputMethod_8h.htm" title="InputMethod.h" alt="" coords="193,392,305,421"/>
+<area shape="rect" id="node19" href="$Common_8h.htm" title="Common.h" alt="" coords="1871,315,1959,344"/>
+<area shape="rect" id="node24" href="$Mutex_8h.htm" title="Mutex.h" alt="" coords="1561,160,1631,189"/>
+<area shape="rect" id="node33" href="$CustomEvents_8h.htm" title="CustomEvents.h" alt="" coords="3024,237,3147,267"/>
+<area shape="rect" id="node27" href="$sptr_8h.htm" title="sptr.h" alt="" coords="1269,237,1325,267"/>
+<area shape="rect" id="node64" href="$ApplicationDescription_8h.htm" title="ApplicationDescription.h" alt="" coords="1009,160,1183,189"/>
+<area shape="rect" id="node95" href="$Event_8h.htm" title="Event.h" alt="" coords="2099,160,2168,189"/>
+<area shape="rect" id="node108" href="$SuspendBlocker_8h.htm" title="SuspendBlocker.h" alt="" coords="2363,160,2496,189"/>
+<area shape="rect" id="node113" href="$VariantAnimation_8h.htm" title="VariantAnimation.h" alt="" coords="2811,237,2949,267"/>
+<area shape="rect" id="node118" href="$Window_8h.htm" title="Window.h" alt="" coords="2603,237,2685,267"/>
+<area shape="rect" id="node129" href="$StatusBar_8h.htm" title="StatusBar.h" alt="" coords="2907,160,3000,189"/>
+<area shape="rect" id="node135" href="$BezelGesture_8h.htm" title="BezelGesture.h" alt="" coords="2715,160,2832,189"/>
+<area shape="rect" id="node74" href="$GraphicsDefs_8h.htm" title="GraphicsDefs.h" alt="" coords="1760,237,1877,267"/>
+<area shape="rect" id="node77" href="$LaunchPoint_8h.htm" title="LaunchPoint.h" alt="" coords="747,237,856,267"/>
+<area shape="rect" id="node83" href="$KeywordMap_8h.htm" title="KeywordMap.h" alt="" coords="557,237,672,267"/>
+<area shape="rect" id="node89" href="$CmdResourceHandlers_8h.htm" title="CmdResourceHandlers.h" alt="" coords="880,237,1059,267"/>
+<area shape="rect" id="node140" href="$Settings_8h.htm" title="Settings.h" alt="" coords="1451,237,1533,267"/>
+</map>

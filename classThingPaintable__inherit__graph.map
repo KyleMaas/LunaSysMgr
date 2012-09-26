@@ -1,0 +1,30 @@
+<map id="G" name="G">
+<area shape="rect" id="node7" href="$classDemoGoggles.htm" title="DemoGoggles" alt="" coords="465,5,577,35"/>
+<area shape="rect" id="node9" href="$classDemoGoggles2.htm" title="DemoGoggles2" alt="" coords="461,59,581,88"/>
+<area shape="rect" id="node11" href="$classDemoGoggles3.htm" title="DemoGoggles3" alt="" coords="461,112,581,141"/>
+<area shape="rect" id="node13" href="$classDemoGoggles4.htm" title="DemoGoggles4" alt="" coords="461,165,581,195"/>
+<area shape="rect" id="node15" href="$classDotGrid.htm" title="DotGrid" alt="" coords="487,219,556,248"/>
+<area shape="rect" id="node17" href="$classHorizontalDivider.htm" title="HorizontalDivider" alt="" coords="456,272,587,301"/>
+<area shape="rect" id="node21" href="$classIconBase.htm" title="IconBase" alt="" coords="481,325,561,355"/>
+<area shape="rect" id="node23" href="$classLabeledButton.htm" title="LabeledButton" alt="" coords="465,379,577,408"/>
+<area shape="rect" id="node27" href="$classLauncherObject.htm" title="LauncherObject" alt="" coords="461,432,581,461"/>
+<area shape="rect" id="node29" href="$classOverlayLayer.htm" title="OverlayLayer" alt="" coords="468,485,575,515"/>
+<area shape="rect" id="node31" href="$classPage.htm" title="Page" alt="" coords="495,539,548,568"/>
+<area shape="rect" id="node37" href="$classPageTab.htm" title="PageTab" alt="" coords="483,592,560,621"/>
+<area shape="rect" id="node39" href="$classPageTabBar.htm" title="PageTabBar" alt="" coords="471,645,572,675"/>
+<area shape="rect" id="node41" href="$classPictureBox.htm" title="PictureBox" alt="" coords="477,699,565,728"/>
+<area shape="rect" id="node43" href="$classPixButton.htm" title="PixButton" alt="" coords="481,752,561,781"/>
+<area shape="rect" id="node49" href="$classQuickLaunchBar.htm" title="QuickLaunchBar" alt="" coords="459,805,584,835"/>
+<area shape="rect" id="node51" href="$classScrollableObject.htm" title="ScrollableObject" alt="" coords="460,859,583,888"/>
+<area shape="rect" id="node57" href="$classTextBox.htm" title="TextBox" alt="" coords="484,912,559,941"/>
+<area shape="rect" id="node2" href="$classThing.htm" title="Thing" alt="" coords="184,459,243,488"/>
+<area shape="rect" id="node4" href="$classQGraphicsObject.htm" title="QGraphicsObject" alt="" coords="5,459,136,488"/>
+<area shape="rect" id="node19" href="$classHorizontalLabeledDivider.htm" title="HorizontalLabeledDivider" alt="" coords="636,272,815,301"/>
+<area shape="rect" id="node25" href="$classColorRoundRectButton.htm" title="ColorRoundRectButton" alt="" coords="643,379,808,408"/>
+<area shape="rect" id="node33" href="$classAlphabetPage.htm" title="AlphabetPage" alt="" coords="671,512,780,541"/>
+<area shape="rect" id="node35" href="$classReorderablePage.htm" title="ReorderablePage" alt="" coords="659,565,792,595"/>
+<area shape="rect" id="node45" href="$classPixButton2State.htm" title="PixButton2State" alt="" coords="664,712,787,741"/>
+<area shape="rect" id="node47" href="$classPixButtonSimple.htm" title="PixButtonSimple" alt="" coords="664,765,787,795"/>
+<area shape="rect" id="node53" href="$classScrollingLayoutRenderer.htm" title="ScrollingLayoutRenderer" alt="" coords="636,845,815,875"/>
+<area shape="rect" id="node55" href="$classScrollingSurface.htm" title="ScrollingSurface" alt="" coords="664,899,787,928"/>
+</map>

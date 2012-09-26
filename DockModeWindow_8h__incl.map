@@ -1,0 +1,21 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$Common_8h.htm" title="Common.h" alt="" coords="1444,392,1532,421"/>
+<area shape="rect" id="node5" href="$Event_8h.htm" title="Event.h" alt="" coords="347,237,416,267"/>
+<area shape="rect" id="node24" href="$CardWindow_8h.htm" title="CardWindow.h" alt="" coords="1729,83,1844,112"/>
+<area shape="rect" id="node60" href="$Timer_8h.htm" title="Timer.h" alt="" coords="440,237,509,267"/>
+<area shape="rect" id="node102" href="$DockModeWindowManager_8h.htm" title="DockModeWindowManager.h" alt="" coords="2515,160,2723,189"/>
+<area shape="rect" id="node20" href="$sptr_8h.htm" title="sptr.h" alt="" coords="24,315,80,344"/>
+<area shape="rect" id="node27" href="$Settings_8h.htm" title="Settings.h" alt="" coords="1627,237,1709,267"/>
+<area shape="rect" id="node40" href="$HostWindow_8h.htm" title="HostWindow.h" alt="" coords="917,160,1029,189"/>
+<area shape="rect" id="node67" href="$SystemUiController_8h.htm" title="SystemUiController.h" alt="" coords="1112,160,1267,189"/>
+<area shape="rect" id="node98" href="$CardRoundedCornerShaderStage_8h.htm" title="CardRoundedCornerShaderStage.h" alt="" coords="1291,160,1539,189"/>
+<area shape="rect" id="node43" href="$Window_8h.htm" title="Window.h" alt="" coords="947,237,1029,267"/>
+<area shape="rect" id="node50" href="$HostWindowData_8h.htm" title="HostWindowData.h" alt="" coords="853,315,995,344"/>
+<area shape="rect" id="node53" href="$InputClient_8h.htm" title="InputClient.h" alt="" coords="1053,237,1152,267"/>
+<area shape="rect" id="node74" href="$VariantAnimation_8h.htm" title="VariantAnimation.h" alt="" coords="1733,237,1872,267"/>
+<area shape="rect" id="node78" href="$CustomEvents_8h.htm" title="CustomEvents.h" alt="" coords="1429,237,1552,267"/>
+<area shape="rect" id="node106" href="$GraphicsDefs_8h.htm" title="GraphicsDefs.h" alt="" coords="2607,315,2724,344"/>
+<area shape="rect" id="node109" href="$WindowManagerBase_8h.htm" title="WindowManagerBase.h" alt="" coords="2331,237,2501,267"/>
+<area shape="rect" id="node113" href="$PtrArray_8h.htm" title="PtrArray.h" alt="" coords="1445,315,1531,344"/>
+<area shape="rect" id="node119" href="$SystemMenu_8h.htm" title="SystemMenu.h" alt="" coords="2939,237,3053,267"/>
+</map>

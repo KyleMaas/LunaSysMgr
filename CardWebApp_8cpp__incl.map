@@ -1,0 +1,24 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$Common_8h.htm" title="Common.h" alt="" coords="929,469,1017,499"/>
+<area shape="rect" id="node11" href="$CardWebApp_8h.htm" title="CardWebApp.h" alt="" coords="637,160,755,189"/>
+<area shape="rect" id="node32" href="$Window_8h.htm" title="Window.h" alt="" coords="1315,315,1397,344"/>
+<area shape="rect" id="node42" href="$EventThrottler_8h.htm" title="EventThrottler.h" alt="" coords="309,237,432,267"/>
+<area shape="rect" id="node46" href="$Logging_8h.htm" title="Logging.h" alt="" coords="1208,315,1291,344"/>
+<area shape="rect" id="node53" href="$RemoteWindowData_8h.htm" title="RemoteWindowData.h" alt="" coords="556,83,719,112"/>
+<area shape="rect" id="node59" href="$RoundedCorners_8h.htm" title="RoundedCorners.h" alt="" coords="205,83,347,112"/>
+<area shape="rect" id="node64" href="$Settings_8h.htm" title="Settings.h" alt="" coords="1939,315,2021,344"/>
+<area shape="rect" id="node75" href="$Utils_8h.htm" title="Utils.h" alt="" coords="2335,315,2393,344"/>
+<area shape="rect" id="node93" href="$WebAppCache_8h.htm" title="WebAppCache.h" alt="" coords="1059,315,1184,344"/>
+<area shape="rect" id="node96" href="$WebAppDeferredUpdateHandler_8h.htm" title="WebAppDeferredUpdateHandler.h" alt="" coords="2717,83,2955,112"/>
+<area shape="rect" id="node98" href="$WebAppManager_8h.htm" title="WebAppManager.h" alt="" coords="1019,237,1160,267"/>
+<area shape="rect" id="node106" href="$WebAppFactory_8h.htm" title="WebAppFactory.h" alt="" coords="1407,237,1540,267"/>
+<area shape="rect" id="node111" href="$WebPage_8h.htm" title="WebPage.h" alt="" coords="1771,315,1864,344"/>
+<area shape="rect" id="node118" href="$WindowContentTransitionRunner_8h.htm" title="WindowContentTransitionRunner.h" alt="" coords="2084,392,2327,421"/>
+<area shape="rect" id="node122" href="$WindowMetaData_8h.htm" title="WindowMetaData.h" alt="" coords="2979,83,3123,112"/>
+<area shape="rect" id="node124" href="$Time_8h.htm" title="Time.h" alt="" coords="2519,315,2583,344"/>
+<area shape="rect" id="node130" href="$EventReporter_8h.htm" title="EventReporter.h" alt="" coords="5,160,131,189"/>
+<area shape="rect" id="node133" href="$ApplicationDescription_8h.htm" title="ApplicationDescription.h" alt="" coords="1523,315,1696,344"/>
+<area shape="rect" id="node14" href="$sptr_8h.htm" title="sptr.h" alt="" coords="613,392,669,421"/>
+<area shape="rect" id="node19" href="$WindowedWebApp_8h.htm" title="WindowedWebApp.h" alt="" coords="557,237,709,267"/>
+<area shape="rect" id="node23" href="$Event_8h.htm" title="Event.h" alt="" coords="640,315,709,344"/>
+</map>

@@ -1,0 +1,19 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$GlyphCache_8h.htm" title="GlyphCache.h" alt="" coords="308,83,417,112"/>
+<area shape="rect" id="node9" href="$PhoneKeyboard_8h.htm" title="PhoneKeyboard.h" alt="" coords="296,160,429,189"/>
+<area shape="rect" id="node13" href="$TabletKeyboard_8h.htm" title="TabletKeyboard.h" alt="" coords="453,160,584,189"/>
+<area shape="rect" id="node17" href="$IMEManager_8cpp.htm" title="IMEManager.cpp" alt="" coords="603,83,733,112"/>
+<area shape="rect" id="node20" href="$VirtualKeyboardPreferences_8h.htm" title="VirtualKeyboardPreferences.h" alt="" coords="901,160,1109,189"/>
+<area shape="rect" id="node39" href="$VirtualKeyboard_8cpp.htm" title="VirtualKeyboard.cpp" alt="" coords="757,83,904,112"/>
+<area shape="rect" id="node5" href="$GlyphCache_8cpp.htm" title="GlyphCache.cpp" alt="" coords="147,160,272,189"/>
+<area shape="rect" id="node7" href="$IMEPixmap_8cpp.htm" title="IMEPixmap.cpp" alt="" coords="5,160,123,189"/>
+<area shape="rect" id="node11" href="$PhoneKeyboard_8cpp.htm" title="PhoneKeyboard.cpp" alt="" coords="272,237,421,267"/>
+<area shape="rect" id="node15" href="$TabletKeyboard_8cpp.htm" title="TabletKeyboard.cpp" alt="" coords="445,237,592,267"/>
+<area shape="rect" id="node22" href="$Preferences_8cpp.htm" title="Preferences.cpp" alt="" coords="864,237,989,267"/>
+<area shape="rect" id="node24" href="$SystemService_8cpp.htm" title="SystemService.cpp" alt="" coords="1013,237,1155,267"/>
+<area shape="rect" id="node27" href="$PhoneKeymap_8cpp.htm" title="PhoneKeymap.cpp" alt="" coords="1179,237,1317,267"/>
+<area shape="rect" id="node29" href="$PreKeymap_8cpp.htm" title="PreKeymap.cpp" alt="" coords="1341,237,1461,267"/>
+<area shape="rect" id="node31" href="$ShortcutsHandler_8cpp.htm" title="ShortcutsHandler.cpp" alt="" coords="1485,237,1643,267"/>
+<area shape="rect" id="node34" href="$TabletKeymap_8cpp.htm" title="TabletKeymap.cpp" alt="" coords="1667,237,1805,267"/>
+<area shape="rect" id="node36" href="$VirtualKeyboardPreferences_8cpp.htm" title="VirtualKeyboardPreferences.cpp" alt="" coords="616,237,840,267"/>
+</map>

@@ -1,0 +1,36 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$dimensionslauncher_8h.htm" title="dimensionslauncher.h" alt="" coords="2573,160,2731,189"/>
+<area shape="rect" id="node37" href="$dimensionsmain_8h.htm" title="dimensionsmain.h" alt="" coords="1000,160,1133,189"/>
+<area shape="rect" id="node43" href="$OverlayWindowManager_8h.htm" title="OverlayWindowManager.h" alt="" coords="447,237,636,267"/>
+<area shape="rect" id="node62" href="$quicklaunchbar_8h.htm" title="quicklaunchbar.h" alt="" coords="1133,83,1259,112"/>
+<area shape="rect" id="node68" href="$page_8h.htm" title="page.h" alt="" coords="1833,83,1897,112"/>
+<area shape="rect" id="node5" href="$dimensionslauncher_8cpp.htm" title="dimensionslauncher.cpp" alt="" coords="1353,237,1527,267"/>
+<area shape="rect" id="node7" href="$dimensionsmain_8cpp.htm" title="dimensionsmain.cpp" alt="" coords="816,315,965,344"/>
+<area shape="rect" id="node9" href="$pagetabbar_8cpp.htm" title="pagetabbar.cpp" alt="" coords="3404,237,3521,267"/>
+<area shape="rect" id="node11" href="$quicklaunchbar_8cpp.htm" title="quicklaunchbar.cpp" alt="" coords="1188,237,1329,267"/>
+<area shape="rect" id="node13" href="$icon_8cpp.htm" title="icon.cpp" alt="" coords="1879,237,1953,267"/>
+<area shape="rect" id="node15" href="$alphabetpage_8cpp.htm" title="alphabetpage.cpp" alt="" coords="2289,237,2423,267"/>
+<area shape="rect" id="node17" href="$reorderableiconlayout_8cpp.htm" title="reorderableiconlayout.cpp" alt="" coords="2081,237,2265,267"/>
+<area shape="rect" id="node19" href="$page_8cpp.htm" title="page.cpp" alt="" coords="1977,237,2057,267"/>
+<area shape="rect" id="node21" href="$pagemovement_8cpp.htm" title="pagemovement.cpp" alt="" coords="2447,237,2591,267"/>
+<area shape="rect" id="node23" href="$reorderablepage_8cpp.htm" title="reorderablepage.cpp" alt="" coords="1012,237,1164,267"/>
+<area shape="rect" id="node25" href="$overlaylayer_8cpp.htm" title="overlaylayer.cpp" alt="" coords="2615,237,2740,267"/>
+<area shape="rect" id="node27" href="$vcamera_8cpp.htm" title="vcamera.cpp" alt="" coords="2764,237,2865,267"/>
+<area shape="rect" id="node29" href="$groupanchoritem_8cpp.htm" title="groupanchoritem.cpp" alt="" coords="2889,237,3044,267"/>
+<area shape="rect" id="node31" href="$appeffector_8cpp.htm" title="appeffector.cpp" alt="" coords="3068,237,3188,267"/>
+<area shape="rect" id="node33" href="$appmonitor_8cpp.htm" title="appmonitor.cpp" alt="" coords="3212,237,3329,267"/>
+<area shape="rect" id="node35" href="$pagesaver_8cpp.htm" title="pagesaver.cpp" alt="" coords="1551,237,1665,267"/>
+<area shape="rect" id="node39" href="$ApplicationManager_8cpp.htm" title="ApplicationManager.cpp" alt="" coords="619,315,792,344"/>
+<area shape="rect" id="node57" href="$pagerestore_8cpp.htm" title="pagerestore.cpp" alt="" coords="863,237,988,267"/>
+<area shape="rect" id="node59" href="$thing_8cpp.htm" title="thing.cpp" alt="" coords="711,237,788,267"/>
+<area shape="rect" id="node46" href="$SystemUiController_8cpp.htm" title="SystemUiController.cpp" alt="" coords="427,315,595,344"/>
+<area shape="rect" id="node49" href="$OverlayWindowManager_8cpp.htm" title="OverlayWindowManager.cpp" alt="" coords="5,315,208,344"/>
+<area shape="rect" id="node51" href="$WindowServerLuna_8cpp.htm" title="WindowServerLuna.cpp" alt="" coords="232,315,403,344"/>
+<area shape="rect" id="node72" href="$pagetab_8cpp.htm" title="pagetab.cpp" alt="" coords="1816,160,1915,189"/>
+<area shape="rect" id="node76" href="$alphabetpage_8h.htm" title="alphabetpage.h" alt="" coords="1675,160,1792,189"/>
+<area shape="rect" id="node80" href="$alphabeticonlayout_8cpp.htm" title="alphabeticonlayout.cpp" alt="" coords="1689,237,1855,267"/>
+<area shape="rect" id="node83" href="$iconlayout_8cpp.htm" title="iconlayout.cpp" alt="" coords="2091,160,2200,189"/>
+<area shape="rect" id="node87" href="$reorderablepage_8h.htm" title="reorderablepage.h" alt="" coords="1309,160,1448,189"/>
+<area shape="rect" id="node95" href="$layoutsettings_8cpp.htm" title="layoutsettings.cpp" alt="" coords="2224,160,2357,189"/>
+<area shape="rect" id="node97" href="$operationalsettings_8cpp.htm" title="operationalsettings.cpp" alt="" coords="2381,160,2549,189"/>
+</map>

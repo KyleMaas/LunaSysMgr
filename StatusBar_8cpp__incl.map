@@ -1,0 +1,32 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$StatusBar_8h.htm" title="StatusBar.h" alt="" coords="1996,237,2089,267"/>
+<area shape="rect" id="node24" href="$Settings_8h.htm" title="Settings.h" alt="" coords="3512,315,3595,344"/>
+<area shape="rect" id="node35" href="$Preferences_8h.htm" title="Preferences.h" alt="" coords="1863,237,1972,267"/>
+<area shape="rect" id="node48" href="$SystemService_8h.htm" title="SystemService.h" alt="" coords="1425,237,1551,267"/>
+<area shape="rect" id="node56" href="$StatusBarTitle_8h.htm" title="StatusBarTitle.h" alt="" coords="1072,83,1192,112"/>
+<area shape="rect" id="node61" href="$StatusBarItem_8h.htm" title="StatusBarItem.h" alt="" coords="521,160,641,189"/>
+<area shape="rect" id="node67" href="$StatusBarSearch_8h.htm" title="StatusBarSearch.h" alt="" coords="5,83,144,112"/>
+<area shape="rect" id="node73" href="$StatusBarSeparator_8h.htm" title="StatusBarSeparator.h" alt="" coords="168,83,325,112"/>
+<area shape="rect" id="node78" href="$StatusBarClock_8h.htm" title="StatusBarClock.h" alt="" coords="563,83,691,112"/>
+<area shape="rect" id="node83" href="$StatusBarBattery_8h.htm" title="StatusBarBattery.h" alt="" coords="349,83,488,112"/>
+<area shape="rect" id="node88" href="$StatusBarInfo_8h.htm" title="StatusBarInfo.h" alt="" coords="931,83,1048,112"/>
+<area shape="rect" id="node102" href="$StatusBarServicesConnector_8h.htm" title="StatusBarServicesConnector.h" alt="" coords="1504,160,1717,189"/>
+<area shape="rect" id="node111" href="$StatusBarNotificationArea_8h.htm" title="StatusBarNotificationArea.h" alt="" coords="1216,83,1411,112"/>
+<area shape="rect" id="node124" href="$StatusBarVersion_8h.htm" title="StatusBarVersion.h" alt="" coords="715,83,856,112"/>
+<area shape="rect" id="node129" href="$StatusBarItemGroup_8h.htm" title="StatusBarItemGroup.h" alt="" coords="2096,83,2256,112"/>
+<area shape="rect" id="node140" href="$AnimationSettings_8h.htm" title="AnimationSettings.h" alt="" coords="3312,237,3459,267"/>
+<area shape="rect" id="node150" href="$WindowServerLuna_8h.htm" title="WindowServerLuna.h" alt="" coords="2468,237,2623,267"/>
+<area shape="rect" id="node157" href="$DashboardWindowManager_8h.htm" title="DashboardWindowManager.h" alt="" coords="3080,237,3288,267"/>
+<area shape="rect" id="node165" href="$DockModeWindowManager_8h.htm" title="DockModeWindowManager.h" alt="" coords="2812,83,3020,112"/>
+<area shape="rect" id="node177" href="$DockModeMenuManager_8h.htm" title="DockModeMenuManager.h" alt="" coords="2552,83,2744,112"/>
+<area shape="rect" id="node181" href="$DashboardWindowContainer_8h.htm" title="DashboardWindowContainer.h" alt="" coords="1625,237,1839,267"/>
+<area shape="rect" id="node188" href="$SystemUiController_8h.htm" title="SystemUiController.h" alt="" coords="2264,160,2419,189"/>
+<area shape="rect" id="node5" href="$Window_8h.htm" title="Window.h" alt="" coords="2384,315,2467,344"/>
+<area shape="rect" id="node18" href="$VariantAnimation_8h.htm" title="VariantAnimation.h" alt="" coords="1976,315,2115,344"/>
+<area shape="rect" id="node21" href="$CustomEvents_8h.htm" title="CustomEvents.h" alt="" coords="2541,315,2664,344"/>
+<area shape="rect" id="node7" href="$Common_8h.htm" title="Common.h" alt="" coords="2509,392,2597,421"/>
+<area shape="rect" id="node41" href="$Mutex_8h.htm" title="Mutex.h" alt="" coords="2963,315,3032,344"/>
+<area shape="rect" id="node92" href="$StatusBarIcon_8h.htm" title="StatusBarIcon.h" alt="" coords="969,237,1089,267"/>
+<area shape="rect" id="node116" href="$BannerMessageHandler_8h.htm" title="BannerMessageHandler.h" alt="" coords="1113,237,1300,267"/>
+<area shape="rect" id="node147" href="$AnimationEquations_8h.htm" title="AnimationEquations.h" alt="" coords="3229,315,3387,344"/>
+</map>

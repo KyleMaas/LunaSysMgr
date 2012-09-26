@@ -1,0 +1,21 @@
+<map id="G" name="G">
+<area shape="rect" id="node5" href="$CoreNaviManager_8h.htm" title="CoreNaviManager.h" alt="" coords="1259,83,1408,112"/>
+<area shape="rect" id="node97" href="$Settings_8h.htm" title="Settings.h" alt="" coords="1752,315,1835,344"/>
+<area shape="rect" id="node141" href="$Preferences_8h.htm" title="Preferences.h" alt="" coords="955,237,1064,267"/>
+<area shape="rect" id="node151" href="$DeviceInfo_8h.htm" title="DeviceInfo.h" alt="" coords="1472,237,1571,267"/>
+<area shape="rect" id="node7" href="$Common_8h.htm" title="Common.h" alt="" coords="1572,469,1660,499"/>
+<area shape="rect" id="node9" href="$HostBase_8h.htm" title="HostBase.h" alt="" coords="2301,160,2395,189"/>
+<area shape="rect" id="node59" href="$CoreNaviLeds_8h.htm" title="CoreNaviLeds.h" alt="" coords="2925,315,3048,344"/>
+<area shape="rect" id="node76" href="$DisplayManager_8h.htm" title="DisplayManager.h" alt="" coords="1371,160,1507,189"/>
+<area shape="rect" id="node87" href="$AmbientLightSensor_8h.htm" title="AmbientLightSensor.h" alt="" coords="1088,237,1245,267"/>
+<area shape="rect" id="node113" href="$SystemUiController_8h.htm" title="SystemUiController.h" alt="" coords="573,237,728,267"/>
+<area shape="rect" id="node18" href="$TaskBase_8h.htm" title="TaskBase.h" alt="" coords="2739,237,2835,267"/>
+<area shape="rect" id="node38" href="$Mutex_8h.htm" title="Mutex.h" alt="" coords="2136,315,2205,344"/>
+<area shape="rect" id="node44" href="$CustomEvents_8h.htm" title="CustomEvents.h" alt="" coords="893,315,1016,344"/>
+<area shape="rect" id="node49" href="$InputControl_8h.htm" title="InputControl.h" alt="" coords="2859,237,2968,267"/>
+<area shape="rect" id="node23" href="$sptr_8h.htm" title="sptr.h" alt="" coords="2451,392,2507,421"/>
+<area shape="rect" id="node27" href="$Event_8h.htm" title="Event.h" alt="" coords="2477,315,2547,344"/>
+<area shape="rect" id="node79" href="$Timer_8h.htm" title="Timer.h" alt="" coords="2043,315,2112,344"/>
+<area shape="rect" id="node92" href="$DisplayStates_8h.htm" title="DisplayStates.h" alt="" coords="1595,237,1712,267"/>
+<area shape="rect" id="node130" href="$Window_8h.htm" title="Window.h" alt="" coords="1523,315,1605,344"/>
+</map>

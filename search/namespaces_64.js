@@ -1,0 +1,23 @@
+var searchData=
+[
+  ['animationtype',['AnimationType',['../namespaceDimensionsTypes_1_1AnimationType.htm',1,'DimensionsTypes']]],
+  ['appmonitorsignaltype',['AppMonitorSignalType',['../namespaceDimensionsSystemInterface_1_1AppMonitorSignalType.htm',1,'DimensionsSystemInterface']]],
+  ['decoratordesignation',['DecoratorDesignation',['../namespaceDecoratorDesignation.htm',1,'']]],
+  ['dimensionsdebugglobal',['DimensionsDebugGlobal',['../namespaceDimensionsDebugGlobal.htm',1,'']]],
+  ['dimensionsglobal',['DimensionsGlobal',['../namespaceDimensionsGlobal.htm',1,'']]],
+  ['dimensionssysteminterface',['DimensionsSystemInterface',['../namespaceDimensionsSystemInterface.htm',1,'']]],
+  ['dimensionstypes',['DimensionsTypes',['../namespaceDimensionsTypes.htm',1,'']]],
+  ['dimensionsuitest',['DimensionsUITest',['../namespaceDimensionsUITest.htm',1,'']]],
+  ['externalapptype',['ExternalAppType',['../namespaceDimensionsSystemInterface_1_1ExternalAppType.htm',1,'DimensionsSystemInterface']]],
+  ['hidecause',['HideCause',['../namespaceDimensionsTypes_1_1HideCause.htm',1,'DimensionsTypes']]],
+  ['pagerestoremsavefileselector',['PageRestoreMSaveFileSelector',['../namespaceDimensionsSystemInterface_1_1PageRestoreMSaveFileSelector.htm',1,'DimensionsSystemInterface']]],
+  ['quicklaunchrestoresavefileselector',['QuickLaunchRestoreSaveFileSelector',['../namespaceDimensionsSystemInterface_1_1QuickLaunchRestoreSaveFileSelector.htm',1,'DimensionsSystemInterface']]],
+  ['rectcornername',['RectCornerName',['../namespaceDimensionsGlobal_1_1RectCornerName.htm',1,'DimensionsGlobal']]],
+  ['rectpointname',['RectPointName',['../namespaceDimensionsGlobal_1_1RectPointName.htm',1,'DimensionsGlobal']]],
+  ['showcause',['ShowCause',['../namespaceDimensionsTypes_1_1ShowCause.htm',1,'DimensionsTypes']]],
+  ['staticmatchlisttype',['StaticMatchListType',['../namespaceDimensionsSystemInterface_1_1StaticMatchListType.htm',1,'DimensionsSystemInterface']]],
+  ['uistate',['UiState',['../namespaceDimensionsTypes_1_1UiState.htm',1,'DimensionsTypes']]],
+  ['woappicontype',['WOAppIconType',['../namespaceDimensionsSystemInterface_1_1WOAppIconType.htm',1,'DimensionsSystemInterface']]],
+  ['woapporigin',['WOAppOrigin',['../namespaceDimensionsSystemInterface_1_1WOAppOrigin.htm',1,'DimensionsSystemInterface']]],
+  ['woappvisibility',['WOAppVisibility',['../namespaceDimensionsSystemInterface_1_1WOAppVisibility.htm',1,'DimensionsSystemInterface']]]
+];

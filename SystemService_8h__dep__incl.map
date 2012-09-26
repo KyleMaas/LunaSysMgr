@@ -1,0 +1,30 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$AmbientLightSensor_8cpp.htm" title="AmbientLightSensor.cpp" alt="" coords="5,83,179,112"/>
+<area shape="rect" id="node5" href="$ApplicationInstaller_8cpp.htm" title="ApplicationInstaller.cpp" alt="" coords="203,83,368,112"/>
+<area shape="rect" id="node7" href="$ApplicationManager_8cpp.htm" title="ApplicationManager.cpp" alt="" coords="392,83,565,112"/>
+<area shape="rect" id="node9" href="$DisplayManager_8cpp.htm" title="DisplayManager.cpp" alt="" coords="589,83,739,112"/>
+<area shape="rect" id="node11" href="$DisplayStates_8cpp.htm" title="DisplayStates.cpp" alt="" coords="763,83,896,112"/>
+<area shape="rect" id="node13" href="$EASPolicyManager_8cpp.htm" title="EASPolicyManager.cpp" alt="" coords="920,83,1088,112"/>
+<area shape="rect" id="node15" href="$InputManager_8cpp.htm" title="InputManager.cpp" alt="" coords="1112,83,1248,112"/>
+<area shape="rect" id="node17" href="$Security_8cpp.htm" title="Security.cpp" alt="" coords="1272,83,1371,112"/>
+<area shape="rect" id="node19" href="$SystemService_8cpp.htm" title="SystemService.cpp" alt="" coords="1395,83,1536,112"/>
+<area shape="rect" id="node21" href="$SystemUiController_8cpp.htm" title="SystemUiController.cpp" alt="" coords="1560,83,1728,112"/>
+<area shape="rect" id="node23" href="$TouchToShareGlow_8cpp.htm" title="TouchToShareGlow.cpp" alt="" coords="1752,83,1925,112"/>
+<area shape="rect" id="node25" href="$WSOverlayScreenShotAnimation_8cpp.htm" title="WSOverlayScreenShotAnimation.cpp" alt="" coords="1949,83,2203,112"/>
+<area shape="rect" id="node27" href="$WindowServer_8cpp.htm" title="WindowServer.cpp" alt="" coords="2227,83,2365,112"/>
+<area shape="rect" id="node29" href="$InputWindowManager_8cpp.htm" title="InputWindowManager.cpp" alt="" coords="2389,83,2576,112"/>
+<area shape="rect" id="node31" href="$CardLoading_8cpp.htm" title="CardLoading.cpp" alt="" coords="2600,83,2731,112"/>
+<area shape="rect" id="node33" href="$CardWindowManager_8cpp.htm" title="CardWindowManager.cpp" alt="" coords="2755,83,2941,112"/>
+<area shape="rect" id="node35" href="$CardWindowManagerStates_8cpp.htm" title="CardWindowManagerStates.cpp" alt="" coords="2965,83,3192,112"/>
+<area shape="rect" id="node37" href="$DockModeWindowManager_8cpp.htm" title="DockModeWindowManager.cpp" alt="" coords="3216,83,3437,112"/>
+<area shape="rect" id="node39" href="$EmergencyWindowManager_8cpp.htm" title="EmergencyWindowManager.cpp" alt="" coords="3461,83,3688,112"/>
+<area shape="rect" id="node41" href="$LockWindow_8cpp.htm" title="LockWindow.cpp" alt="" coords="3712,83,3840,112"/>
+<area shape="rect" id="node43" href="$TopLevelWindowManager_8cpp.htm" title="TopLevelWindowManager.cpp" alt="" coords="3864,83,4077,112"/>
+<area shape="rect" id="node45" href="$BannerMessageHandler_8cpp.htm" title="BannerMessageHandler.cpp" alt="" coords="4101,83,4304,112"/>
+<area shape="rect" id="node47" href="$BannerWindow_8cpp.htm" title="BannerWindow.cpp" alt="" coords="4328,83,4472,112"/>
+<area shape="rect" id="node49" href="$StatusBar_8cpp.htm" title="StatusBar.cpp" alt="" coords="4496,83,4605,112"/>
+<area shape="rect" id="node51" href="$StatusBarServicesConnector_8cpp.htm" title="StatusBarServicesConnector.cpp" alt="" coords="4629,83,4859,112"/>
+<area shape="rect" id="node53" href="$WindowServerLuna_8cpp.htm" title="WindowServerLuna.cpp" alt="" coords="4883,83,5053,112"/>
+<area shape="rect" id="node55" href="$Main_8cpp.htm" title="Main.cpp" alt="" coords="5077,83,5155,112"/>
+<area shape="rect" id="node57" href="$IpcServer_8cpp.htm" title="IpcServer.cpp" alt="" coords="5179,83,5288,112"/>
+</map>

@@ -1,0 +1,22 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$StatusBar_8h.htm" title="StatusBar.h" alt="" coords="492,237,585,267"/>
+<area shape="rect" id="node32" href="$StatusBarServicesConnector_8h.htm" title="StatusBarServicesConnector.h" alt="" coords="628,160,841,189"/>
+<area shape="rect" id="node43" href="$HostBase_8h.htm" title="HostBase.h" alt="" coords="1377,83,1471,112"/>
+<area shape="rect" id="node102" href="$Localization_8h.htm" title="Localization.h" alt="" coords="44,237,151,267"/>
+<area shape="rect" id="node114" href="$Preferences_8h.htm" title="Preferences.h" alt="" coords="865,160,975,189"/>
+<area shape="rect" id="node122" href="$DeviceInfo_8h.htm" title="DeviceInfo.h" alt="" coords="225,237,324,267"/>
+<area shape="rect" id="node127" href="$BtDeviceClass_8h.htm" title="BtDeviceClass.h" alt="" coords="1989,83,2112,112"/>
+<area shape="rect" id="node129" href="$SystemService_8h.htm" title="SystemService.h" alt="" coords="479,160,604,189"/>
+<area shape="rect" id="node5" href="$Window_8h.htm" title="Window.h" alt="" coords="481,315,564,344"/>
+<area shape="rect" id="node22" href="$VariantAnimation_8h.htm" title="VariantAnimation.h" alt="" coords="588,315,727,344"/>
+<area shape="rect" id="node27" href="$CustomEvents_8h.htm" title="CustomEvents.h" alt="" coords="903,315,1025,344"/>
+<area shape="rect" id="node7" href="$Common_8h.htm" title="Common.h" alt="" coords="1020,392,1108,421"/>
+<area shape="rect" id="node52" href="$TaskBase_8h.htm" title="TaskBase.h" alt="" coords="1692,160,1788,189"/>
+<area shape="rect" id="node80" href="$Mutex_8h.htm" title="Mutex.h" alt="" coords="1159,237,1228,267"/>
+<area shape="rect" id="node92" href="$InputControl_8h.htm" title="InputControl.h" alt="" coords="1969,160,2079,189"/>
+<area shape="rect" id="node58" href="$sptr_8h.htm" title="sptr.h" alt="" coords="1303,315,1359,344"/>
+<area shape="rect" id="node62" href="$AsyncCaller_8h.htm" title="AsyncCaller.h" alt="" coords="1433,315,1540,344"/>
+<area shape="rect" id="node66" href="$Event_8h.htm" title="Event.h" alt="" coords="1901,237,1971,267"/>
+<area shape="rect" id="node85" href="$SingletonTimer_8h.htm" title="SingletonTimer.h" alt="" coords="1615,315,1743,344"/>
+<area shape="rect" id="node105" href="$QtUtils_8h.htm" title="QtUtils.h" alt="" coords="76,315,151,344"/>
+</map>

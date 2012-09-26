@@ -1,0 +1,23 @@
+var searchData=
+[
+  ['qpredirecttarget',['qpRedirectTarget',['../classTouchRegister.htm#a99477ee9be5ba5cb2f218d3e4bdd827f',1,'TouchRegister']]],
+  ['quicklaunchbarheightabsolute',['quickLaunchBarHeightAbsolute',['../classLayoutSettings.htm#a7d6415f4f91ffc8211ee697eee8e9828',1,'LayoutSettings']]],
+  ['quicklaunchbarlauncheraccessbuttonoffsetpx',['quickLaunchBarLauncherAccessButtonOffsetPx',['../classLayoutSettings.htm#a6b89ade04379296a6dd03100772b827e',1,'LayoutSettings']]],
+  ['quicklaunchbarsizepctscreenrelative',['quickLaunchBarSizePctScreenRelative',['../classLayoutSettings.htm#a9db39a8810bb77948b85db7a96846ea4',1,'LayoutSettings']]],
+  ['quicklaunchbaruseabsolutesize',['quickLaunchBarUseAbsoluteSize',['../classLayoutSettings.htm#a06c305ae7390ce6ef9e957f4a866da6b',1,'LayoutSettings']]],
+  ['quicklaunchcurve',['quickLaunchCurve',['../classAnimationSettings.htm#a5385aedc2cc065bf63eaf0dc9895aaac',1,'AnimationSettings']]],
+  ['quicklaunchcustompositions',['quicklaunchCustomPositions',['../classSettings.htm#a534dfead1db7ec9dfb028be1049306ae',1,'Settings']]],
+  ['quicklaunchdefaultpositions',['quicklaunchDefaultPositions',['../classSettings.htm#aa7964e5a14258efe5d4639c6670661e5',1,'Settings']]],
+  ['quicklaunchduration',['quickLaunchDuration',['../classAnimationSettings.htm#a1561d98d89bd888205568fddaf9b8b5d',1,'AnimationSettings']]],
+  ['quicklaunchfadecurve',['quickLaunchFadeCurve',['../classAnimationSettings.htm#a0295ecd24464d10566620632560035a6',1,'AnimationSettings']]],
+  ['quicklaunchfadeduration',['quickLaunchFadeDuration',['../classAnimationSettings.htm#a6fb7daed997b416a273186feaabc0461',1,'AnimationSettings']]],
+  ['quicklaunchheight',['QuicklaunchHeight',['../namespaceQuicklaunchLayout.htm#a8bb109f91f81dc141f147f62ae2e1dce',1,'QuicklaunchLayout']]],
+  ['quicklaunchitemareaoffsetpx',['quickLaunchItemAreaOffsetPx',['../classLayoutSettings.htm#a4c402337c206cbdffb7b55e80b4d8812',1,'LayoutSettings']]],
+  ['quicklaunchmaxitems',['quickLaunchMaxItems',['../classLayoutSettings.htm#a266f5e82362b34269544082b2d8a597a',1,'LayoutSettings']]],
+  ['quicklaunchtagheaderkey_5ffilename',['QuicklaunchTagHeaderKey_FileName',['../classDimensionsSystemInterface_1_1PageSaver.htm#a1555aa423c7f14a5494c341b684ca9fe',1,'DimensionsSystemInterface::PageSaver']]],
+  ['quicklaunchtagheaderkey_5fsavesystemversion',['QuicklaunchTagHeaderKey_SaveSystemVersion',['../classDimensionsSystemInterface_1_1PageSaver.htm#ab82737cd3112f117492e8a1a2d5e813f',1,'DimensionsSystemInterface::PageSaver']]],
+  ['quicklaunchtagheaderkey_5fsimplename',['QuicklaunchTagHeaderKey_SimpleName',['../classDimensionsSystemInterface_1_1PageSaver.htm#ac728700c0168f5a4e5c5470fcb306536',1,'DimensionsSystemInterface::PageSaver']]],
+  ['quicklaunchtagheaderkey_5ftimestamp',['QuicklaunchTagHeaderKey_TimeStamp',['../classDimensionsSystemInterface_1_1PageSaver.htm#adf1d1fec2df76c7cd07fb961fc5dc123',1,'DimensionsSystemInterface::PageSaver']]],
+  ['quicklaunchuserpositions',['quicklaunchUserPositions',['../classSettings.htm#a27ef3572e192131029968c4a8c1c8537',1,'Settings']]],
+  ['quicklaunchwidth',['QuicklaunchWidth',['../namespaceQuicklaunchLayout.htm#aea9075198a78d1c7134f54b1ed62d51c',1,'QuicklaunchLayout']]]
+];

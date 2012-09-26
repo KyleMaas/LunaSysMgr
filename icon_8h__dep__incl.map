@@ -1,0 +1,36 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$dimensionslauncher_8h.htm" title="dimensionslauncher.h" alt="" coords="1585,160,1743,189"/>
+<area shape="rect" id="node5" href="$dimensionslauncher_8cpp.htm" title="dimensionslauncher.cpp" alt="" coords="843,237,1016,267"/>
+<area shape="rect" id="node11" href="$quicklaunchbar_8cpp.htm" title="quicklaunchbar.cpp" alt="" coords="539,237,680,267"/>
+<area shape="rect" id="node13" href="$icon_8cpp.htm" title="icon.cpp" alt="" coords="1040,237,1115,267"/>
+<area shape="rect" id="node15" href="$alphabetpage_8cpp.htm" title="alphabetpage.cpp" alt="" coords="2464,237,2597,267"/>
+<area shape="rect" id="node17" href="$reorderableiconlayout_8cpp.htm" title="reorderableiconlayout.cpp" alt="" coords="181,237,365,267"/>
+<area shape="rect" id="node19" href="$page_8cpp.htm" title="page.cpp" alt="" coords="2219,237,2299,267"/>
+<area shape="rect" id="node23" href="$reorderablepage_8cpp.htm" title="reorderablepage.cpp" alt="" coords="5,237,157,267"/>
+<area shape="rect" id="node33" href="$appmonitor_8cpp.htm" title="appmonitor.cpp" alt="" coords="2323,237,2440,267"/>
+<area shape="rect" id="node40" href="$iconheap_8cpp.htm" title="iconheap.cpp" alt="" coords="2635,83,2741,112"/>
+<area shape="rect" id="node42" href="$page_8h.htm" title="page.h" alt="" coords="1272,83,1336,112"/>
+<area shape="rect" id="node50" href="$alphabetpage_8h.htm" title="alphabetpage.h" alt="" coords="2215,160,2332,189"/>
+<area shape="rect" id="node54" href="$alphabeticonlayout_8cpp.htm" title="alphabeticonlayout.cpp" alt="" coords="2621,237,2787,267"/>
+<area shape="rect" id="node57" href="$iconlayout_8cpp.htm" title="iconlayout.cpp" alt="" coords="1868,160,1977,189"/>
+<area shape="rect" id="node61" href="$reorderablepage_8h.htm" title="reorderablepage.h" alt="" coords="596,160,735,189"/>
+<area shape="rect" id="node77" href="$alphabeticonlayout_8h.htm" title="alphabeticonlayout.h" alt="" coords="2457,160,2607,189"/>
+<area shape="rect" id="node83" href="$reorderableiconlayout_8h.htm" title="reorderableiconlayout.h" alt="" coords="252,83,420,112"/>
+<area shape="rect" id="node85" href="$iconreorderanimation_8cpp.htm" title="iconreorderanimation.cpp" alt="" coords="119,160,300,189"/>
+<area shape="rect" id="node94" href="$iconcmdevents_8cpp.htm" title="iconcmdevents.cpp" alt="" coords="2765,83,2907,112"/>
+<area shape="rect" id="node97" href="$webosapp_8cpp.htm" title="webosapp.cpp" alt="" coords="2931,83,3043,112"/>
+<area shape="rect" id="node99" href="$testiconfactory_8h.htm" title="testiconfactory.h" alt="" coords="1553,83,1679,112"/>
+<area shape="rect" id="node7" href="$dimensionsmain_8cpp.htm" title="dimensionsmain.cpp" alt="" coords="1461,237,1611,267"/>
+<area shape="rect" id="node9" href="$pagetabbar_8cpp.htm" title="pagetabbar.cpp" alt="" coords="1635,237,1752,267"/>
+<area shape="rect" id="node21" href="$pagemovement_8cpp.htm" title="pagemovement.cpp" alt="" coords="1776,237,1920,267"/>
+<area shape="rect" id="node25" href="$overlaylayer_8cpp.htm" title="overlaylayer.cpp" alt="" coords="1944,237,2069,267"/>
+<area shape="rect" id="node27" href="$vcamera_8cpp.htm" title="vcamera.cpp" alt="" coords="2093,237,2195,267"/>
+<area shape="rect" id="node29" href="$groupanchoritem_8cpp.htm" title="groupanchoritem.cpp" alt="" coords="1139,237,1293,267"/>
+<area shape="rect" id="node31" href="$appeffector_8cpp.htm" title="appeffector.cpp" alt="" coords="1317,237,1437,267"/>
+<area shape="rect" id="node35" href="$pagesaver_8cpp.htm" title="pagesaver.cpp" alt="" coords="704,237,819,267"/>
+<area shape="rect" id="node46" href="$pagetab_8cpp.htm" title="pagetab.cpp" alt="" coords="1412,160,1511,189"/>
+<area shape="rect" id="node70" href="$layoutsettings_8cpp.htm" title="layoutsettings.cpp" alt="" coords="1063,160,1196,189"/>
+<area shape="rect" id="node72" href="$operationalsettings_8cpp.htm" title="operationalsettings.cpp" alt="" coords="1220,160,1388,189"/>
+<area shape="rect" id="node67" href="$pagerestore_8cpp.htm" title="pagerestore.cpp" alt="" coords="389,237,515,267"/>
+<area shape="rect" id="node102" href="$testiconfactory_8cpp.htm" title="testiconfactory.cpp" alt="" coords="2001,160,2140,189"/>
+</map>

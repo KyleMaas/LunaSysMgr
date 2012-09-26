@@ -1,0 +1,25 @@
+var classStatusBarInfo =
+[
+    [ "StatusBarInfo", "classStatusBarInfo.htm#a37b460ac9f680f998c48b28b9bd23ff4", null ],
+    [ "~StatusBarInfo", "classStatusBarInfo.htm#a3dc79b83ec83bca88ad2551d8aa13448", null ],
+    [ "boundingRect", "classStatusBarInfo.htm#a2b2fd1f26a0bfc18c771d8bc7d5aebb7", null ],
+    [ "getType", "classStatusBarInfo.htm#a0b1e16418559ec276f5a434070ad15a9", null ],
+    [ "height", "classStatusBarInfo.htm#af90f3b82e9b739dd63fef7978bf37dcb", null ],
+    [ "init", "classStatusBarInfo.htm#a75b2dff66e8cb147a64dc33f6883f73a", null ],
+    [ "paint", "classStatusBarInfo.htm#a23ca3062b328a689b1906f42283952e5", null ],
+    [ "setAirplaneMode", "classStatusBarInfo.htm#a52d9204255bae35d4823c609f52423c2", null ],
+    [ "setBluetooth", "classStatusBarInfo.htm#a03f493024225e6080d949b93874a8fd0", null ],
+    [ "setCallForward", "classStatusBarInfo.htm#afb1147f6f2037d404149d7110612347a", null ],
+    [ "setHAC", "classStatusBarInfo.htm#a87a5dc8c3368e40b4db8160baea86cd1", null ],
+    [ "setMute", "classStatusBarInfo.htm#aa7eef9ad0cb0c453cdd56e7757b31f62", null ],
+    [ "setRoaming", "classStatusBarInfo.htm#ad56bc7d7fc1c4026b677f1405f5bb40d", null ],
+    [ "setRotationLock", "classStatusBarInfo.htm#a921d59a4b384c7ec87d2d21bf120bb61", null ],
+    [ "setRSSI", "classStatusBarInfo.htm#ac5c1b60970e4e46ffbdacd7388637847", null ],
+    [ "setRSSI1x", "classStatusBarInfo.htm#a4fb8a6410c1ea25a8af85997b7cee5dd", null ],
+    [ "setTTY", "classStatusBarInfo.htm#ae94fd32a4073ff2d4733f239e5e8af95", null ],
+    [ "setVpn", "classStatusBarInfo.htm#a9120138e50bdff6388f2817c2917ad5f", null ],
+    [ "setWAN", "classStatusBarInfo.htm#a3dde55cc6714c49cc23f03499a5bfd11", null ],
+    [ "setWifi", "classStatusBarInfo.htm#abe06eddedf69710e48c5083c02319caf", null ],
+    [ "updateBoundingRect", "classStatusBarInfo.htm#a3ae81d6b8eb7e2ecd15b47da59eee08b", null ],
+    [ "width", "classStatusBarInfo.htm#aa3e52d86d12ff8ff17765a0f53c35760", null ]
+];

@@ -1,0 +1,27 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$DockModeMenuManager_8h.htm" title="DockModeMenuManager.h" alt="" coords="1252,83,1444,112"/>
+<area shape="rect" id="node13" href="$EmergencyWindowManager_8h.htm" title="EmergencyWindowManager.h" alt="" coords="791,83,1001,112"/>
+<area shape="rect" id="node18" href="$GraphicsItemContainer_8cpp.htm" title="GraphicsItemContainer.cpp" alt="" coords="2513,83,2708,112"/>
+<area shape="rect" id="node20" href="$LockWindow_8cpp.htm" title="LockWindow.cpp" alt="" coords="1483,160,1611,189"/>
+<area shape="rect" id="node22" href="$DashboardWindowContainer_8h.htm" title="DashboardWindowContainer.h" alt="" coords="2175,83,2388,112"/>
+<area shape="rect" id="node29" href="$DashboardWindowManager_8cpp.htm" title="DashboardWindowManager.cpp" alt="" coords="2811,160,3035,189"/>
+<area shape="rect" id="node31" href="$DashboardWindowManagerStates_8cpp.htm" title="DashboardWindowManagerStates.cpp" alt="" coords="3059,160,3323,189"/>
+<area shape="rect" id="node36" href="$DashboardWindowManager_8h.htm" title="DashboardWindowManager.h" alt="" coords="1943,83,2151,112"/>
+<area shape="rect" id="node53" href="$MenuWindowManager_8h.htm" title="MenuWindowManager.h" alt="" coords="480,83,653,112"/>
+<area shape="rect" id="node63" href="$WindowManagerMinimal_8h.htm" title="WindowManagerMinimal.h" alt="" coords="3355,83,3541,112"/>
+<area shape="rect" id="node5" href="$DockModeMenuManager_8cpp.htm" title="DockModeMenuManager.cpp" alt="" coords="1005,160,1213,189"/>
+<area shape="rect" id="node7" href="$DockModeWindowManager_8cpp.htm" title="DockModeWindowManager.cpp" alt="" coords="1237,160,1459,189"/>
+<area shape="rect" id="node9" href="$StatusBar_8cpp.htm" title="StatusBar.cpp" alt="" coords="1827,160,1936,189"/>
+<area shape="rect" id="node11" href="$WindowServerLuna_8cpp.htm" title="WindowServerLuna.cpp" alt="" coords="811,160,981,189"/>
+<area shape="rect" id="node15" href="$EmergencyWindowManager_8cpp.htm" title="EmergencyWindowManager.cpp" alt="" coords="560,160,787,189"/>
+<area shape="rect" id="node25" href="$BannerWindow_8cpp.htm" title="BannerWindow.cpp" alt="" coords="2389,160,2533,189"/>
+<area shape="rect" id="node27" href="$DashboardWindowContainer_8cpp.htm" title="DashboardWindowContainer.cpp" alt="" coords="2557,160,2787,189"/>
+<area shape="rect" id="node34" href="$StatusBarNotificationArea_8cpp.htm" title="StatusBarNotificationArea.cpp" alt="" coords="2157,160,2365,189"/>
+<area shape="rect" id="node38" href="$SystemUiController_8cpp.htm" title="SystemUiController.cpp" alt="" coords="1635,160,1803,189"/>
+<area shape="rect" id="node46" href="$NativeAlertManager_8cpp.htm" title="NativeAlertManager.cpp" alt="" coords="1960,160,2133,189"/>
+<area shape="rect" id="node55" href="$CardWindow_8cpp.htm" title="CardWindow.cpp" alt="" coords="219,160,347,189"/>
+<area shape="rect" id="node57" href="$DockModeWindow_8cpp.htm" title="DockModeWindow.cpp" alt="" coords="371,160,536,189"/>
+<area shape="rect" id="node60" href="$MenuWindowManager_8cpp.htm" title="MenuWindowManager.cpp" alt="" coords="5,160,195,189"/>
+<area shape="rect" id="node65" href="$WindowManagerMinimal_8cpp.htm" title="WindowManagerMinimal.cpp" alt="" coords="3347,160,3549,189"/>
+<area shape="rect" id="node67" href="$WindowServerMinimal_8cpp.htm" title="WindowServerMinimal.cpp" alt="" coords="3573,160,3760,189"/>
+</map>

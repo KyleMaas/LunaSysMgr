@@ -1,0 +1,12 @@
+<map id="G" name="G">
+<area shape="rect" id="node5" href="$classStatusBarBattery.htm" title="StatusBarBattery" alt="" coords="372,5,500,35"/>
+<area shape="rect" id="node7" href="$classStatusBarClock.htm" title="StatusBarClock" alt="" coords="377,59,495,88"/>
+<area shape="rect" id="node9" href="$classStatusBarInfo.htm" title="StatusBarInfo" alt="" coords="383,112,489,141"/>
+<area shape="rect" id="node11" href="$classStatusBarItemGroup.htm" title="StatusBarItemGroup" alt="" coords="361,165,511,195"/>
+<area shape="rect" id="node13" href="$classStatusBarNotificationArea.htm" title="StatusBarNotificationArea" alt="" coords="345,219,527,248"/>
+<area shape="rect" id="node15" href="$classStatusBarSearch.htm" title="StatusBarSearch" alt="" coords="372,272,500,301"/>
+<area shape="rect" id="node17" href="$classStatusBarSeparator.htm" title="StatusBarSeparator" alt="" coords="363,325,509,355"/>
+<area shape="rect" id="node19" href="$classStatusBarTitle.htm" title="StatusBarTitle" alt="" coords="381,379,491,408"/>
+<area shape="rect" id="node21" href="$classStatusBarVersion.htm" title="StatusBarVersion" alt="" coords="371,432,501,461"/>
+<area shape="rect" id="node2" href="$classQGraphicsObject.htm" title="QGraphicsObject" alt="" coords="5,219,136,248"/>
+</map>

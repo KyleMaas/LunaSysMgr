@@ -1,0 +1,18 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$Common_8h.htm" title="Common.h" alt="" coords="1492,392,1580,421"/>
+<area shape="rect" id="node11" href="$ApplicationDescription_8h.htm" title="ApplicationDescription.h" alt="" coords="868,160,1041,189"/>
+<area shape="rect" id="node31" href="$LaunchPoint_8h.htm" title="LaunchPoint.h" alt="" coords="303,237,412,267"/>
+<area shape="rect" id="node56" href="$PackageDescription_8h.htm" title="PackageDescription.h" alt="" coords="1020,237,1177,267"/>
+<area shape="rect" id="node62" href="$ApplicationManager_8h.htm" title="ApplicationManager.h" alt="" coords="1404,83,1561,112"/>
+<area shape="rect" id="node96" href="$Logging_8h.htm" title="Logging.h" alt="" coords="184,83,267,112"/>
+<area shape="rect" id="node103" href="$Utils_8h.htm" title="Utils.h" alt="" coords="2375,237,2433,267"/>
+<area shape="rect" id="node122" href="$Settings_8h.htm" title="Settings.h" alt="" coords="2043,160,2125,189"/>
+<area shape="rect" id="node131" href="$Localization_8h.htm" title="Localization.h" alt="" coords="3025,160,3132,189"/>
+<area shape="rect" id="node22" href="$GraphicsDefs_8h.htm" title="GraphicsDefs.h" alt="" coords="625,237,743,267"/>
+<area shape="rect" id="node39" href="$KeywordMap_8h.htm" title="KeywordMap.h" alt="" coords="487,237,601,267"/>
+<area shape="rect" id="node45" href="$CmdResourceHandlers_8h.htm" title="CmdResourceHandlers.h" alt="" coords="1396,237,1575,267"/>
+<area shape="rect" id="node72" href="$Mutex_8h.htm" title="Mutex.h" alt="" coords="1201,237,1271,267"/>
+<area shape="rect" id="node80" href="$MimeSystem_8h.htm" title="MimeSystem.h" alt="" coords="1649,160,1761,189"/>
+<area shape="rect" id="node75" href="$sptr_8h.htm" title="sptr.h" alt="" coords="1312,315,1368,344"/>
+<area shape="rect" id="node134" href="$QtUtils_8h.htm" title="QtUtils.h" alt="" coords="2996,237,3071,267"/>
+</map>
