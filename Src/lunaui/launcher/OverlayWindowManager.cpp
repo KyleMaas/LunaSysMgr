@@ -192,6 +192,7 @@ OverlayWindowManager::OverlayWindowManager(int maxWidth, int maxHeight)
 	, m_ignoreKeyDueToSpeedDialEvent(false)
 	, m_keyDown(0)
 	, m_pendingLauncherRecreate(false)
+	, m_queueWave(false)
 {
 	setObjectName("OverlayWindowManager");
 
@@ -1084,7 +1085,10 @@ void OverlayWindowManager::setupDock()
 	setupDockStateMachine();
 
 	if(m_dockWin->quickLaunchBar())
+	{
 		connect(m_dockWin->quickLaunchBar(),SIGNAL(signalToggleLauncher()),this,SLOT(slotSystemAPIToggleLauncher()));
+		connect(m_dockWin->quickLaunchBar(),SIGNAL(signalHideDock()),this,SLOT(slotHideDock()));
+	}
 
 	return;
 }
@@ -1111,6 +1115,10 @@ void OverlayWindowManager::slotSystemAPIToggleLauncher()
 	{
 		//it's up, signal that I want it down
 		Q_EMIT signalFSMHideLauncher();
+		
+		//if there's a card maximized, hide the search pill
+		if(CardWindowManager::instance()->isMaximized())
+			Q_EMIT signalFSMHideSearchPill();
 	}
 }
 
@@ -1349,6 +1357,13 @@ void OverlayWindowManager::slotAnimateShowDock()
 		return;
 	}
 
+	//Make sure wave is false to prevent the mustache appearing at the wrong time
+	if(m_dockWin->quickLaunchBar()->wave())
+	{
+		m_dockWin->quickLaunchBar()->setWave(false);
+		m_dockWin->quickLaunchBar()->rearrangeIcons(false);
+	}
+	
 	if((scene() != NULL) && (scene()->mouseGrabberItem() == this))
 		ungrabMouse();
 
@@ -1373,7 +1388,10 @@ void OverlayWindowManager::slotAnimateShowDock()
 
 	m_dockPosAnimation->stop();
 	m_dockPosAnimation->setStartValue(m_dockWin->pos());
-	m_dockPosAnimation->setEndValue(m_dockShownPos);
+	if(!m_queueWave)
+		m_dockPosAnimation->setEndValue(m_dockShownPos);
+	else
+		m_dockPosAnimation->setEndValue(m_dockShownPos+QPoint(0,16));
 	m_dockPosAnimation->start();
 }
 
@@ -1481,6 +1499,18 @@ void OverlayWindowManager::dockAnimationFinished()
 			DimensionsUI::primaryInstance()->slotQuicklaunchFullyClosed();
 		}
 		m_dockWin->setVisible(false);
+		m_dockWin->quickLaunchBar()->setWave(false);
+		m_dockWin->quickLaunchBar()->rearrangeIcons(false);
+		if(CardWindowManager::instance()->isMinimized() || SystemUiController::instance()->isLauncherShown())
+		{
+			slotShowDock();
+			if(m_queueWave)
+			{
+				m_dockWin->quickLaunchBar()->setWave(true);
+				m_dockWin->quickLaunchBar()->rearrangeIcons(false);
+				m_queueWave = false;
+			}
+		}
 	}
 	else
 	{
@@ -1514,6 +1544,26 @@ void OverlayWindowManager::setDockShown(bool shown)
 {
 	m_dockShown = shown;
 	SystemUiController::instance()->setDockShown(shown);
+}
+
+void OverlayWindowManager::animateWaveDock(QPoint pos)
+{
+	if(!m_dockWin) {
+		return;
+	}
+
+	if(!m_dockWin->quickLaunchBar()->wave())
+		m_dockWin->quickLaunchBar()->setWave(true);
+	
+	if(m_dockWin->quickLaunchBar()->wavePos() != pos.x())
+	{
+		m_dockWin->quickLaunchBar()->setWavePos(pos.x());
+		m_dockWin->quickLaunchBar()->rearrangeIcons(false);
+	}
+	
+	if(m_dockWin->pos().y() != pos.y() && m_dockPosAnimation->state() == QAbstractAnimation::Stopped) {
+		m_dockWin->setPos(QPoint(m_dockWin->pos().x(),pos.y()));
+	}
 }
 
 bool OverlayWindowManager::launcherVisible() const

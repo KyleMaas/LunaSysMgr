@@ -154,8 +154,11 @@ public:
 	void setIconLabel(const QString& v);
 	void resetIconLabel();
 	void setIconLabelVisibility(bool visible);
+	void setIconLabelMode(bool mode);
+	void setIconWaveScale(qreal scale);
 	void setUsePrerenderedLabel(bool usePreRendered);
 	void setLaunchFeedbackVisibility(bool visible);
+	bool launchFeedbackVisibility() const { return m_showFeedback; }
 
 
 	//if null (0) passed in, then the primary launcher instance will be used
@@ -354,6 +357,8 @@ protected:
 protected:
 
 	bool	m_showLabel;
+	bool	m_labelMode;
+	qreal	m_waveScale;
 	QString m_iconLabel;
 //	QPointer<Page> m_qp_currentOwnerPage;
 	QPointer<IconBase> m_qp_masterIcon;			//ptr to the master icon if this one is a clone, or 0 if this is a master

@@ -67,6 +67,8 @@ public:
     bool handleMouseEvent(QMouseEvent *event);
     bool handleGestureEvent(QGestureEvent *event);
     bool handleCustomEvent(QEvent *event);
+    
+    void postTap(QPoint pos);
 
 	void setCardWindowAboutToMaximize();
 
@@ -174,6 +176,11 @@ public:
 	void rotationComplete();
 	bool isUiRotating() { return m_uiRotating; }
 	int  getRotationAngle() { return m_uiRotating ? m_rotationAngle : 0; }
+	
+	bool superKey() { return m_superKey; }
+	void setSuperKey(bool superKey) { m_superKey = superKey; }
+	bool superKeyCombo() { return m_superKeyCombo; }
+	void setSuperKeyCombo(bool superKeyCombo) { m_superKeyCombo = superKeyCombo; }
 
 	bool dashboardOwnsNegativeSpace() const { return m_dashboardOwnsNegativeSpace; }
 
@@ -390,6 +397,8 @@ private Q_SLOTS:
 
 	void slotEnterBrickMode(bool val);
 	void slotExitBrickMode();
+	
+	void slotGetPrefsComplete();
 
 	void slotCopy();
 	void slotCut();
@@ -412,6 +421,7 @@ private:
 	void handleSwitchGesture(BezelGesture* gesture);
 	void handleMinimizeGesture(BezelGesture* gesture);
 	void handlePinchGesture(QPinchGesture* gesture);
+	void handleTapAndHoldGesture(QTapAndHoldGesture* gesture);
 
 	Window* m_parentOfModalWindow;
 	Window* m_activeCardWindow;
@@ -432,6 +442,7 @@ private:
 	bool m_dockShown;
 	bool m_inDockMode;
     bool m_universalSearchShown;
+    bool m_waveBar;
 
 	bool m_emergencyMode;
 
@@ -463,6 +474,10 @@ private:
 
 	bool m_uiRotating;
 	int  m_rotationAngle;
+	
+	//Super key checks
+	bool m_superKey;
+	bool m_superKeyCombo;
 
 	SuspendBlocker<SystemUiController> m_suspendBlocker;
 

@@ -122,7 +122,7 @@ CardWindowManager::CardWindowManager(int maxWidth, int maxHeight)
 	, m_groupShift(0)                 // For Group Tabs
 	, m_groupDir(true)                // For Group Tabs
 	, m_groupVelocity(0)              // For Group Tabs
-
+	, m_miniScale(0.35)	// For Mini Cards & Pinch Zoom
 				  
 {
     c_instance = this;
@@ -339,6 +339,14 @@ bool CardWindowManager::okToResize() {
 
 bool CardWindowManager::isMinimized() {
 	return (m_curState == m_minimizeState);
+}
+
+bool CardWindowManager::isMaximized() {
+	return (m_curState == m_maximizeState);
+}
+
+bool CardWindowManager::isGroup() {
+	return (m_curState == m_groupState);
 }
 
 void CardWindowManager::updateAngryCardThreshold()
@@ -677,6 +685,12 @@ void CardWindowManager::prepareAddWindowSibling(CardWindow* win)
 				// spawn new group to the right of active group
 				CardGroup* newGroup = new CardGroup(kActiveScale, kNonActiveScale);
 				newGroup->setPos(QPointF(0, kWindowOrigin));
+				//Make sure to copy the settings over from the current group
+				if(m_activeGroup)
+				{
+					newGroup->setMiniScale(m_activeGroup->miniScale());
+					newGroup->setCardArranger(m_activeGroup->cardArranger());
+				}
 				newGroup->addToGroup(win);
 				m_groups.insert(m_groups.indexOf(m_activeGroup)+1, newGroup);
 				setActiveGroup(newGroup);
@@ -1114,7 +1128,7 @@ void CardWindowManager::removeCardFromGroup(CardWindow* win, bool adjustLayout, 
 	group->removeFromGroup(win);
 	if (group->empty()) {
 		// clean up this group
-    m_groups.remove(m_groups.indexOf(group));
+		m_groups.remove(m_groups.indexOf(group));
 		removeAnimationForGroup(group);
 		delete group;
 	}
@@ -1128,15 +1142,14 @@ void CardWindowManager::removeCardFromGroup(CardWindow* win, bool adjustLayout, 
 	// If we are removing a modal dialog , we don't need these.
 	if(adjustLayout) {
 		// select a new active group
-    if (m_curState == m_groupState)  {
-        setActiveGroup(m_activeGroup);
-        showGroupCards(dir);
-      } else {
-        setActiveGroup(groupClosestToCenterHorizontally());
-        // make sure everything is positioned properly
-        slideAllGroups();
-    }
-  }
+		if (m_curState == m_groupState)  {
+			setActiveGroup(m_activeGroup);
+		} else {
+			setActiveGroup(groupClosestToCenterHorizontally());
+    	}
+		// make sure everything is positioned properly
+		slideAllGroups();
+	}
 }
 
 void CardWindowManager::removeCardFromGroupMaximized(CardWindow* win)
@@ -1207,7 +1220,7 @@ void CardWindowManager::maximizeActiveWindow(bool animate)
 
 		setActiveGroup(m_activeGroup);
 	
-		setGroupsMaximized(true);
+		setGroupsLinear();
         
 		if(animate)
 			slideAllGroups(false);
@@ -1304,17 +1317,40 @@ void CardWindowManager::firstCardAlert()
     }
 }
 
+void CardWindowManager::deadzoneTap(QTapGesture* event)
+{
+	//Only send events to the active window when maximized
+	if(NULL == activeWindow() || !isMaximized())
+		return;
+
+	qCritical() << "Deadzone Tapped";
+}
+
 void CardWindowManager::handleKeyNavigationMinimized(QKeyEvent* keyEvent)
 {
     if (!m_activeGroup || keyEvent->type() != QEvent::KeyPress)
         return;
+        
+	bool superKey = SystemUiController::instance()->superKey();
 
     switch (keyEvent->key()) {
     case Qt::Key_Left:
-        switchToPrevApp();
+    	if(!superKey)
+        	switchToPrevApp();
+        else
+        {
+        	switchToPrevGroup();
+        	SystemUiController::instance()->setSuperKeyCombo(true);
+        }
         break;
     case Qt::Key_Right:
-        switchToNextApp();
+    	if(!superKey)
+        	switchToNextApp();
+        else
+        {
+        	switchToNextGroup();
+        	SystemUiController::instance()->setSuperKeyCombo(true);
+        }
         break;
     case Qt::Key_Return:
         if (!keyEvent->isAutoRepeat())
@@ -1552,9 +1588,15 @@ void CardWindowManager::handleFlickGestureMinimized(QGestureEvent* event)
 		else {
 			// advance to the next/previous group if we are Outer Locked or were still unbiased horizontally
 			if (flick->velocity().x() > 0)
+			{
+				setActiveGroup(groupClosestToCenterHorizontally());
 				switchToPrevGroup();
+			}
 			else
+			{
+				setActiveGroup(groupClosestToCenterHorizontally());
 				switchToNextGroup();
+			}
 		}
 	}
 }
@@ -1568,21 +1610,22 @@ void CardWindowManager::handleMousePressMinimized(QGraphicsSceneMouseEvent* even
 
 void CardWindowManager::handleMousePressGroup(QGraphicsSceneMouseEvent* event)
 {
-  // try to capture the card the user first touched.  Basically anywhere BUT the active Card
-    //QRect box = m_activeGroup->activeCard()->boundingRect().toRect();
-
-    m_groupMoveTimer->stop();
-    QPointF mappedPt;
-    mappedPt = m_activeGroup->activeCard()->mapFromScene(event->scenePos());
-    QPointF refPoint = mapFromScene(event->scenePos());
-    if (!m_activeGroup->activeCard()->contains(mappedPt))  {
-      m_groupInitialMove = refPoint.y();//event->scenePos().y();
-
-      //m_groupMoveDir = true;
-      //if (event->scenePos().x() < m_normalScreenBounds.width()/2) m_groupMoveDir = false;
-      m_groupMoveDir = whichSideOfScreen(event->scenePos());
-      m_groupMove = true;
-    }
+	// try to capture the card the user first touched.  Basically anywhere BUT the active Card
+	//QRect box = m_activeGroup->activeCard()->boundingRect().toRect();
+	
+	m_groupMoveTimer->stop();
+	QPointF mappedPt;
+	mappedPt = m_activeGroup->activeCard()->mapFromScene(event->scenePos());
+	QPointF refPoint = mapFromScene(event->scenePos());
+	
+	if (!m_activeGroup->activeCard()->contains(mappedPt))  {
+		m_groupInitialMove = refPoint.y();//event->scenePos().y();
+		
+		//m_groupMoveDir = true;
+		//if (event->scenePos().x() < m_normalScreenBounds.width()/2) m_groupMoveDir = false;
+		m_groupMoveDir = whichSideOfScreen(event->scenePos());
+		m_groupMove = true;
+	}
 }
 
 void CardWindowManager::handleMouseMoveMinimized(QGraphicsSceneMouseEvent* event)
@@ -1631,9 +1674,7 @@ void CardWindowManager::handleMouseMoveMinimized(QGraphicsSceneMouseEvent* event
                 m_activeGroupPivot = m_activeGroup->x();
             }
 		}
-		
-		if (!m_trackWithinGroup) {
-
+		else {
             m_activeGroupPivot += diff.x();
             slideAllGroupsTo(m_activeGroupPivot);
 		}
@@ -1674,63 +1715,63 @@ void CardWindowManager::handleMouseMoveMinimized(QGraphicsSceneMouseEvent* event
 
 void CardWindowManager::handleMouseMoveGroup(QGraphicsSceneMouseEvent* event)
 { 
-  if (m_groupMove)  {
-    QPointF point = mapFromScene(event->scenePos());
+	if (m_groupMove)  {
+		QPointF point = mapFromScene(event->scenePos());
 
-
-    int dx = m_groupInitialMove - point.y();
-    m_groupVelocity = dx / .001;
-    if (dx != 0) {
-      m_groupShift -=dx;
-
-      int maxheight = m_normalScreenBounds.height() * (((double)kNumGroupCards-1)/(double)kNumGroupCards);
-      int minheight = -m_normalScreenBounds.height() * ((m_activeGroup->cards().size() - 2)/(double)kNumGroupCards);
-      //if (m_activeGroup->cards().size() < 5)  minheight = -m_normalScreenBounds.height() * ((4)/(double)kNumGroupCards);
-
-      m_groupShift = m_groupShift < minheight ? minheight : m_groupShift;
-      m_groupShift = m_groupShift > maxheight ? maxheight : m_groupShift;
-
-      m_groupInitialMove = point.y();//event->scenePos().y();
-
-      showGroupCardsImmediate();
-    }
-  }
+		int dy = m_groupInitialMove - point.y();
+		m_groupVelocity = dy / .001;
+		
+		if (dy != 0) {
+			m_groupShift -=dy;
+			
+			int maxheight = m_normalScreenBounds.height() * (((qreal)kNumGroupCards-1)/(qreal)kNumGroupCards);
+			int minheight = -m_normalScreenBounds.height() * ((m_activeGroup->cards().size() - 2)/(qreal)kNumGroupCards);
+			//if (m_activeGroup->cards().size() < 5)  minheight = -m_normalScreenBounds.height() * ((4)/(double)kNumGroupCards);
+			
+			m_groupShift = m_groupShift < minheight ? minheight : m_groupShift;
+			m_groupShift = m_groupShift > maxheight ? maxheight : m_groupShift;
+			
+			m_groupInitialMove = point.y();//event->scenePos().y();
+			
+			moveGroupCards();
+		}
+	}
 }
 
 
 void CardWindowManager::handleMouseReleaseGroup(QGraphicsSceneMouseEvent* event)
 {
-  m_groupMove = false;
-  if (fabs(m_groupVelocity) > 500)  m_groupMoveTimer->start(1);
+	m_groupMove = false;
+	if (fabs(m_groupVelocity) > 500)  m_groupMoveTimer->start(1);
 }
 
 void CardWindowManager::slotGroupTimerTimeout()
 {
- int maxheight = m_normalScreenBounds.height() * (((double)kNumGroupCards-1)/(double)kNumGroupCards);//0;//m_normalScreenBounds.height() * ((0.5)/(double)kNumGroupCards-0.5);
- int minheight = -m_normalScreenBounds.height() * ((m_activeGroup->cards().size() - 2)/(double)kNumGroupCards);
- //if (m_activeGroup->cards().size() < 5)  minheight = -m_normalScreenBounds.height() * ((4)/(double)kNumGroupCards);
-
-  // Look at m_groupVelocity
-  m_groupShift -= (float)m_groupVelocity*0.001;
-
-  if (m_groupShift <= minheight) {
-    m_groupShift = minheight;
-    m_groupVelocity = -m_groupVelocity;
-  }
-
-  if (m_groupShift >= maxheight) {
-    m_groupShift = maxheight;
-    m_groupVelocity = -m_groupVelocity;
-  }
-
-  float newVelocity = fabs(m_groupVelocity)*0.9;// - 5000.0;
-
-  if (newVelocity < 500) m_groupMoveTimer->stop();
-
-  if (m_groupVelocity > 0) m_groupVelocity = newVelocity;
-  else m_groupVelocity = -newVelocity;
-
-  showGroupCardsImmediate();
+	int maxheight = m_normalScreenBounds.height() * (((qreal)kNumGroupCards-1)/(qreal)kNumGroupCards);//0;//m_normalScreenBounds.height() * ((0.5)/(double)kNumGroupCards-0.5);
+	int minheight = -m_normalScreenBounds.height() * ((m_activeGroup->cards().size() - 2)/(qreal)kNumGroupCards);
+	//if (m_activeGroup->cards().size() < 5)  minheight = -m_normalScreenBounds.height() * ((4)/(double)kNumGroupCards);
+	
+	// Look at m_groupVelocity
+	m_groupShift -= (qreal)m_groupVelocity*0.001;
+	
+	if (m_groupShift <= minheight) {
+		m_groupShift = minheight;
+		m_groupVelocity = -m_groupVelocity;
+	}
+	
+	if (m_groupShift >= maxheight) {
+		m_groupShift = maxheight;
+		m_groupVelocity = -m_groupVelocity;
+	}
+	
+	float newVelocity = fabs(m_groupVelocity)*0.9;// - 5000.0;
+	
+	if (newVelocity < 500) m_groupMoveTimer->stop();
+	
+	if (m_groupVelocity > 0) m_groupVelocity = newVelocity;
+	else m_groupVelocity = -newVelocity;
+	
+	moveGroupCards();
 }
 
 void CardWindowManager::handleMouseMoveReorder(QGraphicsSceneMouseEvent* event)
@@ -1744,7 +1785,7 @@ void CardWindowManager::handleMouseMoveReorder(QGraphicsSceneMouseEvent* event)
 	CardWindow::Position pos;
 	pos.trans = QVector3D(activeWin->position().trans.x() + delta.x(), 
 						  activeWin->position().trans.y() + delta.y(), 
-						  kActiveScale);
+						  kActiveScale*m_activeGroup->miniScale());
 	activeWin->setPosition(pos);
 
 	// should we switch zones?
@@ -1775,11 +1816,11 @@ void CardWindowManager::handleMouseMoveReorder(QGraphicsSceneMouseEvent* event)
 
 CardWindowManager::ReorderZone CardWindowManager::getReorderZone(QPoint pt)
 {
-	qreal section = boundingRect().width() / s_marginSlice;
-	if (pt.x() < boundingRect().left() + section) {
+	qreal section = boundingRect().width() * kActiveScale * m_activeGroup->miniScale();
+	if (pt.x() < -section/2) {
 		return ReorderZone_Left;
 	}
-	else if (pt.x() > boundingRect().right() - section) {
+	else if (pt.x() > section/2) {
 		return ReorderZone_Right;
 	}
 	return ReorderZone_Center;
@@ -1790,7 +1831,6 @@ void CardWindowManager::enterReorder(QPoint pt)
 	CardWindow* activeWin = activeWindow();
 	luna_assert(activeWin != 0);
 	activeWin->setOpacity(0.8);
-	activeWin->disableShadow();
 
 	activeWin->setAttachedToGroup(false);
 
@@ -2041,7 +2081,6 @@ void CardWindowManager::handleMouseReleaseReorder(QGraphicsSceneMouseEvent* even
 
 	// TODO: fix the y for the draggedWin
 	activeWin->setOpacity(1.0);
-	activeWin->enableShadow();
 	activeWin->setAttachedToGroup(true);
 
 	slideAllGroups();
@@ -2059,6 +2098,7 @@ void CardWindowManager::handleSwitchGesture(BezelGesture* gesture)
             
             //If the movement is unlocked, lock it and reset the pivot
             if (m_movement == MovementUnlocked) {
+            	m_activeGroup->activeCard()->disableFullScreen();
                 m_movement = MovementHLocked;
                 m_activeGroupPivot = 0;
             }
@@ -2119,14 +2159,14 @@ void CardWindowManager::handleMinimizeGesture(BezelGesture* gesture)
         case Qt::GestureUpdated:
         {
 			//Put the groups in fluid sizing mode
-			setGroupsMinimizeGesture(true);
+			setGroupsMinimize();
 			
 			//If the movement isn't locked
             if (m_movement == MovementUnlocked) {
             	//Set all the cards' scales to 1
 				for(int i=m_groups.size()-1;i>=0;i--)
 				{
-					m_groups[i]->setNonCurScale(1.0);
+					m_groups[i]->setNonCurScale(0.925);
 					m_groups[i]->setCurScale(1.0);
 				}
 				//Lock the movement
@@ -2134,10 +2174,10 @@ void CardWindowManager::handleMinimizeGesture(BezelGesture* gesture)
             }
 			
 			//Calculate the current scales based on finger movement
-			nonCurScale = qMax(qreal(m_activeGroup->nonCurScale() + (delta/250.0)), kNonActiveScale);
-			curScale = qMax(qreal(m_activeGroup->curScale() + (delta/250.0)), kActiveScale);
-			nonCurScale = qMin(nonCurScale, qreal(1.0));
-			curScale = qMin(curScale, qreal(1.0));
+			nonCurScale = qMax(qreal(m_activeGroup->nonCurScale() + (delta/250.0)), kNonActiveScale * m_activeGroup->miniScale());
+			curScale = qMax(qreal(m_activeGroup->curScale() + (delta/250.0)), kActiveScale * m_activeGroup->miniScale());
+			nonCurScale = qMin(nonCurScale, 0.925f);
+			curScale = qMin(curScale, 1.0f);
 			
 			//Set all the cards' scales
 			for(int i=m_groups.size()-1;i>=0;i--)
@@ -2151,7 +2191,7 @@ void CardWindowManager::handleMinimizeGesture(BezelGesture* gesture)
         }
         case Qt::GestureFinished:
 			//Reset the fluid sizing mode
-			setGroupsMinimizeGesture(false);
+			setGroupsStack();
 			//Is there a flick?
             switch(gesture->flick())
 			{
@@ -2218,7 +2258,27 @@ void CardWindowManager::handleSpreadGesture(QPinchGesture* gesture)
 {
 	if(gesture->state() == Qt::GestureUpdated)
 	{
-		if(m_activeGroup->cards().size() > 1)
+		if(m_activeGroup && m_activeGroup->cards().size() == 1 && Preferences::instance()->sysUiEnableZoomGesture())
+		{
+			m_miniScale = qMax(qreal(m_activeGroup->miniScale() + (gesture->scaleFactor()-1)), 0.35f);
+			m_miniScale = qMin(m_miniScale, 1.35f);
+			for(int i=m_groups.size()-1; i>=0; i--)
+			{
+				m_groups[i]->setMiniScale(m_miniScale);
+			}
+			slideAllGroups(true);
+		}
+		if(m_activeGroup && m_activeGroup->cards().size() >= 1 && !Preferences::instance()->sysUiEnableSpreadGesture() && Preferences::instance()->sysUiEnableZoomGesture())
+		{
+			m_miniScale = qMax(qreal(m_activeGroup->miniScale() + (gesture->scaleFactor()-1)), 0.35f);
+			m_miniScale = qMin(m_miniScale, 1.35f);
+			for(int i=m_groups.size()-1; i>=0; i--)
+			{
+				m_groups[i]->setMiniScale(m_miniScale);
+			}
+			slideAllGroups(true);
+		}
+		else if(m_activeGroup && m_activeGroup->cards().size() > 1 && Preferences::instance()->sysUiEnableSpreadGesture())
 		{
 			qreal xf = gesture->scaleFactor() - 1;
 			xf *= 1.5;
@@ -2239,67 +2299,56 @@ void CardWindowManager::handleTapGestureMinimized(QTapGesture* event)
 	if (!m_activeGroup)
 		return;
 
-	//Things that must be done here:
-	//--Perform a hit test to determine if the current active group was hit
+	// If the tap is on the active group
 	if (m_activeGroup->testHit(event->position())) {
-		//--If it was, then we need to see if the card hit was in a reasonable
-		//  range of the active card.  If it was then maximize it.  If it was not
-		//  slide the card fan over to make it more visible.
-		if (m_activeGroup->shouldMaximizeOrScroll(event->position())) {
-			m_activeGroup->setActiveCard(event->position());
-			maximizeActiveWindow();
-		}
-		else {
-			slideAllGroups();
-		}
+		// We need to see if the card hit was in a reasonable range of the active card.
+		// If it was then maximize it.
+		m_activeGroup->setActiveCard(event->position());
+		maximizeActiveWindow();
 	}
 	else {
-		// first test to see if the tap is not above/below the active group
+		// If the tap is to the left/right of the active group
 		QPointF pt = mapFromScene(event->position());
 		if (!m_activeGroup->withinColumn(pt)) {
-			if (pt.x() < 0) {
-				// tapped to the left of the active group
-				switchToPrevGroup();
+			//Loop through all the other groups and see if one was tapped
+			for(int i=m_groups.size()-1; i>=0; i--)
+			{
+				if(m_groups[i] == m_activeGroup) continue;
+				//If so, set it active and maximize
+				if(m_groups[i]->testHit(event->position()))
+				{
+					setActiveGroup(m_groups[i]);
+					slideAllGroups();
+					if(Preferences::instance()->sysUiEnableMaximizeEdges())
+						maximizeActiveWindow();
+					return;
+				}
 			}
-			else {
-				// tapped to the right of the active group
-				switchToNextGroup();
-			}
-
-			if(Preferences::instance()->sysUiEnableMaximizeEdges())
-				maximizeActiveWindow();
 		}
-		else {
-
-			// poke the groups to make sure they animate to their final positions
+		
+		//If the tap dos not hit any card, toggle mini mode
+		if (Preferences::instance()->sysUiEnableMiniCards())
+		{
+			if(m_activeGroup->miniScale() != 1.0)
+				setGroupsMiniScale(1.0);
+			else
+				setGroupsMiniScale(m_miniScale);
+				
 			slideAllGroups();
 		}
 	}
 }
 
-void CardWindowManager::handleTapGestureGroupView(QTapGesture* event)
+void CardWindowManager::handleTapGestureGroup(QTapGesture* event)
 {
-  if (!m_activeGroup)
-    return;
-  int activeIndex = m_activeGroup->cards().indexOf(m_activeGroup->activeCard());
-  CardWindow* activeCardOriginal = m_activeGroup->activeCard();
-  if (m_activeGroup->setActiveCard(event->position()))  {
-    int newCardLoc = m_activeGroup->cards().indexOf(m_activeGroup->activeCard());
-    CardWindow *card = m_activeGroup->activeCard();
-    if (activeIndex ==  newCardLoc) {
-      m_activeGroup->moveToActiveCard();
-      setActiveGroup(m_activeGroup);
-      clearAnimations();
-      maximizeActiveWindow();
-    } else {
-      m_activeGroup->setActiveCard(activeCardOriginal);
-      m_activeGroup->moveActiveCardTo(newCardLoc);
-      m_activeGroup->setActiveCard(card);
-      bool direction = whichSideOfScreen(event->position());
-      showGroupCards(direction);
-      SystemUiController::instance()->setActiveCardWindow(m_activeGroup ? m_activeGroup->activeCard() : 0);
-    }
-  }
+	if (!m_activeGroup)
+		return;
+	
+	if (m_activeGroup->setActiveCard(event->position()))
+	{
+		slideAllGroups();
+		maximizeActiveWindow();
+	}
 }
 
 void CardWindowManager::handleFlickGestureGroup(QGestureEvent* event)
@@ -2354,6 +2403,43 @@ void CardWindowManager::handleFlickGestureGroup(QGestureEvent* event)
   }
 }
 
+void CardWindowManager::handleKeyNavigationGroup(QKeyEvent* keyEvent)
+{
+    if (!m_activeGroup || keyEvent->type() != QEvent::KeyPress)
+        return;
+
+    switch (keyEvent->key()) {
+    case Qt::Key_Up:
+		m_activeGroup->makeBackCardActive();
+		slideAllGroups();
+		SystemUiController::instance()->setActiveCardWindow(m_activeGroup ? m_activeGroup->activeCard() : 0);
+        break;
+    case Qt::Key_Down:
+		m_activeGroup->makeBackCardActive();
+		slideAllGroups();
+		SystemUiController::instance()->setActiveCardWindow(m_activeGroup ? m_activeGroup->activeCard() : 0);
+        break;
+    case Qt::Key_Return:
+		m_activeGroup->moveToActiveCard();
+		setActiveGroup(m_activeGroup);
+		clearAnimations();
+		maximizeActiveWindow();
+        break;
+    default:
+        break;
+    }
+}
+
+void CardWindowManager::cycleGroupTabs()
+{
+	if(m_activeGroup->activeCard() != m_activeGroup->cards().last())
+		switchToNextApp();
+	else
+		m_activeGroup->makeBackCardActive();
+		
+	slideAllGroups();
+	SystemUiController::instance()->setActiveCardWindow(m_activeGroup ? m_activeGroup->activeCard() : 0);
+}
 
 bool CardWindowManager::whichSideOfScreen(QPointF p)
 {
@@ -2403,24 +2489,39 @@ void CardWindowManager::setActiveGroup(CardGroup* group)
 	SystemUiController::instance()->setActiveCardWindow(m_activeGroup ? m_activeGroup->activeCard() : 0);
 }
 
-void CardWindowManager::setGroupsMaximized(bool enable)
+void CardWindowManager::setGroupsStack()
 {
 	for (int i=0; i<m_groups.size();i++) {
-        m_groups[i]->setSwitchGesture(enable);
+        m_groups[i]->setCardArranger(CardArranger(Stack));
     }
 }
 
-void CardWindowManager::setGroupsMinimizeGesture(bool enable)
+void CardWindowManager::setGroupsLinear()
 {
 	for (int i=0; i<m_groups.size();i++) {
-        m_groups[i]->setMinimizeGesture(enable);
+        m_groups[i]->setCardArranger(CardArranger(Linear));
     }
 }
 
-void CardWindowManager::setGroupsSpreadGesture(bool enable)
+void CardWindowManager::setGroupsMinimize()
 {
 	for (int i=0; i<m_groups.size();i++) {
-        //m_groups[i]->setSpreadGesture(enable);
+        m_groups[i]->setCardArranger(CardArranger(Minimize));
+    }
+}
+
+void CardWindowManager::setGroupsTab()
+{
+	for (int i=0; i<m_groups.size();i++) {
+        m_groups[i]->setCardArranger(CardArranger(Tab));
+        m_groups[i]->setTabDirection(m_groupDir);
+    }
+}
+
+void CardWindowManager::setGroupsMiniScale(qreal scale)
+{
+	for (int i=0; i<m_groups.size();i++) {
+        m_groups[i]->setMiniScale(scale);
     }
 }
 
@@ -2708,162 +2809,54 @@ void CardWindowManager::switchToPrevAppMaximized()
 	maximizeActiveWindow();
 }
 
-void CardWindowManager::showGroupCards(bool direction)
+void CardWindowManager::moveGroupCards()
 {
-  if (m_groups.empty() || !m_activeGroup)
-    return;
+	if (m_groups.empty() || !m_activeGroup)
+		return;
 
-  clearAnimations();
+	QRect r;
+	if(activeWindow()->type() != Window::Type_ModalChildWindowCard)
+		r = normalOrScreenBounds(m_activeGroup->activeCard());
+	else if(NULL != m_parentOfModalCard)
+		r = normalOrScreenBounds(m_parentOfModalCard);
 
-  int cardsSize = m_activeGroup->cards().size();
+	int shift = r.y()/2 + fabs(kWindowOrigin);
+	
+	int offset;
+	if(m_activeGroup->cards()[0]->boundingRect().width() > m_activeGroup->cards()[0]->boundingRect().height())
+		offset = 46;
+	else
+		offset = 71;
+		
+	int tabIndex = 0;
+	for (int i = 0; i < m_activeGroup->cards().size(); i++)  {
+		CardWindow *card = m_activeGroup->cards().value(i);
+		qreal height;
 
-  if (cardsSize == 1) {
-    // Case of single card (result from deletion)
-    m_activeGroup->moveToActiveCard();
-    maximizeActiveWindow();
-    return;
-  }
-
-  m_activeGroup->moveActiveCardTo(cardsSize-1);
-  m_activeGroup->raiseCards();
-  int activeIndex = m_activeGroup->cards().indexOf(m_activeGroup->activeCard());
-
-
-
-  QRect r;
-  if(activeWindow()->type() != Window::Type_ModalChildWindowCard)
-      r = normalOrScreenBounds(m_activeGroup->activeCard());
-  else if(NULL != m_parentOfModalCard)
-      r = normalOrScreenBounds(m_parentOfModalCard);
-
-  int shift = r.y()/2 + fabs(kWindowOrigin);
-
-
-  QList<QPropertyAnimation*> cardAnims;
-
-  int counter = 0;
-  for (int i = 0; i < cardsSize; i++)  {
-    CardWindow *card = m_activeGroup->cards().value(i);
-    int animationTargetEnd;
-    double height;
-    double depth;
-    int width;
-
-    if (i == activeIndex)  {
-      animationTargetEnd = -m_normalScreenBounds.width() * kGroupPreview;
-      depth = 1.0;
-      height = shift;
-      width = m_normalScreenBounds.width() * kActiveScale;
-    } else {
-      animationTargetEnd = m_normalScreenBounds.width()/2 - m_normalScreenBounds.width() * kGroupPreview / 2.0  ;
-      depth = 1.0 / kNumGroupCards*0.95;
-      height = m_normalScreenBounds.height() * (((double)counter+0.5)/(double)kNumGroupCards-0.5)+shift+m_groupShift;
-      counter++;
-    }
-    if (!direction)	animationTargetEnd  = -animationTargetEnd;
-
-    CardWindow::Position pos = card->position();
-    pos.trans.setX(animationTargetEnd);
-    pos.trans.setY(height);
-    pos.trans.setZ(depth);
-    card->setMaximized(false);
-
-    QVariant end; end.setValue(pos);
-    QPropertyAnimation* anim = new QPropertyAnimation(card, "position");
-    anim->setEasingCurve(AS_CURVE(cardSlideCurve));
-    anim->setDuration(AS(cardSlideDuration));
-    anim->setEndValue(end);
-
-    cardAnims << anim;
-  }
-
-  // Now set up other groups and push them off screen
-  int groupIndex = m_groups.indexOf(m_activeGroup);
-
-  for (int i = 0; i < m_groups.size(); i++)  {
-    int centerX = m_normalScreenBounds.width();
-    if (i < groupIndex) centerX = - centerX;
-
-    if (i != groupIndex)  {
-      QPropertyAnimation* anim = new QPropertyAnimation(m_groups[i], "x");
-      anim->setEasingCurve(AS_CURVE(cardSlideCurve));
-      anim->setDuration(AS(cardSlideDuration));
-      anim->setEndValue(centerX);
-      setAnimationForGroup(m_groups[i], anim);
-      //Q_FOREACH(QPropertyAnimation* anim, cardAnims) {
-      //setAnimationForWindow(static_cast<CardWindow*>(anim->targetObject()), anim);
-      //}
-    }
-  }
-
-  Q_FOREACH(QPropertyAnimation* anim, cardAnims) {
-
-    setAnimationForWindow(static_cast<CardWindow*>(anim->targetObject()), anim);
-  }
-
-  //Q_EMIT signalMinimizeActiveWindow();
-
-
-  startAnimations();
-}
-
-void CardWindowManager::showGroupCardsImmediate()
-{
-  bool direction = m_groupDir;
-  if (m_groups.empty() || !m_activeGroup)
-    return;
-
-  int cardsSize = m_activeGroup->cards().size();
-  int activeIndex = m_activeGroup->cards().indexOf(m_activeGroup->activeCard());
-
-  QRect r;
-  if(activeWindow()->type() != Window::Type_ModalChildWindowCard)
-      r = normalOrScreenBounds(m_activeGroup->activeCard());
-  else if(NULL != m_parentOfModalCard)
-      r = normalOrScreenBounds(m_parentOfModalCard);
-
-  int shift = r.y()/2 + fabs(kWindowOrigin);
-
-  int counter = 0;
-  for (int i = 0; i < cardsSize; i++)  {
-    CardWindow *card = m_activeGroup->cards().value(i);
-    int animationTargetEnd;
-    double height;
-    double depth;
-    int width;
-
-    if (i == activeIndex)  {
-      animationTargetEnd = -m_normalScreenBounds.width() * kGroupPreview;
-      depth = 1.0;
-      height = shift;
-      width = m_normalScreenBounds.width() * kActiveScale;
-    } else {
-      animationTargetEnd = m_normalScreenBounds.width()/2 - m_normalScreenBounds.width() * kGroupPreview / 2.0  ;
-      depth = 1.0 / kNumGroupCards*0.95;
-      height = m_normalScreenBounds.height() * (((double)counter+0.5)/(double)kNumGroupCards-0.5)+shift+m_groupShift;
-      counter++;
-    }
-    if (!direction)	animationTargetEnd  = -animationTargetEnd;
-
-
-    CardWindow::Position pos = card->position();
-    pos.trans.setX(animationTargetEnd);
-    pos.trans.setY(height);
-    pos.trans.setZ(depth);
-    card->setPosition(pos);
-    card->setMaximized(false);
-  }
+		if (i != m_activeGroup->cards().indexOf(m_activeGroup->activeCard()))  {
+			height = (-m_activeGroup->cards()[i]->boundingRect().height()/2.66) //First Position
+					+ ((m_activeGroup->cards()[i]->boundingRect().height()*0.24) * tabIndex) //Further Positions
+					+ shift //Movement Factor
+					+ m_groupShift; //More Movement Factor
+			tabIndex++;
+		}
+		else continue;
+	
+		CardWindow::Position pos = card->position();
+		pos.trans.setY(height);
+		card->setPosition(pos);
+	}
 }
 
 void CardWindowManager::slotFinishFlyback()
 {
-  int shift = m_activeGroup->pos().x();
-  int xpos = m_activeGroup->width() * 2;
-  if (shift > 0) xpos = -m_activeGroup->width() * 2;
-
-  for (int i = 0; i < m_groups.size(); i++)  m_groups[i]->setX(xpos);
-  m_groups[0]->setX(xpos*0.5);
-  slideAllGroups();
+	int shift = m_activeGroup->pos().x();
+	int xpos = m_activeGroup->width() * 2;
+	if (shift > 0) xpos = -m_activeGroup->width() * 2;
+	
+	for (int i = 0; i < m_groups.size(); i++)  m_groups[i]->setX(xpos);
+	m_groups[0]->setX(xpos*0.5);
+	slideAllGroups();
 }
 
 void CardWindowManager::slideAllGroups(bool includeActiveCard, int flyback)
@@ -2872,28 +2865,28 @@ void CardWindowManager::slideAllGroups(bool includeActiveCard, int flyback)
 		return;
 
 	int activeGrpIndex = m_groups.indexOf(m_activeGroup);
-  int slideCurve = AS_CURVE(cardSlideCurve);
-  int wid = m_activeGroup->left()+m_activeGroup->right();
-  int right = m_activeGroup->right();
-  int left = m_activeGroup->left();
+	int slideCurve = AS_CURVE(cardSlideCurve);
+	int wid = m_activeGroup->left()+m_activeGroup->right();
+	int right = m_activeGroup->right();
+	int left = m_activeGroup->left();
 
 	clearAnimations();
 
-  int centerX = -left - kGapBetweenGroups;
-  int animationTargetEnd = 0;
+	int centerX = -left - kGapBetweenGroups;
+	int animationTargetEnd = 0;
 
-  if (flyback != 0)  {
-    // Animate to two cards beyond the boundary card [to ensure all cards are off screen]
-    if (flyback > 0) {
-      slideCurve = 0;
-      animationTargetEnd = - (m_groups.size() + 1) * wid - kGapBetweenGroups;
-      centerX = animationTargetEnd + left + kGapBetweenGroups;
-    } else {
-      slideCurve = 0;
-      animationTargetEnd = (m_groups.size() + 1) * wid + kGapBetweenGroups;
-      centerX = animationTargetEnd - right - kGapBetweenGroups;
-    }
-  }
+	if (flyback != 0)  {
+		// Animate to two cards beyond the boundary card [to ensure all cards are off screen]
+		if (flyback > 0) {
+			slideCurve = 0;
+			animationTargetEnd = - (m_groups.size() + 1) * wid - kGapBetweenGroups;
+			centerX = animationTargetEnd + left + kGapBetweenGroups;
+		} else {
+			slideCurve = 0;
+			animationTargetEnd = (m_groups.size() + 1) * wid + kGapBetweenGroups;
+			centerX = animationTargetEnd - right - kGapBetweenGroups;
+		}
+	}
 
 	QPropertyAnimation* anim = new QPropertyAnimation(m_activeGroup, "x");
 	anim->setEasingCurve(AS_CURVE(cardSlideCurve));
@@ -2908,8 +2901,8 @@ void CardWindowManager::slideAllGroups(bool includeActiveCard, int flyback)
 
 		setAnimationForWindow(static_cast<CardWindow*>(anim->targetObject()), anim);
 	}
-
-  if (flyback == 0)  centerX = -m_activeGroup->left() - kGapBetweenGroups;
+	
+	if (flyback == 0)  centerX = -m_activeGroup->left() - kGapBetweenGroups;
 
 	for (int i=activeGrpIndex-1; i>=0;i--) {
 
@@ -2929,8 +2922,9 @@ void CardWindowManager::slideAllGroups(bool includeActiveCard, int flyback)
 		centerX += -kGapBetweenGroups - m_groups[i]->left();
 	}
 
-  if (flyback == 0)  centerX = m_activeGroup->right() + kGapBetweenGroups;
-  for (int i=activeGrpIndex+1; i<m_groups.size(); i++) {
+	if (flyback == 0)  centerX = m_activeGroup->right() + kGapBetweenGroups;
+	
+	for (int i=activeGrpIndex+1; i<m_groups.size(); i++) {
 
 		cardAnims = m_groups[i]->animateClose(AS(cardSlideDuration), AS_CURVE(cardSlideCurve));
 		centerX += m_groups[i]->left();
@@ -3596,7 +3590,7 @@ void CardWindowManager::slotSideSwipe(bool direction)
 				m_groupShift = 0; // Perhaps this can be smarter.
 				m_groupDir = direction;
 				Q_EMIT signalGroupWindow();
-				showGroupCards(direction);
+				//showGroupCards(direction);
 			}
 		}
 		return;
@@ -3616,7 +3610,8 @@ void CardWindowManager::slotSideSwipe(bool direction)
 		else //Swiped in from the big card side
 		{
 			m_groupDir = direction;
-			showGroupCards(direction);
+			setGroupsTab();
+			slideAllGroups();
 		}
 		return;
 	}

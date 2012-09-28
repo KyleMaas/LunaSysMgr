@@ -75,6 +75,9 @@ Preferences::Preferences()
 	, m_sysUiUseCustomCarrierString(false)
 	, m_sysUiCarrierString("HP webOS")
 	, m_sysUiEnableSpreadGesture(false)
+	, m_sysUiEnableMiniCards(false)
+	, m_sysUiEnableZoomGesture(false)
+	, m_sysUiEnableWaveLauncher(false)
 	, m_lockTimeout(0)
 	, m_lsHandle(0)
 	, m_imeEnabled(false)
@@ -594,6 +597,9 @@ bool Preferences::serverConnectCallback(LSHandle *sh, LSMessage *message, void *
 													   \"sysUiUseCustomCarrierString\", \
 													   \"sysUiCarrierString\", \
 													   \"sysUiEnableSpreadGesture\", \
+													   \"sysUiEnableMiniCards\", \
+													   \"sysUiEnableZoomGesture\", \
+													   \"sysUiEnableWaveLauncher\", \
 													   \"airplaneMode\", \
 													   \"hideWANAlert\", \
 													   \"roamingIndicator\", \
@@ -946,6 +952,27 @@ bool Preferences::getPreferencesCallback(LSHandle *sh, LSMessage *message, void 
 		}
 	}
 
+	label = json_object_object_get(json, "sysUiEnableMiniCards");
+	if (label && !is_error(label)) {
+		if (prefObjPtr) {
+			prefObjPtr->m_sysUiEnableMiniCards = json_object_get_boolean(label);
+		}
+	}
+
+	label = json_object_object_get(json, "sysUiEnableZoomGesture");
+	if (label && !is_error(label)) {
+		if (prefObjPtr) {
+			prefObjPtr->m_sysUiEnableZoomGesture = json_object_get_boolean(label);
+		}
+	}
+
+	label = json_object_object_get(json, "sysUiEnableWaveLauncher");
+	if (label && !is_error(label)) {
+		if (prefObjPtr) {
+			prefObjPtr->m_sysUiEnableWaveLauncher = json_object_get_boolean(label);
+		}
+	}
+
 	label = json_object_object_get(json, "showReticleAnimation");
 	if (label && !is_error(label)) {
 		if (prefObjPtr) {
@@ -1096,7 +1123,9 @@ Done:
 
 	if (json && !is_error(json))
 		json_object_put(json);
-
+		
+	Q_EMIT prefObjPtr->signalGetPrefsComplete();
+			
 	return true;
 }
 

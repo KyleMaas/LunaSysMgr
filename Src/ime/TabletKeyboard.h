@@ -211,6 +211,7 @@ public:
 
 protected Q_SLOTS:
 	void	repeatChar();
+	void	tickTrackball();
 
 private:
 	static TabletKeyboard *	s_instance;			// only valid while a keyboard exists.
@@ -222,6 +223,8 @@ private:
 	uint64_t			m_lastUnlockTime;
 
 	bool				m_resizeMode;
+	bool				m_trackballMode;
+	QPointF				m_trackballVelocity;
 	int					m_keyboardTopPading;
 	int					m_requestedHeight;
 	NineTileCorner		m_9tileCorner;
@@ -250,6 +253,9 @@ private:
 	bool				m_diamondOptimization;
 
 	bool				m_idleInit;
+	
+	QPointF				m_trackballDelta;
+	QTimer				m_trackballTimer;
 
 	// keyboard special key assets.
 	IMEPixmap			m_backspace;
@@ -273,6 +279,10 @@ private:
 	IMEPixmap			m_emoticon_yuck_small;
 	IMEPixmap			m_emoticon_gasp_small;
 	IMEPixmap			m_emoticon_heart_small;
+	
+	// trackball assets
+	IMEPixmap			m_trackball;
+	IMEPixmap			m_trackballArrows;
 
 	// keyboard background assets.
 	IMEPixmap			m_background;

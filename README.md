@@ -1,9 +1,11 @@
-LunaSysMgr - Features
+LunaSysMgr - Beta/Master
 =====================
 
-LunaSysMgr - Features
+LunaSysMgr - Beta/Master
 
-This is where new features for LunaSysMgr go. 
+This branch is used for bugfixing of new features added to alpha.
+The beta Preware package will be updated on a per-tag basis for testing stable release candidates.
+The stable Preware package will be updated manually when the current beta release is ready to migrate to stable.
 
 For version 3.0.5 of webOS
 

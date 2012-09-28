@@ -89,6 +89,14 @@ public:
 	void stopMoveGroupTimer() {m_groupMoveTimer->stop();}
 	virtual bool okToResize();
 	virtual bool isMinimized();
+	virtual bool isMaximized();
+	virtual bool isGroup();
+	
+	// cycle through cards in tabbed view
+	void cycleGroupTabs();
+	
+	// convert tap events on the gesture border to single clicks
+	void deadzoneTap(QTapGesture* event);
 
 	CardWindow* modalParent() const { return m_parentOfModalCard; }
 
@@ -187,12 +195,13 @@ private:
 
 	void handleTapAndHoldGestureMinimized(QTapAndHoldGesture* event);
 
-    // For tabbed cards input handling
-  void handleMousePressGroup(QGraphicsSceneMouseEvent* event);
-  void handleMouseMoveGroup(QGraphicsSceneMouseEvent* event);
-  void handleMouseReleaseGroup(QGraphicsSceneMouseEvent* event);
-  void handleTapGestureGroupView(QTapGesture* event);
-  void handleFlickGestureGroup(QGestureEvent* event);
+	// For tabbed cards input handling
+	void handleMousePressGroup(QGraphicsSceneMouseEvent* event);
+	void handleMouseMoveGroup(QGraphicsSceneMouseEvent* event);
+	void handleMouseReleaseGroup(QGraphicsSceneMouseEvent* event);
+	void handleTapGestureGroup(QTapGesture* event);
+	void handleFlickGestureGroup(QGestureEvent* event);
+	void handleKeyNavigationGroup(QKeyEvent* keyEvent);
 
 
     void handleKeyNavigationMinimized(QKeyEvent* keyEvent);
@@ -236,12 +245,10 @@ private:
 	void switchToNextAppMaximized();
 	void switchToPrevAppMaximized();
 
-  /* Functions Required for Grouped Cards */
-  void showGroupCards(bool direction);
-  void showGroupCardsImmediate();
-  bool whichSideOfScreen(QPointF p);
-  void closeWindowGroup(CardWindow* win, bool dir, bool angryCard=false);
-
+	/* Functions Required for Grouped Cards */
+	void moveGroupCards();
+	bool whichSideOfScreen(QPointF p);
+	void closeWindowGroup(CardWindow* win, bool dir, bool angryCard=false);
 
 	// animate all groups to center around the active group.
 	// optionally include the active card in the active group.
@@ -265,11 +272,12 @@ private:
 
 	void setActiveGroup(CardGroup* group);
     
-    void setGroupsMaximized(bool enable);
+    void setGroupsStack();
+    void setGroupsLinear();
+    void setGroupsMinimize();
+    void setGroupsTab();
     
-    void setGroupsMinimizeGesture(bool enable);
-    
-    void setGroupsSpreadGesture(bool enable);
+    void setGroupsMiniScale(qreal scale);
 
 	void disableCardRestoreToMaximized();
 	void restoreCardToMaximized();
@@ -403,6 +411,9 @@ private:
   bool m_groupDir;
   float m_groupVelocity;
   QTimer *m_groupMoveTimer;
+  
+	// Mini Cards Scale
+	qreal m_miniScale;
 
     bool m_playedAngryCardStretchSound;
 

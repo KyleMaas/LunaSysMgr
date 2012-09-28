@@ -108,6 +108,7 @@ const UKey cKey_Resize_Last = cKey_Resize_Large;
 
 const UKey cKey_ToggleSoundFeedback = UKey(0x01200216);
 const UKey cKey_ResizeHandle = UKey(0x01200217);
+const UKey cKey_Trackball = UKey(0x01200218);
 
 // Keys that correspond to some text entry (label & entered text are equal)
 const UKey cKey_DotCom = UKey(0x01200300);
@@ -287,6 +288,7 @@ public:
 	// The following functions that return a bool return true when the layout effectively changed (and you probably need to update your display)
 	bool				setLayoutFamily(const LayoutFamily * layoutFamily);
 	bool				setKeymap(const std::string & keymap);
+	void				setAutoCorrectLanguage(const std::string & language);
 	const LayoutFamily*	layoutFamily() const					{ return m_layoutFamily; }
 	void				keyboardCombosChanged();						// called when available keyboard combos change
 	QList<const char *>	getLayoutList();
@@ -321,6 +323,7 @@ public:
 	ETabAction			tabAction() const;
 
 	const char *		layoutName()							{ return m_layoutFamily->m_name; }
+	QString				autoCorrectLanguage()					{ return m_autoCorrectLanguage; }
 
 	uint16_t			primaryKeyboardID()						{ return m_layoutFamily->m_currentKeymap->m_primaryID; }
 	uint16_t			secondaryKeyboardID()					{ return m_layoutFamily->m_currentKeymap->m_secondaryID; }
@@ -363,6 +366,7 @@ private:
 	bool                m_hasMoreThanOneLayoutFamily;
 
 	QString				m_languageName;
+	QString				m_autoCorrectLanguage;
 
 	QString				m_custom_Enter;
 	QString				m_localized__Enter;
