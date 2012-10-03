@@ -47,6 +47,7 @@ var searchData=
   ['solidrectbackground',['SolidRectBackground',['../classGraphicsItemContainer.htm#a414b4b748b1acaca7c68bd853cd0d7a6a6d97a0ecf49d835ddbff15f2530552c2',1,'GraphicsItemContainer']]],
   ['south',['South',['../namespaceFrameDirection.htm#aa26c62d5e983e037ce79c28a5f655581a3d5d785db039350a4b7706617345bc62',1,'FrameDirection']]],
   ['specificname',['SpecificName',['../namespaceDimensionsSystemInterface_1_1PageRestoreMSaveFileSelector.htm#a797f1d46ca7d0168ed5e7b4d91fbfa0dac4816196cebf4da9b4ddf2f86ad1ecf7',1,'DimensionsSystemInterface::PageRestoreMSaveFileSelector::SpecificName()'],['../namespaceDimensionsSystemInterface_1_1QuickLaunchRestoreSaveFileSelector.htm#a5b72e043f210b084e9a9cdf31ac1df9dae04e75d6262d9b9ce1642a782942d79b',1,'DimensionsSystemInterface::QuickLaunchRestoreSaveFileSelector::SpecificName()']]],
+  ['stack',['Stack',['../CardGroup_8h.htm#a9c82121d577b4cc566759f37e98455b6ad323e21f975d98abeddb6f8ff46f8ff5',1,'CardGroup.h']]],
   ['state_5fcanceled',['State_Canceled',['../structApplicationStatus.htm#aea6286435ec7b115bdaaaf635eee8aeaa43c69f205ea38077b689d0fc010528c7',1,'ApplicationStatus']]],
   ['state_5ffailed',['State_Failed',['../structApplicationStatus.htm#aea6286435ec7b115bdaaaf635eee8aeaaafb00ff0fe0da1aa7c967968c9796de2',1,'ApplicationStatus']]],
   ['state_5ficondownload',['State_IconDownload',['../structApplicationStatus.htm#aea6286435ec7b115bdaaaf635eee8aeaaf4d8c5010820ea0b2121495ceee37e80',1,'ApplicationStatus']]],

@@ -120,14 +120,12 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="dynheader">
 Inheritance diagram for IconBase:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classIconBase__inherit__graph.svg" width="142" height="272"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classIconBase__inherit__graph.svg" width="142" height="272"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 <center><span class="legend">[<a target="top" href="graph_legend.htm">legend</a>]</span></center></div>
 <div class="dynheader">
 Collaboration diagram for IconBase:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classIconBase__coll__graph.svg" width="1232" height="1744"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classIconBase__coll__graph.svg" width="1232" height="1751"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 <center><span class="legend">[<a target="top" href="graph_legend.htm">legend</a>]</span></center></div>
 
 <p><a href="classIconBase-members.htm">List of all members.</a></p>
@@ -181,8 +179,11 @@ Public Member Functions</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIconBase.htm#abf961e3970ec0ac6ea6419bc2158b96d">setIconLabel</a> (const QString &amp;v)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIconBase.htm#a26a9a19fa59b0a96c8d8dc41fabe3363">resetIconLabel</a> ()</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIconBase.htm#aec7c23342e75a37814f81cf482188a7d">setIconLabelVisibility</a> (bool visible)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIconBase.htm#afe2bd4043a3a249b99be36f0e03ceb66">setIconLabelMode</a> (bool mode)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIconBase.htm#a0cb215ba7b56071e8972a96f32921ddf">setIconWaveScale</a> (qreal scale)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIconBase.htm#a418fa51e192f2b4b7206fac245b125d6">setUsePrerenderedLabel</a> (bool usePreRendered)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIconBase.htm#a57ae5b73fd856b02f87d7551b31e626e">setLaunchFeedbackVisibility</a> (bool visible)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIconBase.htm#af8d3e852fa9e959f74a0a48c867681c2">launchFeedbackVisibility</a> () const </td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIconBase.htm#a2ef8b0573f13763da6b694730be2c147">connectRequestsToLauncher</a> (<a class="el" href="classLauncherObject.htm">LauncherObject</a> *launcherObj=0)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classLayoutItem.htm">LayoutItem</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIconBase.htm#a58deace46604cd3b45fa6e69ebb236a3">layoutItemAssociation</a> () const </td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIconBase.htm#aa9f1958c7e459d5cf1b6c0807283e42c">setLayoutItemAssociation</a> (<a class="el" href="classLayoutItem.htm">LayoutItem</a> *v)</td></tr>
@@ -259,6 +260,8 @@ Static Protected Member Functions</h2></td></tr>
 <tr><td colspan="2"><h2><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIconBase.htm#a77dbbe6e2e2d3c6c25e40c764b5b6c90">m_showLabel</a></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIconBase.htm#a186f8d564e5df66b015c62e6d1da3708">m_labelMode</a></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">qreal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIconBase.htm#af317de2a061fc4f0c0b8980321c5d121">m_waveScale</a></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIconBase.htm#a51291d836d4bd0bc0334d783df0a951f">m_iconLabel</a></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">QPointer&lt; <a class="el" href="classIconBase.htm">IconBase</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIconBase.htm#a1966afa78cdd263a54537b8b06c6332d">m_qp_masterIcon</a></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIconBase.htm#aa8ea85f5177ac019a58f9e6c94550ed7">m_useOwnerSetAutopaintClip</a></td></tr>
@@ -961,6 +964,22 @@ Friends</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="af8d3e852fa9e959f74a0a48c867681c2"></a><!-- doxytag: member="IconBase::launchFeedbackVisibility" ref="af8d3e852fa9e959f74a0a48c867681c2" args="() const " -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="classIconBase.htm#af8d3e852fa9e959f74a0a48c867681c2">IconBase::launchFeedbackVisibility</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const<code> [inline]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="a58deace46604cd3b45fa6e69ebb236a3"></a><!-- doxytag: member="IconBase::layoutItemAssociation" ref="a58deace46604cd3b45fa6e69ebb236a3" args="() const " -->
 <div class="memitem">
 <div class="memproto">
@@ -1525,6 +1544,23 @@ Friends</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="afe2bd4043a3a249b99be36f0e03ceb66"></a><!-- doxytag: member="IconBase::setIconLabelMode" ref="afe2bd4043a3a249b99be36f0e03ceb66" args="(bool mode)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classIconBase.htm#afe2bd4043a3a249b99be36f0e03ceb66">IconBase::setIconLabelMode</a> </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>mode</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="aec7c23342e75a37814f81cf482188a7d"></a><!-- doxytag: member="IconBase::setIconLabelVisibility" ref="aec7c23342e75a37814f81cf482188a7d" args="(bool visible)" -->
 <div class="memitem">
 <div class="memproto">
@@ -1534,6 +1570,23 @@ Friends</h2></td></tr>
           <td>(</td>
           <td class="paramtype">bool&#160;</td>
           <td class="paramname"><em>visible</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a0cb215ba7b56071e8972a96f32921ddf"></a><!-- doxytag: member="IconBase::setIconWaveScale" ref="a0cb215ba7b56071e8972a96f32921ddf" args="(qreal scale)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classIconBase.htm#a0cb215ba7b56071e8972a96f32921ddf">IconBase::setIconWaveScale</a> </td>
+          <td>(</td>
+          <td class="paramtype">qreal&#160;</td>
+          <td class="paramname"><em>scale</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -2973,6 +3026,19 @@ Friends</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a186f8d564e5df66b015c62e6d1da3708"></a><!-- doxytag: member="IconBase::m_labelMode" ref="a186f8d564e5df66b015c62e6d1da3708" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="classIconBase.htm#a186f8d564e5df66b015c62e6d1da3708">IconBase::m_labelMode</a><code> [protected]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="a0a6fb6ceb691949b9572a3dba30218d0"></a><!-- doxytag: member="IconBase::m_labelPosICS" ref="a0a6fb6ceb691949b9572a3dba30218d0" args="" -->
 <div class="memitem">
 <div class="memproto">
@@ -3428,6 +3494,19 @@ Friends</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="af317de2a061fc4f0c0b8980321c5d121"></a><!-- doxytag: member="IconBase::m_waveScale" ref="af317de2a061fc4f0c0b8980321c5d121" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">qreal <a class="el" href="classIconBase.htm#af317de2a061fc4f0c0b8980321c5d121">IconBase::m_waveScale</a><code> [protected]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="a70c3013ab1d4a1dc06f64787cc773235"></a><!-- doxytag: member="IconBase::s_iconLabelFont" ref="a70c3013ab1d4a1dc06f64787cc773235" args="" -->
 <div class="memitem">
 <div class="memproto">
@@ -3505,7 +3584,7 @@ Friends</h2></td></tr>
     <ul>
       <li class="navelem"><a class="el" href="classIconBase.htm">IconBase</a>      </li>
 
-    <li class="footer">Generated on Wed Sep 26 2012 07:32:50 for LunaSysMgr by
+    <li class="footer">Generated on Tue Oct 2 2012 22:44:00 for LunaSysMgr by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.7.6.1 </li>
    </ul>

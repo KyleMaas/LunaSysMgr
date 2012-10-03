@@ -191,339 +191,350 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <a name="l00089"></a><a class="code" href="classCardWindowManager.htm#a7559f53111a5816360e183468ba63ac6">00089</a>         <span class="keywordtype">void</span> <a class="code" href="classCardWindowManager.htm#a7559f53111a5816360e183468ba63ac6">stopMoveGroupTimer</a>() {m_groupMoveTimer-&gt;stop();}
 <a name="l00090"></a>00090         <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code" href="classCardWindowManager.htm#a534d92204159fdfb59cfc9e55662fe4c">okToResize</a>();
 <a name="l00091"></a>00091         <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code" href="classCardWindowManager.htm#ad1f03454c7facb5c54517286bf9c92d1">isMinimized</a>();
-<a name="l00092"></a>00092 
-<a name="l00093"></a><a class="code" href="classCardWindowManager.htm#ad218029b115fc0328d25ce06cb66fcbe">00093</a>         <a class="code" href="classCardWindow.htm">CardWindow</a>* <a class="code" href="classCardWindowManager.htm#ad218029b115fc0328d25ce06cb66fcbe">modalParent</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> m_parentOfModalCard; }
-<a name="l00094"></a>00094 
-<a name="l00095"></a>00095     <span class="keywordtype">void</span> <a class="code" href="classCardWindowManager.htm#a2efd1a552ced71cc6e4a8b582c9070e3">firstCardAlert</a>();
-<a name="l00096"></a>00096 
-<a name="l00097"></a>00097     <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code" href="classCardWindowManager.htm#a7133b3a60604d90d5f279d7cb50a786a">handleNavigationEvent</a>(QKeyEvent* keyEvent, <span class="keywordtype">bool</span>&amp; propogate);
-<a name="l00098"></a>00098 
-<a name="l00099"></a>00099 <span class="keyword">protected</span>:
+<a name="l00092"></a>00092         <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code" href="classCardWindowManager.htm#a5f324bd66731c8cab39cdb0c029bb0f3">isMaximized</a>();
+<a name="l00093"></a>00093         <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code" href="classCardWindowManager.htm#a2324f7248cc8d3ab920bd9101efd4539">isGroup</a>();
+<a name="l00094"></a>00094         
+<a name="l00095"></a>00095         <span class="comment">// cycle through cards in tabbed view</span>
+<a name="l00096"></a>00096         <span class="keywordtype">void</span> <a class="code" href="classCardWindowManager.htm#aaa2ef5eb3f65df22909fc8dca46db7c9">cycleGroupTabs</a>();
+<a name="l00097"></a>00097         
+<a name="l00098"></a>00098         <span class="comment">// convert tap events on the gesture border to single clicks</span>
+<a name="l00099"></a>00099         <span class="keywordtype">void</span> <a class="code" href="classCardWindowManager.htm#a9788d4712eb6637358a5efb24b8680af">deadzoneTap</a>(QTapGesture* event);
 <a name="l00100"></a>00100 
-<a name="l00101"></a>00101         <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classCardWindowManager.htm#aadf4856c42c5f3d4b0a972db1ff90481">mousePressEvent</a>(QGraphicsSceneMouseEvent* event);
-<a name="l00102"></a>00102         <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classCardWindowManager.htm#a740987963852842b3beef059d159d301">mouseDoubleClickEvent</a>(QGraphicsSceneMouseEvent* event);
-<a name="l00103"></a>00103         <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classCardWindowManager.htm#a169687282a3eb2754ca2d419d193fc67">mouseMoveEvent</a>(QGraphicsSceneMouseEvent* event);
-<a name="l00104"></a>00104         <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classCardWindowManager.htm#a94b646cd2dcddfd424fec0908dd1e948">mouseReleaseEvent</a>(QGraphicsSceneMouseEvent* event);
-<a name="l00105"></a>00105         <span class="keywordtype">void</span> <a class="code" href="classCardWindowManager.htm#a8276ef80a6c71091a513d4578bf00df9">tapGestureEvent</a>(QTapGesture* event);
-<a name="l00106"></a>00106         <span class="keywordtype">void</span> <a class="code" href="classCardWindowManager.htm#abb467089266f9431d3a2bd0c0d60d7be">tapAndHoldGestureEvent</a>(QTapAndHoldGesture* event);
-<a name="l00107"></a>00107         <span class="keywordtype">void</span> <a class="code" href="classCardWindowManager.htm#af581a2f6087a23183dc0b693ed1b1491">flickGestureEvent</a>(QGestureEvent* event);
+<a name="l00101"></a><a class="code" href="classCardWindowManager.htm#ad218029b115fc0328d25ce06cb66fcbe">00101</a>         <a class="code" href="classCardWindow.htm">CardWindow</a>* <a class="code" href="classCardWindowManager.htm#ad218029b115fc0328d25ce06cb66fcbe">modalParent</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> m_parentOfModalCard; }
+<a name="l00102"></a>00102 
+<a name="l00103"></a>00103     <span class="keywordtype">void</span> <a class="code" href="classCardWindowManager.htm#a2efd1a552ced71cc6e4a8b582c9070e3">firstCardAlert</a>();
+<a name="l00104"></a>00104 
+<a name="l00105"></a>00105     <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code" href="classCardWindowManager.htm#a7133b3a60604d90d5f279d7cb50a786a">handleNavigationEvent</a>(QKeyEvent* keyEvent, <span class="keywordtype">bool</span>&amp; propogate);
+<a name="l00106"></a>00106 
+<a name="l00107"></a>00107 <span class="keyword">protected</span>:
 <a name="l00108"></a>00108 
-<a name="l00109"></a>00109         <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code" href="classCardWindowManager.htm#a69d426f001992cd28246d3f4603daaa7">sceneEvent</a>(<a class="code" href="classQEvent.htm">QEvent</a>* event);
-<a name="l00110"></a>00110 
-<a name="l00111"></a>00111 <span class="keyword">private</span> Q_SLOTS:
-<a name="l00112"></a>00112 
-<a name="l00113"></a>00113         <span class="keywordtype">void</span> slotPositiveSpaceAboutToChange(<span class="keyword">const</span> QRect&amp; r, <span class="keywordtype">bool</span> fullScreen, <span class="keywordtype">bool</span> screenResizing);
-<a name="l00114"></a>00114         <span class="keywordtype">void</span> slotPositiveSpaceChangeFinished(<span class="keyword">const</span> QRect&amp; r);
-<a name="l00115"></a>00115         <span class="keywordtype">void</span> slotPositiveSpaceChanged(<span class="keyword">const</span> QRect&amp; r);
-<a name="l00116"></a>00116         <span class="keywordtype">void</span> slotLauncherVisible(<span class="keywordtype">bool</span> val, <span class="keywordtype">bool</span> fullyVisible);
-<a name="l00117"></a>00117         <span class="keywordtype">void</span> slotLauncherShown(<span class="keywordtype">bool</span> val);
+<a name="l00109"></a>00109         <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classCardWindowManager.htm#aadf4856c42c5f3d4b0a972db1ff90481">mousePressEvent</a>(QGraphicsSceneMouseEvent* event);
+<a name="l00110"></a>00110         <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classCardWindowManager.htm#a740987963852842b3beef059d159d301">mouseDoubleClickEvent</a>(QGraphicsSceneMouseEvent* event);
+<a name="l00111"></a>00111         <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classCardWindowManager.htm#a169687282a3eb2754ca2d419d193fc67">mouseMoveEvent</a>(QGraphicsSceneMouseEvent* event);
+<a name="l00112"></a>00112         <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classCardWindowManager.htm#a94b646cd2dcddfd424fec0908dd1e948">mouseReleaseEvent</a>(QGraphicsSceneMouseEvent* event);
+<a name="l00113"></a>00113         <span class="keywordtype">void</span> <a class="code" href="classCardWindowManager.htm#a8276ef80a6c71091a513d4578bf00df9">tapGestureEvent</a>(QTapGesture* event);
+<a name="l00114"></a>00114         <span class="keywordtype">void</span> <a class="code" href="classCardWindowManager.htm#abb467089266f9431d3a2bd0c0d60d7be">tapAndHoldGestureEvent</a>(QTapAndHoldGesture* event);
+<a name="l00115"></a>00115         <span class="keywordtype">void</span> <a class="code" href="classCardWindowManager.htm#af581a2f6087a23183dc0b693ed1b1491">flickGestureEvent</a>(QGestureEvent* event);
+<a name="l00116"></a>00116 
+<a name="l00117"></a>00117         <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code" href="classCardWindowManager.htm#a69d426f001992cd28246d3f4603daaa7">sceneEvent</a>(<a class="code" href="classQEvent.htm">QEvent</a>* event);
 <a name="l00118"></a>00118 
-<a name="l00119"></a>00119         <span class="keywordtype">void</span> slotAnimationsFinished();
-<a name="l00120"></a>00120         <span class="keywordtype">void</span> slotDeletedAnimationFinished();
-<a name="l00121"></a>00121     <span class="keywordtype">void</span> slotTouchToShareAnimationFinished();
-<a name="l00122"></a>00122 
-<a name="l00123"></a>00123         <span class="keywordtype">void</span> slotMaximizeActiveCardWindow();
-<a name="l00124"></a>00124         <span class="keywordtype">void</span> slotMinimizeActiveCardWindow();
-<a name="l00125"></a>00125     
-<a name="l00126"></a>00126         <span class="keywordtype">void</span> slotChangeCardWindow(<span class="keywordtype">bool</span> next);
-<a name="l00127"></a>00127         <span class="keywordtype">void</span> slotSideSwipe(<span class="keywordtype">bool</span> direction);  <span class="comment">// Enables group view, for now</span>
-<a name="l00128"></a>00128 
-<a name="l00129"></a>00129         <span class="keywordtype">void</span> slotFocusMaximizedCardWindow(<span class="keywordtype">bool</span> focus);
-<a name="l00130"></a>00130     
-<a name="l00131"></a>00131         <span class="keywordtype">void</span> slotSwitchGesture(<a class="code" href="classBezelGesture.htm">BezelGesture</a>* gesture);
-<a name="l00132"></a>00132     
-<a name="l00133"></a>00133         <span class="keywordtype">void</span> slotMinimizeGesture(<a class="code" href="classBezelGesture.htm">BezelGesture</a>* gesture);
-<a name="l00134"></a>00134     
-<a name="l00135"></a>00135         <span class="keywordtype">void</span> slotSpreadGesture(QPinchGesture* gesture);
+<a name="l00119"></a>00119 <span class="keyword">private</span> Q_SLOTS:
+<a name="l00120"></a>00120 
+<a name="l00121"></a>00121         <span class="keywordtype">void</span> slotPositiveSpaceAboutToChange(<span class="keyword">const</span> QRect&amp; r, <span class="keywordtype">bool</span> fullScreen, <span class="keywordtype">bool</span> screenResizing);
+<a name="l00122"></a>00122         <span class="keywordtype">void</span> slotPositiveSpaceChangeFinished(<span class="keyword">const</span> QRect&amp; r);
+<a name="l00123"></a>00123         <span class="keywordtype">void</span> slotPositiveSpaceChanged(<span class="keyword">const</span> QRect&amp; r);
+<a name="l00124"></a>00124         <span class="keywordtype">void</span> slotLauncherVisible(<span class="keywordtype">bool</span> val, <span class="keywordtype">bool</span> fullyVisible);
+<a name="l00125"></a>00125         <span class="keywordtype">void</span> slotLauncherShown(<span class="keywordtype">bool</span> val);
+<a name="l00126"></a>00126 
+<a name="l00127"></a>00127         <span class="keywordtype">void</span> slotAnimationsFinished();
+<a name="l00128"></a>00128         <span class="keywordtype">void</span> slotDeletedAnimationFinished();
+<a name="l00129"></a>00129     <span class="keywordtype">void</span> slotTouchToShareAnimationFinished();
+<a name="l00130"></a>00130 
+<a name="l00131"></a>00131         <span class="keywordtype">void</span> slotMaximizeActiveCardWindow();
+<a name="l00132"></a>00132         <span class="keywordtype">void</span> slotMinimizeActiveCardWindow();
+<a name="l00133"></a>00133     
+<a name="l00134"></a>00134         <span class="keywordtype">void</span> slotChangeCardWindow(<span class="keywordtype">bool</span> next);
+<a name="l00135"></a>00135         <span class="keywordtype">void</span> slotSideSwipe(<span class="keywordtype">bool</span> direction);  <span class="comment">// Enables group view, for now</span>
 <a name="l00136"></a>00136 
-<a name="l00137"></a>00137     <span class="keywordtype">void</span> slotTouchToShareAppUrlTransfered(<span class="keyword">const</span> std::string&amp; appId);
-<a name="l00138"></a>00138     <span class="keywordtype">void</span> slotOpacityAnimationFinished();
-<a name="l00139"></a>00139     <span class="keywordtype">void</span> slotDismissActiveModalWindow();
-<a name="l00140"></a>00140     <span class="keywordtype">void</span> slotDismissModalTimerStopped();
-<a name="l00141"></a>00141 
-<a name="l00142"></a>00142         <span class="keywordtype">void</span> slotCloseGroupAdjustAfterAnimationFinished(<a class="code" href="classQObject.htm">QObject</a>* winObject); <span class="comment">// Adjusts group view if just one card remains after side closing</span>
-<a name="l00143"></a>00143         <span class="keywordtype">void</span> slotGroupTimerTimeout();  <span class="comment">// Handles kinetic scrolling for tabbed cards</span>
+<a name="l00137"></a>00137         <span class="keywordtype">void</span> slotFocusMaximizedCardWindow(<span class="keywordtype">bool</span> focus);
+<a name="l00138"></a>00138     
+<a name="l00139"></a>00139         <span class="keywordtype">void</span> slotSwitchGesture(<a class="code" href="classBezelGesture.htm">BezelGesture</a>* gesture);
+<a name="l00140"></a>00140     
+<a name="l00141"></a>00141         <span class="keywordtype">void</span> slotMinimizeGesture(<a class="code" href="classBezelGesture.htm">BezelGesture</a>* gesture);
+<a name="l00142"></a>00142     
+<a name="l00143"></a>00143         <span class="keywordtype">void</span> slotSpreadGesture(QPinchGesture* gesture);
 <a name="l00144"></a>00144 
-<a name="l00145"></a>00145     <span class="keywordtype">void</span> slotFinishFlyback();  <span class="comment">// Finishes the animation for infinite card cycling option</span>
-<a name="l00146"></a>00146 
-<a name="l00147"></a>00147 Q_SIGNALS:
-<a name="l00148"></a>00148 
-<a name="l00149"></a>00149         <span class="keywordtype">void</span> <a class="code" href="classCardWindowManager.htm#abecdadd8c7999f2bb8f0938bfdaffd3b">signalFocusWindow</a>(<a class="code" href="classCardWindow.htm">CardWindow</a>* win);
-<a name="l00150"></a>00150         <span class="keywordtype">void</span> <a class="code" href="classCardWindowManager.htm#a96b560fefb569af83a7c5b09244a96ba">signalLoadingActiveWindow</a>();
-<a name="l00151"></a>00151         <span class="keywordtype">void</span> <a class="code" href="classCardWindowManager.htm#ae9808d5e21b69e0ab9a5d2a7a444ca53">signalPreparingWindow</a>(<a class="code" href="classCardWindow.htm">CardWindow</a>* win);
-<a name="l00152"></a>00152         <span class="keywordtype">void</span> <a class="code" href="classCardWindowManager.htm#a7460271af137fb03170dd47eddebcf6e">signalMaximizeActiveWindow</a>();
-<a name="l00153"></a>00153         <span class="keywordtype">void</span> <a class="code" href="classCardWindowManager.htm#a82d159347e8bb102ce7ed5b261eb3b22">signalMinimizeActiveWindow</a>();
-<a name="l00154"></a>00154         <span class="keywordtype">void</span> <a class="code" href="classCardWindowManager.htm#a01e86e78a1ac6e56ee55d905550b6321">signalEnterReorder</a>(QPoint pt, <span class="keywordtype">int</span> slice);
-<a name="l00155"></a>00155         <span class="keywordtype">void</span> <a class="code" href="classCardWindowManager.htm#a9d746690043c7862d6e6b5da41ad2a60">signalExitReorder</a>(<span class="keywordtype">bool</span> canceled = <span class="keyword">true</span>);
-<a name="l00156"></a>00156         <span class="keywordtype">void</span> <a class="code" href="classCardWindowManager.htm#a5335ab3d4aabba11a780b3d366cabc74">signalSwitchGesture</a>(<a class="code" href="classBezelGesture.htm">BezelGesture</a>* gesture);
-<a name="l00157"></a>00157         <span class="keywordtype">void</span> <a class="code" href="classCardWindowManager.htm#a27ae0062bbec55dfd36436cdaa1960d0">signalEnterSwitchGestureState</a>();
-<a name="l00158"></a>00158         <span class="keywordtype">void</span> <a class="code" href="classCardWindowManager.htm#ae2df3266ee0ce0151f1fc3ab2f041d62">signalMinimizeGesture</a>(<a class="code" href="classBezelGesture.htm">BezelGesture</a>* gesture);
-<a name="l00159"></a>00159         <span class="keywordtype">void</span> <a class="code" href="classCardWindowManager.htm#a673d45c911ddfc3882d0a706973b7e58">signalEnterMinimizeGestureState</a>();
-<a name="l00160"></a>00160         <span class="keywordtype">void</span> <a class="code" href="classCardWindowManager.htm#a56cd8afdd2e4f0cbbbfdf4a014c320b8">signalSpreadGesture</a>(QPinchGesture* gesture);
-<a name="l00161"></a>00161         <span class="keywordtype">void</span> <a class="code" href="classCardWindowManager.htm#a7536efecfb586ad08ca25b7f9b089267">signalEnterSpreadGestureState</a>();
-<a name="l00162"></a>00162     <span class="keywordtype">void</span> <a class="code" href="classCardWindowManager.htm#a6dd9b3b096b2f0040a5dd3f8de8c443e">signalFirstCardRun</a>();
-<a name="l00163"></a>00163     <span class="keywordtype">void</span> <a class="code" href="classCardWindowManager.htm#ad2eddb79a9f9506c9f4eb42036c301ca">signalGroupWindow</a>();
-<a name="l00164"></a>00164 
-<a name="l00165"></a>00165 <span class="keyword">private</span>:
-<a name="l00166"></a>00166 
-<a name="l00167"></a>00167         <span class="keywordtype">void</span> performPostModalWindowRemovedActions(<a class="code" href="classWindow.htm">Window</a>* win, <span class="keywordtype">bool</span> restore = <span class="keyword">true</span>);
-<a name="l00168"></a>00168         <span class="keywordtype">void</span> initiateRemovalOfActiveModalWindow();
-<a name="l00169"></a>00169 
-<a name="l00170"></a>00170         <span class="keywordtype">void</span> handleMousePressMinimized(QGraphicsSceneMouseEvent* event);
-<a name="l00171"></a>00171 
-<a name="l00172"></a>00172         <span class="keywordtype">void</span> handleMouseMoveMinimized(QGraphicsSceneMouseEvent* event);
-<a name="l00173"></a>00173         <span class="keywordtype">void</span> handleMouseMoveReorder(QGraphicsSceneMouseEvent* event);
+<a name="l00145"></a>00145     <span class="keywordtype">void</span> slotTouchToShareAppUrlTransfered(<span class="keyword">const</span> std::string&amp; appId);
+<a name="l00146"></a>00146     <span class="keywordtype">void</span> slotOpacityAnimationFinished();
+<a name="l00147"></a>00147     <span class="keywordtype">void</span> slotDismissActiveModalWindow();
+<a name="l00148"></a>00148     <span class="keywordtype">void</span> slotDismissModalTimerStopped();
+<a name="l00149"></a>00149 
+<a name="l00150"></a>00150         <span class="keywordtype">void</span> slotCloseGroupAdjustAfterAnimationFinished(<a class="code" href="classQObject.htm">QObject</a>* winObject); <span class="comment">// Adjusts group view if just one card remains after side closing</span>
+<a name="l00151"></a>00151         <span class="keywordtype">void</span> slotGroupTimerTimeout();  <span class="comment">// Handles kinetic scrolling for tabbed cards</span>
+<a name="l00152"></a>00152 
+<a name="l00153"></a>00153     <span class="keywordtype">void</span> slotFinishFlyback();  <span class="comment">// Finishes the animation for infinite card cycling option</span>
+<a name="l00154"></a>00154 
+<a name="l00155"></a>00155 Q_SIGNALS:
+<a name="l00156"></a>00156 
+<a name="l00157"></a>00157         <span class="keywordtype">void</span> <a class="code" href="classCardWindowManager.htm#abecdadd8c7999f2bb8f0938bfdaffd3b">signalFocusWindow</a>(<a class="code" href="classCardWindow.htm">CardWindow</a>* win);
+<a name="l00158"></a>00158         <span class="keywordtype">void</span> <a class="code" href="classCardWindowManager.htm#a96b560fefb569af83a7c5b09244a96ba">signalLoadingActiveWindow</a>();
+<a name="l00159"></a>00159         <span class="keywordtype">void</span> <a class="code" href="classCardWindowManager.htm#ae9808d5e21b69e0ab9a5d2a7a444ca53">signalPreparingWindow</a>(<a class="code" href="classCardWindow.htm">CardWindow</a>* win);
+<a name="l00160"></a>00160         <span class="keywordtype">void</span> <a class="code" href="classCardWindowManager.htm#a7460271af137fb03170dd47eddebcf6e">signalMaximizeActiveWindow</a>();
+<a name="l00161"></a>00161         <span class="keywordtype">void</span> <a class="code" href="classCardWindowManager.htm#a82d159347e8bb102ce7ed5b261eb3b22">signalMinimizeActiveWindow</a>();
+<a name="l00162"></a>00162         <span class="keywordtype">void</span> <a class="code" href="classCardWindowManager.htm#a01e86e78a1ac6e56ee55d905550b6321">signalEnterReorder</a>(QPoint pt, <span class="keywordtype">int</span> slice);
+<a name="l00163"></a>00163         <span class="keywordtype">void</span> <a class="code" href="classCardWindowManager.htm#a9d746690043c7862d6e6b5da41ad2a60">signalExitReorder</a>(<span class="keywordtype">bool</span> canceled = <span class="keyword">true</span>);
+<a name="l00164"></a>00164         <span class="keywordtype">void</span> <a class="code" href="classCardWindowManager.htm#a5335ab3d4aabba11a780b3d366cabc74">signalSwitchGesture</a>(<a class="code" href="classBezelGesture.htm">BezelGesture</a>* gesture);
+<a name="l00165"></a>00165         <span class="keywordtype">void</span> <a class="code" href="classCardWindowManager.htm#a27ae0062bbec55dfd36436cdaa1960d0">signalEnterSwitchGestureState</a>();
+<a name="l00166"></a>00166         <span class="keywordtype">void</span> <a class="code" href="classCardWindowManager.htm#ae2df3266ee0ce0151f1fc3ab2f041d62">signalMinimizeGesture</a>(<a class="code" href="classBezelGesture.htm">BezelGesture</a>* gesture);
+<a name="l00167"></a>00167         <span class="keywordtype">void</span> <a class="code" href="classCardWindowManager.htm#a673d45c911ddfc3882d0a706973b7e58">signalEnterMinimizeGestureState</a>();
+<a name="l00168"></a>00168         <span class="keywordtype">void</span> <a class="code" href="classCardWindowManager.htm#a56cd8afdd2e4f0cbbbfdf4a014c320b8">signalSpreadGesture</a>(QPinchGesture* gesture);
+<a name="l00169"></a>00169         <span class="keywordtype">void</span> <a class="code" href="classCardWindowManager.htm#a7536efecfb586ad08ca25b7f9b089267">signalEnterSpreadGestureState</a>();
+<a name="l00170"></a>00170     <span class="keywordtype">void</span> <a class="code" href="classCardWindowManager.htm#a6dd9b3b096b2f0040a5dd3f8de8c443e">signalFirstCardRun</a>();
+<a name="l00171"></a>00171     <span class="keywordtype">void</span> <a class="code" href="classCardWindowManager.htm#ad2eddb79a9f9506c9f4eb42036c301ca">signalGroupWindow</a>();
+<a name="l00172"></a>00172 
+<a name="l00173"></a>00173 <span class="keyword">private</span>:
 <a name="l00174"></a>00174 
-<a name="l00175"></a>00175         <span class="keywordtype">void</span> handleMouseReleaseMinimized(QGraphicsSceneMouseEvent* event);
-<a name="l00176"></a>00176         <span class="keywordtype">void</span> handleMouseReleaseReorder(QGraphicsSceneMouseEvent* event);
-<a name="l00177"></a>00177     
-<a name="l00178"></a>00178     <span class="keywordtype">void</span> handleSwitchGesture(<a class="code" href="classBezelGesture.htm">BezelGesture</a>* gesture);
-<a name="l00179"></a>00179     
-<a name="l00180"></a>00180     <span class="keywordtype">void</span> handleMinimizeGesture(<a class="code" href="classBezelGesture.htm">BezelGesture</a>* gesture);
-<a name="l00181"></a>00181     
-<a name="l00182"></a>00182     <span class="keywordtype">void</span> handleSpreadGesture(QPinchGesture* gesture);
-<a name="l00183"></a>00183 
-<a name="l00184"></a>00184         <span class="keywordtype">void</span> handleFlickGestureMinimized(QGestureEvent* event);
-<a name="l00185"></a>00185 
-<a name="l00186"></a>00186         <span class="keywordtype">void</span> handleTapGestureMinimized(QTapGesture* event);
-<a name="l00187"></a>00187 
-<a name="l00188"></a>00188         <span class="keywordtype">void</span> handleTapAndHoldGestureMinimized(QTapAndHoldGesture* event);
-<a name="l00189"></a>00189 
-<a name="l00190"></a>00190     <span class="comment">// For tabbed cards input handling</span>
-<a name="l00191"></a>00191   <span class="keywordtype">void</span> handleMousePressGroup(QGraphicsSceneMouseEvent* event);
-<a name="l00192"></a>00192   <span class="keywordtype">void</span> handleMouseMoveGroup(QGraphicsSceneMouseEvent* event);
-<a name="l00193"></a>00193   <span class="keywordtype">void</span> handleMouseReleaseGroup(QGraphicsSceneMouseEvent* event);
-<a name="l00194"></a>00194   <span class="keywordtype">void</span> handleTapGestureGroupView(QTapGesture* event);
-<a name="l00195"></a>00195   <span class="keywordtype">void</span> handleFlickGestureGroup(QGestureEvent* event);
-<a name="l00196"></a>00196 
+<a name="l00175"></a>00175         <span class="keywordtype">void</span> performPostModalWindowRemovedActions(<a class="code" href="classWindow.htm">Window</a>* win, <span class="keywordtype">bool</span> restore = <span class="keyword">true</span>);
+<a name="l00176"></a>00176         <span class="keywordtype">void</span> initiateRemovalOfActiveModalWindow();
+<a name="l00177"></a>00177 
+<a name="l00178"></a>00178         <span class="keywordtype">void</span> handleMousePressMinimized(QGraphicsSceneMouseEvent* event);
+<a name="l00179"></a>00179 
+<a name="l00180"></a>00180         <span class="keywordtype">void</span> handleMouseMoveMinimized(QGraphicsSceneMouseEvent* event);
+<a name="l00181"></a>00181         <span class="keywordtype">void</span> handleMouseMoveReorder(QGraphicsSceneMouseEvent* event);
+<a name="l00182"></a>00182 
+<a name="l00183"></a>00183         <span class="keywordtype">void</span> handleMouseReleaseMinimized(QGraphicsSceneMouseEvent* event);
+<a name="l00184"></a>00184         <span class="keywordtype">void</span> handleMouseReleaseReorder(QGraphicsSceneMouseEvent* event);
+<a name="l00185"></a>00185     
+<a name="l00186"></a>00186     <span class="keywordtype">void</span> handleSwitchGesture(<a class="code" href="classBezelGesture.htm">BezelGesture</a>* gesture);
+<a name="l00187"></a>00187     
+<a name="l00188"></a>00188     <span class="keywordtype">void</span> handleMinimizeGesture(<a class="code" href="classBezelGesture.htm">BezelGesture</a>* gesture);
+<a name="l00189"></a>00189     
+<a name="l00190"></a>00190     <span class="keywordtype">void</span> handleSpreadGesture(QPinchGesture* gesture);
+<a name="l00191"></a>00191 
+<a name="l00192"></a>00192         <span class="keywordtype">void</span> handleFlickGestureMinimized(QGestureEvent* event);
+<a name="l00193"></a>00193 
+<a name="l00194"></a>00194         <span class="keywordtype">void</span> handleTapGestureMinimized(QTapGesture* event);
+<a name="l00195"></a>00195 
+<a name="l00196"></a>00196         <span class="keywordtype">void</span> handleTapAndHoldGestureMinimized(QTapAndHoldGesture* event);
 <a name="l00197"></a>00197 
-<a name="l00198"></a>00198     <span class="keywordtype">void</span> handleKeyNavigationMinimized(QKeyEvent* keyEvent);
-<a name="l00199"></a>00199 
-<a name="l00200"></a>00200         <span class="keywordtype">void</span> setCurrentState(<a class="code" href="classCardWindowManagerState.htm">CardWindowManagerState</a>* newState) { m_curState = newState; }
-<a name="l00201"></a>00201 
-<a name="l00202"></a>00202         <span class="keywordtype">void</span> maximizeActiveWindow(<span class="keywordtype">bool</span> animate=<span class="keyword">true</span>);
-<a name="l00203"></a>00203         <span class="keywordtype">void</span> minimizeActiveWindow(<span class="keywordtype">bool</span> animate=<span class="keyword">true</span>);
-<a name="l00204"></a>00204 
-<a name="l00205"></a>00205         <span class="comment">// places the active window just off the bottom of the screen</span>
-<a name="l00206"></a>00206         <span class="comment">// either unscaled or scaled</span>
-<a name="l00207"></a>00207         <span class="keywordtype">void</span> setActiveCardOffScreen(<span class="keywordtype">bool</span> fullsize=<span class="keyword">true</span>);
+<a name="l00198"></a>00198         <span class="comment">// For tabbed cards input handling</span>
+<a name="l00199"></a>00199         <span class="keywordtype">void</span> handleMousePressGroup(QGraphicsSceneMouseEvent* event);
+<a name="l00200"></a>00200         <span class="keywordtype">void</span> handleMouseMoveGroup(QGraphicsSceneMouseEvent* event);
+<a name="l00201"></a>00201         <span class="keywordtype">void</span> handleMouseReleaseGroup(QGraphicsSceneMouseEvent* event);
+<a name="l00202"></a>00202         <span class="keywordtype">void</span> handleTapGestureGroup(QTapGesture* event);
+<a name="l00203"></a>00203         <span class="keywordtype">void</span> handleFlickGestureGroup(QGestureEvent* event);
+<a name="l00204"></a>00204         <span class="keywordtype">void</span> handleKeyNavigationGroup(QKeyEvent* keyEvent);
+<a name="l00205"></a>00205 
+<a name="l00206"></a>00206 
+<a name="l00207"></a>00207     <span class="keywordtype">void</span> handleKeyNavigationMinimized(QKeyEvent* keyEvent);
 <a name="l00208"></a>00208 
-<a name="l00209"></a>00209         QRect normalOrScreenBounds(<a class="code" href="classCardWindow.htm">CardWindow</a>* win) <span class="keyword">const</span>;
-<a name="l00210"></a>00210         QRect targetPositiveSpace()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> m_targetPositiveSpace; }
-<a name="l00211"></a>00211 
-<a name="l00212"></a>00212         <span class="keywordtype">void</span> prepareAddWindowSibling(<a class="code" href="classCardWindow.htm">CardWindow</a>* win);
-<a name="l00213"></a>00213         <span class="keywordtype">void</span> addWindowTimedOutNormal(<a class="code" href="classCardWindow.htm">CardWindow</a>* win);
-<a name="l00214"></a>00214 
-<a name="l00215"></a>00215         <span class="keywordtype">void</span> removeCardFromGroupMaximized(<a class="code" href="classCardWindow.htm">CardWindow</a>* win);
-<a name="l00216"></a>00216         <span class="keywordtype">void</span> removeCardFromGroup(<a class="code" href="classCardWindow.htm">CardWindow</a>* win, <span class="keywordtype">bool</span> adjustLayout=<span class="keyword">true</span>, <span class="keywordtype">bool</span> dir = <span class="keyword">false</span>);
+<a name="l00209"></a>00209         <span class="keywordtype">void</span> setCurrentState(<a class="code" href="classCardWindowManagerState.htm">CardWindowManagerState</a>* newState) { m_curState = newState; }
+<a name="l00210"></a>00210 
+<a name="l00211"></a>00211         <span class="keywordtype">void</span> maximizeActiveWindow(<span class="keywordtype">bool</span> animate=<span class="keyword">true</span>);
+<a name="l00212"></a>00212         <span class="keywordtype">void</span> minimizeActiveWindow(<span class="keywordtype">bool</span> animate=<span class="keyword">true</span>);
+<a name="l00213"></a>00213 
+<a name="l00214"></a>00214         <span class="comment">// places the active window just off the bottom of the screen</span>
+<a name="l00215"></a>00215         <span class="comment">// either unscaled or scaled</span>
+<a name="l00216"></a>00216         <span class="keywordtype">void</span> setActiveCardOffScreen(<span class="keywordtype">bool</span> fullsize=<span class="keyword">true</span>);
 <a name="l00217"></a>00217 
-<a name="l00218"></a>00218         <span class="keywordtype">void</span> closeWindow(<a class="code" href="classCardWindow.htm">CardWindow</a>* win, <span class="keywordtype">bool</span> angryCard=<span class="keyword">false</span>);
-<a name="l00219"></a>00219 
-<a name="l00220"></a>00220         <a class="code" href="classCardGroup.htm">CardGroup</a>* groupClosestToCenterHorizontally() <span class="keyword">const</span>;
-<a name="l00221"></a>00221 
-<a name="l00222"></a>00222         <span class="keywordtype">void</span> enterReorder(QPoint pt);
-<a name="l00223"></a>00223         <span class="keywordtype">void</span> cycleReorderSlot();
-<a name="l00224"></a>00224         <span class="keywordtype">void</span> moveReorderSlotRight();
-<a name="l00225"></a>00225         <span class="keywordtype">void</span> moveReorderSlotLeft();
-<a name="l00226"></a>00226         <span class="keywordtype">void</span> moveReorderSlotCenter(QPointF pt);
-<a name="l00227"></a>00227         <span class="keywordtype">void</span> arrangeWindowsAfterReorderChange(<span class="keywordtype">int</span> duration, <a class="code" href="BezelGesture_8h.htm#a1d1cfd8ffb84e947f82999c682b666a7">QEasingCurve::Type</a> curve);
+<a name="l00218"></a>00218         QRect normalOrScreenBounds(<a class="code" href="classCardWindow.htm">CardWindow</a>* win) <span class="keyword">const</span>;
+<a name="l00219"></a>00219         QRect targetPositiveSpace()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> m_targetPositiveSpace; }
+<a name="l00220"></a>00220 
+<a name="l00221"></a>00221         <span class="keywordtype">void</span> prepareAddWindowSibling(<a class="code" href="classCardWindow.htm">CardWindow</a>* win);
+<a name="l00222"></a>00222         <span class="keywordtype">void</span> addWindowTimedOutNormal(<a class="code" href="classCardWindow.htm">CardWindow</a>* win);
+<a name="l00223"></a>00223 
+<a name="l00224"></a>00224         <span class="keywordtype">void</span> removeCardFromGroupMaximized(<a class="code" href="classCardWindow.htm">CardWindow</a>* win);
+<a name="l00225"></a>00225         <span class="keywordtype">void</span> removeCardFromGroup(<a class="code" href="classCardWindow.htm">CardWindow</a>* win, <span class="keywordtype">bool</span> adjustLayout=<span class="keyword">true</span>, <span class="keywordtype">bool</span> dir = <span class="keyword">false</span>);
+<a name="l00226"></a>00226 
+<a name="l00227"></a>00227         <span class="keywordtype">void</span> closeWindow(<a class="code" href="classCardWindow.htm">CardWindow</a>* win, <span class="keywordtype">bool</span> angryCard=<span class="keyword">false</span>);
 <a name="l00228"></a>00228 
-<a name="l00229"></a>00229         <span class="comment">// animate to the group next to the active group</span>
-<a name="l00230"></a>00230         <span class="keywordtype">void</span> switchToNextGroup();
-<a name="l00231"></a>00231         <span class="comment">// animate to the group before the current active group</span>
-<a name="l00232"></a>00232         <span class="keywordtype">void</span> switchToPrevGroup();
-<a name="l00233"></a>00233 
-<a name="l00234"></a>00234         <span class="keywordtype">void</span> switchToNextApp();
-<a name="l00235"></a>00235         <span class="keywordtype">void</span> switchToPrevApp();
-<a name="l00236"></a>00236         <span class="keywordtype">void</span> switchToNextAppMaximized();
-<a name="l00237"></a>00237         <span class="keywordtype">void</span> switchToPrevAppMaximized();
-<a name="l00238"></a>00238 
-<a name="l00239"></a>00239   <span class="comment">/* Functions Required for Grouped Cards */</span>
-<a name="l00240"></a>00240   <span class="keywordtype">void</span> showGroupCards(<span class="keywordtype">bool</span> direction);
-<a name="l00241"></a>00241   <span class="keywordtype">void</span> showGroupCardsImmediate();
-<a name="l00242"></a>00242   <span class="keywordtype">bool</span> whichSideOfScreen(QPointF p);
-<a name="l00243"></a>00243   <span class="keywordtype">void</span> closeWindowGroup(<a class="code" href="classCardWindow.htm">CardWindow</a>* win, <span class="keywordtype">bool</span> dir, <span class="keywordtype">bool</span> angryCard=<span class="keyword">false</span>);
-<a name="l00244"></a>00244 
-<a name="l00245"></a>00245 
-<a name="l00246"></a>00246         <span class="comment">// animate all groups to center around the active group.</span>
-<a name="l00247"></a>00247         <span class="comment">// optionally include the active card in the active group.</span>
-<a name="l00248"></a>00248         <span class="comment">// NOTE: If you exclude the active card, the animations will</span>
-<a name="l00249"></a>00249         <span class="comment">// not be started automatically, you will have to call m_anims.start()</span>
-<a name="l00250"></a>00250         <span class="keywordtype">void</span> slideAllGroups(<span class="keywordtype">bool</span> includeActiveCard = <span class="keyword">true</span>, <span class="keywordtype">int</span> flyback = 0);
-<a name="l00251"></a>00251         <span class="keywordtype">void</span> slideAllGroupsTo(<span class="keywordtype">int</span> xOffset);
+<a name="l00229"></a>00229         <a class="code" href="classCardGroup.htm">CardGroup</a>* groupClosestToCenterHorizontally() <span class="keyword">const</span>;
+<a name="l00230"></a>00230 
+<a name="l00231"></a>00231         <span class="keywordtype">void</span> enterReorder(QPoint pt);
+<a name="l00232"></a>00232         <span class="keywordtype">void</span> cycleReorderSlot();
+<a name="l00233"></a>00233         <span class="keywordtype">void</span> moveReorderSlotRight();
+<a name="l00234"></a>00234         <span class="keywordtype">void</span> moveReorderSlotLeft();
+<a name="l00235"></a>00235         <span class="keywordtype">void</span> moveReorderSlotCenter(QPointF pt);
+<a name="l00236"></a>00236         <span class="keywordtype">void</span> arrangeWindowsAfterReorderChange(<span class="keywordtype">int</span> duration, <a class="code" href="BezelGesture_8h.htm#a1d1cfd8ffb84e947f82999c682b666a7">QEasingCurve::Type</a> curve);
+<a name="l00237"></a>00237 
+<a name="l00238"></a>00238         <span class="comment">// animate to the group next to the active group</span>
+<a name="l00239"></a>00239         <span class="keywordtype">void</span> switchToNextGroup();
+<a name="l00240"></a>00240         <span class="comment">// animate to the group before the current active group</span>
+<a name="l00241"></a>00241         <span class="keywordtype">void</span> switchToPrevGroup();
+<a name="l00242"></a>00242 
+<a name="l00243"></a>00243         <span class="keywordtype">void</span> switchToNextApp();
+<a name="l00244"></a>00244         <span class="keywordtype">void</span> switchToPrevApp();
+<a name="l00245"></a>00245         <span class="keywordtype">void</span> switchToNextAppMaximized();
+<a name="l00246"></a>00246         <span class="keywordtype">void</span> switchToPrevAppMaximized();
+<a name="l00247"></a>00247 
+<a name="l00248"></a>00248         <span class="comment">/* Functions Required for Grouped Cards */</span>
+<a name="l00249"></a>00249         <span class="keywordtype">void</span> moveGroupCards();
+<a name="l00250"></a>00250         <span class="keywordtype">bool</span> whichSideOfScreen(QPointF p);
+<a name="l00251"></a>00251         <span class="keywordtype">void</span> closeWindowGroup(<a class="code" href="classCardWindow.htm">CardWindow</a>* win, <span class="keywordtype">bool</span> dir, <span class="keywordtype">bool</span> angryCard=<span class="keyword">false</span>);
 <a name="l00252"></a>00252 
-<a name="l00253"></a>00253         <span class="comment">// Does the same as slideAllGroups, but sets the positions immediately,</span>
-<a name="l00254"></a>00254         <span class="comment">// with no animations</span>
-<a name="l00255"></a>00255         <span class="keywordtype">void</span> layoutAllGroups(<span class="keywordtype">bool</span> includeActiveCard = <span class="keyword">true</span>);
-<a name="l00256"></a>00256 
-<a name="l00257"></a>00257         <span class="comment">// immediately update the positions of all groups in the closed</span>
-<a name="l00258"></a>00258         <span class="comment">// orientation, shift the centers of all groups by xDiff</span>
-<a name="l00259"></a>00259         <span class="keywordtype">void</span> layoutGroups(qreal xDiff);
-<a name="l00260"></a>00260 
-<a name="l00261"></a>00261         <span class="comment">// slide all non-active groups to their closed positions</span>
-<a name="l00262"></a>00262         <span class="comment">// and snap the active group to the closest card to the center</span>
-<a name="l00263"></a>00263         <span class="comment">// of the group</span>
-<a name="l00264"></a>00264         <span class="keywordtype">void</span> slideToActiveCard();
-<a name="l00265"></a>00265 
-<a name="l00266"></a>00266         <span class="keywordtype">void</span> setActiveGroup(<a class="code" href="classCardGroup.htm">CardGroup</a>* group);
-<a name="l00267"></a>00267     
-<a name="l00268"></a>00268     <span class="keywordtype">void</span> setGroupsMaximized(<span class="keywordtype">bool</span> enable);
-<a name="l00269"></a>00269     
-<a name="l00270"></a>00270     <span class="keywordtype">void</span> setGroupsMinimizeGesture(<span class="keywordtype">bool</span> enable);
-<a name="l00271"></a>00271     
-<a name="l00272"></a>00272     <span class="keywordtype">void</span> setGroupsSpreadGesture(<span class="keywordtype">bool</span> enable);
-<a name="l00273"></a>00273 
-<a name="l00274"></a>00274         <span class="keywordtype">void</span> disableCardRestoreToMaximized();
-<a name="l00275"></a>00275         <span class="keywordtype">void</span> restoreCardToMaximized();
-<a name="l00276"></a>00276 
-<a name="l00277"></a>00277         <span class="keywordtype">void</span> cancelReorder(<span class="keywordtype">bool</span> dueToPenCancel=<span class="keyword">false</span>);
-<a name="l00278"></a>00278 
-<a name="l00279"></a>00279         <span class="keywordtype">void</span> queueFocusAction(<a class="code" href="classCardWindow.htm">CardWindow</a>* win, <span class="keywordtype">bool</span> focused);
-<a name="l00280"></a>00280         <span class="keywordtype">void</span> performPendingFocusActions();
+<a name="l00253"></a>00253         <span class="comment">// animate all groups to center around the active group.</span>
+<a name="l00254"></a>00254         <span class="comment">// optionally include the active card in the active group.</span>
+<a name="l00255"></a>00255         <span class="comment">// NOTE: If you exclude the active card, the animations will</span>
+<a name="l00256"></a>00256         <span class="comment">// not be started automatically, you will have to call m_anims.start()</span>
+<a name="l00257"></a>00257         <span class="keywordtype">void</span> slideAllGroups(<span class="keywordtype">bool</span> includeActiveCard = <span class="keyword">true</span>, <span class="keywordtype">int</span> flyback = 0);
+<a name="l00258"></a>00258         <span class="keywordtype">void</span> slideAllGroupsTo(<span class="keywordtype">int</span> xOffset);
+<a name="l00259"></a>00259 
+<a name="l00260"></a>00260         <span class="comment">// Does the same as slideAllGroups, but sets the positions immediately,</span>
+<a name="l00261"></a>00261         <span class="comment">// with no animations</span>
+<a name="l00262"></a>00262         <span class="keywordtype">void</span> layoutAllGroups(<span class="keywordtype">bool</span> includeActiveCard = <span class="keyword">true</span>);
+<a name="l00263"></a>00263 
+<a name="l00264"></a>00264         <span class="comment">// immediately update the positions of all groups in the closed</span>
+<a name="l00265"></a>00265         <span class="comment">// orientation, shift the centers of all groups by xDiff</span>
+<a name="l00266"></a>00266         <span class="keywordtype">void</span> layoutGroups(qreal xDiff);
+<a name="l00267"></a>00267 
+<a name="l00268"></a>00268         <span class="comment">// slide all non-active groups to their closed positions</span>
+<a name="l00269"></a>00269         <span class="comment">// and snap the active group to the closest card to the center</span>
+<a name="l00270"></a>00270         <span class="comment">// of the group</span>
+<a name="l00271"></a>00271         <span class="keywordtype">void</span> slideToActiveCard();
+<a name="l00272"></a>00272 
+<a name="l00273"></a>00273         <span class="keywordtype">void</span> setActiveGroup(<a class="code" href="classCardGroup.htm">CardGroup</a>* group);
+<a name="l00274"></a>00274     
+<a name="l00275"></a>00275     <span class="keywordtype">void</span> setGroupsStack();
+<a name="l00276"></a>00276     <span class="keywordtype">void</span> setGroupsLinear();
+<a name="l00277"></a>00277     <span class="keywordtype">void</span> setGroupsMinimize();
+<a name="l00278"></a>00278     <span class="keywordtype">void</span> setGroupsTab();
+<a name="l00279"></a>00279     
+<a name="l00280"></a>00280     <span class="keywordtype">void</span> setGroupsMiniScale(qreal scale);
 <a name="l00281"></a>00281 
-<a name="l00282"></a>00282     <span class="keywordtype">void</span> queueTouchToShareAction(<a class="code" href="classCardWindow.htm">CardWindow</a>* win);
-<a name="l00283"></a>00283     <span class="keywordtype">void</span> performPendingTouchToShareActions();
+<a name="l00282"></a>00282         <span class="keywordtype">void</span> disableCardRestoreToMaximized();
+<a name="l00283"></a>00283         <span class="keywordtype">void</span> restoreCardToMaximized();
 <a name="l00284"></a>00284 
-<a name="l00285"></a>00285         <span class="keywordtype">void</span> removePendingActionWindow(<a class="code" href="classCardWindow.htm">CardWindow</a>* win);
+<a name="l00285"></a>00285         <span class="keywordtype">void</span> cancelReorder(<span class="keywordtype">bool</span> dueToPenCancel=<span class="keyword">false</span>);
 <a name="l00286"></a>00286 
-<a name="l00287"></a>00287         <span class="keywordtype">void</span> setAnimationForWindow(<a class="code" href="classCardWindow.htm">CardWindow</a>* win, QPropertyAnimation* anim);
-<a name="l00288"></a>00288         <span class="keywordtype">void</span> removeAnimationForWindow(<a class="code" href="classCardWindow.htm">CardWindow</a>* win, <span class="keywordtype">bool</span> includeDeletedAnimations=<span class="keyword">false</span>);
-<a name="l00289"></a>00289         <span class="keywordtype">bool</span> windowHasAnimation(<a class="code" href="classCardWindow.htm">CardWindow</a>* win) <span class="keyword">const</span>;
-<a name="l00290"></a>00290 
-<a name="l00291"></a>00291         <span class="keywordtype">void</span> setAnimationForGroup(<a class="code" href="classCardGroup.htm">CardGroup</a>* group, QPropertyAnimation* anim);
-<a name="l00292"></a>00292         <span class="keywordtype">void</span> removeAnimationForGroup(<a class="code" href="classCardGroup.htm">CardGroup</a>* group);
-<a name="l00293"></a>00293         <span class="keywordtype">bool</span> groupHasAnimation(<a class="code" href="classCardGroup.htm">CardGroup</a>* group) <span class="keyword">const</span>;
-<a name="l00294"></a>00294         <span class="keywordtype">void</span> startAnimations();
-<a name="l00295"></a>00295         <span class="keywordtype">void</span> clearAnimations();
-<a name="l00296"></a>00296 
-<a name="l00297"></a>00297         <span class="keywordtype">void</span> updateAllowWindowUpdates();
-<a name="l00298"></a>00298         <span class="keywordtype">int</span> proceedToAddModalWindow(<a class="code" href="classCardWindow.htm">CardWindow</a>* win);
-<a name="l00299"></a>00299 
-<a name="l00300"></a>00300         <span class="keywordtype">void</span> removeWindowNoModality(<a class="code" href="classCardWindow.htm">CardWindow</a>* win);
-<a name="l00301"></a>00301         <span class="keywordtype">void</span> removeWindowWithModality(<a class="code" href="classCardWindow.htm">CardWindow</a>* win);
-<a name="l00302"></a>00302         <span class="keywordtype">bool</span> performCommonWindowRemovalTasks(<a class="code" href="classCardWindow.htm">CardWindow</a>* w, <span class="keywordtype">bool</span> checkCardGroup=<span class="keyword">true</span>);
-<a name="l00303"></a>00303         <span class="keywordtype">void</span> resetMouseTrackState();
-<a name="l00304"></a>00304         <span class="keywordtype">void</span> resetModalFlags(<span class="keywordtype">bool</span> forceReset=<span class="keyword">false</span>);
-<a name="l00305"></a>00305         <span class="keywordtype">void</span> handleModalRemovalForDeletedParent(<a class="code" href="classCardWindow.htm">CardWindow</a>* w);
-<a name="l00306"></a>00306 
-<a name="l00307"></a>00307     <span class="keywordtype">bool</span> playAngryCardSounds() <span class="keyword">const</span>;
-<a name="l00308"></a>00308     <span class="keywordtype">void</span> updateAngryCardThreshold();
-<a name="l00309"></a>00309 
-<a name="l00310"></a>00310         <span class="keywordtype">void</span> markFirstCardDone();
-<a name="l00311"></a>00311 
-<a name="l00312"></a>00312         QSet&lt;CardWindow*&gt; m_pendingActionWinSet;
-<a name="l00313"></a>00313     QSet&lt;CardWindow*&gt; m_pendingTouchToShareWinSet;
+<a name="l00287"></a>00287         <span class="keywordtype">void</span> queueFocusAction(<a class="code" href="classCardWindow.htm">CardWindow</a>* win, <span class="keywordtype">bool</span> focused);
+<a name="l00288"></a>00288         <span class="keywordtype">void</span> performPendingFocusActions();
+<a name="l00289"></a>00289 
+<a name="l00290"></a>00290     <span class="keywordtype">void</span> queueTouchToShareAction(<a class="code" href="classCardWindow.htm">CardWindow</a>* win);
+<a name="l00291"></a>00291     <span class="keywordtype">void</span> performPendingTouchToShareActions();
+<a name="l00292"></a>00292 
+<a name="l00293"></a>00293         <span class="keywordtype">void</span> removePendingActionWindow(<a class="code" href="classCardWindow.htm">CardWindow</a>* win);
+<a name="l00294"></a>00294 
+<a name="l00295"></a>00295         <span class="keywordtype">void</span> setAnimationForWindow(<a class="code" href="classCardWindow.htm">CardWindow</a>* win, QPropertyAnimation* anim);
+<a name="l00296"></a>00296         <span class="keywordtype">void</span> removeAnimationForWindow(<a class="code" href="classCardWindow.htm">CardWindow</a>* win, <span class="keywordtype">bool</span> includeDeletedAnimations=<span class="keyword">false</span>);
+<a name="l00297"></a>00297         <span class="keywordtype">bool</span> windowHasAnimation(<a class="code" href="classCardWindow.htm">CardWindow</a>* win) <span class="keyword">const</span>;
+<a name="l00298"></a>00298 
+<a name="l00299"></a>00299         <span class="keywordtype">void</span> setAnimationForGroup(<a class="code" href="classCardGroup.htm">CardGroup</a>* group, QPropertyAnimation* anim);
+<a name="l00300"></a>00300         <span class="keywordtype">void</span> removeAnimationForGroup(<a class="code" href="classCardGroup.htm">CardGroup</a>* group);
+<a name="l00301"></a>00301         <span class="keywordtype">bool</span> groupHasAnimation(<a class="code" href="classCardGroup.htm">CardGroup</a>* group) <span class="keyword">const</span>;
+<a name="l00302"></a>00302         <span class="keywordtype">void</span> startAnimations();
+<a name="l00303"></a>00303         <span class="keywordtype">void</span> clearAnimations();
+<a name="l00304"></a>00304 
+<a name="l00305"></a>00305         <span class="keywordtype">void</span> updateAllowWindowUpdates();
+<a name="l00306"></a>00306         <span class="keywordtype">int</span> proceedToAddModalWindow(<a class="code" href="classCardWindow.htm">CardWindow</a>* win);
+<a name="l00307"></a>00307 
+<a name="l00308"></a>00308         <span class="keywordtype">void</span> removeWindowNoModality(<a class="code" href="classCardWindow.htm">CardWindow</a>* win);
+<a name="l00309"></a>00309         <span class="keywordtype">void</span> removeWindowWithModality(<a class="code" href="classCardWindow.htm">CardWindow</a>* win);
+<a name="l00310"></a>00310         <span class="keywordtype">bool</span> performCommonWindowRemovalTasks(<a class="code" href="classCardWindow.htm">CardWindow</a>* w, <span class="keywordtype">bool</span> checkCardGroup=<span class="keyword">true</span>);
+<a name="l00311"></a>00311         <span class="keywordtype">void</span> resetMouseTrackState();
+<a name="l00312"></a>00312         <span class="keywordtype">void</span> resetModalFlags(<span class="keywordtype">bool</span> forceReset=<span class="keyword">false</span>);
+<a name="l00313"></a>00313         <span class="keywordtype">void</span> handleModalRemovalForDeletedParent(<a class="code" href="classCardWindow.htm">CardWindow</a>* w);
 <a name="l00314"></a>00314 
-<a name="l00315"></a>00315         QVector&lt;CardGroup*&gt; m_groups;
-<a name="l00316"></a>00316         <a class="code" href="classCardGroup.htm">CardGroup</a>* m_activeGroup;
+<a name="l00315"></a>00315     <span class="keywordtype">bool</span> playAngryCardSounds() <span class="keyword">const</span>;
+<a name="l00316"></a>00316     <span class="keywordtype">void</span> updateAngryCardThreshold();
 <a name="l00317"></a>00317 
-<a name="l00318"></a>00318         QRect m_normalScreenBounds;
-<a name="l00319"></a>00319         QRect m_targetPositiveSpace;
-<a name="l00320"></a>00320 
-<a name="l00321"></a>00321         <a class="code" href="classCardWindow.htm">CardWindow</a>* m_draggedWin;
-<a name="l00322"></a>00322         <span class="keywordtype">bool</span> m_penDown;
-<a name="l00323"></a>00323 
-<a name="l00324"></a>00324         <a class="code" href="classCardWindow.htm">CardWindow</a>* m_cardToRestoreToMaximized;
-<a name="l00325"></a>00325         <a class="code" href="classCardWindow.htm">CardWindow</a>* m_parentOfModalCard;
-<a name="l00326"></a>00326         <span class="keywordtype">bool</span> m_lowResMode;
-<a name="l00327"></a>00327         <span class="keywordtype">bool</span> m_addingModalWindow;
-<a name="l00328"></a>00328         <span class="keywordtype">bool</span> m_initModalMaximizing;
-<a name="l00329"></a>00329         <span class="keywordtype">bool</span> m_modalDismissInProgress;
-<a name="l00330"></a>00330         <span class="keywordtype">bool</span> m_animateWindowForModalDismisal;
-<a name="l00331"></a>00331         <span class="keywordtype">int</span> m_dismissModalImmediately;
-<a name="l00332"></a>00332         <span class="keywordtype">bool</span> m_modalDimissed;
-<a name="l00333"></a>00333         <span class="keywordtype">bool</span> m_dismissedFirstCard;
-<a name="l00334"></a>00334 
-<a name="l00335"></a>00335 
-<a name="l00336"></a>00336         <span class="keyword">enum</span> ModalWindowState {
-<a name="l00337"></a>00337                 NoModalWindow = 0,
-<a name="l00338"></a>00338                 ModalWindowAddInitCheckFail,
-<a name="l00339"></a>00339                 ModalWindowDismissedParentSwitched,
-<a name="l00340"></a>00340                 ModalWindowDismissedInternally,
-<a name="l00341"></a>00341                 ModalWindowDismissedExternally,
-<a name="l00342"></a>00342                 ModalParentDismissed,
-<a name="l00343"></a>00343                 ModalParentDimissedWaitForChildDismissal
-<a name="l00344"></a>00344         };
-<a name="l00345"></a>00345 
-<a name="l00346"></a>00346         ModalWindowState m_modalWindowState;
-<a name="l00347"></a>00347 
-<a name="l00348"></a>00348         <span class="keyword">enum</span> NotifySystemUiControllerAction {
-<a name="l00349"></a>00349                 Invalid=0,
-<a name="l00350"></a>00350                 ModalLaunch,
-<a name="l00351"></a>00351                 ModalDismissNoAnimate,
-<a name="l00352"></a>00352                 ModalDismissAnimate
-<a name="l00353"></a>00353         };
-<a name="l00354"></a>00354 
-<a name="l00355"></a>00355         <span class="keywordtype">void</span> notifySysControllerOfModalStatus(<span class="keywordtype">int</span> reason, <span class="keywordtype">bool</span> restore, NotifySystemUiControllerAction type, <a class="code" href="classWindow.htm">Window</a>* win = NULL);
-<a name="l00356"></a>00356 
-<a name="l00357"></a>00357         <span class="keyword">enum</span> Movement {
-<a name="l00358"></a>00358                 MovementUnlocked, <span class="comment">// not locked to an axis</span>
-<a name="l00359"></a>00359                 MovementHLocked,  <span class="comment">// locked to horizontal movement</span>
-<a name="l00360"></a>00360                 MovementVLocked   <span class="comment">// locked to vertical movement</span>
+<a name="l00318"></a>00318         <span class="keywordtype">void</span> markFirstCardDone();
+<a name="l00319"></a>00319 
+<a name="l00320"></a>00320         QSet&lt;CardWindow*&gt; m_pendingActionWinSet;
+<a name="l00321"></a>00321     QSet&lt;CardWindow*&gt; m_pendingTouchToShareWinSet;
+<a name="l00322"></a>00322 
+<a name="l00323"></a>00323         QVector&lt;CardGroup*&gt; m_groups;
+<a name="l00324"></a>00324         <a class="code" href="classCardGroup.htm">CardGroup</a>* m_activeGroup;
+<a name="l00325"></a>00325 
+<a name="l00326"></a>00326         QRect m_normalScreenBounds;
+<a name="l00327"></a>00327         QRect m_targetPositiveSpace;
+<a name="l00328"></a>00328 
+<a name="l00329"></a>00329         <a class="code" href="classCardWindow.htm">CardWindow</a>* m_draggedWin;
+<a name="l00330"></a>00330         <span class="keywordtype">bool</span> m_penDown;
+<a name="l00331"></a>00331 
+<a name="l00332"></a>00332         <a class="code" href="classCardWindow.htm">CardWindow</a>* m_cardToRestoreToMaximized;
+<a name="l00333"></a>00333         <a class="code" href="classCardWindow.htm">CardWindow</a>* m_parentOfModalCard;
+<a name="l00334"></a>00334         <span class="keywordtype">bool</span> m_lowResMode;
+<a name="l00335"></a>00335         <span class="keywordtype">bool</span> m_addingModalWindow;
+<a name="l00336"></a>00336         <span class="keywordtype">bool</span> m_initModalMaximizing;
+<a name="l00337"></a>00337         <span class="keywordtype">bool</span> m_modalDismissInProgress;
+<a name="l00338"></a>00338         <span class="keywordtype">bool</span> m_animateWindowForModalDismisal;
+<a name="l00339"></a>00339         <span class="keywordtype">int</span> m_dismissModalImmediately;
+<a name="l00340"></a>00340         <span class="keywordtype">bool</span> m_modalDimissed;
+<a name="l00341"></a>00341         <span class="keywordtype">bool</span> m_dismissedFirstCard;
+<a name="l00342"></a>00342 
+<a name="l00343"></a>00343 
+<a name="l00344"></a>00344         <span class="keyword">enum</span> ModalWindowState {
+<a name="l00345"></a>00345                 NoModalWindow = 0,
+<a name="l00346"></a>00346                 ModalWindowAddInitCheckFail,
+<a name="l00347"></a>00347                 ModalWindowDismissedParentSwitched,
+<a name="l00348"></a>00348                 ModalWindowDismissedInternally,
+<a name="l00349"></a>00349                 ModalWindowDismissedExternally,
+<a name="l00350"></a>00350                 ModalParentDismissed,
+<a name="l00351"></a>00351                 ModalParentDimissedWaitForChildDismissal
+<a name="l00352"></a>00352         };
+<a name="l00353"></a>00353 
+<a name="l00354"></a>00354         ModalWindowState m_modalWindowState;
+<a name="l00355"></a>00355 
+<a name="l00356"></a>00356         <span class="keyword">enum</span> NotifySystemUiControllerAction {
+<a name="l00357"></a>00357                 Invalid=0,
+<a name="l00358"></a>00358                 ModalLaunch,
+<a name="l00359"></a>00359                 ModalDismissNoAnimate,
+<a name="l00360"></a>00360                 ModalDismissAnimate
 <a name="l00361"></a>00361         };
-<a name="l00362"></a>00362         Movement m_movement;
-<a name="l00363"></a>00363         <span class="keywordtype">bool</span> m_trackWithinGroup;
-<a name="l00364"></a>00364         <span class="keywordtype">bool</span> m_seenFlickOrTap;
-<a name="l00365"></a>00365     <span class="keywordtype">int</span> m_activeGroupPivot;
-<a name="l00366"></a>00366 
-<a name="l00367"></a>00367         <span class="keyword">enum</span> ReorderZone {
-<a name="l00368"></a>00368                 ReorderZone_Center = 0,
-<a name="l00369"></a>00369                 ReorderZone_Left,
-<a name="l00370"></a>00370                 ReorderZone_Right
-<a name="l00371"></a>00371         };
-<a name="l00372"></a>00372         ReorderZone m_reorderZone;
-<a name="l00373"></a>00373         ReorderZone getReorderZone(QPoint pt);
+<a name="l00362"></a>00362 
+<a name="l00363"></a>00363         <span class="keywordtype">void</span> notifySysControllerOfModalStatus(<span class="keywordtype">int</span> reason, <span class="keywordtype">bool</span> restore, NotifySystemUiControllerAction type, <a class="code" href="classWindow.htm">Window</a>* win = NULL);
+<a name="l00364"></a>00364 
+<a name="l00365"></a>00365         <span class="keyword">enum</span> Movement {
+<a name="l00366"></a>00366                 MovementUnlocked, <span class="comment">// not locked to an axis</span>
+<a name="l00367"></a>00367                 MovementHLocked,  <span class="comment">// locked to horizontal movement</span>
+<a name="l00368"></a>00368                 MovementVLocked   <span class="comment">// locked to vertical movement</span>
+<a name="l00369"></a>00369         };
+<a name="l00370"></a>00370         Movement m_movement;
+<a name="l00371"></a>00371         <span class="keywordtype">bool</span> m_trackWithinGroup;
+<a name="l00372"></a>00372         <span class="keywordtype">bool</span> m_seenFlickOrTap;
+<a name="l00373"></a>00373     <span class="keywordtype">int</span> m_activeGroupPivot;
 <a name="l00374"></a>00374 
-<a name="l00375"></a>00375         <a class="code" href="classQStateMachine.htm">QStateMachine</a>* m_stateMachine;
-<a name="l00376"></a>00376         <a class="code" href="classMinimizeState.htm">MinimizeState</a>* m_minimizeState;
-<a name="l00377"></a>00377   <a class="code" href="classGroupState.htm">GroupState</a>* m_groupState;
-<a name="l00378"></a>00378         <a class="code" href="classMaximizeState.htm">MaximizeState</a>* m_maximizeState;
-<a name="l00379"></a>00379         <a class="code" href="classPreparingState.htm">PreparingState</a>* m_preparingState;
-<a name="l00380"></a>00380         <a class="code" href="classLoadingState.htm">LoadingState</a>* m_loadingState;
-<a name="l00381"></a>00381         <a class="code" href="classFocusState.htm">FocusState</a>* m_focusState;
-<a name="l00382"></a>00382         <a class="code" href="classReorderState.htm">ReorderState</a>* m_reorderState;
-<a name="l00383"></a>00383         <a class="code" href="classSwitchGestureState.htm">SwitchGestureState</a>* m_switchGestureState;
-<a name="l00384"></a>00384         <a class="code" href="classMinimizeGestureState.htm">MinimizeGestureState</a>* m_minimizeGestureState;
-<a name="l00385"></a>00385         <a class="code" href="classSpreadGestureState.htm">SpreadGestureState</a>* m_spreadGestureState;
-<a name="l00386"></a>00386 
-<a name="l00387"></a>00387         <a class="code" href="classCardWindowManagerState.htm">CardWindowManagerState</a>* m_curState;
-<a name="l00388"></a>00388 
-<a name="l00389"></a>00389         <span class="comment">// keep track of which windows have animations running</span>
-<a name="l00390"></a>00390         QMap&lt;CardWindow*,QPropertyAnimation*&gt; m_cardAnimMap;
-<a name="l00391"></a>00391         QMap&lt;CardGroup*,QPropertyAnimation*&gt; m_groupAnimMap;
-<a name="l00392"></a>00392 
-<a name="l00393"></a>00393         <span class="comment">// Collection of all running animations (Window + Group)</span>
-<a name="l00394"></a>00394         <span class="comment">// It is the union of the animations mapped above</span>
-<a name="l00395"></a>00395         QParallelAnimationGroup m_anims;
-<a name="l00396"></a>00396         QMap&lt;CardWindow*,QPropertyAnimation*&gt; m_deletedAnimMap;
-<a name="l00397"></a>00397 
-<a name="l00398"></a>00398   <span class="comment">/* Variables for Tabbed Cards Implementation */</span>
-<a name="l00399"></a>00399   <span class="keywordtype">bool</span> m_groupMove;
-<a name="l00400"></a>00400   <span class="keywordtype">int</span> m_groupShift;
-<a name="l00401"></a>00401   <span class="keywordtype">int</span> m_groupInitialMove;
-<a name="l00402"></a>00402   <span class="keywordtype">bool</span> m_groupMoveDir;
-<a name="l00403"></a>00403   <span class="keywordtype">bool</span> m_groupDir;
-<a name="l00404"></a>00404   <span class="keywordtype">float</span> m_groupVelocity;
-<a name="l00405"></a>00405   QTimer *m_groupMoveTimer;
-<a name="l00406"></a>00406 
-<a name="l00407"></a>00407     <span class="keywordtype">bool</span> m_playedAngryCardStretchSound;
-<a name="l00408"></a>00408 
-<a name="l00409"></a>00409         <span class="keywordtype">bool</span> m_animationsActive;
-<a name="l00410"></a>00410 
-<a name="l00411"></a><a class="code" href="classCardWindowManager.htm#a111d3776e822c2cf846c80b75bd63605">00411</a>         <span class="keyword">friend</span> <span class="keyword">class </span><a class="code" href="classCardWindowManagerState.htm">CardWindowManagerState</a>;
-<a name="l00412"></a><a class="code" href="classCardWindowManager.htm#a893511da956a4b0dcbc5766dc85c7a80">00412</a>         <span class="keyword">friend</span> <span class="keyword">class </span><a class="code" href="classMinimizeState.htm">MinimizeState</a>;
-<a name="l00413"></a><a class="code" href="classCardWindowManager.htm#a5b02fade8efe9e85510a7dfad1144c92">00413</a>         <span class="keyword">friend</span> <span class="keyword">class </span><a class="code" href="classGroupState.htm">GroupState</a>;
-<a name="l00414"></a><a class="code" href="classCardWindowManager.htm#aebde911df4ca52bf192ea6dcab9866ad">00414</a>         <span class="keyword">friend</span> <span class="keyword">class </span><a class="code" href="classMaximizeState.htm">MaximizeState</a>;
-<a name="l00415"></a><a class="code" href="classCardWindowManager.htm#a33199cdfa2305c6d7c0940ba75b196da">00415</a>         <span class="keyword">friend</span> <span class="keyword">class </span><a class="code" href="classPreparingState.htm">PreparingState</a>;
-<a name="l00416"></a><a class="code" href="classCardWindowManager.htm#afbf5463c41c60086fe1fd62d371baced">00416</a>         <span class="keyword">friend</span> <span class="keyword">class </span><a class="code" href="classLoadingState.htm">LoadingState</a>;
-<a name="l00417"></a><a class="code" href="classCardWindowManager.htm#a6f3ed022fac4bc77b1227643b33975e8">00417</a>         <span class="keyword">friend</span> <span class="keyword">class </span><a class="code" href="classFocusState.htm">FocusState</a>;
-<a name="l00418"></a><a class="code" href="classCardWindowManager.htm#a959e511941b48b64f44d22bccc5c04c0">00418</a>         <span class="keyword">friend</span> <span class="keyword">class </span><a class="code" href="classReorderState.htm">ReorderState</a>;
-<a name="l00419"></a><a class="code" href="classCardWindowManager.htm#abbf41409a33a5659af0b15596ad863e4">00419</a>         <span class="keyword">friend</span> <span class="keyword">class </span><a class="code" href="classSwitchGestureState.htm">SwitchGestureState</a>;
-<a name="l00420"></a><a class="code" href="classCardWindowManager.htm#a5753e5979c7d49ceaaa30b9cf7b14af1">00420</a>         <span class="keyword">friend</span> <span class="keyword">class </span><a class="code" href="classMinimizeGestureState.htm">MinimizeGestureState</a>;
-<a name="l00421"></a><a class="code" href="classCardWindowManager.htm#a90e7417e5ed320a993f97a8cdaab98af">00421</a>         <span class="keyword">friend</span> <span class="keyword">class </span><a class="code" href="classSpreadGestureState.htm">SpreadGestureState</a>;
-<a name="l00422"></a>00422 };
-<a name="l00423"></a>00423 
-<a name="l00424"></a>00424 <span class="preprocessor">#endif </span><span class="comment">/* CARDWINDOWMANAGER_H */</span>
+<a name="l00375"></a>00375         <span class="keyword">enum</span> ReorderZone {
+<a name="l00376"></a>00376                 ReorderZone_Center = 0,
+<a name="l00377"></a>00377                 ReorderZone_Left,
+<a name="l00378"></a>00378                 ReorderZone_Right
+<a name="l00379"></a>00379         };
+<a name="l00380"></a>00380         ReorderZone m_reorderZone;
+<a name="l00381"></a>00381         ReorderZone getReorderZone(QPoint pt);
+<a name="l00382"></a>00382 
+<a name="l00383"></a>00383         <a class="code" href="classQStateMachine.htm">QStateMachine</a>* m_stateMachine;
+<a name="l00384"></a>00384         <a class="code" href="classMinimizeState.htm">MinimizeState</a>* m_minimizeState;
+<a name="l00385"></a>00385   <a class="code" href="classGroupState.htm">GroupState</a>* m_groupState;
+<a name="l00386"></a>00386         <a class="code" href="classMaximizeState.htm">MaximizeState</a>* m_maximizeState;
+<a name="l00387"></a>00387         <a class="code" href="classPreparingState.htm">PreparingState</a>* m_preparingState;
+<a name="l00388"></a>00388         <a class="code" href="classLoadingState.htm">LoadingState</a>* m_loadingState;
+<a name="l00389"></a>00389         <a class="code" href="classFocusState.htm">FocusState</a>* m_focusState;
+<a name="l00390"></a>00390         <a class="code" href="classReorderState.htm">ReorderState</a>* m_reorderState;
+<a name="l00391"></a>00391         <a class="code" href="classSwitchGestureState.htm">SwitchGestureState</a>* m_switchGestureState;
+<a name="l00392"></a>00392         <a class="code" href="classMinimizeGestureState.htm">MinimizeGestureState</a>* m_minimizeGestureState;
+<a name="l00393"></a>00393         <a class="code" href="classSpreadGestureState.htm">SpreadGestureState</a>* m_spreadGestureState;
+<a name="l00394"></a>00394 
+<a name="l00395"></a>00395         <a class="code" href="classCardWindowManagerState.htm">CardWindowManagerState</a>* m_curState;
+<a name="l00396"></a>00396 
+<a name="l00397"></a>00397         <span class="comment">// keep track of which windows have animations running</span>
+<a name="l00398"></a>00398         QMap&lt;CardWindow*,QPropertyAnimation*&gt; m_cardAnimMap;
+<a name="l00399"></a>00399         QMap&lt;CardGroup*,QPropertyAnimation*&gt; m_groupAnimMap;
+<a name="l00400"></a>00400 
+<a name="l00401"></a>00401         <span class="comment">// Collection of all running animations (Window + Group)</span>
+<a name="l00402"></a>00402         <span class="comment">// It is the union of the animations mapped above</span>
+<a name="l00403"></a>00403         QParallelAnimationGroup m_anims;
+<a name="l00404"></a>00404         QMap&lt;CardWindow*,QPropertyAnimation*&gt; m_deletedAnimMap;
+<a name="l00405"></a>00405 
+<a name="l00406"></a>00406   <span class="comment">/* Variables for Tabbed Cards Implementation */</span>
+<a name="l00407"></a>00407   <span class="keywordtype">bool</span> m_groupMove;
+<a name="l00408"></a>00408   <span class="keywordtype">int</span> m_groupShift;
+<a name="l00409"></a>00409   <span class="keywordtype">int</span> m_groupInitialMove;
+<a name="l00410"></a>00410   <span class="keywordtype">bool</span> m_groupMoveDir;
+<a name="l00411"></a>00411   <span class="keywordtype">bool</span> m_groupDir;
+<a name="l00412"></a>00412   <span class="keywordtype">float</span> m_groupVelocity;
+<a name="l00413"></a>00413   QTimer *m_groupMoveTimer;
+<a name="l00414"></a>00414   
+<a name="l00415"></a>00415         <span class="comment">// Mini Cards Scale</span>
+<a name="l00416"></a>00416         qreal m_miniScale;
+<a name="l00417"></a>00417 
+<a name="l00418"></a>00418     <span class="keywordtype">bool</span> m_playedAngryCardStretchSound;
+<a name="l00419"></a>00419 
+<a name="l00420"></a>00420         <span class="keywordtype">bool</span> m_animationsActive;
+<a name="l00421"></a>00421 
+<a name="l00422"></a><a class="code" href="classCardWindowManager.htm#a111d3776e822c2cf846c80b75bd63605">00422</a>         <span class="keyword">friend</span> <span class="keyword">class </span><a class="code" href="classCardWindowManagerState.htm">CardWindowManagerState</a>;
+<a name="l00423"></a><a class="code" href="classCardWindowManager.htm#a893511da956a4b0dcbc5766dc85c7a80">00423</a>         <span class="keyword">friend</span> <span class="keyword">class </span><a class="code" href="classMinimizeState.htm">MinimizeState</a>;
+<a name="l00424"></a><a class="code" href="classCardWindowManager.htm#a5b02fade8efe9e85510a7dfad1144c92">00424</a>         <span class="keyword">friend</span> <span class="keyword">class </span><a class="code" href="classGroupState.htm">GroupState</a>;
+<a name="l00425"></a><a class="code" href="classCardWindowManager.htm#aebde911df4ca52bf192ea6dcab9866ad">00425</a>         <span class="keyword">friend</span> <span class="keyword">class </span><a class="code" href="classMaximizeState.htm">MaximizeState</a>;
+<a name="l00426"></a><a class="code" href="classCardWindowManager.htm#a33199cdfa2305c6d7c0940ba75b196da">00426</a>         <span class="keyword">friend</span> <span class="keyword">class </span><a class="code" href="classPreparingState.htm">PreparingState</a>;
+<a name="l00427"></a><a class="code" href="classCardWindowManager.htm#afbf5463c41c60086fe1fd62d371baced">00427</a>         <span class="keyword">friend</span> <span class="keyword">class </span><a class="code" href="classLoadingState.htm">LoadingState</a>;
+<a name="l00428"></a><a class="code" href="classCardWindowManager.htm#a6f3ed022fac4bc77b1227643b33975e8">00428</a>         <span class="keyword">friend</span> <span class="keyword">class </span><a class="code" href="classFocusState.htm">FocusState</a>;
+<a name="l00429"></a><a class="code" href="classCardWindowManager.htm#a959e511941b48b64f44d22bccc5c04c0">00429</a>         <span class="keyword">friend</span> <span class="keyword">class </span><a class="code" href="classReorderState.htm">ReorderState</a>;
+<a name="l00430"></a><a class="code" href="classCardWindowManager.htm#abbf41409a33a5659af0b15596ad863e4">00430</a>         <span class="keyword">friend</span> <span class="keyword">class </span><a class="code" href="classSwitchGestureState.htm">SwitchGestureState</a>;
+<a name="l00431"></a><a class="code" href="classCardWindowManager.htm#a5753e5979c7d49ceaaa30b9cf7b14af1">00431</a>         <span class="keyword">friend</span> <span class="keyword">class </span><a class="code" href="classMinimizeGestureState.htm">MinimizeGestureState</a>;
+<a name="l00432"></a><a class="code" href="classCardWindowManager.htm#a90e7417e5ed320a993f97a8cdaab98af">00432</a>         <span class="keyword">friend</span> <span class="keyword">class </span><a class="code" href="classSpreadGestureState.htm">SpreadGestureState</a>;
+<a name="l00433"></a>00433 };
+<a name="l00434"></a>00434 
+<a name="l00435"></a>00435 <span class="preprocessor">#endif </span><span class="comment">/* CARDWINDOWMANAGER_H */</span>
 </pre></div></div><!-- contents -->
 </div>
 <!-- window showing the filter options -->
@@ -544,7 +555,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul>
       <li class="navelem"><a class="el" href="CardWindowManager_8h.htm">CardWindowManager.h</a>      </li>
 
-    <li class="footer">Generated on Wed Sep 26 2012 07:32:48 for LunaSysMgr by
+    <li class="footer">Generated on Tue Oct 2 2012 22:43:57 for LunaSysMgr by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.7.6.1 </li>
    </ul>

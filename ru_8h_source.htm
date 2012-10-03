@@ -150,97 +150,95 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <a name="l00048"></a>00048 <span class="preprocessor">                                                                                { w, Qt::Key_7,                 Qt::Key_Ampersand,                                              sRuQwerty7_extended },\</span>
 <a name="l00049"></a>00049 <span class="preprocessor">                                                                                { w, Qt::Key_8,                 Qt::Key_Asterisk,                                               sRuQwerty8_extended },\</span>
 <a name="l00050"></a>00050 <span class="preprocessor">                                                                                { w, Qt::Key_9,                 Qt::Key_ParenLeft,                                              sRuQwerty9_extended },\</span>
-<a name="l00051"></a>00051 <span class="preprocessor">                                                                                { w, Qt::Key_0,                 Qt::Key_ParenRight,                                             sRuQwerty0_extended },\</span>
-<a name="l00052"></a>00052 <span class="preprocessor">                                                                                { w, Qt::Key_Left,              Qt::Key_Up,                                                         NULL },\</span>
-<a name="l00053"></a>00053 <span class="preprocessor">                                                                                { w, Qt::Key_Right,             Qt::Key_Down,                                                   NULL }</span>
-<a name="l00054"></a>00054 <span class="preprocessor"></span>
-<a name="l00055"></a><a class="code" href="ru_8h.htm#a891df7cbb5ba2ed7711edcd1c8d0b9ab">00055</a> <span class="preprocessor">#define RU_QWERTY_TOP(w)                                { w, UKey(0x419),       Qt::Key_QuoteLeft,                                              NULL },\</span>
-<a name="l00056"></a>00056 <span class="preprocessor">                                                                                { w, UKey(0x426),       Qt::Key_AsciiTilde,                                             NULL },\</span>
-<a name="l00057"></a>00057 <span class="preprocessor">                                                                                { w, UKey(0x423),       cKey_Euro,                                                              NULL },\</span>
-<a name="l00058"></a>00058 <span class="preprocessor">                                                                                { w, UKey(0x41a),               Qt::Key_sterling,                                               NULL },\</span>
-<a name="l00059"></a>00059 <span class="preprocessor">                                                                                { w, UKey(0x415),               Qt::Key_Backslash,                                              ruE_extended },\</span>
-<a name="l00060"></a>00060 <span class="preprocessor">                                                                                { w, UKey(0x41d),               Qt::Key_Bar,                                                    NULL },\</span>
-<a name="l00061"></a>00061 <span class="preprocessor">                                                                                { w, UKey(0x413),               Qt::Key_BraceLeft,                                              NULL },\</span>
-<a name="l00062"></a>00062 <span class="preprocessor">                                                                                { w, UKey(0x428),               Qt::Key_BraceRight,                                             NULL },\</span>
-<a name="l00063"></a>00063 <span class="preprocessor">                                                                                { w, UKey(0x429),               Qt::Key_BracketLeft,                                    NULL },\</span>
-<a name="l00064"></a>00064 <span class="preprocessor">                                                                                { w, UKey(0x417),               Qt::Key_BracketRight,                                   NULL },\</span>
-<a name="l00065"></a>00065 <span class="preprocessor">                                                                                { w, UKey(0x425),               Qt::Key_BracketRight,                                   NULL }</span>
-<a name="l00066"></a>00066 <span class="preprocessor"></span>
-<a name="l00067"></a><a class="code" href="ru_8h.htm#aaa0bbeca2412ec03a39edf856414c95f">00067</a> <span class="preprocessor">#define RU_QWERTY_MID(w)                                { w, UKey(0x424),               Qt::Key_Less,                                                   NULL },\</span>
-<a name="l00068"></a>00068 <span class="preprocessor">                                                                                { w, UKey(0x42b),               Qt::Key_Greater,                                                NULL },\</span>
-<a name="l00069"></a>00069 <span class="preprocessor">                                                                                { w, UKey(0x412),               Qt::Key_Equal,                                                  NULL },\</span>
-<a name="l00070"></a>00070 <span class="preprocessor">                                                                                { w, UKey(0x410),               Qt::Key_Plus,                                                   NULL },\</span>
-<a name="l00071"></a>00071 <span class="preprocessor">                                                                                { w, UKey(0x41f),               UKey(0x00D7) </span><span class="comment">/* multiplication sign */</span>, NULL },\
-<a name="l00072"></a>00072                                                                                 { w, UKey(0x420),               UKey(0x00F7) <span class="comment">/* division sign */</span>,               NULL },\
-<a name="l00073"></a>00073                                                                                 { w, UKey(0x41e),               Qt::Key_degree,                                                 NULL },\
-<a name="l00074"></a>00074                                                                                 { w, UKey(0x41b),               Qt::Key_Semicolon,                                              NULL },\
-<a name="l00075"></a>00075                                                                                 { w, UKey(0x414),               Qt::Key_Colon,                                                  NULL },\
-<a name="l00076"></a>00076                                                                                 { w, UKey(0x416),               Qt::Key_Colon,                                                  NULL },\
-<a name="l00077"></a>00077                                                                                 { w, UKey(0x42d),               Qt::Key_Colon,                                                  NULL }
-<a name="l00078"></a>00078 
-<a name="l00079"></a><a class="code" href="ru_8h.htm#abc8217766745b6d00e1b634d78baa40c">00079</a> <span class="preprocessor">#define RU_QWERTY_LOW(w)                                { w, UKey(0x42f),               cKey_Emoticon_Smile,                                    NULL },\</span>
-<a name="l00080"></a>00080 <span class="preprocessor">                                                                                { w, UKey(0x427),               cKey_Emoticon_Wink,                                             NULL },\</span>
-<a name="l00081"></a>00081 <span class="preprocessor">                                                                                { w, UKey(0x421),               cKey_Emoticon_Frown,                                    NULL },\</span>
-<a name="l00082"></a>00082 <span class="preprocessor">                                                                                { w, UKey(0x41c),               cKey_Emoticon_Cry,                                              NULL },\</span>
-<a name="l00083"></a>00083 <span class="preprocessor">                                                                                { w, UKey(0x418),               cKey_Emoticon_Yuck,                                             NULL },\</span>
-<a name="l00084"></a>00084 <span class="preprocessor">                                                                                { w, UKey(0x422),               cKey_Emoticon_Gasp,                                             NULL },\</span>
-<a name="l00085"></a>00085 <span class="preprocessor">                                                                                { w, UKey(0x42c),               cKey_Emoticon_Heart,                                    rub_extended },\</span>
-<a name="l00086"></a>00086 <span class="preprocessor">                                                                                { w, UKey(0x411),               Qt::Key_Slash,                                          NULL },\</span>
-<a name="l00087"></a>00087 <span class="preprocessor">                                                                                { w, UKey(0x42e),               Qt::Key_Question,                                       NULL },\</span>
-<a name="l00088"></a>00088 <span class="preprocessor">                                                                                { w, Qt::Key_Period,    Qt::Key_Comma,                                          ruPeriod_extended }</span>
-<a name="l00089"></a>00089 <span class="preprocessor"></span>
-<a name="l00090"></a><a class="code" href="ru_8h.htm#a50f58d97bcdf91e79abcdba6751bc7db">00090</a> <span class="preprocessor">#define RU_QWERTY_BOTTOM_ROW_DEFAULT \</span>
-<a name="l00091"></a>00091 <span class="preprocessor">                                                                        KEY_1(1, Qt::Key_Tab),\</span>
-<a name="l00092"></a>00092 <span class="preprocessor">                                                                        KEY_1(2, cKey_Symbol),\</span>
-<a name="l00093"></a>00093 <span class="preprocessor">                                                                        NOKEY_1,\</span>
+<a name="l00051"></a>00051 <span class="preprocessor">                                                                                { w, Qt::Key_0,                 Qt::Key_ParenRight,                                             sRuQwerty0_extended }</span>
+<a name="l00052"></a>00052 <span class="preprocessor"></span>
+<a name="l00053"></a><a class="code" href="ru_8h.htm#a891df7cbb5ba2ed7711edcd1c8d0b9ab">00053</a> <span class="preprocessor">#define RU_QWERTY_TOP(w)                                { w, UKey(0x419),       Qt::Key_QuoteLeft,                                              NULL },\</span>
+<a name="l00054"></a>00054 <span class="preprocessor">                                                                                { w, UKey(0x426),       Qt::Key_AsciiTilde,                                             NULL },\</span>
+<a name="l00055"></a>00055 <span class="preprocessor">                                                                                { w, UKey(0x423),       cKey_Euro,                                                              NULL },\</span>
+<a name="l00056"></a>00056 <span class="preprocessor">                                                                                { w, UKey(0x41a),               Qt::Key_sterling,                                               NULL },\</span>
+<a name="l00057"></a>00057 <span class="preprocessor">                                                                                { w, UKey(0x415),               Qt::Key_Backslash,                                              ruE_extended },\</span>
+<a name="l00058"></a>00058 <span class="preprocessor">                                                                                { w, UKey(0x41d),               Qt::Key_Bar,                                                    NULL },\</span>
+<a name="l00059"></a>00059 <span class="preprocessor">                                                                                { w, UKey(0x413),               Qt::Key_BraceLeft,                                              NULL },\</span>
+<a name="l00060"></a>00060 <span class="preprocessor">                                                                                { w, UKey(0x428),               Qt::Key_BraceRight,                                             NULL },\</span>
+<a name="l00061"></a>00061 <span class="preprocessor">                                                                                { w, UKey(0x429),               Qt::Key_BracketLeft,                                    NULL },\</span>
+<a name="l00062"></a>00062 <span class="preprocessor">                                                                                { w, UKey(0x417),               Qt::Key_BracketRight,                                   NULL },\</span>
+<a name="l00063"></a>00063 <span class="preprocessor">                                                                                { w, UKey(0x425),               Qt::Key_BracketRight,                                   NULL }</span>
+<a name="l00064"></a>00064 <span class="preprocessor"></span>
+<a name="l00065"></a><a class="code" href="ru_8h.htm#aaa0bbeca2412ec03a39edf856414c95f">00065</a> <span class="preprocessor">#define RU_QWERTY_MID(w)                                { w, UKey(0x424),               Qt::Key_Less,                                                   NULL },\</span>
+<a name="l00066"></a>00066 <span class="preprocessor">                                                                                { w, UKey(0x42b),               Qt::Key_Greater,                                                NULL },\</span>
+<a name="l00067"></a>00067 <span class="preprocessor">                                                                                { w, UKey(0x412),               Qt::Key_Equal,                                                  NULL },\</span>
+<a name="l00068"></a>00068 <span class="preprocessor">                                                                                { w, UKey(0x410),               Qt::Key_Plus,                                                   NULL },\</span>
+<a name="l00069"></a>00069 <span class="preprocessor">                                                                                { w, UKey(0x41f),               UKey(0x00D7) </span><span class="comment">/* multiplication sign */</span>, NULL },\
+<a name="l00070"></a>00070                                                                                 { w, UKey(0x420),               UKey(0x00F7) <span class="comment">/* division sign */</span>,               NULL },\
+<a name="l00071"></a>00071                                                                                 { w, UKey(0x41e),               Qt::Key_degree,                                                 NULL },\
+<a name="l00072"></a>00072                                                                                 { w, UKey(0x41b),               Qt::Key_Semicolon,                                              NULL },\
+<a name="l00073"></a>00073                                                                                 { w, UKey(0x414),               Qt::Key_Colon,                                                  NULL },\
+<a name="l00074"></a>00074                                                                                 { w, UKey(0x416),               Qt::Key_Colon,                                                  NULL },\
+<a name="l00075"></a>00075                                                                                 { w, UKey(0x42d),               Qt::Key_Colon,                                                  NULL }
+<a name="l00076"></a>00076 
+<a name="l00077"></a><a class="code" href="ru_8h.htm#abc8217766745b6d00e1b634d78baa40c">00077</a> <span class="preprocessor">#define RU_QWERTY_LOW(w)                                { w, UKey(0x42f),               cKey_Emoticon_Smile,                                    NULL },\</span>
+<a name="l00078"></a>00078 <span class="preprocessor">                                                                                { w, UKey(0x427),               cKey_Emoticon_Wink,                                             NULL },\</span>
+<a name="l00079"></a>00079 <span class="preprocessor">                                                                                { w, UKey(0x421),               cKey_Emoticon_Frown,                                    NULL },\</span>
+<a name="l00080"></a>00080 <span class="preprocessor">                                                                                { w, UKey(0x41c),               cKey_Emoticon_Cry,                                              NULL },\</span>
+<a name="l00081"></a>00081 <span class="preprocessor">                                                                                { w, UKey(0x418),               cKey_Emoticon_Yuck,                                             NULL },\</span>
+<a name="l00082"></a>00082 <span class="preprocessor">                                                                                { w, UKey(0x422),               cKey_Emoticon_Gasp,                                             NULL },\</span>
+<a name="l00083"></a>00083 <span class="preprocessor">                                                                                { w, UKey(0x42c),               cKey_Emoticon_Heart,                                    rub_extended },\</span>
+<a name="l00084"></a>00084 <span class="preprocessor">                                                                                { w, UKey(0x411),               Qt::Key_Slash,                                          NULL },\</span>
+<a name="l00085"></a>00085 <span class="preprocessor">                                                                                { w, UKey(0x42e),               Qt::Key_Question,                                       NULL },\</span>
+<a name="l00086"></a>00086 <span class="preprocessor">                                                                                { w, Qt::Key_Period,    Qt::Key_Comma,                                          ruPeriod_extended }</span>
+<a name="l00087"></a>00087 <span class="preprocessor"></span>
+<a name="l00088"></a><a class="code" href="ru_8h.htm#a50f58d97bcdf91e79abcdba6751bc7db">00088</a> <span class="preprocessor">#define RU_QWERTY_BOTTOM_ROW_DEFAULT \</span>
+<a name="l00089"></a>00089 <span class="preprocessor">                                                                        KEY_1(1, Qt::Key_Tab),\</span>
+<a name="l00090"></a>00090 <span class="preprocessor">                                                                        KEY_1(2, cKey_Symbol),\</span>
+<a name="l00091"></a>00091 <span class="preprocessor">                                                                        NOKEY_1,\</span>
+<a name="l00092"></a>00092 <span class="preprocessor">                                                                        NOKEY_1,\</span>
+<a name="l00093"></a>00093 <span class="preprocessor">                                                                        KEY_1(SPACE_SIZE, Qt::Key_Space),\</span>
 <a name="l00094"></a>00094 <span class="preprocessor">                                                                        NOKEY_1,\</span>
-<a name="l00095"></a>00095 <span class="preprocessor">                                                                        KEY_1(SPACE_SIZE, Qt::Key_Space),\</span>
-<a name="l00096"></a>00096 <span class="preprocessor">                                                                        NOKEY_1,\</span>
-<a name="l00097"></a>00097 <span class="preprocessor">                                                                        KEY_3(1, Qt::Key_Apostrophe, Qt::Key_QuoteDbl, sSingleAndDoubleQuote_extended),\</span>
-<a name="l00098"></a>00098 <span class="preprocessor">                                                                        KEY_3(1, Qt::Key_Minus, Qt::Key_Underscore, sMinusUnderscore_extended),\</span>
-<a name="l00099"></a>00099 <span class="preprocessor">                                                                        KEY_3(1, cKey_Hide, cKey_Hide, sHide_extended),\</span>
-<a name="l00100"></a>00100 <span class="preprocessor">                                                                        NOKEY_3</span>
-<a name="l00101"></a>00101 <span class="preprocessor"></span>
-<a name="l00102"></a><a class="code" href="ru_8h.htm#a7f24902033b7d8af04bd5c319c3f61d6">00102</a> <span class="preprocessor">#define RU_QWERTY_BOTTOM_ROW_URL \</span>
-<a name="l00103"></a>00103 <span class="preprocessor">                                                                        KEY_1(1, Qt::Key_Tab),\</span>
-<a name="l00104"></a>00104 <span class="preprocessor">                                                                        KEY_1(2, cKey_Symbol),\</span>
-<a name="l00105"></a>00105 <span class="preprocessor">                                                                        NOKEY_1,\</span>
-<a name="l00106"></a>00106 <span class="preprocessor">                                                                        KEY_3(1, Qt::Key_Slash, Qt::Key_Slash, sURL_extended),\</span>
-<a name="l00107"></a>00107 <span class="preprocessor">                                                                        KEY_1(SPACE_SIZE - 2, Qt::Key_Space),\</span>
-<a name="l00108"></a>00108 <span class="preprocessor">                                                                        KEY_3(1, cKey_DotCom, cKey_DotCom, sRussian_DotCom_Extended),\</span>
-<a name="l00109"></a>00109 <span class="preprocessor">                                                                        KEY_3(1, Qt::Key_Apostrophe, Qt::Key_QuoteDbl, sSingleAndDoubleQuote_extended),\</span>
-<a name="l00110"></a>00110 <span class="preprocessor">                                                                        KEY_3(1, Qt::Key_Minus, Qt::Key_Underscore, sMinusUnderscore_extended),\</span>
-<a name="l00111"></a>00111 <span class="preprocessor">                                                                        KEY_3(1, cKey_Hide, cKey_Hide, sHide_extended),\</span>
-<a name="l00112"></a>00112 <span class="preprocessor">                                                                        NOKEY_3</span>
-<a name="l00113"></a>00113 <span class="preprocessor"></span>
-<a name="l00114"></a><a class="code" href="ru_8h.htm#a3d39b67412ac71b948b924925df3b550">00114</a> <span class="preprocessor">#define RU_QWERTY_BOTTOM_ROW_EMAIL \</span>
-<a name="l00115"></a>00115 <span class="preprocessor">                                                                        KEY_1(1, Qt::Key_Tab),\</span>
-<a name="l00116"></a>00116 <span class="preprocessor">                                                                        KEY_1(2, cKey_Symbol),\</span>
-<a name="l00117"></a>00117 <span class="preprocessor">                                                                        NOKEY_1,\</span>
-<a name="l00118"></a>00118 <span class="preprocessor">                                                                        KEY_1(1, Qt::Key_At),\</span>
-<a name="l00119"></a>00119 <span class="preprocessor">                                                                        KEY_1(SPACE_SIZE - 2, Qt::Key_Space),\</span>
-<a name="l00120"></a>00120 <span class="preprocessor">                                                                        KEY_3(1, cKey_DotCom, cKey_DotCom, sRussian_DotCom_Extended),\</span>
-<a name="l00121"></a>00121 <span class="preprocessor">                                                                        KEY_3(1, Qt::Key_Apostrophe, Qt::Key_QuoteDbl, sSingleAndDoubleQuote_extended),\</span>
-<a name="l00122"></a>00122 <span class="preprocessor">                                                                        KEY_3(1, Qt::Key_Minus, Qt::Key_Underscore, sMinusUnderscore_extended),\</span>
-<a name="l00123"></a>00123 <span class="preprocessor">                                                                        KEY_3(1, cKey_Hide, cKey_Hide, sHide_extended),\</span>
-<a name="l00124"></a>00124 <span class="preprocessor">                                                                        NOKEY_3</span>
-<a name="l00125"></a>00125 <span class="preprocessor"></span>
-<a name="l00126"></a>00126 <span class="keyword">static</span> TabletKeymap::Layout sRuQwertyLayout = {
-<a name="l00127"></a>00127         { <a class="code" href="ru_8h.htm#a806ca717a2fea7ad17570d225d0f292e">RU_QWERTY_NUMBERS</a>(1) },
-<a name="l00128"></a>00128         { <a class="code" href="ru_8h.htm#a891df7cbb5ba2ed7711edcd1c8d0b9ab">RU_QWERTY_TOP</a>(1), <a class="code" href="PhoneKeymap_8cpp.htm#aa53c45f0a3f70a9b3f0cecf07f72b502">KEY_1</a>(1.5, Qt::Key_Backspace), <a class="code" href="PhoneKeymap_8cpp.htm#a92737b618bbe23701ee56de9f44363ab">NOKEY_1</a> },
-<a name="l00129"></a>00129         { <a class="code" href="ru_8h.htm#aaa0bbeca2412ec03a39edf856414c95f">RU_QWERTY_MID</a>(1), <a class="code" href="PhoneKeymap_8cpp.htm#aa53c45f0a3f70a9b3f0cecf07f72b502">KEY_1</a>(1.5, Qt::Key_Return), <a class="code" href="PhoneKeymap_8cpp.htm#a92737b618bbe23701ee56de9f44363ab">NOKEY_1</a> },
-<a name="l00130"></a>00130         { <a class="code" href="PhoneKeymap_8cpp.htm#aa53c45f0a3f70a9b3f0cecf07f72b502">KEY_1</a>(1, Qt::Key_Shift), <a class="code" href="ru_8h.htm#abc8217766745b6d00e1b634d78baa40c">RU_QWERTY_LOW</a>(1), <a class="code" href="PhoneKeymap_8cpp.htm#aa53c45f0a3f70a9b3f0cecf07f72b502">KEY_1</a>(1.5, Qt::Key_Shift), <a class="code" href="PhoneKeymap_8cpp.htm#a92737b618bbe23701ee56de9f44363ab">NOKEY_1</a> },
-<a name="l00131"></a>00131         { <a class="code" href="ru_8h.htm#a50f58d97bcdf91e79abcdba6751bc7db">RU_QWERTY_BOTTOM_ROW_DEFAULT</a> },
-<a name="l00132"></a>00132 };
-<a name="l00133"></a>00133 
-<a name="l00134"></a>00134 <span class="keyword">static</span> TabletKeymap::LayoutRow sRuQwertyBottomRow_default = { <a class="code" href="ru_8h.htm#a50f58d97bcdf91e79abcdba6751bc7db">RU_QWERTY_BOTTOM_ROW_DEFAULT</a> };
-<a name="l00135"></a>00135 <span class="keyword">static</span> TabletKeymap::LayoutRow sRuQwertyBottomRow_url = { <a class="code" href="ru_8h.htm#a7f24902033b7d8af04bd5c319c3f61d6">RU_QWERTY_BOTTOM_ROW_URL</a> };
-<a name="l00136"></a>00136 <span class="keyword">static</span> TabletKeymap::LayoutRow sRuQwertyBottomRow_email = { <a class="code" href="ru_8h.htm#a3d39b67412ac71b948b924925df3b550">RU_QWERTY_BOTTOM_ROW_EMAIL</a> };
-<a name="l00137"></a>00137 
-<a name="l00138"></a>00138 <span class="keyword">static</span> TabletKeymap::Keymap sRuQwerty(&amp;sLayoutRussian, <span class="stringliteral">&quot;йцукен&quot;</span>, IME_KBD_LANG_English, IME_KBD_SEC_REGQwerty,
-<a name="l00139"></a>00139                                                 <span class="stringliteral">&quot;+ = [  ]&quot;</span> <span class="comment">/* Spaces are &quot;Unicode Character &#39;HAIR SPACE&#39; (U+200A) &#39; &#39; &quot; */</span>, <span class="stringliteral">&quot;йцукен&quot;</span> <span class="comment">/* Spaces are &quot;Unicode Character &#39;HAIR SPACE&#39; (U+200A) &#39; &#39; &quot; */</span>,
-<a name="l00140"></a>00140                                                 0, 1, 10, 2, <span class="keyword">false</span>, sRuQwertyLayout, sRuQwertyBottomRow_default, sRuQwertyBottomRow_url, sRuQwertyBottomRow_email);
-<a name="l00141"></a>00141 <span class="preprocessor">#endif // KEYBOARD_RU.H</span>
+<a name="l00095"></a>00095 <span class="preprocessor">                                                                        KEY_3(1, Qt::Key_Apostrophe, Qt::Key_QuoteDbl, sSingleAndDoubleQuote_extended),\</span>
+<a name="l00096"></a>00096 <span class="preprocessor">                                                                        KEY_3(1, Qt::Key_Minus, Qt::Key_Underscore, sMinusUnderscore_extended),\</span>
+<a name="l00097"></a>00097 <span class="preprocessor">                                                                        KEY_3(1, cKey_Hide, cKey_Hide, sHide_extended),\</span>
+<a name="l00098"></a>00098 <span class="preprocessor">                                                                        NOKEY_3</span>
+<a name="l00099"></a>00099 <span class="preprocessor"></span>
+<a name="l00100"></a><a class="code" href="ru_8h.htm#a7f24902033b7d8af04bd5c319c3f61d6">00100</a> <span class="preprocessor">#define RU_QWERTY_BOTTOM_ROW_URL \</span>
+<a name="l00101"></a>00101 <span class="preprocessor">                                                                        KEY_1(1, Qt::Key_Tab),\</span>
+<a name="l00102"></a>00102 <span class="preprocessor">                                                                        KEY_1(2, cKey_Symbol),\</span>
+<a name="l00103"></a>00103 <span class="preprocessor">                                                                        NOKEY_1,\</span>
+<a name="l00104"></a>00104 <span class="preprocessor">                                                                        KEY_3(1, Qt::Key_Slash, Qt::Key_Slash, sURL_extended),\</span>
+<a name="l00105"></a>00105 <span class="preprocessor">                                                                        KEY_1(SPACE_SIZE - 2, Qt::Key_Space),\</span>
+<a name="l00106"></a>00106 <span class="preprocessor">                                                                        KEY_3(1, cKey_DotCom, cKey_DotCom, sRussian_DotCom_Extended),\</span>
+<a name="l00107"></a>00107 <span class="preprocessor">                                                                        KEY_3(1, Qt::Key_Apostrophe, Qt::Key_QuoteDbl, sSingleAndDoubleQuote_extended),\</span>
+<a name="l00108"></a>00108 <span class="preprocessor">                                                                        KEY_3(1, Qt::Key_Minus, Qt::Key_Underscore, sMinusUnderscore_extended),\</span>
+<a name="l00109"></a>00109 <span class="preprocessor">                                                                        KEY_3(1, cKey_Hide, cKey_Hide, sHide_extended),\</span>
+<a name="l00110"></a>00110 <span class="preprocessor">                                                                        NOKEY_3</span>
+<a name="l00111"></a>00111 <span class="preprocessor"></span>
+<a name="l00112"></a><a class="code" href="ru_8h.htm#a3d39b67412ac71b948b924925df3b550">00112</a> <span class="preprocessor">#define RU_QWERTY_BOTTOM_ROW_EMAIL \</span>
+<a name="l00113"></a>00113 <span class="preprocessor">                                                                        KEY_1(1, Qt::Key_Tab),\</span>
+<a name="l00114"></a>00114 <span class="preprocessor">                                                                        KEY_1(2, cKey_Symbol),\</span>
+<a name="l00115"></a>00115 <span class="preprocessor">                                                                        NOKEY_1,\</span>
+<a name="l00116"></a>00116 <span class="preprocessor">                                                                        KEY_1(1, Qt::Key_At),\</span>
+<a name="l00117"></a>00117 <span class="preprocessor">                                                                        KEY_1(SPACE_SIZE - 2, Qt::Key_Space),\</span>
+<a name="l00118"></a>00118 <span class="preprocessor">                                                                        KEY_3(1, cKey_DotCom, cKey_DotCom, sRussian_DotCom_Extended),\</span>
+<a name="l00119"></a>00119 <span class="preprocessor">                                                                        KEY_3(1, Qt::Key_Apostrophe, Qt::Key_QuoteDbl, sSingleAndDoubleQuote_extended),\</span>
+<a name="l00120"></a>00120 <span class="preprocessor">                                                                        KEY_3(1, Qt::Key_Minus, Qt::Key_Underscore, sMinusUnderscore_extended),\</span>
+<a name="l00121"></a>00121 <span class="preprocessor">                                                                        KEY_3(1, cKey_Hide, cKey_Hide, sHide_extended),\</span>
+<a name="l00122"></a>00122 <span class="preprocessor">                                                                        NOKEY_3</span>
+<a name="l00123"></a>00123 <span class="preprocessor"></span>
+<a name="l00124"></a>00124 <span class="keyword">static</span> TabletKeymap::Layout sRuQwertyLayout = {
+<a name="l00125"></a>00125         { <a class="code" href="ru_8h.htm#a806ca717a2fea7ad17570d225d0f292e">RU_QWERTY_NUMBERS</a>(1), <a class="code" href="PhoneKeymap_8cpp.htm#aa53c45f0a3f70a9b3f0cecf07f72b502">KEY_1</a>(2, <a class="code" href="namespaceTablet__Keyboard_1_1Tablet__Keyboard.htm#a08f639ca49f1f25452cf5236d1804498">cKey_Trackball</a>) },
+<a name="l00126"></a>00126         { <a class="code" href="ru_8h.htm#a891df7cbb5ba2ed7711edcd1c8d0b9ab">RU_QWERTY_TOP</a>(1), <a class="code" href="PhoneKeymap_8cpp.htm#aa53c45f0a3f70a9b3f0cecf07f72b502">KEY_1</a>(1.5, Qt::Key_Backspace), <a class="code" href="PhoneKeymap_8cpp.htm#a92737b618bbe23701ee56de9f44363ab">NOKEY_1</a> },
+<a name="l00127"></a>00127         { <a class="code" href="ru_8h.htm#aaa0bbeca2412ec03a39edf856414c95f">RU_QWERTY_MID</a>(1), <a class="code" href="PhoneKeymap_8cpp.htm#aa53c45f0a3f70a9b3f0cecf07f72b502">KEY_1</a>(1.5, Qt::Key_Return), <a class="code" href="PhoneKeymap_8cpp.htm#a92737b618bbe23701ee56de9f44363ab">NOKEY_1</a> },
+<a name="l00128"></a>00128         { <a class="code" href="PhoneKeymap_8cpp.htm#aa53c45f0a3f70a9b3f0cecf07f72b502">KEY_1</a>(1, Qt::Key_Shift), <a class="code" href="ru_8h.htm#abc8217766745b6d00e1b634d78baa40c">RU_QWERTY_LOW</a>(1), <a class="code" href="PhoneKeymap_8cpp.htm#aa53c45f0a3f70a9b3f0cecf07f72b502">KEY_1</a>(1.5, Qt::Key_Shift), <a class="code" href="PhoneKeymap_8cpp.htm#a92737b618bbe23701ee56de9f44363ab">NOKEY_1</a> },
+<a name="l00129"></a>00129         { <a class="code" href="ru_8h.htm#a50f58d97bcdf91e79abcdba6751bc7db">RU_QWERTY_BOTTOM_ROW_DEFAULT</a> },
+<a name="l00130"></a>00130 };
+<a name="l00131"></a>00131 
+<a name="l00132"></a>00132 <span class="keyword">static</span> TabletKeymap::LayoutRow sRuQwertyBottomRow_default = { <a class="code" href="ru_8h.htm#a50f58d97bcdf91e79abcdba6751bc7db">RU_QWERTY_BOTTOM_ROW_DEFAULT</a> };
+<a name="l00133"></a>00133 <span class="keyword">static</span> TabletKeymap::LayoutRow sRuQwertyBottomRow_url = { <a class="code" href="ru_8h.htm#a7f24902033b7d8af04bd5c319c3f61d6">RU_QWERTY_BOTTOM_ROW_URL</a> };
+<a name="l00134"></a>00134 <span class="keyword">static</span> TabletKeymap::LayoutRow sRuQwertyBottomRow_email = { <a class="code" href="ru_8h.htm#a3d39b67412ac71b948b924925df3b550">RU_QWERTY_BOTTOM_ROW_EMAIL</a> };
+<a name="l00135"></a>00135 
+<a name="l00136"></a>00136 <span class="keyword">static</span> TabletKeymap::Keymap sRuQwerty(&amp;sLayoutRussian, <span class="stringliteral">&quot;йцукен&quot;</span>, IME_KBD_LANG_English, IME_KBD_SEC_REGQwerty,
+<a name="l00137"></a>00137                                                 <span class="stringliteral">&quot;+ = [  ]&quot;</span> <span class="comment">/* Spaces are &quot;Unicode Character &#39;HAIR SPACE&#39; (U+200A) &#39; &#39; &quot; */</span>, <span class="stringliteral">&quot;йцукен&quot;</span> <span class="comment">/* Spaces are &quot;Unicode Character &#39;HAIR SPACE&#39; (U+200A) &#39; &#39; &quot; */</span>,
+<a name="l00138"></a>00138                                                 0, 1, 10, 2, <span class="keyword">false</span>, sRuQwertyLayout, sRuQwertyBottomRow_default, sRuQwertyBottomRow_url, sRuQwertyBottomRow_email);
+<a name="l00139"></a>00139 <span class="preprocessor">#endif // KEYBOARD_RU.H</span>
 </pre></div></div><!-- contents -->
 </div>
 <!-- window showing the filter options -->
@@ -261,7 +259,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul>
       <li class="navelem"><a class="el" href="ru_8h.htm">ru.h</a>      </li>
 
-    <li class="footer">Generated on Wed Sep 26 2012 07:32:49 for LunaSysMgr by
+    <li class="footer">Generated on Tue Oct 2 2012 22:43:58 for LunaSysMgr by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.7.6.1 </li>
    </ul>

@@ -112,6 +112,7 @@ This is the complete list of members for <a class="el" href="classCardGroup.htm"
   <tr class="memlist"><td><a class="el" href="classCardGroup.htm#a5d82095c9831209f84199c8b2266185a">animateCloseWithOffset</a>(int duration, QEasingCurve::Type curve, int groupXOffset)</td><td><a class="el" href="classCardGroup.htm">CardGroup</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classCardGroup.htm#a0b398a6a8efb8a557e32a31536cb82cb">animateOpen</a>(int duration, QEasingCurve::Type curve, bool includeActiveCard=true)</td><td><a class="el" href="classCardGroup.htm">CardGroup</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classCardGroup.htm#aec3e8d080d99e5c7d003d21d019bc797">atEdge</a>(qreal direction) const </td><td><a class="el" href="classCardGroup.htm">CardGroup</a></td><td></td></tr>
+  <tr class="memlist"><td><a class="el" href="classCardGroup.htm#a07c2ac49b1413d22f91207a94e7d692b">cardArranger</a>() const </td><td><a class="el" href="classCardGroup.htm">CardGroup</a></td><td><code> [inline]</code></td></tr>
   <tr class="memlist"><td><a class="el" href="classCardGroup.htm#a38b98670e982cd40f6ab088e6f2b2808">CardGroup</a>(qreal curScale, qreal nonCurScale)</td><td><a class="el" href="classCardGroup.htm">CardGroup</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classCardGroup.htm#aa77cc49b9e86f9a4a41f9c7ca42fb2dd">cards</a>() const </td><td><a class="el" href="classCardGroup.htm">CardGroup</a></td><td><code> [inline]</code></td></tr>
   <tr class="memlist"><td><a class="el" href="classCardGroup.htm#a4147cf21d5225d3d8fba554ec47f20dd">curScale</a></td><td><a class="el" href="classCardGroup.htm">CardGroup</a></td><td></td></tr>
@@ -128,7 +129,7 @@ This is the complete list of members for <a class="el" href="classCardGroup.htm"
   <tr class="memlist"><td><a class="el" href="classCardGroup.htm#a7f53d1b4911d9e8d3fffca55b70543a4">makePreviousCardActive</a>()</td><td><a class="el" href="classCardGroup.htm">CardGroup</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classCardGroup.htm#ac9b5854debd210956f5308224c2a286f">maximizeActiveCard</a>(qreal centerOffset)</td><td><a class="el" href="classCardGroup.htm">CardGroup</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classCardGroup.htm#a6f9057518bd7df3acc78349a8f3bcb74">maximizeActiveCardNoAnimation</a>(qreal centerOffset)</td><td><a class="el" href="classCardGroup.htm">CardGroup</a></td><td></td></tr>
-  <tr class="memlist"><td><a class="el" href="classCardGroup.htm#afc1436717b1ff580de985d334a7a3091">minimizeGesture</a>() const </td><td><a class="el" href="classCardGroup.htm">CardGroup</a></td><td><code> [inline]</code></td></tr>
+  <tr class="memlist"><td><a class="el" href="classCardGroup.htm#a29fa6a2098724d1f45ecf61d95a4e94f">miniScale</a>() const </td><td><a class="el" href="classCardGroup.htm">CardGroup</a></td><td><code> [inline]</code></td></tr>
   <tr class="memlist"><td><a class="el" href="classCardGroup.htm#a451d173bc7b8801f7bf3d2f15967ae4d">moveActiveCard</a>(int direction)</td><td><a class="el" href="classCardGroup.htm">CardGroup</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classCardGroup.htm#a816a009053f367c9952ffd7feb92bdeb">moveActiveCard</a>()</td><td><a class="el" href="classCardGroup.htm">CardGroup</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classCardGroup.htm#a039b4f930e9a344f8d6aa6e56fd348fe">moveActiveCardTo</a>(int location)</td><td><a class="el" href="classCardGroup.htm">CardGroup</a></td><td></td></tr>
@@ -145,18 +146,19 @@ This is the complete list of members for <a class="el" href="classCardGroup.htm"
   <tr class="memlist"><td><a class="el" href="classCardGroup.htm#a9e423220135e6c1d9e55aaa7cbeca96d">right</a>() const </td><td><a class="el" href="classCardGroup.htm">CardGroup</a></td><td><code> [inline]</code></td></tr>
   <tr class="memlist"><td><a class="el" href="classCardGroup.htm#af87465016236f4345bb76cfefc9000c9">setActiveCard</a>(QPointF scenePt)</td><td><a class="el" href="classCardGroup.htm">CardGroup</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classCardGroup.htm#a80468909046a9dc5175ad278d794440e">setActiveCard</a>(CardWindow *card)</td><td><a class="el" href="classCardGroup.htm">CardGroup</a></td><td></td></tr>
+  <tr class="memlist"><td><a class="el" href="classCardGroup.htm#a891ab50db8a147f80f913326e233cc86">setCardArranger</a>(int cardArranger)</td><td><a class="el" href="classCardGroup.htm">CardGroup</a></td><td><code> [inline]</code></td></tr>
   <tr class="memlist"><td><a class="el" href="classCardGroup.htm#a5192735cf93f8e3bc023d09322081bc4">setCompositionMode</a>(QPainter::CompositionMode mode)</td><td><a class="el" href="classCardGroup.htm">CardGroup</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classCardGroup.htm#ac6ffd5d8f50002a058e2258cf8609374">setCurScale</a>(const qreal &amp;curScale)</td><td><a class="el" href="classCardGroup.htm">CardGroup</a></td><td><code> [inline]</code></td></tr>
-  <tr class="memlist"><td><a class="el" href="classCardGroup.htm#a6b2b2ad733e5fddb859c6fb4c341eb78">setMinimizeGesture</a>(bool minimizeGesture)</td><td><a class="el" href="classCardGroup.htm">CardGroup</a></td><td><code> [inline]</code></td></tr>
+  <tr class="memlist"><td><a class="el" href="classCardGroup.htm#ae5166d7d47b8a1627bfb69a2d0e73148">setMiniScale</a>(qreal scale)</td><td><a class="el" href="classCardGroup.htm">CardGroup</a></td><td><code> [inline]</code></td></tr>
   <tr class="memlist"><td><a class="el" href="classCardGroup.htm#a424ea31fb0993aa01c781f0ff1897a11">setNonCurScale</a>(const qreal &amp;nonCurScale)</td><td><a class="el" href="classCardGroup.htm">CardGroup</a></td><td><code> [inline]</code></td></tr>
   <tr class="memlist"><td><a class="el" href="classCardGroup.htm#ad030431127d122e4bd5acab24655ccf4">setPos</a>(const QPointF &amp;pos)</td><td><a class="el" href="classCardGroup.htm">CardGroup</a></td><td></td></tr>
-  <tr class="memlist"><td><a class="el" href="classCardGroup.htm#ac32f019df922eb91a262bf7ec9e0aba8">setSwitchGesture</a>(bool switchGesture)</td><td><a class="el" href="classCardGroup.htm">CardGroup</a></td><td><code> [inline]</code></td></tr>
+  <tr class="memlist"><td><a class="el" href="classCardGroup.htm#ae6bb51f4feb17ec96e43cfdd1b9c85ea">setTabDirection</a>(bool tabDirection)</td><td><a class="el" href="classCardGroup.htm">CardGroup</a></td><td><code> [inline]</code></td></tr>
   <tr class="memlist"><td><a class="el" href="classCardGroup.htm#a89630f98012e3b48f8b432d179007d11">setX</a>(const qreal &amp;x)</td><td><a class="el" href="classCardGroup.htm">CardGroup</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classCardGroup.htm#ab07e1238fde910958265506f6eb91c08">setXDistanceFactor</a>(const qreal xDistanceFactor)</td><td><a class="el" href="classCardGroup.htm">CardGroup</a></td><td><code> [inline]</code></td></tr>
   <tr class="memlist"><td><a class="el" href="classCardGroup.htm#af87cbf28c6c8f4eca3f6e73a41ecf6fa">setY</a>(const qreal &amp;y)</td><td><a class="el" href="classCardGroup.htm">CardGroup</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classCardGroup.htm#aeaafadfed4bef155a47829834e981d9e">shouldMaximizeOrScroll</a>(QPointF scenePt)</td><td><a class="el" href="classCardGroup.htm">CardGroup</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classCardGroup.htm#a1863b02071f991d7e27946571cc69427">size</a>() const </td><td><a class="el" href="classCardGroup.htm">CardGroup</a></td><td><code> [inline]</code></td></tr>
-  <tr class="memlist"><td><a class="el" href="classCardGroup.htm#a59f16b1c348c56773c7c339bffa3c7af">switchGesture</a>() const </td><td><a class="el" href="classCardGroup.htm">CardGroup</a></td><td><code> [inline]</code></td></tr>
+  <tr class="memlist"><td><a class="el" href="classCardGroup.htm#a31cda3bf95efef4eab6fa7a3b44d261f">tabDirection</a>() const </td><td><a class="el" href="classCardGroup.htm">CardGroup</a></td><td><code> [inline]</code></td></tr>
   <tr class="memlist"><td><a class="el" href="classCardGroup.htm#a9ead832e9b528f3ffbd90f496ac29713">testCardHit</a>(QPointF scenePt)</td><td><a class="el" href="classCardGroup.htm">CardGroup</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classCardGroup.htm#ae7caa0150809a1e044eff345d6dbed33">testHit</a>(QPointF scenePt)</td><td><a class="el" href="classCardGroup.htm">CardGroup</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classCardGroup.htm#a1c9896ff69492718dabba1ada291727d">width</a>() const </td><td><a class="el" href="classCardGroup.htm">CardGroup</a></td><td><code> [inline]</code></td></tr>
@@ -186,7 +188,7 @@ This is the complete list of members for <a class="el" href="classCardGroup.htm"
   <div id="nav-path" class="navpath">
     <ul>
 
-    <li class="footer">Generated on Wed Sep 26 2012 07:32:50 for LunaSysMgr by
+    <li class="footer">Generated on Tue Oct 2 2012 22:43:59 for LunaSysMgr by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.7.6.1 </li>
    </ul>

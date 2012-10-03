@@ -199,394 +199,396 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <a name="l00097"></a>00097 
 <a name="l00098"></a>00098         <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#a138fa73fd4c029550b2e2fc9fee349a9">enableShadow</a>();
 <a name="l00099"></a>00099         <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#a97c148cc67d3ceeea396513bfdeaca93">disableShadow</a>();
-<a name="l00100"></a>00100 
-<a name="l00101"></a><a class="code" href="classCardWindow.htm#af449e12f3cd982962134f4a4e45f2a08">00101</a>         <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#af449e12f3cd982962134f4a4e45f2a08">setPrepareAddedToWindowManager</a>() { <a class="code" href="classCardWindow.htm#a2766923781106d829eda4347cfc805a8">m_prepareAddedToWm</a> = <span class="keyword">true</span>; }
-<a name="l00102"></a><a class="code" href="classCardWindow.htm#a2c6da3dccd404b0d3c5cc4fe297094f2">00102</a>         <span class="keywordtype">bool</span> <a class="code" href="classCardWindow.htm#a2c6da3dccd404b0d3c5cc4fe297094f2">prepareAddedToWindowManager</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> <a class="code" href="classCardWindow.htm#a2766923781106d829eda4347cfc805a8">m_prepareAddedToWm</a>; }
+<a name="l00100"></a>00100         
+<a name="l00101"></a>00101         <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#a1a5ccc2291c1b0b7ffe8f4703a04432f">enableFullScreen</a>();
+<a name="l00102"></a>00102         <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#a018d5715016c826e18c1a576774fb327">disableFullScreen</a>();
 <a name="l00103"></a>00103 
-<a name="l00104"></a><a class="code" href="classCardWindow.htm#a3da3510d16e00da0f6af9949ea0a29a4">00104</a>         <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#a3da3510d16e00da0f6af9949ea0a29a4">setAddedToWindowManager</a>() { <a class="code" href="classCardWindow.htm#ade24746c70aba46f3ee7a7d36f1ae6f3">m_addedToWm</a> = <span class="keyword">true</span>; }
-<a name="l00105"></a><a class="code" href="classCardWindow.htm#a3a5f3c24ad498904a563f67014882566">00105</a>         <span class="keywordtype">bool</span> <a class="code" href="classCardWindow.htm#a3a5f3c24ad498904a563f67014882566">addedToWindowManager</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> <a class="code" href="classCardWindow.htm#ade24746c70aba46f3ee7a7d36f1ae6f3">m_addedToWm</a>; }
+<a name="l00104"></a><a class="code" href="classCardWindow.htm#af449e12f3cd982962134f4a4e45f2a08">00104</a>         <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#af449e12f3cd982962134f4a4e45f2a08">setPrepareAddedToWindowManager</a>() { <a class="code" href="classCardWindow.htm#a2766923781106d829eda4347cfc805a8">m_prepareAddedToWm</a> = <span class="keyword">true</span>; }
+<a name="l00105"></a><a class="code" href="classCardWindow.htm#a2c6da3dccd404b0d3c5cc4fe297094f2">00105</a>         <span class="keywordtype">bool</span> <a class="code" href="classCardWindow.htm#a2c6da3dccd404b0d3c5cc4fe297094f2">prepareAddedToWindowManager</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> <a class="code" href="classCardWindow.htm#a2766923781106d829eda4347cfc805a8">m_prepareAddedToWm</a>; }
 <a name="l00106"></a>00106 
-<a name="l00107"></a>00107         <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#a249ffaa9d5c86099bc28800a83ba86ae">setWindowProperties</a> (<span class="keyword">const</span> <a class="code" href="structWindowProperties.htm">WindowProperties</a>&amp; props);
-<a name="l00108"></a>00108 
-<a name="l00109"></a>00109         <span class="keywordtype">bool</span> <a class="code" href="classCardWindow.htm#abe03226ae21cceb1402c6929bba397bc">rotationLockMaximized</a>() <span class="keyword">const</span>;
-<a name="l00110"></a>00110 
-<a name="l00111"></a>00111         <span class="keywordtype">bool</span> <a class="code" href="classCardWindow.htm#a1f2c059520747f82bfaa15aeb1cb0cc5">allowResizeOnPositiveSpaceChange</a>() <span class="keyword">const</span>;
-<a name="l00112"></a>00112         <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#a9185bad86461d4356ae883ceb1a45350">adjustForPositiveSpaceSize</a>(<span class="keywordtype">int</span> width, <span class="keywordtype">int</span> height) <span class="keyword">const</span>;
+<a name="l00107"></a><a class="code" href="classCardWindow.htm#a3da3510d16e00da0f6af9949ea0a29a4">00107</a>         <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#a3da3510d16e00da0f6af9949ea0a29a4">setAddedToWindowManager</a>() { <a class="code" href="classCardWindow.htm#ade24746c70aba46f3ee7a7d36f1ae6f3">m_addedToWm</a> = <span class="keyword">true</span>; }
+<a name="l00108"></a><a class="code" href="classCardWindow.htm#a3a5f3c24ad498904a563f67014882566">00108</a>         <span class="keywordtype">bool</span> <a class="code" href="classCardWindow.htm#a3a5f3c24ad498904a563f67014882566">addedToWindowManager</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> <a class="code" href="classCardWindow.htm#ade24746c70aba46f3ee7a7d36f1ae6f3">m_addedToWm</a>; }
+<a name="l00109"></a>00109 
+<a name="l00110"></a>00110         <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#a249ffaa9d5c86099bc28800a83ba86ae">setWindowProperties</a> (<span class="keyword">const</span> <a class="code" href="structWindowProperties.htm">WindowProperties</a>&amp; props);
+<a name="l00111"></a>00111 
+<a name="l00112"></a>00112         <span class="keywordtype">bool</span> <a class="code" href="classCardWindow.htm#abe03226ae21cceb1402c6929bba397bc">rotationLockMaximized</a>() <span class="keyword">const</span>;
 <a name="l00113"></a>00113 
-<a name="l00114"></a><a class="code" href="classCardWindow.htm#a0826a9256ac1ff2b7db0869a7209d900">00114</a>         <span class="keyword">virtual</span> Event::Orientation <a class="code" href="classCardWindow.htm#a0826a9256ac1ff2b7db0869a7209d900">getCardFixedOrientation</a>() { <span class="keywordflow">return</span> <a class="code" href="classCardWindow.htm#a3afd1e45fc712d075117172a9d4506c9">m_appFixedOrientation</a>; }
-<a name="l00115"></a>00115 
-<a name="l00116"></a><a class="code" href="classCardWindow.htm#a8901f7c4635ff7ef48551b81759399aa">00116</a>         <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#a8901f7c4635ff7ef48551b81759399aa">displayOff</a>() {}
-<a name="l00117"></a><a class="code" href="classCardWindow.htm#a7b2123ac3cdc8b3f6fa092e3a0e28859">00117</a>         <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#a7b2123ac3cdc8b3f6fa092e3a0e28859">displayDimmed</a>() {}
+<a name="l00114"></a>00114         <span class="keywordtype">bool</span> <a class="code" href="classCardWindow.htm#a1f2c059520747f82bfaa15aeb1cb0cc5">allowResizeOnPositiveSpaceChange</a>() <span class="keyword">const</span>;
+<a name="l00115"></a>00115         <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#a9185bad86461d4356ae883ceb1a45350">adjustForPositiveSpaceSize</a>(<span class="keywordtype">int</span> width, <span class="keywordtype">int</span> height) <span class="keyword">const</span>;
+<a name="l00116"></a>00116 
+<a name="l00117"></a><a class="code" href="classCardWindow.htm#a0826a9256ac1ff2b7db0869a7209d900">00117</a>         <span class="keyword">virtual</span> Event::Orientation <a class="code" href="classCardWindow.htm#a0826a9256ac1ff2b7db0869a7209d900">getCardFixedOrientation</a>() { <span class="keywordflow">return</span> <a class="code" href="classCardWindow.htm#a3afd1e45fc712d075117172a9d4506c9">m_appFixedOrientation</a>; }
 <a name="l00118"></a>00118 
-<a name="l00119"></a><a class="code" href="classCardWindow.htm#a502a3854c00f6934871c6bc4c11322a0">00119</a>         <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code" href="classCardWindow.htm#a502a3854c00f6934871c6bc4c11322a0">isHost</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> <span class="keyword">false</span>; }
-<a name="l00120"></a><a class="code" href="classCardWindow.htm#a6e60d4970a8e6da1df1ed37d7e871128">00120</a>         <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code" href="classCardWindow.htm#a6e60d4970a8e6da1df1ed37d7e871128">supportsPause</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> <span class="keyword">false</span>; }
-<a name="l00121"></a><a class="code" href="classCardWindow.htm#a1c1f69bc29104d33ddc24101816596dc">00121</a>         <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#a1c1f69bc29104d33ddc24101816596dc">pause</a>() {}
-<a name="l00122"></a>00122         
-<a name="l00123"></a>00123         <span class="keywordtype">bool</span> <a class="code" href="classCardWindow.htm#a0a04a27f0a8d2dca555e60d3dae421f7">delayPrepare</a>();
-<a name="l00124"></a>00124         <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#a49e2b9c10f7713583dbe1d5eef2b7cd6">stopLoadingOverlay</a>();
-<a name="l00125"></a>00125 
-<a name="l00126"></a>00126         <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#ae7179addb0c8febb61190308b29da345">setModalParent</a>(<a class="code" href="classCardWindow.htm">CardWindow</a>* parent);
-<a name="l00127"></a><a class="code" href="classCardWindow.htm#a04e23fce794ec9416aea9830476a2caf">00127</a>         <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#a04e23fce794ec9416aea9830476a2caf">setCardIsModalParent</a>(<span class="keywordtype">bool</span> isParent) { <a class="code" href="classCardWindow.htm#a0e9f51b7c3d5fbe00129450c2e4c2d69">m_isCardModalParent</a> = isParent;}
-<a name="l00128"></a><a class="code" href="classCardWindow.htm#a613ca3d295eb89f8ae188df3ce1ac0d3">00128</a>         <span class="keywordtype">bool</span> <a class="code" href="classCardWindow.htm#a613ca3d295eb89f8ae188df3ce1ac0d3">isCardModalParent</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> <a class="code" href="classCardWindow.htm#a0e9f51b7c3d5fbe00129450c2e4c2d69">m_isCardModalParent</a>; }
-<a name="l00129"></a>00129 
-<a name="l00130"></a><a class="code" href="classCardWindow.htm#afd5fa4580a0382be721d635262b8fc5c">00130</a>         <span class="keyword">enum</span> <a class="code" href="classCardWindow.htm#afd5fa4580a0382be721d635262b8fc5c">ModalAcceptInputState</a> {
-<a name="l00131"></a><a class="code" href="classCardWindow.htm#afd5fa4580a0382be721d635262b8fc5ca0070e9de692a259baae97e11b7a6c26a">00131</a>                 <a class="code" href="classCardWindow.htm#afd5fa4580a0382be721d635262b8fc5ca0070e9de692a259baae97e11b7a6c26a">NoModalWindow</a> = 0,
-<a name="l00132"></a><a class="code" href="classCardWindow.htm#afd5fa4580a0382be721d635262b8fc5cac46bd4b2b0e9879b743a5929265dc894">00132</a>                 <a class="code" href="classCardWindow.htm#afd5fa4580a0382be721d635262b8fc5cac46bd4b2b0e9879b743a5929265dc894">ModalLaunchedNotAcceptingInput</a>,
-<a name="l00133"></a><a class="code" href="classCardWindow.htm#afd5fa4580a0382be721d635262b8fc5ca513e28dc0aaff669525c8f221dfd45ef">00133</a>                 <a class="code" href="classCardWindow.htm#afd5fa4580a0382be721d635262b8fc5ca513e28dc0aaff669525c8f221dfd45ef">ModalLaunchedAcceptingInput</a>
-<a name="l00134"></a>00134         };
-<a name="l00135"></a>00135 
-<a name="l00136"></a><a class="code" href="classCardWindow.htm#ab39ed110d339d4ec967ef9e680b15f69">00136</a>         <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#ab39ed110d339d4ec967ef9e680b15f69">setModalAcceptInputState</a>(<a class="code" href="classCardWindow.htm#afd5fa4580a0382be721d635262b8fc5c">ModalAcceptInputState</a> state) { <a class="code" href="classCardWindow.htm#a5ee000bc0c90b5ecfea8a6b05fec27ca">m_modalAcceptInputState</a> = state;}
-<a name="l00137"></a>00137         <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#ab2852fa5b9e258a6f0e2625347ddb3d9">setModalChild</a>(<a class="code" href="classCardWindow.htm">CardWindow</a>* w);
-<a name="l00138"></a><a class="code" href="classCardWindow.htm#a17589a9be71485cc4951aa4df5f412ae">00138</a>         <a class="code" href="classCardWindow.htm">CardWindow</a>* <a class="code" href="classCardWindow.htm#a17589a9be71485cc4951aa4df5f412ae">getModalChild</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> m_modalChild; }
-<a name="l00139"></a>00139 
-<a name="l00140"></a>00140         <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#a91ef87d2ac01dbaac1d6d0e75e4f5e77">setAppLaunchOptions</a>(<span class="keyword">const</span> AppLaunchOptionsEventWrapper&amp; options);
-<a name="l00141"></a>00141 
-<a name="l00142"></a><a class="code" href="classCardWindow.htm#a4abd89e8cec25b4e8ffb53cca79d0a4c">00142</a>         <span class="keyword">const</span> std::string &amp;<a class="code" href="classCardWindow.htm#a4abd89e8cec25b4e8ffb53cca79d0a4c">splashBackgroundName</a>()<span class="keyword"> const </span>{
-<a name="l00143"></a>00143         <span class="keywordflow">return</span> <a class="code" href="classCardWindow.htm#ace38fd1a498d7ddfd7378183b9c094f6">m_splashBackgroundName</a>;
-<a name="l00144"></a>00144     }
-<a name="l00145"></a>00145 
-<a name="l00146"></a><a class="code" href="classCardWindow.htm#ac68a856b7d6109e4b151d2d5426edf3e">00146</a>         <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#ac68a856b7d6109e4b151d2d5426edf3e">setLaunchInNewGroup</a>(<span class="keywordtype">bool</span> <a class="code" href="classCardWindow.htm#ae619d2192971882b20ed2c6709600f68">launchInNewGroup</a>) {
-<a name="l00147"></a>00147                 <a class="code" href="classCardWindow.htm#a36482c92a50c5d552d2a5e536093d9c4">m_launchInNewGroup</a> = <a class="code" href="classCardWindow.htm#ae619d2192971882b20ed2c6709600f68">launchInNewGroup</a>;
-<a name="l00148"></a>00148         }
-<a name="l00149"></a>00149 
-<a name="l00150"></a><a class="code" href="classCardWindow.htm#ae619d2192971882b20ed2c6709600f68">00150</a>         <span class="keywordtype">bool</span> <a class="code" href="classCardWindow.htm#ae619d2192971882b20ed2c6709600f68">launchInNewGroup</a>() {
-<a name="l00151"></a>00151                 <span class="keywordflow">return</span> <a class="code" href="classCardWindow.htm#a36482c92a50c5d552d2a5e536093d9c4">m_launchInNewGroup</a>;
-<a name="l00152"></a>00152         }
-<a name="l00153"></a>00153 
-<a name="l00154"></a>00154         <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#a44e31e24f9f62f0965224395e1d56e70">setPaintCompositionMode</a>(QPainter::CompositionMode mode);
-<a name="l00155"></a><a class="code" href="classCardWindow.htm#a154edac0af3db4b80629e3e4580e0c46">00155</a>         QPainterPath <a class="code" href="classCardWindow.htm#a154edac0af3db4b80629e3e4580e0c46">paintPath</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> <a class="code" href="classCardWindow.htm#adcdc2ea4a6d10a47cb5ef4e4ec5f0474">m_paintPath</a>; }
+<a name="l00119"></a><a class="code" href="classCardWindow.htm#a8901f7c4635ff7ef48551b81759399aa">00119</a>         <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#a8901f7c4635ff7ef48551b81759399aa">displayOff</a>() {}
+<a name="l00120"></a><a class="code" href="classCardWindow.htm#a7b2123ac3cdc8b3f6fa092e3a0e28859">00120</a>         <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#a7b2123ac3cdc8b3f6fa092e3a0e28859">displayDimmed</a>() {}
+<a name="l00121"></a>00121 
+<a name="l00122"></a><a class="code" href="classCardWindow.htm#a502a3854c00f6934871c6bc4c11322a0">00122</a>         <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code" href="classCardWindow.htm#a502a3854c00f6934871c6bc4c11322a0">isHost</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> <span class="keyword">false</span>; }
+<a name="l00123"></a><a class="code" href="classCardWindow.htm#a6e60d4970a8e6da1df1ed37d7e871128">00123</a>         <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code" href="classCardWindow.htm#a6e60d4970a8e6da1df1ed37d7e871128">supportsPause</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> <span class="keyword">false</span>; }
+<a name="l00124"></a><a class="code" href="classCardWindow.htm#a1c1f69bc29104d33ddc24101816596dc">00124</a>         <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#a1c1f69bc29104d33ddc24101816596dc">pause</a>() {}
+<a name="l00125"></a>00125         
+<a name="l00126"></a>00126         <span class="keywordtype">bool</span> <a class="code" href="classCardWindow.htm#a0a04a27f0a8d2dca555e60d3dae421f7">delayPrepare</a>();
+<a name="l00127"></a>00127         <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#a49e2b9c10f7713583dbe1d5eef2b7cd6">stopLoadingOverlay</a>();
+<a name="l00128"></a>00128 
+<a name="l00129"></a>00129         <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#ae7179addb0c8febb61190308b29da345">setModalParent</a>(<a class="code" href="classCardWindow.htm">CardWindow</a>* parent);
+<a name="l00130"></a><a class="code" href="classCardWindow.htm#a04e23fce794ec9416aea9830476a2caf">00130</a>         <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#a04e23fce794ec9416aea9830476a2caf">setCardIsModalParent</a>(<span class="keywordtype">bool</span> isParent) { <a class="code" href="classCardWindow.htm#a0e9f51b7c3d5fbe00129450c2e4c2d69">m_isCardModalParent</a> = isParent;}
+<a name="l00131"></a><a class="code" href="classCardWindow.htm#a613ca3d295eb89f8ae188df3ce1ac0d3">00131</a>         <span class="keywordtype">bool</span> <a class="code" href="classCardWindow.htm#a613ca3d295eb89f8ae188df3ce1ac0d3">isCardModalParent</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> <a class="code" href="classCardWindow.htm#a0e9f51b7c3d5fbe00129450c2e4c2d69">m_isCardModalParent</a>; }
+<a name="l00132"></a>00132 
+<a name="l00133"></a><a class="code" href="classCardWindow.htm#afd5fa4580a0382be721d635262b8fc5c">00133</a>         <span class="keyword">enum</span> <a class="code" href="classCardWindow.htm#afd5fa4580a0382be721d635262b8fc5c">ModalAcceptInputState</a> {
+<a name="l00134"></a><a class="code" href="classCardWindow.htm#afd5fa4580a0382be721d635262b8fc5ca0070e9de692a259baae97e11b7a6c26a">00134</a>                 <a class="code" href="classCardWindow.htm#afd5fa4580a0382be721d635262b8fc5ca0070e9de692a259baae97e11b7a6c26a">NoModalWindow</a> = 0,
+<a name="l00135"></a><a class="code" href="classCardWindow.htm#afd5fa4580a0382be721d635262b8fc5cac46bd4b2b0e9879b743a5929265dc894">00135</a>                 <a class="code" href="classCardWindow.htm#afd5fa4580a0382be721d635262b8fc5cac46bd4b2b0e9879b743a5929265dc894">ModalLaunchedNotAcceptingInput</a>,
+<a name="l00136"></a><a class="code" href="classCardWindow.htm#afd5fa4580a0382be721d635262b8fc5ca513e28dc0aaff669525c8f221dfd45ef">00136</a>                 <a class="code" href="classCardWindow.htm#afd5fa4580a0382be721d635262b8fc5ca513e28dc0aaff669525c8f221dfd45ef">ModalLaunchedAcceptingInput</a>
+<a name="l00137"></a>00137         };
+<a name="l00138"></a>00138 
+<a name="l00139"></a><a class="code" href="classCardWindow.htm#ab39ed110d339d4ec967ef9e680b15f69">00139</a>         <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#ab39ed110d339d4ec967ef9e680b15f69">setModalAcceptInputState</a>(<a class="code" href="classCardWindow.htm#afd5fa4580a0382be721d635262b8fc5c">ModalAcceptInputState</a> state) { <a class="code" href="classCardWindow.htm#a5ee000bc0c90b5ecfea8a6b05fec27ca">m_modalAcceptInputState</a> = state;}
+<a name="l00140"></a>00140         <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#ab2852fa5b9e258a6f0e2625347ddb3d9">setModalChild</a>(<a class="code" href="classCardWindow.htm">CardWindow</a>* w);
+<a name="l00141"></a><a class="code" href="classCardWindow.htm#a17589a9be71485cc4951aa4df5f412ae">00141</a>         <a class="code" href="classCardWindow.htm">CardWindow</a>* <a class="code" href="classCardWindow.htm#a17589a9be71485cc4951aa4df5f412ae">getModalChild</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> m_modalChild; }
+<a name="l00142"></a>00142 
+<a name="l00143"></a>00143         <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#a91ef87d2ac01dbaac1d6d0e75e4f5e77">setAppLaunchOptions</a>(<span class="keyword">const</span> AppLaunchOptionsEventWrapper&amp; options);
+<a name="l00144"></a>00144 
+<a name="l00145"></a><a class="code" href="classCardWindow.htm#a4abd89e8cec25b4e8ffb53cca79d0a4c">00145</a>         <span class="keyword">const</span> std::string &amp;<a class="code" href="classCardWindow.htm#a4abd89e8cec25b4e8ffb53cca79d0a4c">splashBackgroundName</a>()<span class="keyword"> const </span>{
+<a name="l00146"></a>00146         <span class="keywordflow">return</span> <a class="code" href="classCardWindow.htm#ace38fd1a498d7ddfd7378183b9c094f6">m_splashBackgroundName</a>;
+<a name="l00147"></a>00147     }
+<a name="l00148"></a>00148 
+<a name="l00149"></a><a class="code" href="classCardWindow.htm#ac68a856b7d6109e4b151d2d5426edf3e">00149</a>         <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#ac68a856b7d6109e4b151d2d5426edf3e">setLaunchInNewGroup</a>(<span class="keywordtype">bool</span> <a class="code" href="classCardWindow.htm#ae619d2192971882b20ed2c6709600f68">launchInNewGroup</a>) {
+<a name="l00150"></a>00150                 <a class="code" href="classCardWindow.htm#a36482c92a50c5d552d2a5e536093d9c4">m_launchInNewGroup</a> = <a class="code" href="classCardWindow.htm#ae619d2192971882b20ed2c6709600f68">launchInNewGroup</a>;
+<a name="l00151"></a>00151         }
+<a name="l00152"></a>00152 
+<a name="l00153"></a><a class="code" href="classCardWindow.htm#ae619d2192971882b20ed2c6709600f68">00153</a>         <span class="keywordtype">bool</span> <a class="code" href="classCardWindow.htm#ae619d2192971882b20ed2c6709600f68">launchInNewGroup</a>() {
+<a name="l00154"></a>00154                 <span class="keywordflow">return</span> <a class="code" href="classCardWindow.htm#a36482c92a50c5d552d2a5e536093d9c4">m_launchInNewGroup</a>;
+<a name="l00155"></a>00155         }
 <a name="l00156"></a>00156 
-<a name="l00157"></a><a class="code" href="structCardWindow_1_1Position.htm">00157</a>         <span class="keyword">struct </span><a class="code" href="structCardWindow_1_1Position.htm">Position</a> {
-<a name="l00158"></a><a class="code" href="structCardWindow_1_1Position.htm#a29e0975b94431cad206737585ab27f03">00158</a>                 QVector3D <a class="code" href="structCardWindow_1_1Position.htm#a29e0975b94431cad206737585ab27f03">trans</a>;
-<a name="l00159"></a><a class="code" href="structCardWindow_1_1Position.htm#a3a28b70cab87767aa8bad59856fe84cb">00159</a>                 qreal <a class="code" href="structCardWindow_1_1Position.htm#a3a28b70cab87767aa8bad59856fe84cb">zRot</a>;
-<a name="l00160"></a>00160 
-<a name="l00161"></a>00161                 <a class="code" href="structCardWindow_1_1Position.htm#a889857996e983fa7cdf2f03bd641c310">Position</a>();
-<a name="l00162"></a>00162                 <span class="keywordtype">bool</span> <a class="code" href="structCardWindow_1_1Position.htm#ab73357c753ee75c2e6a1aaeba4e482cc">operator ==</a>(<span class="keyword">const</span> <a class="code" href="structCardWindow_1_1Position.htm">Position</a>&amp; other);
-<a name="l00163"></a>00163                 <a class="code" href="structCardWindow_1_1Position.htm">Position</a> <a class="code" href="structCardWindow_1_1Position.htm#aec6cbfe05d682a9ab502d7e6b7bf76e9">operator +</a>(<span class="keyword">const</span> <a class="code" href="structCardWindow_1_1Position.htm">Position</a>&amp; right) <span class="keyword">const</span>;
-<a name="l00164"></a>00164                 <a class="code" href="structCardWindow_1_1Position.htm">Position</a> <a class="code" href="structCardWindow_1_1Position.htm#a0fed08e8ce6f56153cf09aaad0231660">operator -</a>(<span class="keyword">const</span> <a class="code" href="structCardWindow_1_1Position.htm">Position</a>&amp; right) <span class="keyword">const</span>;
-<a name="l00165"></a>00165                 <a class="code" href="structCardWindow_1_1Position.htm">Position</a> <a class="code" href="structCardWindow_1_1Position.htm#a9cde8ae27bc435a414efeed5ea9af927">operator *</a>(qreal right) <span class="keyword">const</span>;
-<a name="l00166"></a>00166 
-<a name="l00167"></a>00167                 QTransform <a class="code" href="structCardWindow_1_1Position.htm#a6ea37c307832286a25fa0559330311bd">toTransform</a>() <span class="keyword">const</span>;
-<a name="l00168"></a>00168         };
+<a name="l00157"></a>00157         <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#a44e31e24f9f62f0965224395e1d56e70">setPaintCompositionMode</a>(QPainter::CompositionMode mode);
+<a name="l00158"></a><a class="code" href="classCardWindow.htm#a154edac0af3db4b80629e3e4580e0c46">00158</a>         QPainterPath <a class="code" href="classCardWindow.htm#a154edac0af3db4b80629e3e4580e0c46">paintPath</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> <a class="code" href="classCardWindow.htm#adcdc2ea4a6d10a47cb5ef4e4ec5f0474">m_paintPath</a>; }
+<a name="l00159"></a>00159 
+<a name="l00160"></a><a class="code" href="structCardWindow_1_1Position.htm">00160</a>         <span class="keyword">struct </span><a class="code" href="structCardWindow_1_1Position.htm">Position</a> {
+<a name="l00161"></a><a class="code" href="structCardWindow_1_1Position.htm#a29e0975b94431cad206737585ab27f03">00161</a>                 QVector3D <a class="code" href="structCardWindow_1_1Position.htm#a29e0975b94431cad206737585ab27f03">trans</a>;
+<a name="l00162"></a><a class="code" href="structCardWindow_1_1Position.htm#a3a28b70cab87767aa8bad59856fe84cb">00162</a>                 qreal <a class="code" href="structCardWindow_1_1Position.htm#a3a28b70cab87767aa8bad59856fe84cb">zRot</a>;
+<a name="l00163"></a>00163 
+<a name="l00164"></a>00164                 <a class="code" href="structCardWindow_1_1Position.htm#a889857996e983fa7cdf2f03bd641c310">Position</a>();
+<a name="l00165"></a>00165                 <span class="keywordtype">bool</span> <a class="code" href="structCardWindow_1_1Position.htm#ab73357c753ee75c2e6a1aaeba4e482cc">operator ==</a>(<span class="keyword">const</span> <a class="code" href="structCardWindow_1_1Position.htm">Position</a>&amp; other);
+<a name="l00166"></a>00166                 <a class="code" href="structCardWindow_1_1Position.htm">Position</a> <a class="code" href="structCardWindow_1_1Position.htm#aec6cbfe05d682a9ab502d7e6b7bf76e9">operator +</a>(<span class="keyword">const</span> <a class="code" href="structCardWindow_1_1Position.htm">Position</a>&amp; right) <span class="keyword">const</span>;
+<a name="l00167"></a>00167                 <a class="code" href="structCardWindow_1_1Position.htm">Position</a> <a class="code" href="structCardWindow_1_1Position.htm#a0fed08e8ce6f56153cf09aaad0231660">operator -</a>(<span class="keyword">const</span> <a class="code" href="structCardWindow_1_1Position.htm">Position</a>&amp; right) <span class="keyword">const</span>;
+<a name="l00168"></a>00168                 <a class="code" href="structCardWindow_1_1Position.htm">Position</a> <a class="code" href="structCardWindow_1_1Position.htm#a9cde8ae27bc435a414efeed5ea9af927">operator *</a>(qreal right) <span class="keyword">const</span>;
 <a name="l00169"></a>00169 
-<a name="l00170"></a><a class="code" href="classCardWindow.htm#a901aabf335c92a85a648160ca19b2db4">00170</a>         <a class="code" href="structCardWindow_1_1Position.htm">CardWindow::Position</a> <a class="code" href="classCardWindow.htm#a901aabf335c92a85a648160ca19b2db4">position</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> <a class="code" href="classCardWindow.htm#a7a5ef01dfeba67eb1e5353772b169dbb">m_position</a>; }
-<a name="l00171"></a>00171     <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#a8db8f035028c79901291748eec0496c7">setPosition</a>(<span class="keyword">const</span> <a class="code" href="structCardWindow_1_1Position.htm">CardWindow::Position</a>&amp; pos);
+<a name="l00170"></a>00170                 QTransform <a class="code" href="structCardWindow_1_1Position.htm#a6ea37c307832286a25fa0559330311bd">toTransform</a>() <span class="keyword">const</span>;
+<a name="l00171"></a>00171         };
 <a name="l00172"></a>00172 
-<a name="l00173"></a>00173         <a class="code" href="classCardGroup.htm">CardGroup</a>* <a class="code" href="classCardWindow.htm#ac1cf024e704331b118cf87c9f54cd530">cardGroup</a>() <span class="keyword">const</span>;
-<a name="l00174"></a>00174         <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#abb3262dbd56cdd09defe051e02715c6f">setCardGroup</a>(<a class="code" href="classCardGroup.htm">CardGroup</a>* group);
+<a name="l00173"></a><a class="code" href="classCardWindow.htm#a901aabf335c92a85a648160ca19b2db4">00173</a>         <a class="code" href="structCardWindow_1_1Position.htm">CardWindow::Position</a> <a class="code" href="classCardWindow.htm#a901aabf335c92a85a648160ca19b2db4">position</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> <a class="code" href="classCardWindow.htm#a7a5ef01dfeba67eb1e5353772b169dbb">m_position</a>; }
+<a name="l00174"></a>00174     <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#a8db8f035028c79901291748eec0496c7">setPosition</a>(<span class="keyword">const</span> <a class="code" href="structCardWindow_1_1Position.htm">CardWindow::Position</a>&amp; pos);
 <a name="l00175"></a>00175 
-<a name="l00176"></a>00176         <span class="comment">// an attached CardWindow will cause CardGroup x/y changes</span>
-<a name="l00177"></a>00177         <span class="comment">// to effect the x/y pos of the window</span>
-<a name="l00178"></a>00178         <span class="keywordtype">bool</span> <a class="code" href="classCardWindow.htm#a8cbd7c71f3155b53bf3be5b377a96b72">attachedToGroup</a>() <span class="keyword">const</span>;
-<a name="l00179"></a>00179         <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#a5153e709adee61ebc050543b261ce4d7">setAttachedToGroup</a>(<span class="keywordtype">bool</span> attached);
-<a name="l00180"></a>00180 
-<a name="l00181"></a>00181         <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#a0b560abfc011f2614cf688921c7907fb">setMaximized</a>(<span class="keywordtype">bool</span> enable);
-<a name="l00182"></a><a class="code" href="classCardWindow.htm#ad86342595da02e5dbd160de4ab619a2c">00182</a>         <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code" href="classCardWindow.htm#ad86342595da02e5dbd160de4ab619a2c">isMaximized</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> <a class="code" href="classCardWindow.htm#ac0d8a2f94449908f2d7583e8c4c94ab2">m_maximized</a>; }
+<a name="l00176"></a>00176         <a class="code" href="classCardGroup.htm">CardGroup</a>* <a class="code" href="classCardWindow.htm#ac1cf024e704331b118cf87c9f54cd530">cardGroup</a>() <span class="keyword">const</span>;
+<a name="l00177"></a>00177         <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#abb3262dbd56cdd09defe051e02715c6f">setCardGroup</a>(<a class="code" href="classCardGroup.htm">CardGroup</a>* group);
+<a name="l00178"></a>00178 
+<a name="l00179"></a>00179         <span class="comment">// an attached CardWindow will cause CardGroup x/y changes</span>
+<a name="l00180"></a>00180         <span class="comment">// to effect the x/y pos of the window</span>
+<a name="l00181"></a>00181         <span class="keywordtype">bool</span> <a class="code" href="classCardWindow.htm#a8cbd7c71f3155b53bf3be5b377a96b72">attachedToGroup</a>() <span class="keyword">const</span>;
+<a name="l00182"></a>00182         <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#a5153e709adee61ebc050543b261ce4d7">setAttachedToGroup</a>(<span class="keywordtype">bool</span> attached);
 <a name="l00183"></a>00183 
-<a name="l00184"></a>00184         <span class="comment">// This are called only when Card is maximized</span>
-<a name="l00185"></a>00185         <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#ac35c2b7fc4710e9e72886b3611c49b06">positiveSpaceAboutToChange</a>(<span class="keyword">const</span> QRect&amp; r, <span class="keywordtype">bool</span> <a class="code" href="classCardWindow.htm#afc6b56b0ac6172c2bb8ee939036f7ce3">fullScreen</a>);
-<a name="l00186"></a>00186         <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#a2a28eaea6c17544cde9aec81c7984285">positiveSpaceChanged</a>(<span class="keyword">const</span> QRect&amp; r);
-<a name="l00187"></a>00187         <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#a0611128470b26946be9cd8d79ef5edbe">positiveSpaceChangeFinished</a>(<span class="keyword">const</span> QRect&amp; r);
-<a name="l00188"></a>00188 
-<a name="l00189"></a>00189     <span class="comment">//cheats for telling the loading section that it is infact, big, if you fix this the right way, please remove</span>
-<a name="l00190"></a>00190     <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#a0747d90759aa2e75d5003e22096be8bb">setMaxAndLoading</a>(<span class="keywordtype">bool</span> enable);
-<a name="l00191"></a><a class="code" href="classCardWindow.htm#acc9e51c5572dbeb1ae711254238fba54">00191</a>     <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code" href="classCardWindow.htm#acc9e51c5572dbeb1ae711254238fba54">isMaxAndLoading</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> <a class="code" href="classCardWindow.htm#a29b0e7ecfe875f6dac373532d3606dda">m_maxAndLoading</a>; }
-<a name="l00192"></a>00192 
-<a name="l00193"></a><a class="code" href="classCardWindow.htm#a71dd2bc1b02359f905109295c72fe2ec">00193</a>         <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#a71dd2bc1b02359f905109295c72fe2ec">setBoundingRect</a>(<span class="keywordtype">int</span> width, <span class="keywordtype">int</span> height) {
-<a name="l00194"></a>00194 
-<a name="l00195"></a>00195                 <span class="keywordtype">int</span> visibleWidth = width;
-<a name="l00196"></a>00196                 <span class="keywordtype">int</span> visibleHeight = height;
-<a name="l00197"></a>00197 
-<a name="l00198"></a>00198                 <span class="keywordflow">if</span>(<a class="code" href="classWindow.htm#a2adde5fe4ec473d84005315b0b8f3bff">type</a>() != <a class="code" href="classWindow.htm#ad1e881db9a42ec6c27e7e4978912534dac3c4324c8581122357f850739f065ca8">Window::Type_ModalChildWindowCard</a>) {
-<a name="l00199"></a>00199                         <a class="code" href="classCardWindow.htm#a587dce72dee5f1902ccf52b7b241e943">m_boundingRect</a>.setRect(-width/2, -height/2, width, height);
-<a name="l00200"></a>00200                 }
-<a name="l00201"></a>00201                 <span class="keywordflow">else</span> {
-<a name="l00202"></a>00202 
-<a name="l00203"></a>00203                         <span class="comment">// If we have the right width/height ignore</span>
-<a name="l00204"></a>00204                         <span class="keywordflow">if</span>(<a class="code" href="classCardWindow.htm#a993adac2e7a508adcec6a8e9ae716307">boundingRect</a>().width() == visibleWidth &amp;&amp; <a class="code" href="classCardWindow.htm#a993adac2e7a508adcec6a8e9ae716307">boundingRect</a>().height() == visibleHeight)
-<a name="l00205"></a>00205                                 <span class="keywordflow">return</span>;
+<a name="l00184"></a>00184         <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#a0b560abfc011f2614cf688921c7907fb">setMaximized</a>(<span class="keywordtype">bool</span> enable);
+<a name="l00185"></a><a class="code" href="classCardWindow.htm#ad86342595da02e5dbd160de4ab619a2c">00185</a>         <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code" href="classCardWindow.htm#ad86342595da02e5dbd160de4ab619a2c">isMaximized</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> <a class="code" href="classCardWindow.htm#ac0d8a2f94449908f2d7583e8c4c94ab2">m_maximized</a>; }
+<a name="l00186"></a>00186 
+<a name="l00187"></a>00187         <span class="comment">// This are called only when Card is maximized</span>
+<a name="l00188"></a>00188         <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#ac35c2b7fc4710e9e72886b3611c49b06">positiveSpaceAboutToChange</a>(<span class="keyword">const</span> QRect&amp; r, <span class="keywordtype">bool</span> <a class="code" href="classCardWindow.htm#afc6b56b0ac6172c2bb8ee939036f7ce3">fullScreen</a>);
+<a name="l00189"></a>00189         <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#a2a28eaea6c17544cde9aec81c7984285">positiveSpaceChanged</a>(<span class="keyword">const</span> QRect&amp; r);
+<a name="l00190"></a>00190         <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#a0611128470b26946be9cd8d79ef5edbe">positiveSpaceChangeFinished</a>(<span class="keyword">const</span> QRect&amp; r);
+<a name="l00191"></a>00191 
+<a name="l00192"></a>00192     <span class="comment">//cheats for telling the loading section that it is infact, big, if you fix this the right way, please remove</span>
+<a name="l00193"></a>00193     <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#a0747d90759aa2e75d5003e22096be8bb">setMaxAndLoading</a>(<span class="keywordtype">bool</span> enable);
+<a name="l00194"></a><a class="code" href="classCardWindow.htm#acc9e51c5572dbeb1ae711254238fba54">00194</a>     <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code" href="classCardWindow.htm#acc9e51c5572dbeb1ae711254238fba54">isMaxAndLoading</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> <a class="code" href="classCardWindow.htm#a29b0e7ecfe875f6dac373532d3606dda">m_maxAndLoading</a>; }
+<a name="l00195"></a>00195 
+<a name="l00196"></a><a class="code" href="classCardWindow.htm#a457c0f7b52f92e6f506f142940a64304">00196</a>         QRectF <a class="code" href="classCardWindow.htm#a457c0f7b52f92e6f506f142940a64304">boundingRect</a>() { <span class="keywordflow">return</span> <a class="code" href="classCardWindow.htm#a587dce72dee5f1902ccf52b7b241e943">m_boundingRect</a>; }
+<a name="l00197"></a><a class="code" href="classCardWindow.htm#a71dd2bc1b02359f905109295c72fe2ec">00197</a>         <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#a71dd2bc1b02359f905109295c72fe2ec">setBoundingRect</a>(<span class="keywordtype">int</span> width, <span class="keywordtype">int</span> height) {
+<a name="l00198"></a>00198 
+<a name="l00199"></a>00199                 <span class="keywordtype">int</span> visibleWidth = width;
+<a name="l00200"></a>00200                 <span class="keywordtype">int</span> visibleHeight = height;
+<a name="l00201"></a>00201 
+<a name="l00202"></a>00202                 <span class="keywordflow">if</span>(<a class="code" href="classWindow.htm#a2adde5fe4ec473d84005315b0b8f3bff">type</a>() != <a class="code" href="classWindow.htm#ad1e881db9a42ec6c27e7e4978912534dac3c4324c8581122357f850739f065ca8">Window::Type_ModalChildWindowCard</a>) {
+<a name="l00203"></a>00203                         <a class="code" href="classCardWindow.htm#a587dce72dee5f1902ccf52b7b241e943">m_boundingRect</a>.setRect(-width/2, -height/2, width, height);
+<a name="l00204"></a>00204                 }
+<a name="l00205"></a>00205                 <span class="keywordflow">else</span> {
 <a name="l00206"></a>00206 
-<a name="l00207"></a>00207                         qreal curY = <a class="code" href="classCardWindow.htm#a993adac2e7a508adcec6a8e9ae716307">boundingRect</a>().y();
-<a name="l00208"></a>00208                         <span class="comment">//g_debug(&quot;__BEFORE KARTHIK CardWindow::setBoundingRect w: %d h: %d x: %f y: %f w: %f h: %f rotating: %d&quot;, width, height, boundingRect().x(), boundingRect().y(), boundingRect().width(), boundingRect().height(), SystemUiController::instance()-&gt;isUiRotating());</span>
-<a name="l00209"></a>00209                         <a class="code" href="classCardWindow.htm#a587dce72dee5f1902ccf52b7b241e943">m_boundingRect</a>.setRect(-width/2, curY, width, height);
-<a name="l00210"></a>00210                         <span class="comment">//g_debug(&quot;__AFTER KARTHIK CardWindow::setBoundingRect w: %d h: %d x: %f y: %f w: %f h: %f rotating: %d&quot;, width, height, boundingRect().x(), boundingRect().y(), boundingRect().width(), boundingRect().height(), SystemUiController::instance()-&gt;isUiRotating());</span>
-<a name="l00211"></a>00211                 }
-<a name="l00212"></a>00212 
-<a name="l00213"></a>00213                 <a class="code" href="classCardWindow.htm#a88ed88af36d2eba54769eb9d6578343b">setVisibleDimensions</a>(visibleWidth, visibleHeight);
-<a name="l00214"></a>00214         }
-<a name="l00215"></a>00215 
-<a name="l00216"></a>00216         <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#a2452175ef4c5a16dfa4f24706741cc2f">computeModalWindowPlacementInf</a>(<span class="keywordtype">int</span> newPosSpace);
-<a name="l00217"></a>00217         <span class="keyword">virtual</span> QRectF <a class="code" href="classCardWindow.htm#a676cfb1a8cec7827a72da7ceb8be55c8">transitionBoundingRect</a>();
-<a name="l00218"></a>00218 
-<a name="l00219"></a>00219     <a class="code" href="classGhostCard.htm">GhostCard</a>* <a class="code" href="classCardWindow.htm#a2ba3359f027925f4fdd64f2e46b60ed6">createGhost</a>();
-<a name="l00220"></a>00220 
-<a name="l00221"></a>00221         <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#acd931fd22803dd4f33c9527a861c76d1">allowUpdates</a>(<span class="keywordtype">bool</span> allow);
+<a name="l00207"></a>00207                         <span class="comment">// If we have the right width/height ignore</span>
+<a name="l00208"></a>00208                         <span class="keywordflow">if</span>(<a class="code" href="classCardWindow.htm#a993adac2e7a508adcec6a8e9ae716307">boundingRect</a>().width() == visibleWidth &amp;&amp; <a class="code" href="classCardWindow.htm#a993adac2e7a508adcec6a8e9ae716307">boundingRect</a>().height() == visibleHeight)
+<a name="l00209"></a>00209                                 <span class="keywordflow">return</span>;
+<a name="l00210"></a>00210 
+<a name="l00211"></a>00211                         qreal curY = <a class="code" href="classCardWindow.htm#a993adac2e7a508adcec6a8e9ae716307">boundingRect</a>().y();
+<a name="l00212"></a>00212                         <span class="comment">//g_debug(&quot;__BEFORE KARTHIK CardWindow::setBoundingRect w: %d h: %d x: %f y: %f w: %f h: %f rotating: %d&quot;, width, height, boundingRect().x(), boundingRect().y(), boundingRect().width(), boundingRect().height(), SystemUiController::instance()-&gt;isUiRotating());</span>
+<a name="l00213"></a>00213                         <a class="code" href="classCardWindow.htm#a587dce72dee5f1902ccf52b7b241e943">m_boundingRect</a>.setRect(-width/2, curY, width, height);
+<a name="l00214"></a>00214                         <span class="comment">//g_debug(&quot;__AFTER KARTHIK CardWindow::setBoundingRect w: %d h: %d x: %f y: %f w: %f h: %f rotating: %d&quot;, width, height, boundingRect().x(), boundingRect().y(), boundingRect().width(), boundingRect().height(), SystemUiController::instance()-&gt;isUiRotating());</span>
+<a name="l00215"></a>00215                 }
+<a name="l00216"></a>00216 
+<a name="l00217"></a>00217                 <a class="code" href="classCardWindow.htm#a88ed88af36d2eba54769eb9d6578343b">setVisibleDimensions</a>(visibleWidth, visibleHeight);
+<a name="l00218"></a>00218         }
+<a name="l00219"></a>00219 
+<a name="l00220"></a>00220         <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#a2452175ef4c5a16dfa4f24706741cc2f">computeModalWindowPlacementInf</a>(<span class="keywordtype">int</span> newPosSpace);
+<a name="l00221"></a>00221         <span class="keyword">virtual</span> QRectF <a class="code" href="classCardWindow.htm#a676cfb1a8cec7827a72da7ceb8be55c8">transitionBoundingRect</a>();
 <a name="l00222"></a>00222 
-<a name="l00223"></a>00223     <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#aa61a8e01c8c6b101b191268c40b342d5">setDimm</a>(<span class="keywordtype">bool</span> dimm);
-<a name="l00224"></a><a class="code" href="classCardWindow.htm#aa9fe49501f528fc746326f803225bf7a">00224</a>     <span class="keywordtype">float</span> <a class="code" href="classCardWindow.htm#aa9fe49501f528fc746326f803225bf7a">dimming</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> <a class="code" href="classCardWindow.htm#abd877867d3ce041286bbb60d38ac1ddf">m_dimming</a>; }
-<a name="l00225"></a><a class="code" href="classCardWindow.htm#ab3e12851df8677e837b2ef9ffcee0fe5">00225</a>     <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#ab3e12851df8677e837b2ef9ffcee0fe5">setDimming</a>(<span class="keywordtype">float</span> <a class="code" href="classCardWindow.htm#aa9fe49501f528fc746326f803225bf7a">dimming</a>) { <a class="code" href="classCardWindow.htm#abd877867d3ce041286bbb60d38ac1ddf">m_dimming</a> = <a class="code" href="classCardWindow.htm#aa9fe49501f528fc746326f803225bf7a">dimming</a>; update(); }
+<a name="l00223"></a>00223     <a class="code" href="classGhostCard.htm">GhostCard</a>* <a class="code" href="classCardWindow.htm#a2ba3359f027925f4fdd64f2e46b60ed6">createGhost</a>();
+<a name="l00224"></a>00224 
+<a name="l00225"></a>00225         <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#acd931fd22803dd4f33c9527a861c76d1">allowUpdates</a>(<span class="keywordtype">bool</span> allow);
 <a name="l00226"></a>00226 
-<a name="l00227"></a>00227 <span class="keyword">protected</span> Q_SLOTS:
-<a name="l00228"></a>00228 
-<a name="l00229"></a>00229         <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#a83da06eb773c88e32b4833d01b05ab7f">slotLoadingFinished</a>();
-<a name="l00230"></a>00230         <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#a9049a579f37c27a32168d0b2a24d7aff">slotDisplayStateChanged</a>(<span class="keywordtype">int</span> state);
-<a name="l00231"></a>00231         <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#a9122fb8c9864dc9ba4cbfb495c4dda30">slotUiRotated</a>();
+<a name="l00227"></a>00227     <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#aa61a8e01c8c6b101b191268c40b342d5">setDimm</a>(<span class="keywordtype">bool</span> dimm);
+<a name="l00228"></a><a class="code" href="classCardWindow.htm#aa9fe49501f528fc746326f803225bf7a">00228</a>     <span class="keywordtype">float</span> <a class="code" href="classCardWindow.htm#aa9fe49501f528fc746326f803225bf7a">dimming</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> <a class="code" href="classCardWindow.htm#abd877867d3ce041286bbb60d38ac1ddf">m_dimming</a>; }
+<a name="l00229"></a><a class="code" href="classCardWindow.htm#ab3e12851df8677e837b2ef9ffcee0fe5">00229</a>     <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#ab3e12851df8677e837b2ef9ffcee0fe5">setDimming</a>(<span class="keywordtype">float</span> <a class="code" href="classCardWindow.htm#aa9fe49501f528fc746326f803225bf7a">dimming</a>) { <a class="code" href="classCardWindow.htm#abd877867d3ce041286bbb60d38ac1ddf">m_dimming</a> = <a class="code" href="classCardWindow.htm#aa9fe49501f528fc746326f803225bf7a">dimming</a>; update(); }
+<a name="l00230"></a>00230 
+<a name="l00231"></a>00231 <span class="keyword">protected</span> Q_SLOTS:
 <a name="l00232"></a>00232 
-<a name="l00233"></a>00233         <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#a7f399b26ced62c1306f68cdbc50244a1">slotShowIME</a>();
-<a name="l00234"></a>00234         <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#ad8730ac4b2373af29d2671bb61724284">slotHideIME</a>();
-<a name="l00235"></a>00235 
-<a name="l00236"></a>00236 <span class="keyword">protected</span>:
-<a name="l00237"></a>00237 
-<a name="l00238"></a>00238         <a class="code" href="classCardWindow.htm#a03d4b977aac3fd22bee05b808e01e9d7">CardWindow</a>(<a class="code" href="classWindow.htm#ad1e881db9a42ec6c27e7e4978912534d">Window::Type</a> <a class="code" href="classWindow.htm#a2adde5fe4ec473d84005315b0b8f3bff">type</a>, <span class="keyword">const</span> QPixmap&amp; pixmap);
-<a name="l00239"></a>00239     <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#ae51455e8727df5d9e679938cdb019dd4">init</a>();
-<a name="l00240"></a>00240         
-<a name="l00241"></a>00241         <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#a88ed88af36d2eba54769eb9d6578343b">setVisibleDimensions</a>(<span class="keywordtype">int</span> width, <span class="keywordtype">int</span> height);
-<a name="l00242"></a>00242 
-<a name="l00243"></a>00243         <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#a6bbbec7f083bb31fd7f327bddd2a8af2">paint</a>(QPainter* painter, <span class="keyword">const</span> QStyleOptionGraphicsItem* option, <a class="code" href="classQWidget.htm">QWidget</a>* widget);
-<a name="l00244"></a>00244 
-<a name="l00245"></a>00245         <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#a7b3e80a405373cd416cbbcad5e4d8f82">paintBase</a>(QPainter* painter, <span class="keywordtype">bool</span> maximized);
-<a name="l00246"></a><a class="code" href="classCardWindow.htm#a0a4dfe5bccc6844894efa92ddf8d0f68">00246</a>         <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#a0a4dfe5bccc6844894efa92ddf8d0f68">paintOverlay</a>(QPainter* painter, <span class="keywordtype">bool</span> maximized) {}
-<a name="l00247"></a>00247 
-<a name="l00248"></a>00248         <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#a26a3b2116203aee258ef80b320c6b912">keyPressEvent</a>(QKeyEvent* event);
-<a name="l00249"></a>00249         <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#ab767a9e6c8194759bc2a5e563977b5b3">keyReleaseEvent</a>(QKeyEvent* event);
-<a name="l00250"></a>00250 
-<a name="l00251"></a>00251         <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code" href="classCardWindow.htm#a4e62cb721052edd9f52b1a8cc50f25c3">sceneEvent</a>(<a class="code" href="classQEvent.htm">QEvent</a>* event);
-<a name="l00252"></a>00252         <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code" href="classCardWindow.htm#aaf268b58f48102df4cc216b123f02f34">touchEvent</a>(QTouchEvent* event);
-<a name="l00253"></a>00253 
-<a name="l00254"></a>00254         <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#ad725cb0e55f19bc02faba2a374bc78e7">mousePressEvent</a>(QGraphicsSceneMouseEvent* event);
-<a name="l00255"></a>00255         <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#a59a0dda20bf0360ce8d6fa8adcaad8c9">mouseDoubleClickEvent</a>(QGraphicsSceneMouseEvent* event);
-<a name="l00256"></a>00256         <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#a6e570f1fb7c479ed3d17c57c49b95c7a">mouseMoveEvent</a>(QGraphicsSceneMouseEvent* event);
-<a name="l00257"></a>00257         <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#a4d0cb3c81fc1ad19824d8bb12fa5c21b">mouseReleaseEvent</a>(QGraphicsSceneMouseEvent* event);
-<a name="l00258"></a>00258 
-<a name="l00259"></a>00259         <span class="keywordtype">bool</span> <a class="code" href="classCardWindow.htm#a1ff01d0175d69ec7b5c4fd2cae100068">mouseFlickEvent</a>(QGestureEvent* event);
-<a name="l00260"></a>00260         <span class="keywordtype">bool</span> <a class="code" href="classCardWindow.htm#a53d3e8b96c0e69e8044687f5ce9d09de">pinchEvent</a>(QGestureEvent* event);
-<a name="l00261"></a>00261         <span class="keywordtype">bool</span> <a class="code" href="classCardWindow.htm#a6bfcdc0215bb793645927f2c6777d067">mouseSingleClickEvent</a>(QGestureEvent* singleClick);
-<a name="l00262"></a>00262         <span class="keywordtype">bool</span> <a class="code" href="classCardWindow.htm#a9f0362932276ee489dfb3b1b77c9dd6f">coversScreenFully</a>() <span class="keyword">const</span>;
-<a name="l00263"></a>00263         <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#a1a5ccc2291c1b0b7ffe8f4703a04432f">enableFullScreen</a>();
-<a name="l00264"></a>00264         <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#a018d5715016c826e18c1a576774fb327">disableFullScreen</a>();
-<a name="l00265"></a>00265         <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#a95d936ebc11f821929c3a2618e43984d">fullScreenEnabled</a>(<span class="keywordtype">bool</span> val);
-<a name="l00266"></a>00266         <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#a9ee5498c089ece9a178de779ab63afd6">updateDirectRenderingPosition</a>();
-<a name="l00267"></a>00267 
-<a name="l00268"></a>00268         <span class="comment">// loading animation methods</span>
-<a name="l00269"></a>00269         <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#a1c51ce831bd428c027c228c6fc16b993">startLoadingOverlay</a>();
-<a name="l00270"></a>00270         <span class="keywordtype">bool</span> <a class="code" href="classCardWindow.htm#a2de7d1162d64457a7997a4fc42d178d2">loadingAnimTimerTicked</a>();
-<a name="l00271"></a>00271 
-<a name="l00272"></a>00272         <span class="comment">// window timeout methods</span>
-<a name="l00273"></a>00273         <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#a025f74c9be2941bdb5114ab3cf046384">startLoadingTimer</a>(<span class="keywordtype">int</span> duration);
-<a name="l00274"></a>00274         <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#a5a79f70cb80945403d56567edf5769ea">stopLoadingTimer</a>();
-<a name="l00275"></a><a class="code" href="classCardWindow.htm#afd9c2c4626c1d114555c3badbeac7b79">00275</a>         <span class="keywordtype">bool</span> <a class="code" href="classCardWindow.htm#afd9c2c4626c1d114555c3badbeac7b79">hasLoadingTimer</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> <a class="code" href="classCardWindow.htm#a68d894647eed1dd50adf64fe27f8201a">m_loadingTimerId</a> != 0; }
-<a name="l00276"></a>00276         <span class="keyword">static</span> gboolean <a class="code" href="classCardWindow.htm#a4c56aa7bcd429f720f4e8d19128828b8">loadingTimeout</a>(gpointer data);
-<a name="l00277"></a>00277         
-<a name="l00278"></a>00278         <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#a95115bee83bf86edc4c3e6671a8ad667">sceneTransitionPrepare</a>();
-<a name="l00279"></a>00279         <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#a3c35a9aaac146b4d4248a8a88240f9b2">sceneTransitionPrepareCrossApp</a>();
-<a name="l00280"></a>00280         <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#aa1f182a98709056fda093c6cb694eae8">sceneTransitionRun</a>(<span class="keyword">const</span> std::string&amp; transitionName);
-<a name="l00281"></a>00281         <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#add93ef56e905d4b28497181c1dd8fbc7">sceneTransitionCancel</a>();
-<a name="l00282"></a>00282         <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#a26e2f66e1339ad6cc7b674ca9a5f5ecf">onEnableTouchEvents</a>(<span class="keywordtype">bool</span> enableTouchEvents);
-<a name="l00283"></a>00283 
-<a name="l00284"></a>00284         <span class="keywordtype">bool</span> <a class="code" href="classCardWindow.htm#a291ee07d0e5df29396c4b55068b3e824">transitionTimerTicked</a>();
+<a name="l00233"></a>00233         <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#a83da06eb773c88e32b4833d01b05ab7f">slotLoadingFinished</a>();
+<a name="l00234"></a>00234         <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#a9049a579f37c27a32168d0b2a24d7aff">slotDisplayStateChanged</a>(<span class="keywordtype">int</span> state);
+<a name="l00235"></a>00235         <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#a9122fb8c9864dc9ba4cbfb495c4dda30">slotUiRotated</a>();
+<a name="l00236"></a>00236 
+<a name="l00237"></a>00237         <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#a7f399b26ced62c1306f68cdbc50244a1">slotShowIME</a>();
+<a name="l00238"></a>00238         <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#ad8730ac4b2373af29d2671bb61724284">slotHideIME</a>();
+<a name="l00239"></a>00239 
+<a name="l00240"></a>00240 <span class="keyword">protected</span>:
+<a name="l00241"></a>00241 
+<a name="l00242"></a>00242         <a class="code" href="classCardWindow.htm#a03d4b977aac3fd22bee05b808e01e9d7">CardWindow</a>(<a class="code" href="classWindow.htm#ad1e881db9a42ec6c27e7e4978912534d">Window::Type</a> <a class="code" href="classWindow.htm#a2adde5fe4ec473d84005315b0b8f3bff">type</a>, <span class="keyword">const</span> QPixmap&amp; pixmap);
+<a name="l00243"></a>00243     <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#ae51455e8727df5d9e679938cdb019dd4">init</a>();
+<a name="l00244"></a>00244         
+<a name="l00245"></a>00245         <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#a88ed88af36d2eba54769eb9d6578343b">setVisibleDimensions</a>(<span class="keywordtype">int</span> width, <span class="keywordtype">int</span> height);
+<a name="l00246"></a>00246 
+<a name="l00247"></a>00247         <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#a6bbbec7f083bb31fd7f327bddd2a8af2">paint</a>(QPainter* painter, <span class="keyword">const</span> QStyleOptionGraphicsItem* option, <a class="code" href="classQWidget.htm">QWidget</a>* widget);
+<a name="l00248"></a>00248 
+<a name="l00249"></a>00249         <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#a7b3e80a405373cd416cbbcad5e4d8f82">paintBase</a>(QPainter* painter, <span class="keywordtype">bool</span> maximized);
+<a name="l00250"></a><a class="code" href="classCardWindow.htm#a0a4dfe5bccc6844894efa92ddf8d0f68">00250</a>         <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#a0a4dfe5bccc6844894efa92ddf8d0f68">paintOverlay</a>(QPainter* painter, <span class="keywordtype">bool</span> maximized) {}
+<a name="l00251"></a>00251 
+<a name="l00252"></a>00252         <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#a26a3b2116203aee258ef80b320c6b912">keyPressEvent</a>(QKeyEvent* event);
+<a name="l00253"></a>00253         <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#ab767a9e6c8194759bc2a5e563977b5b3">keyReleaseEvent</a>(QKeyEvent* event);
+<a name="l00254"></a>00254 
+<a name="l00255"></a>00255         <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code" href="classCardWindow.htm#a4e62cb721052edd9f52b1a8cc50f25c3">sceneEvent</a>(<a class="code" href="classQEvent.htm">QEvent</a>* event);
+<a name="l00256"></a>00256         <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code" href="classCardWindow.htm#aaf268b58f48102df4cc216b123f02f34">touchEvent</a>(QTouchEvent* event);
+<a name="l00257"></a>00257 
+<a name="l00258"></a>00258         <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#ad725cb0e55f19bc02faba2a374bc78e7">mousePressEvent</a>(QGraphicsSceneMouseEvent* event);
+<a name="l00259"></a>00259         <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#a59a0dda20bf0360ce8d6fa8adcaad8c9">mouseDoubleClickEvent</a>(QGraphicsSceneMouseEvent* event);
+<a name="l00260"></a>00260         <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#a6e570f1fb7c479ed3d17c57c49b95c7a">mouseMoveEvent</a>(QGraphicsSceneMouseEvent* event);
+<a name="l00261"></a>00261         <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#a4d0cb3c81fc1ad19824d8bb12fa5c21b">mouseReleaseEvent</a>(QGraphicsSceneMouseEvent* event);
+<a name="l00262"></a>00262 
+<a name="l00263"></a>00263         <span class="keywordtype">bool</span> <a class="code" href="classCardWindow.htm#a1ff01d0175d69ec7b5c4fd2cae100068">mouseFlickEvent</a>(QGestureEvent* event);
+<a name="l00264"></a>00264         <span class="keywordtype">bool</span> <a class="code" href="classCardWindow.htm#a53d3e8b96c0e69e8044687f5ce9d09de">pinchEvent</a>(QGestureEvent* event);
+<a name="l00265"></a>00265         <span class="keywordtype">bool</span> <a class="code" href="classCardWindow.htm#a6bfcdc0215bb793645927f2c6777d067">mouseSingleClickEvent</a>(QGestureEvent* singleClick);
+<a name="l00266"></a>00266         <span class="keywordtype">bool</span> <a class="code" href="classCardWindow.htm#a9f0362932276ee489dfb3b1b77c9dd6f">coversScreenFully</a>() <span class="keyword">const</span>;
+<a name="l00267"></a>00267         <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#a95d936ebc11f821929c3a2618e43984d">fullScreenEnabled</a>(<span class="keywordtype">bool</span> val);
+<a name="l00268"></a>00268         <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#a9ee5498c089ece9a178de779ab63afd6">updateDirectRenderingPosition</a>();
+<a name="l00269"></a>00269 
+<a name="l00270"></a>00270         <span class="comment">// loading animation methods</span>
+<a name="l00271"></a>00271         <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#a1c51ce831bd428c027c228c6fc16b993">startLoadingOverlay</a>();
+<a name="l00272"></a>00272         <span class="keywordtype">bool</span> <a class="code" href="classCardWindow.htm#a2de7d1162d64457a7997a4fc42d178d2">loadingAnimTimerTicked</a>();
+<a name="l00273"></a>00273 
+<a name="l00274"></a>00274         <span class="comment">// window timeout methods</span>
+<a name="l00275"></a>00275         <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#a025f74c9be2941bdb5114ab3cf046384">startLoadingTimer</a>(<span class="keywordtype">int</span> duration);
+<a name="l00276"></a>00276         <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#a5a79f70cb80945403d56567edf5769ea">stopLoadingTimer</a>();
+<a name="l00277"></a><a class="code" href="classCardWindow.htm#afd9c2c4626c1d114555c3badbeac7b79">00277</a>         <span class="keywordtype">bool</span> <a class="code" href="classCardWindow.htm#afd9c2c4626c1d114555c3badbeac7b79">hasLoadingTimer</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> <a class="code" href="classCardWindow.htm#a68d894647eed1dd50adf64fe27f8201a">m_loadingTimerId</a> != 0; }
+<a name="l00278"></a>00278         <span class="keyword">static</span> gboolean <a class="code" href="classCardWindow.htm#a4c56aa7bcd429f720f4e8d19128828b8">loadingTimeout</a>(gpointer data);
+<a name="l00279"></a>00279         
+<a name="l00280"></a>00280         <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#a95115bee83bf86edc4c3e6671a8ad667">sceneTransitionPrepare</a>();
+<a name="l00281"></a>00281         <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#a3c35a9aaac146b4d4248a8a88240f9b2">sceneTransitionPrepareCrossApp</a>();
+<a name="l00282"></a>00282         <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#aa1f182a98709056fda093c6cb694eae8">sceneTransitionRun</a>(<span class="keyword">const</span> std::string&amp; transitionName);
+<a name="l00283"></a>00283         <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#add93ef56e905d4b28497181c1dd8fbc7">sceneTransitionCancel</a>();
+<a name="l00284"></a>00284         <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#a26e2f66e1339ad6cc7b674ca9a5f5ecf">onEnableTouchEvents</a>(<span class="keywordtype">bool</span> enableTouchEvents);
 <a name="l00285"></a>00285 
-<a name="l00286"></a>00286         <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#a1ee14b25e5b4121536393bdaab09d087">mapCoordinates</a>(qreal&amp; x, qreal&amp; y);
-<a name="l00287"></a>00287         <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#af072341c552277d79ccacfb665ad5e30">mapFlickVelocities</a>(qreal&amp; x, qreal&amp; y);
-<a name="l00288"></a>00288         <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#a2a98001f5905fdf0a43ed5ec0694c658">onSetAppFixedOrientation</a>(<span class="keywordtype">int</span> orientation, <span class="keywordtype">bool</span> isPortrait);
-<a name="l00289"></a><a class="code" href="classCardWindow.htm#a12662a6ad92ee8cff41dec7d1e9ba420">00289</a>         <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#a12662a6ad92ee8cff41dec7d1e9ba420">onSetAppOrientation</a>(<span class="keywordtype">int</span> orientation) {}
-<a name="l00290"></a><a class="code" href="classCardWindow.htm#ac5d14efcefd1688d7b8d276ac1afba57">00290</a>         <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#ac5d14efcefd1688d7b8d276ac1afba57">onSetAppFreeOrientation</a>(<span class="keywordtype">bool</span> free) {}
-<a name="l00291"></a>00291         <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#a371028cab7dd52f30a0a14178df6d606">refreshAdjustmentAngle</a>();
-<a name="l00292"></a>00292 
-<a name="l00293"></a>00293     <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#adf9e691eca3937b04d03f14f027cf6df">initializeRoundedCornerStage</a>();
+<a name="l00286"></a>00286         <span class="keywordtype">bool</span> <a class="code" href="classCardWindow.htm#a291ee07d0e5df29396c4b55068b3e824">transitionTimerTicked</a>();
+<a name="l00287"></a>00287 
+<a name="l00288"></a>00288         <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#a1ee14b25e5b4121536393bdaab09d087">mapCoordinates</a>(qreal&amp; x, qreal&amp; y);
+<a name="l00289"></a>00289         <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#af072341c552277d79ccacfb665ad5e30">mapFlickVelocities</a>(qreal&amp; x, qreal&amp; y);
+<a name="l00290"></a>00290         <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#a2a98001f5905fdf0a43ed5ec0694c658">onSetAppFixedOrientation</a>(<span class="keywordtype">int</span> orientation, <span class="keywordtype">bool</span> isPortrait);
+<a name="l00291"></a><a class="code" href="classCardWindow.htm#a12662a6ad92ee8cff41dec7d1e9ba420">00291</a>         <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#a12662a6ad92ee8cff41dec7d1e9ba420">onSetAppOrientation</a>(<span class="keywordtype">int</span> orientation) {}
+<a name="l00292"></a><a class="code" href="classCardWindow.htm#ac5d14efcefd1688d7b8d276ac1afba57">00292</a>         <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#ac5d14efcefd1688d7b8d276ac1afba57">onSetAppFreeOrientation</a>(<span class="keywordtype">bool</span> free) {}
+<a name="l00293"></a>00293         <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#a371028cab7dd52f30a0a14178df6d606">refreshAdjustmentAngle</a>();
 <a name="l00294"></a>00294 
-<a name="l00295"></a>00295         <span class="keywordtype">bool</span> <a class="code" href="classCardWindow.htm#a2340d63198586b0d2ed7b1dca088c31a">isInValidOrientation</a>();
+<a name="l00295"></a>00295     <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#adf9e691eca3937b04d03f14f027cf6df">initializeRoundedCornerStage</a>();
 <a name="l00296"></a>00296 
-<a name="l00297"></a>00297 <span class="keyword">protected</span>:
-<a name="l00298"></a>00298         
-<a name="l00299"></a><a class="code" href="classCardWindow.htm#afcd6b2fd799903b94bb5eeb7a0534879">00299</a>         <span class="keyword">enum</span> <a class="code" href="classCardWindow.htm#afcd6b2fd799903b94bb5eeb7a0534879">PendingFocus</a> {
-<a name="l00300"></a><a class="code" href="classCardWindow.htm#afcd6b2fd799903b94bb5eeb7a0534879a84e377555c80e8031eed5fc872f192d5">00300</a>                 <a class="code" href="classCardWindow.htm#afcd6b2fd799903b94bb5eeb7a0534879a84e377555c80e8031eed5fc872f192d5">PendingFocusNone</a> = 0,
-<a name="l00301"></a><a class="code" href="classCardWindow.htm#afcd6b2fd799903b94bb5eeb7a0534879a990123f03ede26493067ee0b2fe42cd3">00301</a>                 <a class="code" href="classCardWindow.htm#afcd6b2fd799903b94bb5eeb7a0534879a990123f03ede26493067ee0b2fe42cd3">PendingFocusTrue</a>,
-<a name="l00302"></a><a class="code" href="classCardWindow.htm#afcd6b2fd799903b94bb5eeb7a0534879ab03cb4dd3a3357917ed1843690482633">00302</a>                 <a class="code" href="classCardWindow.htm#afcd6b2fd799903b94bb5eeb7a0534879ab03cb4dd3a3357917ed1843690482633">PendingFocusFalse</a>
-<a name="l00303"></a>00303         };
-<a name="l00304"></a>00304 
-<a name="l00305"></a><a class="code" href="classCardWindow.htm#ad4fd16c4f8ce1081f5024348a8a6e996">00305</a>         <span class="keyword">enum</span> <a class="code" href="classCardWindow.htm#ad4fd16c4f8ce1081f5024348a8a6e996">CapturedEvents</a> {
-<a name="l00306"></a><a class="code" href="classCardWindow.htm#ad4fd16c4f8ce1081f5024348a8a6e996a859e30890c1a0200f8ad27a577e1f719">00306</a>                 <a class="code" href="classCardWindow.htm#ad4fd16c4f8ce1081f5024348a8a6e996a859e30890c1a0200f8ad27a577e1f719">CapturedNone</a>    = 0,
-<a name="l00307"></a><a class="code" href="classCardWindow.htm#ad4fd16c4f8ce1081f5024348a8a6e996a6f802ff8c587416f5283401de0738fb2">00307</a>                 <a class="code" href="classCardWindow.htm#ad4fd16c4f8ce1081f5024348a8a6e996a6f802ff8c587416f5283401de0738fb2">CapturedPen</a>     = 1 &lt;&lt; 0,
-<a name="l00308"></a><a class="code" href="classCardWindow.htm#ad4fd16c4f8ce1081f5024348a8a6e996ab2d6949b3a14480af5b69a1bc9da9d4a">00308</a>                 <a class="code" href="classCardWindow.htm#ad4fd16c4f8ce1081f5024348a8a6e996ab2d6949b3a14480af5b69a1bc9da9d4a">CapturedGesture</a> = 1 &lt;&lt; 1,
-<a name="l00309"></a><a class="code" href="classCardWindow.htm#ad4fd16c4f8ce1081f5024348a8a6e996af5b50cf2c1f5fdc19ad190041efc8083">00309</a>                 <a class="code" href="classCardWindow.htm#ad4fd16c4f8ce1081f5024348a8a6e996af5b50cf2c1f5fdc19ad190041efc8083">CapturedInvalid</a> = 1 &lt;&lt; 31
-<a name="l00310"></a>00310         };
-<a name="l00311"></a>00311 
-<a name="l00312"></a><a class="code" href="classCardWindow.htm#a2766923781106d829eda4347cfc805a8">00312</a>         <span class="keywordtype">bool</span> <a class="code" href="classCardWindow.htm#a2766923781106d829eda4347cfc805a8">m_prepareAddedToWm</a>;
-<a name="l00313"></a><a class="code" href="classCardWindow.htm#ade24746c70aba46f3ee7a7d36f1ae6f3">00313</a>         <span class="keywordtype">bool</span> <a class="code" href="classCardWindow.htm#ade24746c70aba46f3ee7a7d36f1ae6f3">m_addedToWm</a>;
-<a name="l00314"></a><a class="code" href="classCardWindow.htm#a85bae0061a5e9d29b8cf3b75267253e0">00314</a>         uint32_t <a class="code" href="classCardWindow.htm#a85bae0061a5e9d29b8cf3b75267253e0">m_capturedEvents</a>;
-<a name="l00315"></a><a class="code" href="classCardWindow.htm#ab65465bb959a823fc652294085535c56">00315</a>         <span class="keywordtype">bool</span> <a class="code" href="classCardWindow.htm#ab65465bb959a823fc652294085535c56">m_fullScreenEnabled</a>;
-<a name="l00316"></a><a class="code" href="classCardWindow.htm#afd78a42f9aa0ae116a6964615a41137c">00316</a>         <span class="keywordtype">bool</span> <a class="code" href="classCardWindow.htm#afd78a42f9aa0ae116a6964615a41137c">m_fullScreenModeSuppressed</a>;
-<a name="l00317"></a><a class="code" href="classCardWindow.htm#ac0d8a2f94449908f2d7583e8c4c94ab2">00317</a>         <span class="keywordtype">bool</span> <a class="code" href="classCardWindow.htm#ac0d8a2f94449908f2d7583e8c4c94ab2">m_maximized</a>;
-<a name="l00318"></a>00318 
-<a name="l00319"></a>00319     <span class="comment">//hack to tell the loading anime that it is big</span>
-<a name="l00320"></a><a class="code" href="classCardWindow.htm#a29b0e7ecfe875f6dac373532d3606dda">00320</a>     <span class="keywordtype">bool</span> <a class="code" href="classCardWindow.htm#a29b0e7ecfe875f6dac373532d3606dda">m_maxAndLoading</a>;
-<a name="l00321"></a>00321 
-<a name="l00322"></a><a class="code" href="classCardWindow.htm#a3afd1e45fc712d075117172a9d4506c9">00322</a>         Event::Orientation   <a class="code" href="classCardWindow.htm#a3afd1e45fc712d075117172a9d4506c9">m_appFixedOrientation</a>;
-<a name="l00323"></a><a class="code" href="classCardWindow.htm#aa71bc441839393bd8882de0674ddc09c">00323</a>         Event::Orientation   <a class="code" href="classCardWindow.htm#aa71bc441839393bd8882de0674ddc09c">m_appPendingFixedOrientation</a>;
-<a name="l00324"></a><a class="code" href="classCardWindow.htm#abe395955ce5c447fff38dd6afc11b19f">00324</a>         qreal <a class="code" href="classCardWindow.htm#abe395955ce5c447fff38dd6afc11b19f">m_adjustmentAngle</a>;
-<a name="l00325"></a><a class="code" href="classCardWindow.htm#a3778c795c6d40648db7148f8e2ceb3b3">00325</a>         <span class="keywordtype">bool</span> <a class="code" href="classCardWindow.htm#a3778c795c6d40648db7148f8e2ceb3b3">m_focusPendingRotation</a>;
-<a name="l00326"></a><a class="code" href="classCardWindow.htm#ad642c29357bf2d1a700963488ea2075d">00326</a>         <span class="keywordtype">bool</span> <a class="code" href="classCardWindow.htm#ad642c29357bf2d1a700963488ea2075d">m_keyboardShownMessageSent</a>;
-<a name="l00327"></a>00327 
-<a name="l00328"></a>00328 
-<a name="l00329"></a>00329         <span class="comment">// used for asynchronous resizing (flip)</span>
-<a name="l00330"></a><a class="code" href="classCardWindow.htm#aab5213d40e9470f3af8484da2ee34641">00330</a>         <span class="keywordtype">bool</span> <a class="code" href="classCardWindow.htm#aab5213d40e9470f3af8484da2ee34641">m_isResizing</a>;
-<a name="l00331"></a><a class="code" href="classCardWindow.htm#a80c818c169bd677678266e217bc2984e">00331</a>         <span class="keywordtype">int</span>  <a class="code" href="classCardWindow.htm#a80c818c169bd677678266e217bc2984e">m_flipsQueuedUp</a>;
-<a name="l00332"></a><a class="code" href="classCardWindow.htm#a8db723b25e5c4cf5afed5b4b6107be9f">00332</a>         <span class="keywordtype">bool</span> <a class="code" href="classCardWindow.htm#a8db723b25e5c4cf5afed5b4b6107be9f">m_pendingDirectRenderingEnable</a>;
-<a name="l00333"></a><a class="code" href="classCardWindow.htm#a6d3bb741e1a78e0388250a9c5ec58ffa">00333</a>         <span class="keywordtype">int</span>  <a class="code" href="classCardWindow.htm#a6d3bb741e1a78e0388250a9c5ec58ffa">m_pendingRotationRequests</a>;
-<a name="l00334"></a><a class="code" href="classCardWindow.htm#aebbf26fcaf7d16d83120243f1d99c460">00334</a>         <span class="keywordtype">int</span>  <a class="code" href="classCardWindow.htm#aebbf26fcaf7d16d83120243f1d99c460">m_ignorePendingRotationRequests</a>;
-<a name="l00335"></a><a class="code" href="classCardWindow.htm#ad2dd32ea4f0ec3fe49fe5017f221fd58">00335</a>         QBrush <a class="code" href="classCardWindow.htm#ad2dd32ea4f0ec3fe49fe5017f221fd58">m_tempRotatedBrush</a>;
-<a name="l00336"></a><a class="code" href="classCardWindow.htm#a7235daf2b6852f6ff95a1031b6564b91">00336</a>         QRectF <a class="code" href="classCardWindow.htm#a7235daf2b6852f6ff95a1031b6564b91">m_preFlipBoundingRect</a>;
-<a name="l00337"></a>00337 
-<a name="l00338"></a><a class="code" href="classCardWindow.htm#a89dc4ea8fd2869afaaa2df94f6d571a2">00338</a>         <span class="keywordtype">bool</span> <a class="code" href="classCardWindow.htm#a89dc4ea8fd2869afaaa2df94f6d571a2">m_forceFocus</a>;
-<a name="l00339"></a><a class="code" href="classCardWindow.htm#a07fa95764666c2e6866ec6cf0acd0236">00339</a>         <span class="keywordtype">bool</span> <a class="code" href="classCardWindow.htm#a07fa95764666c2e6866ec6cf0acd0236">m_focused</a>;
-<a name="l00340"></a><a class="code" href="classCardWindow.htm#a88139bfe605336cd28bbd97d79a29c94">00340</a>         <span class="keywordtype">bool</span> <a class="code" href="classCardWindow.htm#a88139bfe605336cd28bbd97d79a29c94">m_touchEventsEnabled</a>;
-<a name="l00341"></a>00341 
-<a name="l00342"></a><a class="code" href="classCardWindow.htm#a587dce72dee5f1902ccf52b7b241e943">00342</a>         QRectF <a class="code" href="classCardWindow.htm#a587dce72dee5f1902ccf52b7b241e943">m_boundingRect</a>;
+<a name="l00297"></a>00297         <span class="keywordtype">bool</span> <a class="code" href="classCardWindow.htm#a2340d63198586b0d2ed7b1dca088c31a">isInValidOrientation</a>();
+<a name="l00298"></a>00298 
+<a name="l00299"></a>00299 <span class="keyword">protected</span>:
+<a name="l00300"></a>00300         
+<a name="l00301"></a><a class="code" href="classCardWindow.htm#afcd6b2fd799903b94bb5eeb7a0534879">00301</a>         <span class="keyword">enum</span> <a class="code" href="classCardWindow.htm#afcd6b2fd799903b94bb5eeb7a0534879">PendingFocus</a> {
+<a name="l00302"></a><a class="code" href="classCardWindow.htm#afcd6b2fd799903b94bb5eeb7a0534879a84e377555c80e8031eed5fc872f192d5">00302</a>                 <a class="code" href="classCardWindow.htm#afcd6b2fd799903b94bb5eeb7a0534879a84e377555c80e8031eed5fc872f192d5">PendingFocusNone</a> = 0,
+<a name="l00303"></a><a class="code" href="classCardWindow.htm#afcd6b2fd799903b94bb5eeb7a0534879a990123f03ede26493067ee0b2fe42cd3">00303</a>                 <a class="code" href="classCardWindow.htm#afcd6b2fd799903b94bb5eeb7a0534879a990123f03ede26493067ee0b2fe42cd3">PendingFocusTrue</a>,
+<a name="l00304"></a><a class="code" href="classCardWindow.htm#afcd6b2fd799903b94bb5eeb7a0534879ab03cb4dd3a3357917ed1843690482633">00304</a>                 <a class="code" href="classCardWindow.htm#afcd6b2fd799903b94bb5eeb7a0534879ab03cb4dd3a3357917ed1843690482633">PendingFocusFalse</a>
+<a name="l00305"></a>00305         };
+<a name="l00306"></a>00306 
+<a name="l00307"></a><a class="code" href="classCardWindow.htm#ad4fd16c4f8ce1081f5024348a8a6e996">00307</a>         <span class="keyword">enum</span> <a class="code" href="classCardWindow.htm#ad4fd16c4f8ce1081f5024348a8a6e996">CapturedEvents</a> {
+<a name="l00308"></a><a class="code" href="classCardWindow.htm#ad4fd16c4f8ce1081f5024348a8a6e996a859e30890c1a0200f8ad27a577e1f719">00308</a>                 <a class="code" href="classCardWindow.htm#ad4fd16c4f8ce1081f5024348a8a6e996a859e30890c1a0200f8ad27a577e1f719">CapturedNone</a>    = 0,
+<a name="l00309"></a><a class="code" href="classCardWindow.htm#ad4fd16c4f8ce1081f5024348a8a6e996a6f802ff8c587416f5283401de0738fb2">00309</a>                 <a class="code" href="classCardWindow.htm#ad4fd16c4f8ce1081f5024348a8a6e996a6f802ff8c587416f5283401de0738fb2">CapturedPen</a>     = 1 &lt;&lt; 0,
+<a name="l00310"></a><a class="code" href="classCardWindow.htm#ad4fd16c4f8ce1081f5024348a8a6e996ab2d6949b3a14480af5b69a1bc9da9d4a">00310</a>                 <a class="code" href="classCardWindow.htm#ad4fd16c4f8ce1081f5024348a8a6e996ab2d6949b3a14480af5b69a1bc9da9d4a">CapturedGesture</a> = 1 &lt;&lt; 1,
+<a name="l00311"></a><a class="code" href="classCardWindow.htm#ad4fd16c4f8ce1081f5024348a8a6e996af5b50cf2c1f5fdc19ad190041efc8083">00311</a>                 <a class="code" href="classCardWindow.htm#ad4fd16c4f8ce1081f5024348a8a6e996af5b50cf2c1f5fdc19ad190041efc8083">CapturedInvalid</a> = 1 &lt;&lt; 31
+<a name="l00312"></a>00312         };
+<a name="l00313"></a>00313 
+<a name="l00314"></a><a class="code" href="classCardWindow.htm#a2766923781106d829eda4347cfc805a8">00314</a>         <span class="keywordtype">bool</span> <a class="code" href="classCardWindow.htm#a2766923781106d829eda4347cfc805a8">m_prepareAddedToWm</a>;
+<a name="l00315"></a><a class="code" href="classCardWindow.htm#ade24746c70aba46f3ee7a7d36f1ae6f3">00315</a>         <span class="keywordtype">bool</span> <a class="code" href="classCardWindow.htm#ade24746c70aba46f3ee7a7d36f1ae6f3">m_addedToWm</a>;
+<a name="l00316"></a><a class="code" href="classCardWindow.htm#a85bae0061a5e9d29b8cf3b75267253e0">00316</a>         uint32_t <a class="code" href="classCardWindow.htm#a85bae0061a5e9d29b8cf3b75267253e0">m_capturedEvents</a>;
+<a name="l00317"></a><a class="code" href="classCardWindow.htm#ab65465bb959a823fc652294085535c56">00317</a>         <span class="keywordtype">bool</span> <a class="code" href="classCardWindow.htm#ab65465bb959a823fc652294085535c56">m_fullScreenEnabled</a>;
+<a name="l00318"></a><a class="code" href="classCardWindow.htm#afd78a42f9aa0ae116a6964615a41137c">00318</a>         <span class="keywordtype">bool</span> <a class="code" href="classCardWindow.htm#afd78a42f9aa0ae116a6964615a41137c">m_fullScreenModeSuppressed</a>;
+<a name="l00319"></a><a class="code" href="classCardWindow.htm#ac0d8a2f94449908f2d7583e8c4c94ab2">00319</a>         <span class="keywordtype">bool</span> <a class="code" href="classCardWindow.htm#ac0d8a2f94449908f2d7583e8c4c94ab2">m_maximized</a>;
+<a name="l00320"></a>00320 
+<a name="l00321"></a>00321     <span class="comment">//hack to tell the loading anime that it is big</span>
+<a name="l00322"></a><a class="code" href="classCardWindow.htm#a29b0e7ecfe875f6dac373532d3606dda">00322</a>     <span class="keywordtype">bool</span> <a class="code" href="classCardWindow.htm#a29b0e7ecfe875f6dac373532d3606dda">m_maxAndLoading</a>;
+<a name="l00323"></a>00323 
+<a name="l00324"></a><a class="code" href="classCardWindow.htm#a3afd1e45fc712d075117172a9d4506c9">00324</a>         Event::Orientation   <a class="code" href="classCardWindow.htm#a3afd1e45fc712d075117172a9d4506c9">m_appFixedOrientation</a>;
+<a name="l00325"></a><a class="code" href="classCardWindow.htm#aa71bc441839393bd8882de0674ddc09c">00325</a>         Event::Orientation   <a class="code" href="classCardWindow.htm#aa71bc441839393bd8882de0674ddc09c">m_appPendingFixedOrientation</a>;
+<a name="l00326"></a><a class="code" href="classCardWindow.htm#abe395955ce5c447fff38dd6afc11b19f">00326</a>         qreal <a class="code" href="classCardWindow.htm#abe395955ce5c447fff38dd6afc11b19f">m_adjustmentAngle</a>;
+<a name="l00327"></a><a class="code" href="classCardWindow.htm#a3778c795c6d40648db7148f8e2ceb3b3">00327</a>         <span class="keywordtype">bool</span> <a class="code" href="classCardWindow.htm#a3778c795c6d40648db7148f8e2ceb3b3">m_focusPendingRotation</a>;
+<a name="l00328"></a><a class="code" href="classCardWindow.htm#ad642c29357bf2d1a700963488ea2075d">00328</a>         <span class="keywordtype">bool</span> <a class="code" href="classCardWindow.htm#ad642c29357bf2d1a700963488ea2075d">m_keyboardShownMessageSent</a>;
+<a name="l00329"></a>00329 
+<a name="l00330"></a>00330 
+<a name="l00331"></a>00331         <span class="comment">// used for asynchronous resizing (flip)</span>
+<a name="l00332"></a><a class="code" href="classCardWindow.htm#aab5213d40e9470f3af8484da2ee34641">00332</a>         <span class="keywordtype">bool</span> <a class="code" href="classCardWindow.htm#aab5213d40e9470f3af8484da2ee34641">m_isResizing</a>;
+<a name="l00333"></a><a class="code" href="classCardWindow.htm#a80c818c169bd677678266e217bc2984e">00333</a>         <span class="keywordtype">int</span>  <a class="code" href="classCardWindow.htm#a80c818c169bd677678266e217bc2984e">m_flipsQueuedUp</a>;
+<a name="l00334"></a><a class="code" href="classCardWindow.htm#a8db723b25e5c4cf5afed5b4b6107be9f">00334</a>         <span class="keywordtype">bool</span> <a class="code" href="classCardWindow.htm#a8db723b25e5c4cf5afed5b4b6107be9f">m_pendingDirectRenderingEnable</a>;
+<a name="l00335"></a><a class="code" href="classCardWindow.htm#a6d3bb741e1a78e0388250a9c5ec58ffa">00335</a>         <span class="keywordtype">int</span>  <a class="code" href="classCardWindow.htm#a6d3bb741e1a78e0388250a9c5ec58ffa">m_pendingRotationRequests</a>;
+<a name="l00336"></a><a class="code" href="classCardWindow.htm#aebbf26fcaf7d16d83120243f1d99c460">00336</a>         <span class="keywordtype">int</span>  <a class="code" href="classCardWindow.htm#aebbf26fcaf7d16d83120243f1d99c460">m_ignorePendingRotationRequests</a>;
+<a name="l00337"></a><a class="code" href="classCardWindow.htm#ad2dd32ea4f0ec3fe49fe5017f221fd58">00337</a>         QBrush <a class="code" href="classCardWindow.htm#ad2dd32ea4f0ec3fe49fe5017f221fd58">m_tempRotatedBrush</a>;
+<a name="l00338"></a><a class="code" href="classCardWindow.htm#a7235daf2b6852f6ff95a1031b6564b91">00338</a>         QRectF <a class="code" href="classCardWindow.htm#a7235daf2b6852f6ff95a1031b6564b91">m_preFlipBoundingRect</a>;
+<a name="l00339"></a>00339 
+<a name="l00340"></a><a class="code" href="classCardWindow.htm#a89dc4ea8fd2869afaaa2df94f6d571a2">00340</a>         <span class="keywordtype">bool</span> <a class="code" href="classCardWindow.htm#a89dc4ea8fd2869afaaa2df94f6d571a2">m_forceFocus</a>;
+<a name="l00341"></a><a class="code" href="classCardWindow.htm#a07fa95764666c2e6866ec6cf0acd0236">00341</a>         <span class="keywordtype">bool</span> <a class="code" href="classCardWindow.htm#a07fa95764666c2e6866ec6cf0acd0236">m_focused</a>;
+<a name="l00342"></a><a class="code" href="classCardWindow.htm#a88139bfe605336cd28bbd97d79a29c94">00342</a>         <span class="keywordtype">bool</span> <a class="code" href="classCardWindow.htm#a88139bfe605336cd28bbd97d79a29c94">m_touchEventsEnabled</a>;
 <a name="l00343"></a>00343 
-<a name="l00344"></a><a class="code" href="classCardWindow.htm#a72f8261384f61bdc6332421bd8263db5">00344</a>         <a class="code" href="classCardWindow.htm#afcd6b2fd799903b94bb5eeb7a0534879">PendingFocus</a> <a class="code" href="classCardWindow.htm#a72f8261384f61bdc6332421bd8263db5">m_pendingFocus</a>;
+<a name="l00344"></a><a class="code" href="classCardWindow.htm#a587dce72dee5f1902ccf52b7b241e943">00344</a>         QRectF <a class="code" href="classCardWindow.htm#a587dce72dee5f1902ccf52b7b241e943">m_boundingRect</a>;
 <a name="l00345"></a>00345 
-<a name="l00346"></a><a class="code" href="classCardWindow.htm#a634bde9c4ab6639c5efa82cd95505676">00346</a>         <a class="code" href="structWindowProperties.htm">WindowProperties</a> <a class="code" href="classCardWindow.htm#a634bde9c4ab6639c5efa82cd95505676">m_winProps</a>;
-<a name="l00347"></a>00347                 
-<a name="l00348"></a><a class="code" href="classCardWindow.htm#ae99548175c965853d4af0494a1951f31">00348</a>         <a class="code" href="classCardLoading.htm">CardLoading</a>* <a class="code" href="classCardWindow.htm#ae99548175c965853d4af0494a1951f31">m_loadingAnim</a>;
-<a name="l00349"></a><a class="code" href="classCardWindow.htm#a68d894647eed1dd50adf64fe27f8201a">00349</a>         guint <a class="code" href="classCardWindow.htm#a68d894647eed1dd50adf64fe27f8201a">m_loadingTimerId</a>;
-<a name="l00350"></a>00350 
-<a name="l00351"></a><a class="code" href="classCardWindow.htm#a497a9b1e1e6c49625e6d5c73dea75518">00351</a>         <a class="code" href="classCardTransition.htm">CardTransition</a>* <a class="code" href="classCardWindow.htm#a497a9b1e1e6c49625e6d5c73dea75518">m_transition</a>;
-<a name="l00352"></a><a class="code" href="classCardWindow.htm#a5ea40f9b976c61c0b35f27d3a38459e5">00352</a>         <a class="code" href="classTimer.htm">Timer&lt;CardWindow&gt;</a> <a class="code" href="classCardWindow.htm#a5ea40f9b976c61c0b35f27d3a38459e5">m_transitionTimer</a>;
-<a name="l00353"></a>00353 
-<a name="l00354"></a><a class="code" href="classCardWindow.htm#ace38fd1a498d7ddfd7378183b9c094f6">00354</a>         std::string <a class="code" href="classCardWindow.htm#ace38fd1a498d7ddfd7378183b9c094f6">m_splashBackgroundName</a>;
+<a name="l00346"></a><a class="code" href="classCardWindow.htm#a72f8261384f61bdc6332421bd8263db5">00346</a>         <a class="code" href="classCardWindow.htm#afcd6b2fd799903b94bb5eeb7a0534879">PendingFocus</a> <a class="code" href="classCardWindow.htm#a72f8261384f61bdc6332421bd8263db5">m_pendingFocus</a>;
+<a name="l00347"></a>00347 
+<a name="l00348"></a><a class="code" href="classCardWindow.htm#a634bde9c4ab6639c5efa82cd95505676">00348</a>         <a class="code" href="structWindowProperties.htm">WindowProperties</a> <a class="code" href="classCardWindow.htm#a634bde9c4ab6639c5efa82cd95505676">m_winProps</a>;
+<a name="l00349"></a>00349                 
+<a name="l00350"></a><a class="code" href="classCardWindow.htm#ae99548175c965853d4af0494a1951f31">00350</a>         <a class="code" href="classCardLoading.htm">CardLoading</a>* <a class="code" href="classCardWindow.htm#ae99548175c965853d4af0494a1951f31">m_loadingAnim</a>;
+<a name="l00351"></a><a class="code" href="classCardWindow.htm#a68d894647eed1dd50adf64fe27f8201a">00351</a>         guint <a class="code" href="classCardWindow.htm#a68d894647eed1dd50adf64fe27f8201a">m_loadingTimerId</a>;
+<a name="l00352"></a>00352 
+<a name="l00353"></a><a class="code" href="classCardWindow.htm#a497a9b1e1e6c49625e6d5c73dea75518">00353</a>         <a class="code" href="classCardTransition.htm">CardTransition</a>* <a class="code" href="classCardWindow.htm#a497a9b1e1e6c49625e6d5c73dea75518">m_transition</a>;
+<a name="l00354"></a><a class="code" href="classCardWindow.htm#a5ea40f9b976c61c0b35f27d3a38459e5">00354</a>         <a class="code" href="classTimer.htm">Timer&lt;CardWindow&gt;</a> <a class="code" href="classCardWindow.htm#a5ea40f9b976c61c0b35f27d3a38459e5">m_transitionTimer</a>;
 <a name="l00355"></a>00355 
-<a name="l00356"></a><a class="code" href="classCardWindow.htm#adcdc2ea4a6d10a47cb5ef4e4ec5f0474">00356</a>         QPainterPath <a class="code" href="classCardWindow.htm#adcdc2ea4a6d10a47cb5ef4e4ec5f0474">m_paintPath</a>;
-<a name="l00357"></a><a class="code" href="classCardWindow.htm#a86eb3f58972be4dd45dfbcb61a1e11cf">00357</a>         QPainter::CompositionMode <a class="code" href="classCardWindow.htm#a86eb3f58972be4dd45dfbcb61a1e11cf">m_compMode</a>;
-<a name="l00358"></a>00358 
-<a name="l00359"></a><a class="code" href="classCardWindow.htm#a7a5ef01dfeba67eb1e5353772b169dbb">00359</a>         <a class="code" href="structCardWindow_1_1Position.htm">Position</a> <a class="code" href="classCardWindow.htm#a7a5ef01dfeba67eb1e5353772b169dbb">m_position</a>;
+<a name="l00356"></a><a class="code" href="classCardWindow.htm#ace38fd1a498d7ddfd7378183b9c094f6">00356</a>         std::string <a class="code" href="classCardWindow.htm#ace38fd1a498d7ddfd7378183b9c094f6">m_splashBackgroundName</a>;
+<a name="l00357"></a>00357 
+<a name="l00358"></a><a class="code" href="classCardWindow.htm#adcdc2ea4a6d10a47cb5ef4e4ec5f0474">00358</a>         QPainterPath <a class="code" href="classCardWindow.htm#adcdc2ea4a6d10a47cb5ef4e4ec5f0474">m_paintPath</a>;
+<a name="l00359"></a><a class="code" href="classCardWindow.htm#a86eb3f58972be4dd45dfbcb61a1e11cf">00359</a>         QPainter::CompositionMode <a class="code" href="classCardWindow.htm#a86eb3f58972be4dd45dfbcb61a1e11cf">m_compMode</a>;
 <a name="l00360"></a>00360 
-<a name="l00361"></a>00361         <span class="comment">// reference to card group</span>
-<a name="l00362"></a><a class="code" href="classCardWindow.htm#a37e7e622e9e63dd0f4ed6d7366be488e">00362</a>         QPointer&lt;CardGroup&gt; <a class="code" href="classCardWindow.htm#a37e7e622e9e63dd0f4ed6d7366be488e">m_group</a>;
-<a name="l00363"></a><a class="code" href="classCardWindow.htm#a7641fbf0edcb86fd5b2c004cabc7b0a0">00363</a>         <span class="keywordtype">bool</span> <a class="code" href="classCardWindow.htm#a7641fbf0edcb86fd5b2c004cabc7b0a0">m_attachedToGroup</a>;
-<a name="l00364"></a>00364 
-<a name="l00365"></a><a class="code" href="classCardWindow.htm#a36482c92a50c5d552d2a5e536093d9c4">00365</a>         <span class="keywordtype">bool</span> <a class="code" href="classCardWindow.htm#a36482c92a50c5d552d2a5e536093d9c4">m_launchInNewGroup</a>;
+<a name="l00361"></a><a class="code" href="classCardWindow.htm#a7a5ef01dfeba67eb1e5353772b169dbb">00361</a>         <a class="code" href="structCardWindow_1_1Position.htm">Position</a> <a class="code" href="classCardWindow.htm#a7a5ef01dfeba67eb1e5353772b169dbb">m_position</a>;
+<a name="l00362"></a>00362 
+<a name="l00363"></a>00363         <span class="comment">// reference to card group</span>
+<a name="l00364"></a><a class="code" href="classCardWindow.htm#a37e7e622e9e63dd0f4ed6d7366be488e">00364</a>         QPointer&lt;CardGroup&gt; <a class="code" href="classCardWindow.htm#a37e7e622e9e63dd0f4ed6d7366be488e">m_group</a>;
+<a name="l00365"></a><a class="code" href="classCardWindow.htm#a7641fbf0edcb86fd5b2c004cabc7b0a0">00365</a>         <span class="keywordtype">bool</span> <a class="code" href="classCardWindow.htm#a7641fbf0edcb86fd5b2c004cabc7b0a0">m_attachedToGroup</a>;
 <a name="l00366"></a>00366 
-<a name="l00367"></a><a class="code" href="classCardWindow.htm#a31f484c30153d437ffd6a9e6b60dedf0">00367</a>         CardRoundedCornerShaderStage* <a class="code" href="classCardWindow.htm#a31f484c30153d437ffd6a9e6b60dedf0">m_roundedCornerShaderStage</a>;
-<a name="l00368"></a>00368         
-<a name="l00369"></a><a class="code" href="classCardWindow.htm#a64fc1119a673867a4aafe6a6cf4df01b">00369</a>         QPropertyAnimation* <a class="code" href="classCardWindow.htm#a64fc1119a673867a4aafe6a6cf4df01b">m_activeAnimation</a>;
-<a name="l00370"></a><a class="code" href="classCardWindow.htm#abd877867d3ce041286bbb60d38ac1ddf">00370</a>     <span class="keywordtype">float</span> <a class="code" href="classCardWindow.htm#abd877867d3ce041286bbb60d38ac1ddf">m_dimming</a>;
-<a name="l00371"></a>00371 
-<a name="l00372"></a>00372         <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#aff3aff80b8f5a5d64d1d6ced0126e2ac">customEvent</a> ( <a class="code" href="classQEvent.htm">QEvent</a>* event );
+<a name="l00367"></a><a class="code" href="classCardWindow.htm#a36482c92a50c5d552d2a5e536093d9c4">00367</a>         <span class="keywordtype">bool</span> <a class="code" href="classCardWindow.htm#a36482c92a50c5d552d2a5e536093d9c4">m_launchInNewGroup</a>;
+<a name="l00368"></a>00368 
+<a name="l00369"></a><a class="code" href="classCardWindow.htm#a31f484c30153d437ffd6a9e6b60dedf0">00369</a>         CardRoundedCornerShaderStage* <a class="code" href="classCardWindow.htm#a31f484c30153d437ffd6a9e6b60dedf0">m_roundedCornerShaderStage</a>;
+<a name="l00370"></a>00370         
+<a name="l00371"></a><a class="code" href="classCardWindow.htm#a64fc1119a673867a4aafe6a6cf4df01b">00371</a>         QPropertyAnimation* <a class="code" href="classCardWindow.htm#a64fc1119a673867a4aafe6a6cf4df01b">m_activeAnimation</a>;
+<a name="l00372"></a><a class="code" href="classCardWindow.htm#abd877867d3ce041286bbb60d38ac1ddf">00372</a>     <span class="keywordtype">float</span> <a class="code" href="classCardWindow.htm#abd877867d3ce041286bbb60d38ac1ddf">m_dimming</a>;
 <a name="l00373"></a>00373 
-<a name="l00374"></a><a class="code" href="classCardWindow.htm#a837253b269f2bde0ea3b455015a6e5ad">00374</a>         <span class="keyword">enum</span> <a class="code" href="classCardWindow.htm#a837253b269f2bde0ea3b455015a6e5ad">ModalCardResizeState</a> {
-<a name="l00375"></a><a class="code" href="classCardWindow.htm#a837253b269f2bde0ea3b455015a6e5adaa2b461492996dedf114f252e9266d65b">00375</a>                 <a class="code" href="classCardWindow.htm#a837253b269f2bde0ea3b455015a6e5adaa2b461492996dedf114f252e9266d65b">Invalid</a>=0,
-<a name="l00376"></a><a class="code" href="classCardWindow.htm#a837253b269f2bde0ea3b455015a6e5adae3e59b3b1a1136abc30baf979a866d92">00376</a>                 <a class="code" href="classCardWindow.htm#a837253b269f2bde0ea3b455015a6e5adae3e59b3b1a1136abc30baf979a866d92">CardHeightNotChanged</a>,
-<a name="l00377"></a><a class="code" href="classCardWindow.htm#a837253b269f2bde0ea3b455015a6e5adaa40a6d2b0481ac79a67c292fadc64e93">00377</a>                 <a class="code" href="classCardWindow.htm#a837253b269f2bde0ea3b455015a6e5adaa40a6d2b0481ac79a67c292fadc64e93">HeightAndPositionUnchanged</a>,
-<a name="l00378"></a><a class="code" href="classCardWindow.htm#a837253b269f2bde0ea3b455015a6e5ada1a0dd47fb0bbde47d2cd10e7f68f2181">00378</a>                 <a class="code" href="classCardWindow.htm#a837253b269f2bde0ea3b455015a6e5ada1a0dd47fb0bbde47d2cd10e7f68f2181">HeightUnchangedAnimatedUp</a>,
-<a name="l00379"></a><a class="code" href="classCardWindow.htm#a837253b269f2bde0ea3b455015a6e5adaddd491aaff34174f3c41e471f610abb7">00379</a>                 <a class="code" href="classCardWindow.htm#a837253b269f2bde0ea3b455015a6e5adaddd491aaff34174f3c41e471f610abb7">HeightUnchangedAnimatedDown</a>,
-<a name="l00380"></a><a class="code" href="classCardWindow.htm#a837253b269f2bde0ea3b455015a6e5adade342e95f5fd014bb452f51b802c68c6">00380</a>                 <a class="code" href="classCardWindow.htm#a837253b269f2bde0ea3b455015a6e5adade342e95f5fd014bb452f51b802c68c6">ReduceCardHeight</a>,
-<a name="l00381"></a><a class="code" href="classCardWindow.htm#a837253b269f2bde0ea3b455015a6e5adaa8b0406af14a18e974550f9010ea480f">00381</a>                 <a class="code" href="classCardWindow.htm#a837253b269f2bde0ea3b455015a6e5adaa8b0406af14a18e974550f9010ea480f">IncreaseCardHeight</a>
-<a name="l00382"></a>00382         };
-<a name="l00383"></a>00383 
-<a name="l00384"></a>00384         <span class="comment">// This struct holds all the necessary information about the position of the modal window</span>
-<a name="l00385"></a><a class="code" href="structCardWindow_1_1ModalWindowPlacementInfo.htm">00385</a>         <span class="keyword">struct </span><a class="code" href="structCardWindow_1_1ModalWindowPlacementInfo.htm">ModalWindowPlacementInfo</a> {
-<a name="l00386"></a><a class="code" href="structCardWindow_1_1ModalWindowPlacementInfo.htm#a753808ac82684c86ced14b578334f0af">00386</a>                 <span class="keywordtype">int</span> <a class="code" href="structCardWindow_1_1ModalWindowPlacementInfo.htm#a753808ac82684c86ced14b578334f0af">m_originalY</a>;
-<a name="l00387"></a><a class="code" href="structCardWindow_1_1ModalWindowPlacementInfo.htm#a358f5eca14489e411b690c7dfabe1962">00387</a>                 <span class="keywordtype">int</span> <a class="code" href="structCardWindow_1_1ModalWindowPlacementInfo.htm#a358f5eca14489e411b690c7dfabe1962">m_positiveSpaceThreshold_Below</a>;
-<a name="l00388"></a><a class="code" href="structCardWindow_1_1ModalWindowPlacementInfo.htm#a1e9123f7993a26cdc9dac7bb584762ea">00388</a>                 <span class="keywordtype">int</span> <a class="code" href="structCardWindow_1_1ModalWindowPlacementInfo.htm#a1e9123f7993a26cdc9dac7bb584762ea">m_positiveSpaceThreshold_Above</a>;
-<a name="l00389"></a><a class="code" href="structCardWindow_1_1ModalWindowPlacementInfo.htm#af4c1f5ae1391828d35f94ce6d51e1c23">00389</a>                 <span class="keywordtype">int</span> <a class="code" href="structCardWindow_1_1ModalWindowPlacementInfo.htm#af4c1f5ae1391828d35f94ce6d51e1c23">m_negativeSpaceConsumed</a>;
-<a name="l00390"></a><a class="code" href="structCardWindow_1_1ModalWindowPlacementInfo.htm#a7a2a81bc4035315cc5b968b324c24fb0">00390</a>                 <span class="keywordtype">int</span> <a class="code" href="structCardWindow_1_1ModalWindowPlacementInfo.htm#a7a2a81bc4035315cc5b968b324c24fb0">m_cardMoveDelta</a>;
-<a name="l00391"></a><a class="code" href="structCardWindow_1_1ModalWindowPlacementInfo.htm#a93702d4c3e50eec717c3b68634df3b7d">00391</a>                 <span class="keywordtype">int</span> <a class="code" href="structCardWindow_1_1ModalWindowPlacementInfo.htm#a93702d4c3e50eec717c3b68634df3b7d">m_cardMoveDelataUnsigned</a>;
-<a name="l00392"></a><a class="code" href="structCardWindow_1_1ModalWindowPlacementInfo.htm#a9410e9f772d9382bb3569953b36e9ab6">00392</a>                 <span class="keywordtype">bool</span> <a class="code" href="structCardWindow_1_1ModalWindowPlacementInfo.htm#a9410e9f772d9382bb3569953b36e9ab6">m_IsAnimating</a>;
-<a name="l00393"></a><a class="code" href="structCardWindow_1_1ModalWindowPlacementInfo.htm#afea36554d7cec2d40c3ed166072a48e8">00393</a>                 <span class="keywordtype">bool</span> <a class="code" href="structCardWindow_1_1ModalWindowPlacementInfo.htm#afea36554d7cec2d40c3ed166072a48e8">m_centerModalWindow</a>;
-<a name="l00394"></a><a class="code" href="structCardWindow_1_1ModalWindowPlacementInfo.htm#ac35426311a7ca7c0a4d691841660c70f">00394</a>                 <a class="code" href="classCardWindow.htm#a837253b269f2bde0ea3b455015a6e5ad">ModalCardResizeState</a> <a class="code" href="structCardWindow_1_1ModalWindowPlacementInfo.htm#ac35426311a7ca7c0a4d691841660c70f">m_ModalCardResizeInf</a>;
-<a name="l00395"></a>00395 
-<a name="l00396"></a><a class="code" href="structCardWindow_1_1ModalWindowPlacementInfo.htm#a3ffaf2500c6a9a0e6bce6aabfedd972a">00396</a>                 <a class="code" href="structCardWindow_1_1ModalWindowPlacementInfo.htm#a3ffaf2500c6a9a0e6bce6aabfedd972a">ModalWindowPlacementInfo</a>() {
-<a name="l00397"></a>00397                         <a class="code" href="structCardWindow_1_1ModalWindowPlacementInfo.htm#a753808ac82684c86ced14b578334f0af">m_originalY</a> = 0;
-<a name="l00398"></a>00398                         <a class="code" href="structCardWindow_1_1ModalWindowPlacementInfo.htm#a358f5eca14489e411b690c7dfabe1962">m_positiveSpaceThreshold_Below</a> = -1;
-<a name="l00399"></a>00399                         <a class="code" href="structCardWindow_1_1ModalWindowPlacementInfo.htm#a1e9123f7993a26cdc9dac7bb584762ea">m_positiveSpaceThreshold_Above</a> = -1;
-<a name="l00400"></a>00400                         <a class="code" href="structCardWindow_1_1ModalWindowPlacementInfo.htm#af4c1f5ae1391828d35f94ce6d51e1c23">m_negativeSpaceConsumed</a> = 0;
-<a name="l00401"></a>00401                         <a class="code" href="structCardWindow_1_1ModalWindowPlacementInfo.htm#a7a2a81bc4035315cc5b968b324c24fb0">m_cardMoveDelta</a> = 0;
-<a name="l00402"></a>00402                         <a class="code" href="structCardWindow_1_1ModalWindowPlacementInfo.htm#a93702d4c3e50eec717c3b68634df3b7d">m_cardMoveDelataUnsigned</a> = 0;
-<a name="l00403"></a>00403                         <a class="code" href="structCardWindow_1_1ModalWindowPlacementInfo.htm#a9410e9f772d9382bb3569953b36e9ab6">m_IsAnimating</a> = <span class="keyword">false</span>;
-<a name="l00404"></a>00404                         <a class="code" href="structCardWindow_1_1ModalWindowPlacementInfo.htm#ac35426311a7ca7c0a4d691841660c70f">m_ModalCardResizeInf</a> = <a class="code" href="classCardWindow.htm#a837253b269f2bde0ea3b455015a6e5adaa2b461492996dedf114f252e9266d65b">Invalid</a>;
-<a name="l00405"></a>00405                         <a class="code" href="structCardWindow_1_1ModalWindowPlacementInfo.htm#afea36554d7cec2d40c3ed166072a48e8">m_centerModalWindow</a> = <span class="keyword">false</span>;
-<a name="l00406"></a>00406                 }
-<a name="l00407"></a>00407 
-<a name="l00408"></a><a class="code" href="structCardWindow_1_1ModalWindowPlacementInfo.htm#a08d3936ea8317d19c16d8e39091b392e">00408</a>                 <span class="keywordtype">void</span> <a class="code" href="structCardWindow_1_1ModalWindowPlacementInfo.htm#a08d3936ea8317d19c16d8e39091b392e">computeUnsignedCardMoveDelta</a>() {
-<a name="l00409"></a>00409                         <a class="code" href="structCardWindow_1_1ModalWindowPlacementInfo.htm#a93702d4c3e50eec717c3b68634df3b7d">m_cardMoveDelataUnsigned</a> = (<a class="code" href="structCardWindow_1_1ModalWindowPlacementInfo.htm#a7a2a81bc4035315cc5b968b324c24fb0">m_cardMoveDelta</a> &lt; 0) ? (<a class="code" href="structCardWindow_1_1ModalWindowPlacementInfo.htm#a7a2a81bc4035315cc5b968b324c24fb0">m_cardMoveDelta</a> * -1):<a class="code" href="structCardWindow_1_1ModalWindowPlacementInfo.htm#a7a2a81bc4035315cc5b968b324c24fb0">m_cardMoveDelta</a>;
-<a name="l00410"></a>00410                 }
-<a name="l00411"></a>00411 
-<a name="l00412"></a><a class="code" href="structCardWindow_1_1ModalWindowPlacementInfo.htm#a5c2f72329b5e3197fa55e51e02ac5e49">00412</a>                 <span class="keywordtype">void</span> <a class="code" href="structCardWindow_1_1ModalWindowPlacementInfo.htm#a5c2f72329b5e3197fa55e51e02ac5e49">setCardMoveDelta</a>(<span class="keywordtype">int</span> val) {
-<a name="l00413"></a>00413                         <span class="keywordflow">if</span>(val != <a class="code" href="structCardWindow_1_1ModalWindowPlacementInfo.htm#a7a2a81bc4035315cc5b968b324c24fb0">m_cardMoveDelta</a>) {
-<a name="l00414"></a>00414                                 <a class="code" href="structCardWindow_1_1ModalWindowPlacementInfo.htm#a7a2a81bc4035315cc5b968b324c24fb0">m_cardMoveDelta</a> = val;
-<a name="l00415"></a>00415                                 <a class="code" href="structCardWindow_1_1ModalWindowPlacementInfo.htm#a08d3936ea8317d19c16d8e39091b392e">computeUnsignedCardMoveDelta</a>();
-<a name="l00416"></a>00416                         }
-<a name="l00417"></a>00417                 }
-<a name="l00418"></a>00418 
-<a name="l00419"></a><a class="code" href="structCardWindow_1_1ModalWindowPlacementInfo.htm#aa2e545ce3d8a328c4fb947ce3dce8907">00419</a>                 <span class="keywordtype">void</span> <a class="code" href="structCardWindow_1_1ModalWindowPlacementInfo.htm#aa2e545ce3d8a328c4fb947ce3dce8907">reset</a>()
-<a name="l00420"></a>00420                 {
-<a name="l00421"></a>00421                         <a class="code" href="structCardWindow_1_1ModalWindowPlacementInfo.htm#a753808ac82684c86ced14b578334f0af">m_originalY</a> = 0;
-<a name="l00422"></a>00422                         <a class="code" href="structCardWindow_1_1ModalWindowPlacementInfo.htm#a358f5eca14489e411b690c7dfabe1962">m_positiveSpaceThreshold_Below</a> = -1;
-<a name="l00423"></a>00423                         <a class="code" href="structCardWindow_1_1ModalWindowPlacementInfo.htm#a1e9123f7993a26cdc9dac7bb584762ea">m_positiveSpaceThreshold_Above</a> = -1;
-<a name="l00424"></a>00424                         <a class="code" href="structCardWindow_1_1ModalWindowPlacementInfo.htm#af4c1f5ae1391828d35f94ce6d51e1c23">m_negativeSpaceConsumed</a> = 0;
-<a name="l00425"></a>00425                         <a class="code" href="structCardWindow_1_1ModalWindowPlacementInfo.htm#a7a2a81bc4035315cc5b968b324c24fb0">m_cardMoveDelta</a> = 0;
-<a name="l00426"></a>00426                         <a class="code" href="structCardWindow_1_1ModalWindowPlacementInfo.htm#a93702d4c3e50eec717c3b68634df3b7d">m_cardMoveDelataUnsigned</a> = 0;
-<a name="l00427"></a>00427                         <a class="code" href="structCardWindow_1_1ModalWindowPlacementInfo.htm#a9410e9f772d9382bb3569953b36e9ab6">m_IsAnimating</a> = <span class="keyword">false</span>;
-<a name="l00428"></a>00428                         <a class="code" href="structCardWindow_1_1ModalWindowPlacementInfo.htm#ac35426311a7ca7c0a4d691841660c70f">m_ModalCardResizeInf</a> = <a class="code" href="classCardWindow.htm#a837253b269f2bde0ea3b455015a6e5adaa2b461492996dedf114f252e9266d65b">Invalid</a>;
-<a name="l00429"></a>00429                 }
-<a name="l00430"></a>00430         };
-<a name="l00431"></a>00431 
-<a name="l00432"></a><a class="code" href="classCardWindow.htm#adeee16b2ed94e41e42b729fa333f5930">00432</a>         <span class="keyword">enum</span> <a class="code" href="classCardWindow.htm#adeee16b2ed94e41e42b729fa333f5930">ParentWindowHandleEvent</a> {
-<a name="l00433"></a><a class="code" href="classCardWindow.htm#adeee16b2ed94e41e42b729fa333f5930adc9503bdb0c4b2572f40bf2735fdf613">00433</a>                 <a class="code" href="classCardWindow.htm#adeee16b2ed94e41e42b729fa333f5930adc9503bdb0c4b2572f40bf2735fdf613">ParentHandleEvent</a>=0,
-<a name="l00434"></a><a class="code" href="classCardWindow.htm#adeee16b2ed94e41e42b729fa333f5930ab583449601a530192171f7450426d1a2">00434</a>                 <a class="code" href="classCardWindow.htm#adeee16b2ed94e41e42b729fa333f5930ab583449601a530192171f7450426d1a2">ForwardEventToChild</a>,
-<a name="l00435"></a><a class="code" href="classCardWindow.htm#adeee16b2ed94e41e42b729fa333f5930a24c9b34b70faa299932a11e490fc67a2">00435</a>                 <a class="code" href="classCardWindow.htm#adeee16b2ed94e41e42b729fa333f5930a24c9b34b70faa299932a11e490fc67a2">WaitForChildToAcceptEvents</a>
-<a name="l00436"></a>00436         };
-<a name="l00437"></a>00437 
-<a name="l00438"></a><a class="code" href="classCardWindow.htm#a5a4e272e7d9ae4bb99a4c84ec073c61d">00438</a>         <span class="keyword">enum</span> <a class="code" href="classCardWindow.htm#a5a4e272e7d9ae4bb99a4c84ec073c61d">PositiveSpaceChangeNotificationState</a> {
-<a name="l00439"></a><a class="code" href="classCardWindow.htm#a5a4e272e7d9ae4bb99a4c84ec073c61da8f1eff02a42f4cd2369c0d268fb2313d">00439</a>                 <a class="code" href="classCardWindow.htm#a5a4e272e7d9ae4bb99a4c84ec073c61da8f1eff02a42f4cd2369c0d268fb2313d">Unknown</a> = 0,
-<a name="l00440"></a><a class="code" href="classCardWindow.htm#a5a4e272e7d9ae4bb99a4c84ec073c61da7d2cd7c8ecb9542e0f8d5b6653f9ab49">00440</a>                 <a class="code" href="classCardWindow.htm#a5a4e272e7d9ae4bb99a4c84ec073c61da7d2cd7c8ecb9542e0f8d5b6653f9ab49">GotPositiveSpaceAboutToChangeNotification</a>,
-<a name="l00441"></a><a class="code" href="classCardWindow.htm#a5a4e272e7d9ae4bb99a4c84ec073c61da6eb118b314d51b78bf0f1e4c242823c4">00441</a>                 <a class="code" href="classCardWindow.htm#a5a4e272e7d9ae4bb99a4c84ec073c61da6eb118b314d51b78bf0f1e4c242823c4">GotPositiveSpaceChangeNotification</a>,
-<a name="l00442"></a>00442         };
-<a name="l00443"></a>00443 
-<a name="l00444"></a><a class="code" href="classCardWindow.htm#a5ee000bc0c90b5ecfea8a6b05fec27ca">00444</a>         <a class="code" href="classCardWindow.htm#afd5fa4580a0382be721d635262b8fc5c">ModalAcceptInputState</a> <a class="code" href="classCardWindow.htm#a5ee000bc0c90b5ecfea8a6b05fec27ca">m_modalAcceptInputState</a>;
-<a name="l00445"></a><a class="code" href="classCardWindow.htm#a91b2ea35f03ecc0dfc102c3064597d35">00445</a>         <a class="code" href="structCardWindow_1_1ModalWindowPlacementInfo.htm">ModalWindowPlacementInfo</a> <a class="code" href="classCardWindow.htm#a91b2ea35f03ecc0dfc102c3064597d35">m_initMWindPlacementInf</a>;
-<a name="l00446"></a><a class="code" href="classCardWindow.htm#ab0c81ad63a9753ea23d6d35f097c833d">00446</a>         <a class="code" href="classCardWindow.htm#a5a4e272e7d9ae4bb99a4c84ec073c61d">PositiveSpaceChangeNotificationState</a> <a class="code" href="classCardWindow.htm#ab0c81ad63a9753ea23d6d35f097c833d">m_posSpChangeNotificationState</a>;
-<a name="l00447"></a>00447 
-<a name="l00448"></a><a class="code" href="classCardWindow.htm#a3223c0c8712e5d827177a630600ff081">00448</a>         <span class="keywordtype">int</span> <a class="code" href="classCardWindow.htm#a3223c0c8712e5d827177a630600ff081">m_ModalWindowEndY</a>;
-<a name="l00449"></a><a class="code" href="classCardWindow.htm#ac1212b799fe6a1cd9419d46de1c33f81">00449</a>         <span class="keywordtype">int</span> <a class="code" href="classCardWindow.htm#ac1212b799fe6a1cd9419d46de1c33f81">m_modalWindowShrinkHeight</a>;
-<a name="l00450"></a><a class="code" href="classCardWindow.htm#aead5f5864c091130785a67e69a5257d5">00450</a>         <span class="keywordtype">int</span> <a class="code" href="classCardWindow.htm#aead5f5864c091130785a67e69a5257d5">m_maxEndingPositionForOrientation</a>;
-<a name="l00451"></a><a class="code" href="classCardWindow.htm#a29a4dc9c3504d3bc62af0da49ed8222a">00451</a>         <span class="keywordtype">bool</span> <a class="code" href="classCardWindow.htm#a29a4dc9c3504d3bc62af0da49ed8222a">m_fRecomputeInitPositionsValues</a>;
-<a name="l00452"></a><a class="code" href="classCardWindow.htm#a0e9f51b7c3d5fbe00129450c2e4c2d69">00452</a>         <span class="keywordtype">bool</span> <a class="code" href="classCardWindow.htm#a0e9f51b7c3d5fbe00129450c2e4c2d69">m_isCardModalParent</a>;
-<a name="l00453"></a>00453 
-<a name="l00454"></a><a class="code" href="classCardWindow.htm#a7e324c436b5fb62f79a20631d52cdcf3">00454</a>         <span class="keyword">static</span> <span class="keywordtype">int</span> <a class="code" href="classCardWindow.htm#a7e324c436b5fb62f79a20631d52cdcf3">sStartSpaceChangeValue</a>;
-<a name="l00455"></a><a class="code" href="classCardWindow.htm#a94d5c85ded4e9b43e5dba957ee54c2e5">00455</a>         <span class="keyword">static</span> <span class="keywordtype">int</span> <a class="code" href="classCardWindow.htm#a94d5c85ded4e9b43e5dba957ee54c2e5">sLastKnownPositiveSpace</a>;
-<a name="l00456"></a><a class="code" href="classCardWindow.htm#a4a65b51bb654e265a70ce02afdb1bef9">00456</a>         <span class="keyword">static</span> <span class="keywordtype">float</span> <a class="code" href="classCardWindow.htm#a4a65b51bb654e265a70ce02afdb1bef9">sBoundingRectYBeforeResize</a>;
-<a name="l00457"></a><a class="code" href="classCardWindow.htm#a3411cbfcce1c41cf7cc648343cd56ba3">00457</a>         <span class="keyword">static</span> QPointF <a class="code" href="classCardWindow.htm#a3411cbfcce1c41cf7cc648343cd56ba3">sModalWindowYBeforeResize</a>;
-<a name="l00458"></a>00458 
-<a name="l00459"></a><a class="code" href="classCardWindow.htm#adf1fda8479864218af0ad0428a6129e7">00459</a>         QPropertyAnimation* <a class="code" href="classCardWindow.htm#adf1fda8479864218af0ad0428a6129e7">m_ModalPositionAnimation</a>;
+<a name="l00374"></a>00374         <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classCardWindow.htm#aff3aff80b8f5a5d64d1d6ced0126e2ac">customEvent</a> ( <a class="code" href="classQEvent.htm">QEvent</a>* event );
+<a name="l00375"></a>00375 
+<a name="l00376"></a><a class="code" href="classCardWindow.htm#a837253b269f2bde0ea3b455015a6e5ad">00376</a>         <span class="keyword">enum</span> <a class="code" href="classCardWindow.htm#a837253b269f2bde0ea3b455015a6e5ad">ModalCardResizeState</a> {
+<a name="l00377"></a><a class="code" href="classCardWindow.htm#a837253b269f2bde0ea3b455015a6e5adaa2b461492996dedf114f252e9266d65b">00377</a>                 <a class="code" href="classCardWindow.htm#a837253b269f2bde0ea3b455015a6e5adaa2b461492996dedf114f252e9266d65b">Invalid</a>=0,
+<a name="l00378"></a><a class="code" href="classCardWindow.htm#a837253b269f2bde0ea3b455015a6e5adae3e59b3b1a1136abc30baf979a866d92">00378</a>                 <a class="code" href="classCardWindow.htm#a837253b269f2bde0ea3b455015a6e5adae3e59b3b1a1136abc30baf979a866d92">CardHeightNotChanged</a>,
+<a name="l00379"></a><a class="code" href="classCardWindow.htm#a837253b269f2bde0ea3b455015a6e5adaa40a6d2b0481ac79a67c292fadc64e93">00379</a>                 <a class="code" href="classCardWindow.htm#a837253b269f2bde0ea3b455015a6e5adaa40a6d2b0481ac79a67c292fadc64e93">HeightAndPositionUnchanged</a>,
+<a name="l00380"></a><a class="code" href="classCardWindow.htm#a837253b269f2bde0ea3b455015a6e5ada1a0dd47fb0bbde47d2cd10e7f68f2181">00380</a>                 <a class="code" href="classCardWindow.htm#a837253b269f2bde0ea3b455015a6e5ada1a0dd47fb0bbde47d2cd10e7f68f2181">HeightUnchangedAnimatedUp</a>,
+<a name="l00381"></a><a class="code" href="classCardWindow.htm#a837253b269f2bde0ea3b455015a6e5adaddd491aaff34174f3c41e471f610abb7">00381</a>                 <a class="code" href="classCardWindow.htm#a837253b269f2bde0ea3b455015a6e5adaddd491aaff34174f3c41e471f610abb7">HeightUnchangedAnimatedDown</a>,
+<a name="l00382"></a><a class="code" href="classCardWindow.htm#a837253b269f2bde0ea3b455015a6e5adade342e95f5fd014bb452f51b802c68c6">00382</a>                 <a class="code" href="classCardWindow.htm#a837253b269f2bde0ea3b455015a6e5adade342e95f5fd014bb452f51b802c68c6">ReduceCardHeight</a>,
+<a name="l00383"></a><a class="code" href="classCardWindow.htm#a837253b269f2bde0ea3b455015a6e5adaa8b0406af14a18e974550f9010ea480f">00383</a>                 <a class="code" href="classCardWindow.htm#a837253b269f2bde0ea3b455015a6e5adaa8b0406af14a18e974550f9010ea480f">IncreaseCardHeight</a>
+<a name="l00384"></a>00384         };
+<a name="l00385"></a>00385 
+<a name="l00386"></a>00386         <span class="comment">// This struct holds all the necessary information about the position of the modal window</span>
+<a name="l00387"></a><a class="code" href="structCardWindow_1_1ModalWindowPlacementInfo.htm">00387</a>         <span class="keyword">struct </span><a class="code" href="structCardWindow_1_1ModalWindowPlacementInfo.htm">ModalWindowPlacementInfo</a> {
+<a name="l00388"></a><a class="code" href="structCardWindow_1_1ModalWindowPlacementInfo.htm#a753808ac82684c86ced14b578334f0af">00388</a>                 <span class="keywordtype">int</span> <a class="code" href="structCardWindow_1_1ModalWindowPlacementInfo.htm#a753808ac82684c86ced14b578334f0af">m_originalY</a>;
+<a name="l00389"></a><a class="code" href="structCardWindow_1_1ModalWindowPlacementInfo.htm#a358f5eca14489e411b690c7dfabe1962">00389</a>                 <span class="keywordtype">int</span> <a class="code" href="structCardWindow_1_1ModalWindowPlacementInfo.htm#a358f5eca14489e411b690c7dfabe1962">m_positiveSpaceThreshold_Below</a>;
+<a name="l00390"></a><a class="code" href="structCardWindow_1_1ModalWindowPlacementInfo.htm#a1e9123f7993a26cdc9dac7bb584762ea">00390</a>                 <span class="keywordtype">int</span> <a class="code" href="structCardWindow_1_1ModalWindowPlacementInfo.htm#a1e9123f7993a26cdc9dac7bb584762ea">m_positiveSpaceThreshold_Above</a>;
+<a name="l00391"></a><a class="code" href="structCardWindow_1_1ModalWindowPlacementInfo.htm#af4c1f5ae1391828d35f94ce6d51e1c23">00391</a>                 <span class="keywordtype">int</span> <a class="code" href="structCardWindow_1_1ModalWindowPlacementInfo.htm#af4c1f5ae1391828d35f94ce6d51e1c23">m_negativeSpaceConsumed</a>;
+<a name="l00392"></a><a class="code" href="structCardWindow_1_1ModalWindowPlacementInfo.htm#a7a2a81bc4035315cc5b968b324c24fb0">00392</a>                 <span class="keywordtype">int</span> <a class="code" href="structCardWindow_1_1ModalWindowPlacementInfo.htm#a7a2a81bc4035315cc5b968b324c24fb0">m_cardMoveDelta</a>;
+<a name="l00393"></a><a class="code" href="structCardWindow_1_1ModalWindowPlacementInfo.htm#a93702d4c3e50eec717c3b68634df3b7d">00393</a>                 <span class="keywordtype">int</span> <a class="code" href="structCardWindow_1_1ModalWindowPlacementInfo.htm#a93702d4c3e50eec717c3b68634df3b7d">m_cardMoveDelataUnsigned</a>;
+<a name="l00394"></a><a class="code" href="structCardWindow_1_1ModalWindowPlacementInfo.htm#a9410e9f772d9382bb3569953b36e9ab6">00394</a>                 <span class="keywordtype">bool</span> <a class="code" href="structCardWindow_1_1ModalWindowPlacementInfo.htm#a9410e9f772d9382bb3569953b36e9ab6">m_IsAnimating</a>;
+<a name="l00395"></a><a class="code" href="structCardWindow_1_1ModalWindowPlacementInfo.htm#afea36554d7cec2d40c3ed166072a48e8">00395</a>                 <span class="keywordtype">bool</span> <a class="code" href="structCardWindow_1_1ModalWindowPlacementInfo.htm#afea36554d7cec2d40c3ed166072a48e8">m_centerModalWindow</a>;
+<a name="l00396"></a><a class="code" href="structCardWindow_1_1ModalWindowPlacementInfo.htm#ac35426311a7ca7c0a4d691841660c70f">00396</a>                 <a class="code" href="classCardWindow.htm#a837253b269f2bde0ea3b455015a6e5ad">ModalCardResizeState</a> <a class="code" href="structCardWindow_1_1ModalWindowPlacementInfo.htm#ac35426311a7ca7c0a4d691841660c70f">m_ModalCardResizeInf</a>;
+<a name="l00397"></a>00397 
+<a name="l00398"></a><a class="code" href="structCardWindow_1_1ModalWindowPlacementInfo.htm#a3ffaf2500c6a9a0e6bce6aabfedd972a">00398</a>                 <a class="code" href="structCardWindow_1_1ModalWindowPlacementInfo.htm#a3ffaf2500c6a9a0e6bce6aabfedd972a">ModalWindowPlacementInfo</a>() {
+<a name="l00399"></a>00399                         <a class="code" href="structCardWindow_1_1ModalWindowPlacementInfo.htm#a753808ac82684c86ced14b578334f0af">m_originalY</a> = 0;
+<a name="l00400"></a>00400                         <a class="code" href="structCardWindow_1_1ModalWindowPlacementInfo.htm#a358f5eca14489e411b690c7dfabe1962">m_positiveSpaceThreshold_Below</a> = -1;
+<a name="l00401"></a>00401                         <a class="code" href="structCardWindow_1_1ModalWindowPlacementInfo.htm#a1e9123f7993a26cdc9dac7bb584762ea">m_positiveSpaceThreshold_Above</a> = -1;
+<a name="l00402"></a>00402                         <a class="code" href="structCardWindow_1_1ModalWindowPlacementInfo.htm#af4c1f5ae1391828d35f94ce6d51e1c23">m_negativeSpaceConsumed</a> = 0;
+<a name="l00403"></a>00403                         <a class="code" href="structCardWindow_1_1ModalWindowPlacementInfo.htm#a7a2a81bc4035315cc5b968b324c24fb0">m_cardMoveDelta</a> = 0;
+<a name="l00404"></a>00404                         <a class="code" href="structCardWindow_1_1ModalWindowPlacementInfo.htm#a93702d4c3e50eec717c3b68634df3b7d">m_cardMoveDelataUnsigned</a> = 0;
+<a name="l00405"></a>00405                         <a class="code" href="structCardWindow_1_1ModalWindowPlacementInfo.htm#a9410e9f772d9382bb3569953b36e9ab6">m_IsAnimating</a> = <span class="keyword">false</span>;
+<a name="l00406"></a>00406                         <a class="code" href="structCardWindow_1_1ModalWindowPlacementInfo.htm#ac35426311a7ca7c0a4d691841660c70f">m_ModalCardResizeInf</a> = <a class="code" href="classCardWindow.htm#a837253b269f2bde0ea3b455015a6e5adaa2b461492996dedf114f252e9266d65b">Invalid</a>;
+<a name="l00407"></a>00407                         <a class="code" href="structCardWindow_1_1ModalWindowPlacementInfo.htm#afea36554d7cec2d40c3ed166072a48e8">m_centerModalWindow</a> = <span class="keyword">false</span>;
+<a name="l00408"></a>00408                 }
+<a name="l00409"></a>00409 
+<a name="l00410"></a><a class="code" href="structCardWindow_1_1ModalWindowPlacementInfo.htm#a08d3936ea8317d19c16d8e39091b392e">00410</a>                 <span class="keywordtype">void</span> <a class="code" href="structCardWindow_1_1ModalWindowPlacementInfo.htm#a08d3936ea8317d19c16d8e39091b392e">computeUnsignedCardMoveDelta</a>() {
+<a name="l00411"></a>00411                         <a class="code" href="structCardWindow_1_1ModalWindowPlacementInfo.htm#a93702d4c3e50eec717c3b68634df3b7d">m_cardMoveDelataUnsigned</a> = (<a class="code" href="structCardWindow_1_1ModalWindowPlacementInfo.htm#a7a2a81bc4035315cc5b968b324c24fb0">m_cardMoveDelta</a> &lt; 0) ? (<a class="code" href="structCardWindow_1_1ModalWindowPlacementInfo.htm#a7a2a81bc4035315cc5b968b324c24fb0">m_cardMoveDelta</a> * -1):<a class="code" href="structCardWindow_1_1ModalWindowPlacementInfo.htm#a7a2a81bc4035315cc5b968b324c24fb0">m_cardMoveDelta</a>;
+<a name="l00412"></a>00412                 }
+<a name="l00413"></a>00413 
+<a name="l00414"></a><a class="code" href="structCardWindow_1_1ModalWindowPlacementInfo.htm#a5c2f72329b5e3197fa55e51e02ac5e49">00414</a>                 <span class="keywordtype">void</span> <a class="code" href="structCardWindow_1_1ModalWindowPlacementInfo.htm#a5c2f72329b5e3197fa55e51e02ac5e49">setCardMoveDelta</a>(<span class="keywordtype">int</span> val) {
+<a name="l00415"></a>00415                         <span class="keywordflow">if</span>(val != <a class="code" href="structCardWindow_1_1ModalWindowPlacementInfo.htm#a7a2a81bc4035315cc5b968b324c24fb0">m_cardMoveDelta</a>) {
+<a name="l00416"></a>00416                                 <a class="code" href="structCardWindow_1_1ModalWindowPlacementInfo.htm#a7a2a81bc4035315cc5b968b324c24fb0">m_cardMoveDelta</a> = val;
+<a name="l00417"></a>00417                                 <a class="code" href="structCardWindow_1_1ModalWindowPlacementInfo.htm#a08d3936ea8317d19c16d8e39091b392e">computeUnsignedCardMoveDelta</a>();
+<a name="l00418"></a>00418                         }
+<a name="l00419"></a>00419                 }
+<a name="l00420"></a>00420 
+<a name="l00421"></a><a class="code" href="structCardWindow_1_1ModalWindowPlacementInfo.htm#aa2e545ce3d8a328c4fb947ce3dce8907">00421</a>                 <span class="keywordtype">void</span> <a class="code" href="structCardWindow_1_1ModalWindowPlacementInfo.htm#aa2e545ce3d8a328c4fb947ce3dce8907">reset</a>()
+<a name="l00422"></a>00422                 {
+<a name="l00423"></a>00423                         <a class="code" href="structCardWindow_1_1ModalWindowPlacementInfo.htm#a753808ac82684c86ced14b578334f0af">m_originalY</a> = 0;
+<a name="l00424"></a>00424                         <a class="code" href="structCardWindow_1_1ModalWindowPlacementInfo.htm#a358f5eca14489e411b690c7dfabe1962">m_positiveSpaceThreshold_Below</a> = -1;
+<a name="l00425"></a>00425                         <a class="code" href="structCardWindow_1_1ModalWindowPlacementInfo.htm#a1e9123f7993a26cdc9dac7bb584762ea">m_positiveSpaceThreshold_Above</a> = -1;
+<a name="l00426"></a>00426                         <a class="code" href="structCardWindow_1_1ModalWindowPlacementInfo.htm#af4c1f5ae1391828d35f94ce6d51e1c23">m_negativeSpaceConsumed</a> = 0;
+<a name="l00427"></a>00427                         <a class="code" href="structCardWindow_1_1ModalWindowPlacementInfo.htm#a7a2a81bc4035315cc5b968b324c24fb0">m_cardMoveDelta</a> = 0;
+<a name="l00428"></a>00428                         <a class="code" href="structCardWindow_1_1ModalWindowPlacementInfo.htm#a93702d4c3e50eec717c3b68634df3b7d">m_cardMoveDelataUnsigned</a> = 0;
+<a name="l00429"></a>00429                         <a class="code" href="structCardWindow_1_1ModalWindowPlacementInfo.htm#a9410e9f772d9382bb3569953b36e9ab6">m_IsAnimating</a> = <span class="keyword">false</span>;
+<a name="l00430"></a>00430                         <a class="code" href="structCardWindow_1_1ModalWindowPlacementInfo.htm#ac35426311a7ca7c0a4d691841660c70f">m_ModalCardResizeInf</a> = <a class="code" href="classCardWindow.htm#a837253b269f2bde0ea3b455015a6e5adaa2b461492996dedf114f252e9266d65b">Invalid</a>;
+<a name="l00431"></a>00431                 }
+<a name="l00432"></a>00432         };
+<a name="l00433"></a>00433 
+<a name="l00434"></a><a class="code" href="classCardWindow.htm#adeee16b2ed94e41e42b729fa333f5930">00434</a>         <span class="keyword">enum</span> <a class="code" href="classCardWindow.htm#adeee16b2ed94e41e42b729fa333f5930">ParentWindowHandleEvent</a> {
+<a name="l00435"></a><a class="code" href="classCardWindow.htm#adeee16b2ed94e41e42b729fa333f5930adc9503bdb0c4b2572f40bf2735fdf613">00435</a>                 <a class="code" href="classCardWindow.htm#adeee16b2ed94e41e42b729fa333f5930adc9503bdb0c4b2572f40bf2735fdf613">ParentHandleEvent</a>=0,
+<a name="l00436"></a><a class="code" href="classCardWindow.htm#adeee16b2ed94e41e42b729fa333f5930ab583449601a530192171f7450426d1a2">00436</a>                 <a class="code" href="classCardWindow.htm#adeee16b2ed94e41e42b729fa333f5930ab583449601a530192171f7450426d1a2">ForwardEventToChild</a>,
+<a name="l00437"></a><a class="code" href="classCardWindow.htm#adeee16b2ed94e41e42b729fa333f5930a24c9b34b70faa299932a11e490fc67a2">00437</a>                 <a class="code" href="classCardWindow.htm#adeee16b2ed94e41e42b729fa333f5930a24c9b34b70faa299932a11e490fc67a2">WaitForChildToAcceptEvents</a>
+<a name="l00438"></a>00438         };
+<a name="l00439"></a>00439 
+<a name="l00440"></a><a class="code" href="classCardWindow.htm#a5a4e272e7d9ae4bb99a4c84ec073c61d">00440</a>         <span class="keyword">enum</span> <a class="code" href="classCardWindow.htm#a5a4e272e7d9ae4bb99a4c84ec073c61d">PositiveSpaceChangeNotificationState</a> {
+<a name="l00441"></a><a class="code" href="classCardWindow.htm#a5a4e272e7d9ae4bb99a4c84ec073c61da8f1eff02a42f4cd2369c0d268fb2313d">00441</a>                 <a class="code" href="classCardWindow.htm#a5a4e272e7d9ae4bb99a4c84ec073c61da8f1eff02a42f4cd2369c0d268fb2313d">Unknown</a> = 0,
+<a name="l00442"></a><a class="code" href="classCardWindow.htm#a5a4e272e7d9ae4bb99a4c84ec073c61da7d2cd7c8ecb9542e0f8d5b6653f9ab49">00442</a>                 <a class="code" href="classCardWindow.htm#a5a4e272e7d9ae4bb99a4c84ec073c61da7d2cd7c8ecb9542e0f8d5b6653f9ab49">GotPositiveSpaceAboutToChangeNotification</a>,
+<a name="l00443"></a><a class="code" href="classCardWindow.htm#a5a4e272e7d9ae4bb99a4c84ec073c61da6eb118b314d51b78bf0f1e4c242823c4">00443</a>                 <a class="code" href="classCardWindow.htm#a5a4e272e7d9ae4bb99a4c84ec073c61da6eb118b314d51b78bf0f1e4c242823c4">GotPositiveSpaceChangeNotification</a>,
+<a name="l00444"></a>00444         };
+<a name="l00445"></a>00445 
+<a name="l00446"></a><a class="code" href="classCardWindow.htm#a5ee000bc0c90b5ecfea8a6b05fec27ca">00446</a>         <a class="code" href="classCardWindow.htm#afd5fa4580a0382be721d635262b8fc5c">ModalAcceptInputState</a> <a class="code" href="classCardWindow.htm#a5ee000bc0c90b5ecfea8a6b05fec27ca">m_modalAcceptInputState</a>;
+<a name="l00447"></a><a class="code" href="classCardWindow.htm#a91b2ea35f03ecc0dfc102c3064597d35">00447</a>         <a class="code" href="structCardWindow_1_1ModalWindowPlacementInfo.htm">ModalWindowPlacementInfo</a> <a class="code" href="classCardWindow.htm#a91b2ea35f03ecc0dfc102c3064597d35">m_initMWindPlacementInf</a>;
+<a name="l00448"></a><a class="code" href="classCardWindow.htm#ab0c81ad63a9753ea23d6d35f097c833d">00448</a>         <a class="code" href="classCardWindow.htm#a5a4e272e7d9ae4bb99a4c84ec073c61d">PositiveSpaceChangeNotificationState</a> <a class="code" href="classCardWindow.htm#ab0c81ad63a9753ea23d6d35f097c833d">m_posSpChangeNotificationState</a>;
+<a name="l00449"></a>00449 
+<a name="l00450"></a><a class="code" href="classCardWindow.htm#a3223c0c8712e5d827177a630600ff081">00450</a>         <span class="keywordtype">int</span> <a class="code" href="classCardWindow.htm#a3223c0c8712e5d827177a630600ff081">m_ModalWindowEndY</a>;
+<a name="l00451"></a><a class="code" href="classCardWindow.htm#ac1212b799fe6a1cd9419d46de1c33f81">00451</a>         <span class="keywordtype">int</span> <a class="code" href="classCardWindow.htm#ac1212b799fe6a1cd9419d46de1c33f81">m_modalWindowShrinkHeight</a>;
+<a name="l00452"></a><a class="code" href="classCardWindow.htm#aead5f5864c091130785a67e69a5257d5">00452</a>         <span class="keywordtype">int</span> <a class="code" href="classCardWindow.htm#aead5f5864c091130785a67e69a5257d5">m_maxEndingPositionForOrientation</a>;
+<a name="l00453"></a><a class="code" href="classCardWindow.htm#a29a4dc9c3504d3bc62af0da49ed8222a">00453</a>         <span class="keywordtype">bool</span> <a class="code" href="classCardWindow.htm#a29a4dc9c3504d3bc62af0da49ed8222a">m_fRecomputeInitPositionsValues</a>;
+<a name="l00454"></a><a class="code" href="classCardWindow.htm#a0e9f51b7c3d5fbe00129450c2e4c2d69">00454</a>         <span class="keywordtype">bool</span> <a class="code" href="classCardWindow.htm#a0e9f51b7c3d5fbe00129450c2e4c2d69">m_isCardModalParent</a>;
+<a name="l00455"></a>00455 
+<a name="l00456"></a><a class="code" href="classCardWindow.htm#a7e324c436b5fb62f79a20631d52cdcf3">00456</a>         <span class="keyword">static</span> <span class="keywordtype">int</span> <a class="code" href="classCardWindow.htm#a7e324c436b5fb62f79a20631d52cdcf3">sStartSpaceChangeValue</a>;
+<a name="l00457"></a><a class="code" href="classCardWindow.htm#a94d5c85ded4e9b43e5dba957ee54c2e5">00457</a>         <span class="keyword">static</span> <span class="keywordtype">int</span> <a class="code" href="classCardWindow.htm#a94d5c85ded4e9b43e5dba957ee54c2e5">sLastKnownPositiveSpace</a>;
+<a name="l00458"></a><a class="code" href="classCardWindow.htm#a4a65b51bb654e265a70ce02afdb1bef9">00458</a>         <span class="keyword">static</span> <span class="keywordtype">float</span> <a class="code" href="classCardWindow.htm#a4a65b51bb654e265a70ce02afdb1bef9">sBoundingRectYBeforeResize</a>;
+<a name="l00459"></a><a class="code" href="classCardWindow.htm#a3411cbfcce1c41cf7cc648343cd56ba3">00459</a>         <span class="keyword">static</span> QPointF <a class="code" href="classCardWindow.htm#a3411cbfcce1c41cf7cc648343cd56ba3">sModalWindowYBeforeResize</a>;
 <a name="l00460"></a>00460 
-<a name="l00461"></a>00461 <span class="keyword">private</span>:
-<a name="l00462"></a>00462         <a class="code" href="classCardWindow.htm">CardWindow</a>* m_modalChild;
-<a name="l00463"></a>00463         <a class="code" href="classCardWindow.htm">CardWindow</a>* m_modalParent;
-<a name="l00464"></a>00464 
-<a name="l00465"></a>00465         QPointF positionModalWindowWrpParent(<span class="keywordtype">int</span> spaceAvailableAbove, <span class="keywordtype">int</span> windowHeight);
-<a name="l00466"></a>00466         <span class="keywordtype">void</span> positionModalForMorePositiveSpace(<span class="keywordtype">int</span> availablePosSpace, <span class="keywordtype">int</span> newPositiveSpace);
-<a name="l00467"></a>00467         <span class="keywordtype">void</span> positionModalForLessPositiveSpace(<span class="keywordtype">int</span> availablePosSpace, <span class="keywordtype">int</span> newPositiveSpace);
-<a name="l00468"></a>00468 
-<a name="l00469"></a>00469         <span class="keywordtype">void</span> increaseHeightAndPositionModalCard(<span class="keywordtype">int</span> availablePosSpace, <span class="keywordtype">int</span> newPositiveSpace);
-<a name="l00470"></a>00470         <span class="keywordtype">void</span> decreaseHeightAndPositionModalCard(<span class="keywordtype">int</span> availablePosSpace, <span class="keywordtype">int</span> newPositiveSpace);
-<a name="l00471"></a>00471 
-<a name="l00472"></a>00472         <span class="keywordtype">void</span> resetModalWindowPositionInfo();
-<a name="l00473"></a>00473         <span class="keywordtype">void</span> startModalAnimation();
-<a name="l00474"></a>00474         <span class="keywordtype">void</span> resizeModalCard();
-<a name="l00475"></a>00475         <span class="keywordtype">void</span> centerModal(<span class="keywordtype">int</span> availablePositiveSpace);
-<a name="l00476"></a>00476         <span class="keywordtype">bool</span> canPositionModalAtY(<span class="keywordtype">int</span> yLoc, <span class="keywordtype">bool</span> increasePositiveSpace, <span class="keywordtype">int</span>&amp; correctYLoc);
-<a name="l00477"></a>00477 
-<a name="l00478"></a>00478         <span class="keywordtype">int</span> forwardToModal();
-<a name="l00479"></a>00479 };
-<a name="l00480"></a>00480 
-<a name="l00481"></a>00481 QDebug <a class="code" href="CardWindow_8cpp.htm#a96af481eae4e878cd6d37832d12640ae">operator&lt;&lt;</a>(QDebug, <span class="keyword">const</span> <a class="code" href="structCardWindow_1_1Position.htm">CardWindow::Position</a> &amp;);
+<a name="l00461"></a><a class="code" href="classCardWindow.htm#adf1fda8479864218af0ad0428a6129e7">00461</a>         QPropertyAnimation* <a class="code" href="classCardWindow.htm#adf1fda8479864218af0ad0428a6129e7">m_ModalPositionAnimation</a>;
+<a name="l00462"></a>00462 
+<a name="l00463"></a>00463 <span class="keyword">private</span>:
+<a name="l00464"></a>00464         <a class="code" href="classCardWindow.htm">CardWindow</a>* m_modalChild;
+<a name="l00465"></a>00465         <a class="code" href="classCardWindow.htm">CardWindow</a>* m_modalParent;
+<a name="l00466"></a>00466 
+<a name="l00467"></a>00467         QPointF positionModalWindowWrpParent(<span class="keywordtype">int</span> spaceAvailableAbove, <span class="keywordtype">int</span> windowHeight);
+<a name="l00468"></a>00468         <span class="keywordtype">void</span> positionModalForMorePositiveSpace(<span class="keywordtype">int</span> availablePosSpace, <span class="keywordtype">int</span> newPositiveSpace);
+<a name="l00469"></a>00469         <span class="keywordtype">void</span> positionModalForLessPositiveSpace(<span class="keywordtype">int</span> availablePosSpace, <span class="keywordtype">int</span> newPositiveSpace);
+<a name="l00470"></a>00470 
+<a name="l00471"></a>00471         <span class="keywordtype">void</span> increaseHeightAndPositionModalCard(<span class="keywordtype">int</span> availablePosSpace, <span class="keywordtype">int</span> newPositiveSpace);
+<a name="l00472"></a>00472         <span class="keywordtype">void</span> decreaseHeightAndPositionModalCard(<span class="keywordtype">int</span> availablePosSpace, <span class="keywordtype">int</span> newPositiveSpace);
+<a name="l00473"></a>00473 
+<a name="l00474"></a>00474         <span class="keywordtype">void</span> resetModalWindowPositionInfo();
+<a name="l00475"></a>00475         <span class="keywordtype">void</span> startModalAnimation();
+<a name="l00476"></a>00476         <span class="keywordtype">void</span> resizeModalCard();
+<a name="l00477"></a>00477         <span class="keywordtype">void</span> centerModal(<span class="keywordtype">int</span> availablePositiveSpace);
+<a name="l00478"></a>00478         <span class="keywordtype">bool</span> canPositionModalAtY(<span class="keywordtype">int</span> yLoc, <span class="keywordtype">bool</span> increasePositiveSpace, <span class="keywordtype">int</span>&amp; correctYLoc);
+<a name="l00479"></a>00479 
+<a name="l00480"></a>00480         <span class="keywordtype">int</span> forwardToModal();
+<a name="l00481"></a>00481 };
 <a name="l00482"></a>00482 
-<a name="l00483"></a>00483 QVariant <a class="code" href="CardWindow_8cpp.htm#aff22ab4251e02c331fa19ee537f4b085">positionInterpolator</a>(<span class="keyword">const</span> <a class="code" href="structCardWindow_1_1Position.htm">CardWindow::Position</a> &amp;start, <span class="keyword">const</span> <a class="code" href="structCardWindow_1_1Position.htm">CardWindow::Position</a> &amp;end, qreal progress);
+<a name="l00483"></a>00483 QDebug <a class="code" href="CardWindow_8cpp.htm#a96af481eae4e878cd6d37832d12640ae">operator&lt;&lt;</a>(QDebug, <span class="keyword">const</span> <a class="code" href="structCardWindow_1_1Position.htm">CardWindow::Position</a> &amp;);
 <a name="l00484"></a>00484 
-<a name="l00485"></a>00485 Q_DECLARE_METATYPE(<a class="code" href="classCardWindow.htm">CardWindow</a>*)
+<a name="l00485"></a>00485 QVariant <a class="code" href="CardWindow_8cpp.htm#aff22ab4251e02c331fa19ee537f4b085">positionInterpolator</a>(<span class="keyword">const</span> <a class="code" href="structCardWindow_1_1Position.htm">CardWindow::Position</a> &amp;start, <span class="keyword">const</span> <a class="code" href="structCardWindow_1_1Position.htm">CardWindow::Position</a> &amp;end, qreal progress);
 <a name="l00486"></a>00486 
-<a name="l00487"></a>00487 <span class="preprocessor">#endif </span><span class="comment">/* CARDWINDOW_H */</span>
+<a name="l00487"></a>00487 Q_DECLARE_METATYPE(<a class="code" href="classCardWindow.htm">CardWindow</a>*)
+<a name="l00488"></a>00488 
+<a name="l00489"></a>00489 <span class="preprocessor">#endif </span><span class="comment">/* CARDWINDOW_H */</span>
 </pre></div></div><!-- contents -->
 </div>
 <!-- window showing the filter options -->
@@ -607,7 +609,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul>
       <li class="navelem"><a class="el" href="CardWindow_8h.htm">CardWindow.h</a>      </li>
 
-    <li class="footer">Generated on Wed Sep 26 2012 07:32:48 for LunaSysMgr by
+    <li class="footer">Generated on Tue Oct 2 2012 22:43:57 for LunaSysMgr by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.7.6.1 </li>
    </ul>

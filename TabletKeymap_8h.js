@@ -74,5 +74,6 @@ var TabletKeymap_8h =
     [ "cKey_ToggleLanguage", "namespaceTablet__Keyboard.htm#a5cb55f120ce0b22da47662ce9dc11bd1", null ],
     [ "cKey_ToggleSoundFeedback", "namespaceTablet__Keyboard.htm#a56bedc855b8ec0386782baedef6a9aa4", null ],
     [ "cKey_ToggleSuggestions", "namespaceTablet__Keyboard.htm#ab22ac9c9ba88809fcca4fb0ce1cc7716", null ],
+    [ "cKey_Trackball", "namespaceTablet__Keyboard.htm#aa39a4abeadfcceecf87ffc33a2c44a03", null ],
     [ "cKey_WWW", "namespaceTablet__Keyboard.htm#a66f40ca1af2ec758429aec4a7685342a", null ]
 ];

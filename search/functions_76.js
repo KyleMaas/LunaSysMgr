@@ -27,7 +27,7 @@ var searchData=
   ['virtualcamera',['VirtualCamera',['../classVirtualCamera.htm#aadad192297deef68dca1b1b2a7675b17',1,'VirtualCamera::VirtualCamera()'],['../classLauncherObject.htm#adc300944832571072bb2496fe442163f',1,'LauncherObject::virtualCamera()']]],
   ['virtualcorenavi',['VirtualCoreNavi',['../classVirtualCoreNavi.htm#aa08791c855b8fa6dd2e7192ae9127f7f',1,'VirtualCoreNavi']]],
   ['virtualgesturestrip',['VirtualGestureStrip',['../classVirtualGestureStrip.htm#a2d7d673d3e074d6bb0be183ab4a28625',1,'VirtualGestureStrip']]],
-  ['virtualkeyboard',['VirtualKeyboard',['../classVirtualKeyboard.htm#aa07077068db23f473724727183f51fb8',1,'VirtualKeyboard::VirtualKeyboard()'],['../classVirtualKeyboardPreferences.htm#a42e5631fe55c5a6034c71700f94e06c0',1,'VirtualKeyboardPreferences::virtualKeyboard()']]],
+  ['virtualkeyboard',['virtualKeyboard',['../classVirtualKeyboardPreferences.htm#a42e5631fe55c5a6034c71700f94e06c0',1,'VirtualKeyboardPreferences::virtualKeyboard()'],['../classVirtualKeyboard.htm#aa07077068db23f473724727183f51fb8',1,'VirtualKeyboard::VirtualKeyboard()']]],
   ['virtualkeyboardfactory',['VirtualKeyboardFactory',['../classVirtualKeyboardFactory.htm#a644132b7ff5f0fcfc7d23d87423a4e92',1,'VirtualKeyboardFactory']]],
   ['virtualkeyboardpreferences',['VirtualKeyboardPreferences',['../classVirtualKeyboardPreferences.htm#abe63f7678ef8dd0fe8856ea702ea87de',1,'VirtualKeyboardPreferences']]],
   ['virtualkeyboardpreferenceschanged',['virtualKeyboardPreferencesChanged',['../classVirtualKeyboardPreferences.htm#a55ed7e6d0b81b65b24ed1279fca8b711',1,'VirtualKeyboardPreferences']]],

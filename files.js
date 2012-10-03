@@ -57,7 +57,7 @@ var files =
     [ "CardDropShadowEffect.cpp", "CardDropShadowEffect_8cpp.htm", "CardDropShadowEffect_8cpp" ],
     [ "CardDropShadowEffect.h", "CardDropShadowEffect_8h.htm", null ],
     [ "CardGroup.cpp", "CardGroup_8cpp.htm", "CardGroup_8cpp" ],
-    [ "CardGroup.h", "CardGroup_8h.htm", null ],
+    [ "CardGroup.h", "CardGroup_8h.htm", "CardGroup_8h" ],
     [ "CardHostWindow.cpp", "CardHostWindow_8cpp.htm", "CardHostWindow_8cpp" ],
     [ "CardHostWindow.h", "CardHostWindow_8h.htm", null ],
     [ "CardLoading.cpp", "CardLoading_8cpp.htm", null ],

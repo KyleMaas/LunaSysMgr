@@ -2,6 +2,7 @@
 <area shape="rect" id="node3" href="$SystemUiController_8cpp.htm" title="SystemUiController.cpp" alt="" coords="5,83,173,112"/>
 <area shape="rect" id="node5" href="$CardWindowManager_8cpp.htm" title="CardWindowManager.cpp" alt="" coords="197,83,384,112"/>
 <area shape="rect" id="node7" href="$CardWindowManagerStates_8cpp.htm" title="CardWindowManagerStates.cpp" alt="" coords="408,83,635,112"/>
-<area shape="rect" id="node9" href="$OverlayWindowManager_8cpp.htm" title="OverlayWindowManager.cpp" alt="" coords="659,83,861,112"/>
-<area shape="rect" id="node11" href="$WindowServerLuna_8cpp.htm" title="WindowServerLuna.cpp" alt="" coords="885,83,1056,112"/>
+<area shape="rect" id="node9" href="$quicklaunchbar_8cpp.htm" title="quicklaunchbar.cpp" alt="" coords="659,83,800,112"/>
+<area shape="rect" id="node11" href="$OverlayWindowManager_8cpp.htm" title="OverlayWindowManager.cpp" alt="" coords="824,83,1027,112"/>
+<area shape="rect" id="node13" href="$WindowServerLuna_8cpp.htm" title="WindowServerLuna.cpp" alt="" coords="1051,83,1221,112"/>
 </map>

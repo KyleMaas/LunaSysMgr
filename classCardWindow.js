@@ -19,6 +19,7 @@ var classCardWindow =
     [ "asynchFlipCompleted", "classCardWindow.htm#a58d83ffe4a351f6ac4feea9c267e3b56", null ],
     [ "attachedToGroup", "classCardWindow.htm#a8cbd7c71f3155b53bf3be5b377a96b72", null ],
     [ "boundingRect", "classCardWindow.htm#a993adac2e7a508adcec6a8e9ae716307", null ],
+    [ "boundingRect", "classCardWindow.htm#a457c0f7b52f92e6f506f142940a64304", null ],
     [ "cardGroup", "classCardWindow.htm#ac1cf024e704331b118cf87c9f54cd530", null ],
     [ "compassEvents", "classCardWindow.htm#af5aea16ceff3d7d61cd0f75f6f575816", null ],
     [ "computeModalWindowPlacementInf", "classCardWindow.htm#a2452175ef4c5a16dfa4f24706741cc2f", null ],

@@ -38,6 +38,7 @@ var searchData=
   ['canuseframepixonicon',['canUseFramePixOnIcon',['../classIconBase.htm#a6d7d3a8a67dbd6b6060771f019aa12f0',1,'IconBase']]],
   ['canusemainpixonicon',['canUseMainPixOnIcon',['../classIconBase.htm#adf8df92c9a142f1bc1f37ba22197ca47',1,'IconBase']]],
   ['canusepixonicon',['canUsePixOnIcon',['../classIconBase.htm#a47bd46bc8cde514a6d2ea2fe53af5933',1,'IconBase']]],
+  ['cardarranger',['cardArranger',['../classCardGroup.htm#a07c2ac49b1413d22f91207a94e7d692b',1,'CardGroup']]],
   ['carddropshadoweffect',['CardDropShadowEffect',['../classCardDropShadowEffect.htm#a47473cd27d0fab58275ff5e19be4d0e2',1,'CardDropShadowEffect']]],
   ['cardgroup',['CardGroup',['../classCardGroup.htm#a38b98670e982cd40f6ab088e6f2b2808',1,'CardGroup::CardGroup()'],['../classCardWindow.htm#ac1cf024e704331b118cf87c9f54cd530',1,'CardWindow::cardGroup()']]],
   ['cardhostwindow',['CardHostWindow',['../classCardHostWindow.htm#a20b207248f197172a68a8b9b7338bea6',1,'CardHostWindow']]],
@@ -95,7 +96,7 @@ var searchData=
   ['centerrectinrectpixelalign',['centerRectInRectPixelAlign',['../namespaceDimensionsGlobal.htm#ac2ac950eeafc5cfe0ec424f616deaaf8',1,'DimensionsGlobal::centerRectInRectPixelAlign(const QRectF &amp;outer, const QRectF &amp;inner)'],['../namespaceDimensionsGlobal.htm#af93bf1df51541b114d60111c332e54cf',1,'DimensionsGlobal::centerRectInRectPixelAlign(const QRect &amp;outer, const QRect &amp;inner)']]],
   ['cfunctioncolor',['cFunctionColor',['../namespacePhone__Keyboard.htm#aefb4733dad429289572e37e5f0621d5e',1,'Phone_Keyboard::cFunctionColor()'],['../namespaceTablet__Keyboard.htm#a11acbf820e3fd42b9e300baa94697d38',1,'Tablet_Keyboard::cFunctionColor()']]],
   ['cfunctioncolor_5fback',['cFunctionColor_back',['../namespacePhone__Keyboard.htm#a7d1ba3be4e354d793c20315a06018404',1,'Phone_Keyboard::cFunctionColor_back()'],['../namespaceTablet__Keyboard.htm#aade9bc582a3d7bef25b71a4aef29ffbc',1,'Tablet_Keyboard::cFunctionColor_back()']]],
-  ['changecardwindow',['changeCardWindow',['../classCardWindowManagerState.htm#a2068995085f955e0459315fd95f4f30f',1,'CardWindowManagerState::changeCardWindow()'],['../classMinimizeState.htm#a5ea26456ac940b6ffca52e4f70d1a507',1,'MinimizeState::changeCardWindow()'],['../classGroupState.htm#af1821f76ce3bd7c5c51bda6f9c00ac6d',1,'GroupState::changeCardWindow()'],['../classMaximizeState.htm#a8aa59c462e3ca1fc1fa0d1fe29e8e389',1,'MaximizeState::changeCardWindow()']]],
+  ['changecardwindow',['changeCardWindow',['../classCardWindowManagerState.htm#a2068995085f955e0459315fd95f4f30f',1,'CardWindowManagerState::changeCardWindow()'],['../classMinimizeState.htm#a5ea26456ac940b6ffca52e4f70d1a507',1,'MinimizeState::changeCardWindow()'],['../classMaximizeState.htm#a8aa59c462e3ca1fc1fa0d1fe29e8e389',1,'MaximizeState::changeCardWindow()']]],
   ['changedisplaystate',['changeDisplayState',['../classDisplayStateBase.htm#a7dced248a84fddec55e71138203b015e',1,'DisplayStateBase']]],
   ['changenegativespace',['changeNegativeSpace',['../classSystemUiController.htm#a5afbfd65e0f23ecec10badd1f698459f',1,'SystemUiController']]],
   ['changepresetheightforsize',['changePresetHeightForSize',['../classPhone__Keyboard_1_1PhoneKeyboard.htm#ae5bc26bc8dd95c384f86f646b4669720',1,'Phone_Keyboard::PhoneKeyboard::changePresetHeightForSize()'],['../classTablet__Keyboard_1_1TabletKeyboard.htm#af51df781eb42368eddac8488c1bcd43a',1,'Tablet_Keyboard::TabletKeyboard::changePresetHeightForSize()'],['../classVirtualKeyboard.htm#a92ef900444145a40ab13d3e89702a4d5',1,'VirtualKeyboard::changePresetHeightForSize()']]],
@@ -271,5 +272,6 @@ var searchData=
   ['customevent',['customEvent',['../classCardWindow.htm#aff3aff80b8f5a5d64d1d6ced0126e2ac',1,'CardWindow']]],
   ['customgesture',['customGesture',['../classLauncherObject.htm#a6f8d2f8c43c53af1c3c37677c5505113',1,'LauncherObject::customGesture()'],['../classPageTabBar.htm#a6f10a03333a6cc680d1c1500ab87a459',1,'PageTabBar::customGesture()'],['../classPixButton.htm#aa075896b8e45e52264630ac0a2bea0ca',1,'PixButton::customGesture()'],['../classIconBase.htm#a875b79e1e9c6b4e4b55df9ca3253881f',1,'IconBase::customGesture()'],['../classPage.htm#a7d19a487bb91c8526cd1edb9c0791eef',1,'Page::customGesture()']]],
   ['customkeys',['CustomKeys',['../structPhone__Keyboard_1_1PhoneKeymap_1_1CustomKeys.htm#a23979955568af74e747b1f6503ed0508',1,'Phone_Keyboard::PhoneKeymap::CustomKeys']]],
-  ['cut',['cut',['../classWebPage.htm#a8734e076eb555346805381cd85580b8b',1,'WebPage']]]
+  ['cut',['cut',['../classWebPage.htm#a8734e076eb555346805381cd85580b8b',1,'WebPage']]],
+  ['cyclegrouptabs',['cycleGroupTabs',['../classCardWindowManager.htm#aaa2ef5eb3f65df22909fc8dca46db7c9',1,'CardWindowManager']]]
 ];

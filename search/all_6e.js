@@ -78,7 +78,7 @@ var searchData=
   ['north',['North',['../namespaceFrameDirection.htm#aa26c62d5e983e037ce79c28a5f655581a390cdb37961f3e4235abab8fcf881294',1,'FrameDirection']]],
   ['noscroll',['NoScroll',['../classBannerMessageView.htm#af003c1cbc3420519f224e7036774c409a6cc6f762679c5596ef439ee01f7a48db',1,'BannerMessageView']]],
   ['notif_5ficon_5fwidth',['NOTIF_ICON_WIDTH',['../StatusBar_8h.htm#a4e4e31fabacc4255acfb0ef529dec3af',1,'StatusBar.h']]],
-  ['notificationpolicy',['NotificationPolicy',['../classNotificationPolicy.htm',1,'NotificationPolicy'],['../classNotificationPolicy.htm#adc06ce27ac83c1bca63d8b29909ad3ce',1,'NotificationPolicy::NotificationPolicy()'],['../classDashboardWindowManager.htm#a7ab59a382965b7f40222261a13e459c0',1,'DashboardWindowManager::notificationPolicy()']]],
+  ['notificationpolicy',['NotificationPolicy',['../classNotificationPolicy.htm',1,'NotificationPolicy'],['../classDashboardWindowManager.htm#a7ab59a382965b7f40222261a13e459c0',1,'DashboardWindowManager::notificationPolicy()'],['../classNotificationPolicy.htm#adc06ce27ac83c1bca63d8b29909ad3ce',1,'NotificationPolicy::NotificationPolicy()']]],
   ['notificationpolicy_2ecpp',['NotificationPolicy.cpp',['../NotificationPolicy_8cpp.htm',1,'']]],
   ['notificationpolicy_2eh',['NotificationPolicy.h',['../NotificationPolicy_8h.htm',1,'']]],
   ['notificationsoundduration',['notificationSoundDuration',['../classSettings.htm#a77efd5b577f06642af8e600d3bcc9fd0',1,'Settings']]],

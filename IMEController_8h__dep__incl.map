@@ -1,17 +1,18 @@
 <map id="G" name="G">
 <area shape="rect" id="node3" href="$DisplayManager_8cpp.htm" title="DisplayManager.cpp" alt="" coords="5,83,155,112"/>
-<area shape="rect" id="node5" href="$HostWindow_8cpp.htm" title="HostWindow.cpp" alt="" coords="179,83,304,112"/>
-<area shape="rect" id="node7" href="$SystemService_8cpp.htm" title="SystemService.cpp" alt="" coords="328,83,469,112"/>
-<area shape="rect" id="node9" href="$SystemUiController_8cpp.htm" title="SystemUiController.cpp" alt="" coords="493,83,661,112"/>
-<area shape="rect" id="node11" href="$IMEController_8cpp.htm" title="IMEController.cpp" alt="" coords="685,83,819,112"/>
-<area shape="rect" id="node13" href="$IMEView_8cpp.htm" title="IMEView.cpp" alt="" coords="843,83,944,112"/>
-<area shape="rect" id="node15" href="$InputClient_8cpp.htm" title="InputClient.cpp" alt="" coords="968,83,1083,112"/>
-<area shape="rect" id="node17" href="$InputWindowManager_8cpp.htm" title="InputWindowManager.cpp" alt="" coords="1107,83,1293,112"/>
-<area shape="rect" id="node19" href="$SysmgrIMEDataInterface_8cpp.htm" title="SysmgrIMEDataInterface.cpp" alt="" coords="1317,83,1523,112"/>
-<area shape="rect" id="node21" href="$CardWindow_8cpp.htm" title="CardWindow.cpp" alt="" coords="1547,83,1675,112"/>
-<area shape="rect" id="node23" href="$CardWindowManager_8cpp.htm" title="CardWindowManager.cpp" alt="" coords="1699,83,1885,112"/>
-<area shape="rect" id="node25" href="$EmulatedCardWindow_8cpp.htm" title="EmulatedCardWindow.cpp" alt="" coords="1909,83,2096,112"/>
-<area shape="rect" id="node27" href="$EmergencyWindowManager_8cpp.htm" title="EmergencyWindowManager.cpp" alt="" coords="2120,83,2347,112"/>
-<area shape="rect" id="node29" href="$OverlayWindowManager_8cpp.htm" title="OverlayWindowManager.cpp" alt="" coords="2371,83,2573,112"/>
-<area shape="rect" id="node31" href="$LockWindow_8cpp.htm" title="LockWindow.cpp" alt="" coords="2597,83,2725,112"/>
+<area shape="rect" id="node5" href="$BezelGestureRecognizer_8cpp.htm" title="BezelGestureRecognizer.cpp" alt="" coords="179,83,384,112"/>
+<area shape="rect" id="node7" href="$HostWindow_8cpp.htm" title="HostWindow.cpp" alt="" coords="408,83,533,112"/>
+<area shape="rect" id="node9" href="$SystemService_8cpp.htm" title="SystemService.cpp" alt="" coords="557,83,699,112"/>
+<area shape="rect" id="node11" href="$SystemUiController_8cpp.htm" title="SystemUiController.cpp" alt="" coords="723,83,891,112"/>
+<area shape="rect" id="node13" href="$IMEController_8cpp.htm" title="IMEController.cpp" alt="" coords="915,83,1048,112"/>
+<area shape="rect" id="node15" href="$IMEView_8cpp.htm" title="IMEView.cpp" alt="" coords="1072,83,1173,112"/>
+<area shape="rect" id="node17" href="$InputClient_8cpp.htm" title="InputClient.cpp" alt="" coords="1197,83,1312,112"/>
+<area shape="rect" id="node19" href="$InputWindowManager_8cpp.htm" title="InputWindowManager.cpp" alt="" coords="1336,83,1523,112"/>
+<area shape="rect" id="node21" href="$SysmgrIMEDataInterface_8cpp.htm" title="SysmgrIMEDataInterface.cpp" alt="" coords="1547,83,1752,112"/>
+<area shape="rect" id="node23" href="$CardWindow_8cpp.htm" title="CardWindow.cpp" alt="" coords="1776,83,1904,112"/>
+<area shape="rect" id="node25" href="$CardWindowManager_8cpp.htm" title="CardWindowManager.cpp" alt="" coords="1928,83,2115,112"/>
+<area shape="rect" id="node27" href="$EmulatedCardWindow_8cpp.htm" title="EmulatedCardWindow.cpp" alt="" coords="2139,83,2325,112"/>
+<area shape="rect" id="node29" href="$EmergencyWindowManager_8cpp.htm" title="EmergencyWindowManager.cpp" alt="" coords="2349,83,2576,112"/>
+<area shape="rect" id="node31" href="$OverlayWindowManager_8cpp.htm" title="OverlayWindowManager.cpp" alt="" coords="2600,83,2803,112"/>
+<area shape="rect" id="node33" href="$LockWindow_8cpp.htm" title="LockWindow.cpp" alt="" coords="2827,83,2955,112"/>
 </map>

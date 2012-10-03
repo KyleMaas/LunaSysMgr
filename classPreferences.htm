@@ -111,14 +111,12 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="dynheader">
 Inheritance diagram for Preferences:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classPreferences__inherit__graph.svg" width="110" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classPreferences__inherit__graph.svg" width="110" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 <center><span class="legend">[<a target="top" href="graph_legend.htm">legend</a>]</span></center></div>
 <div class="dynheader">
 Collaboration diagram for Preferences:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classPreferences__coll__graph.svg" width="110" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classPreferences__coll__graph.svg" width="110" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 <center><span class="legend">[<a target="top" href="graph_legend.htm">legend</a>]</span></center></div>
 
 <p><a href="classPreferences-members.htm">List of all members.</a></p>
@@ -137,6 +135,7 @@ Signals</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPreferences.htm#acf84d480de6216583261bcf3866834d6">signalMuteSoundChanged</a> (bool muteOn)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPreferences.htm#a47175503c6b6631487de103d6ada833c">signalAlsEnabled</a> (bool enable)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPreferences.htm#a8c8a78c544313d559ceec6478cfbc4ec">signalDeviceNameChanged</a> (std::string <a class="el" href="classPreferences.htm#a74b8811efab5c47866d4be43824429f9">deviceName</a>)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPreferences.htm#af73c8d9e2c5e1168713218f8be001ed0">signalGetPrefsComplete</a> ()</td></tr>
 <tr><td colspan="2"><h2><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPreferences.htm#a0e4294846b5741389a13e93d050208b4">locale</a> () const </td></tr>
@@ -163,6 +162,9 @@ Public Member Functions</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPreferences.htm#a5d009cafa208262510df79220aa9ac2e">sysUiUseCustomCarrierString</a> () const </td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPreferences.htm#adf97810b8c6e577bfff5fa527cb847e6">sysUiCarrierString</a> ()</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPreferences.htm#a30636dbe0898b3ce08473bbc6ed4507c">sysUiEnableSpreadGesture</a> () const </td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPreferences.htm#a960bed06603a5d593383af71b23fccd5">sysUiEnableMiniCards</a> () const </td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPreferences.htm#a2525c72604de697bc51a4d17be5a0884">sysUiEnableZoomGesture</a> () const </td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPreferences.htm#a62f125ea61afeafbb31be1b4601a244b">sysUiEnableWaveLauncher</a> () const </td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPreferences.htm#ae7efc568d696100d1f913b95a620891e">imeEnabled</a> () const </td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPreferences.htm#a28251b4c29be67e324d85361d0eca9dc">pinyinEnabled</a> () const </td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPreferences.htm#a974f1a4a90e94c6deff3f55eb7764eba">hwrEnabled</a> () const </td></tr>
@@ -890,6 +892,22 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="af73c8d9e2c5e1168713218f8be001ed0"></a><!-- doxytag: member="Preferences::signalGetPrefsComplete" ref="af73c8d9e2c5e1168713218f8be001ed0" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classPreferences.htm#af73c8d9e2c5e1168713218f8be001ed0">Preferences::signalGetPrefsComplete</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td><code> [signal]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="acf84d480de6216583261bcf3866834d6"></a><!-- doxytag: member="Preferences::signalMuteSoundChanged" ref="acf84d480de6216583261bcf3866834d6" args="(bool muteOn)" -->
 <div class="memitem">
 <div class="memproto">
@@ -1056,6 +1074,22 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a960bed06603a5d593383af71b23fccd5"></a><!-- doxytag: member="Preferences::sysUiEnableMiniCards" ref="a960bed06603a5d593383af71b23fccd5" args="() const " -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="classPreferences.htm#a960bed06603a5d593383af71b23fccd5">Preferences::sysUiEnableMiniCards</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const<code> [inline]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="aff56ecee0b6c78a2ac8367fd4d729a30"></a><!-- doxytag: member="Preferences::sysUiEnableNextPrevGestures" ref="aff56ecee0b6c78a2ac8367fd4d729a30" args="() const " -->
 <div class="memitem">
 <div class="memproto">
@@ -1094,6 +1128,38 @@ Static Public Member Functions</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">bool <a class="el" href="classPreferences.htm#ab350f12648cd67ecd6c1beeb1d433fec">Preferences::sysUiEnableStatusBarSearch</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const<code> [inline]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a62f125ea61afeafbb31be1b4601a244b"></a><!-- doxytag: member="Preferences::sysUiEnableWaveLauncher" ref="a62f125ea61afeafbb31be1b4601a244b" args="() const " -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="classPreferences.htm#a62f125ea61afeafbb31be1b4601a244b">Preferences::sysUiEnableWaveLauncher</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const<code> [inline]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a2525c72604de697bc51a4d17be5a0884"></a><!-- doxytag: member="Preferences::sysUiEnableZoomGesture" ref="a2525c72604de697bc51a4d17be5a0884" args="() const " -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="classPreferences.htm#a2525c72604de697bc51a4d17be5a0884">Preferences::sysUiEnableZoomGesture</a> </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const<code> [inline]</code></td>
@@ -1256,7 +1322,7 @@ Static Public Member Functions</h2></td></tr>
     <ul>
       <li class="navelem"><a class="el" href="classPreferences.htm">Preferences</a>      </li>
 
-    <li class="footer">Generated on Wed Sep 26 2012 07:32:51 for LunaSysMgr by
+    <li class="footer">Generated on Tue Oct 2 2012 22:44:00 for LunaSysMgr by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.7.6.1 </li>
    </ul>

@@ -58,6 +58,7 @@ var searchData=
   ['methodstageready',['MethodStageReady',['../JsSysObject_8cpp.htm#a0b43e8e9b1dabec16da42e54b07f12eba3646692113c1814cde123d70eb86ceb5',1,'JsSysObject.cpp']]],
   ['methodupdateactivecallbanner',['MethodUpdateActiveCallBanner',['../JsSysObject_8cpp.htm#a0b43e8e9b1dabec16da42e54b07f12eba1356328fec568ce7fac26f0f6c0697de',1,'JsSysObject.cpp']]],
   ['methodusesimulatedmouseclicks',['MethodUseSimulatedMouseClicks',['../JsSysObject_8cpp.htm#a0b43e8e9b1dabec16da42e54b07f12eba5c7ea091d45ba0b970c178277b01dc4a',1,'JsSysObject.cpp']]],
+  ['minimize',['Minimize',['../CardGroup_8h.htm#a9c82121d577b4cc566759f37e98455b6ad8604415a0d852bdefcc9e8c3d4c19d0',1,'CardGroup.h']]],
   ['missingappdescriptor',['MissingAppDescriptor',['../classSystemUiController.htm#aea4937d67889f9a6061bb6a54bc6d3efac84a75cc9f78711a3be8bbf45b4485cc',1,'SystemUiController']]],
   ['missingprocessid',['MissingProcessId',['../classSystemUiController.htm#aea4937d67889f9a6061bb6a54bc6d3efa10aaaa30d5211484049289c814fdf3fd',1,'SystemUiController']]],
   ['modallaunchedacceptinginput',['ModalLaunchedAcceptingInput',['../classCardWindow.htm#afd5fa4580a0382be721d635262b8fc5ca513e28dc0aaff669525c8f221dfd45ef',1,'CardWindow']]],

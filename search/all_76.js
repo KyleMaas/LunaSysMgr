@@ -62,7 +62,7 @@ var searchData=
   ['virtualgesturestrip',['VirtualGestureStrip',['../classVirtualGestureStrip.htm',1,'VirtualGestureStrip'],['../classVirtualGestureStrip.htm#a2d7d673d3e074d6bb0be183ab4a28625',1,'VirtualGestureStrip::VirtualGestureStrip()']]],
   ['virtualgesturestrip_2ecpp',['VirtualGestureStrip.cpp',['../VirtualGestureStrip_8cpp.htm',1,'']]],
   ['virtualgesturestrip_2eh',['VirtualGestureStrip.h',['../VirtualGestureStrip_8h.htm',1,'']]],
-  ['virtualkeyboard',['VirtualKeyboard',['../classVirtualKeyboard.htm',1,'VirtualKeyboard'],['../classVirtualKeyboard.htm#aa07077068db23f473724727183f51fb8',1,'VirtualKeyboard::VirtualKeyboard()'],['../classVirtualKeyboardPreferences.htm#a42e5631fe55c5a6034c71700f94e06c0',1,'VirtualKeyboardPreferences::virtualKeyboard()']]],
+  ['virtualkeyboard',['VirtualKeyboard',['../classVirtualKeyboard.htm',1,'VirtualKeyboard'],['../classVirtualKeyboardPreferences.htm#a42e5631fe55c5a6034c71700f94e06c0',1,'VirtualKeyboardPreferences::virtualKeyboard()'],['../classVirtualKeyboard.htm#aa07077068db23f473724727183f51fb8',1,'VirtualKeyboard::VirtualKeyboard()']]],
   ['virtualkeyboard_2ecpp',['VirtualKeyboard.cpp',['../VirtualKeyboard_8cpp.htm',1,'']]],
   ['virtualkeyboard_2eh',['VirtualKeyboard.h',['../VirtualKeyboard_8h.htm',1,'']]],
   ['virtualkeyboardenabled',['virtualKeyboardEnabled',['../classSettings.htm#a09db136816d250b2c6ee24fa4415131f',1,'Settings']]],

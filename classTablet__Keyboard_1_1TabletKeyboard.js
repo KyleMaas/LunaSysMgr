@@ -47,6 +47,7 @@ var classTablet__Keyboard_1_1TabletKeyboard =
     [ "stopRepeat", "classTablet__Keyboard_1_1TabletKeyboard.htm#a0c6965c61693654b8f6cc4fb3c4b2e6b", null ],
     [ "syncKeymap", "classTablet__Keyboard_1_1TabletKeyboard.htm#a0997db97d3ce9fa096728fc2a81b434e", null ],
     [ "tapEvent", "classTablet__Keyboard_1_1TabletKeyboard.htm#a6cc551f0969c65182e1952744d2b7e22", null ],
+    [ "tickTrackball", "classTablet__Keyboard_1_1TabletKeyboard.htm#ac3cb0addb7fc2ec0c06ac5ee4d467f03", null ],
     [ "touchEvent", "classTablet__Keyboard_1_1TabletKeyboard.htm#a7fc84bca382969b65e04cc4d768a77d5", null ],
     [ "triggerRepaint", "classTablet__Keyboard_1_1TabletKeyboard.htm#a4e16516cf380adefa58d569fc0be8b4d", null ],
     [ "updateBackground", "classTablet__Keyboard_1_1TabletKeyboard.htm#af8db58f51bde2e0be1486f490d4c48f7", null ],

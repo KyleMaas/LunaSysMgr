@@ -25,7 +25,7 @@ var searchData=
   ['noncurscale',['nonCurScale',['../classCardGroup.htm#aee210ecafb7240592216ae946c09fbe8',1,'CardGroup']]],
   ['nonremovablesystemapp',['nonRemovableSystemApp',['../classDimensionsSystemInterface_1_1WebOSApp.htm#ac0ba4d7eb1e78d8dcd2a77c589407b21',1,'DimensionsSystemInterface::WebOSApp']]],
   ['normalheight',['normalHeight',['../classQuicklauncher.htm#ac9ee0bed34a7bf01ac923e888d636efd',1,'Quicklauncher']]],
-  ['notificationpolicy',['NotificationPolicy',['../classNotificationPolicy.htm#adc06ce27ac83c1bca63d8b29909ad3ce',1,'NotificationPolicy::NotificationPolicy()'],['../classDashboardWindowManager.htm#a7ab59a382965b7f40222261a13e459c0',1,'DashboardWindowManager::notificationPolicy()']]],
+  ['notificationpolicy',['notificationPolicy',['../classDashboardWindowManager.htm#a7ab59a382965b7f40222261a13e459c0',1,'DashboardWindowManager::notificationPolicy()'],['../classNotificationPolicy.htm#adc06ce27ac83c1bca63d8b29909ad3ce',1,'NotificationPolicy::NotificationPolicy()']]],
   ['notifyactivealertwindowactivated',['notifyActiveAlertWindowActivated',['../classDashboardWindowManager.htm#abc326e2f07989c7b47ffed35347ed392',1,'DashboardWindowManager']]],
   ['notifyactivealertwindowdeactivated',['notifyActiveAlertWindowDeactivated',['../classDashboardWindowManager.htm#a111cdad78b09ca5eaca7413d706c7452',1,'DashboardWindowManager']]],
   ['notifyalertactivated',['notifyAlertActivated',['../classSystemUiController.htm#acdad79a16701f542ec1a7f4832eaf08c',1,'SystemUiController']]],

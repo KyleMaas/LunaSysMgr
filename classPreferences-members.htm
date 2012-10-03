@@ -145,6 +145,7 @@ This is the complete list of members for <a class="el" href="classPreferences.ht
   <tr class="memlist"><td><a class="el" href="classPreferences.htm#a8c8a78c544313d559ceec6478cfbc4ec">signalDeviceNameChanged</a>(std::string deviceName)</td><td><a class="el" href="classPreferences.htm">Preferences</a></td><td><code> [signal]</code></td></tr>
   <tr class="memlist"><td><a class="el" href="classPreferences.htm#a54074e94e63bb1fdb700a76c046e180f">signalDockModeWallPaperChanged</a>(const char *filePath)</td><td><a class="el" href="classPreferences.htm">Preferences</a></td><td><code> [signal]</code></td></tr>
   <tr class="memlist"><td><a class="el" href="classPreferences.htm#ad98ae7644bc7cf12813cf8e398495278">signalDualRssiEnabled</a>()</td><td><a class="el" href="classPreferences.htm">Preferences</a></td><td><code> [signal]</code></td></tr>
+  <tr class="memlist"><td><a class="el" href="classPreferences.htm#af73c8d9e2c5e1168713218f8be001ed0">signalGetPrefsComplete</a>()</td><td><a class="el" href="classPreferences.htm">Preferences</a></td><td><code> [signal]</code></td></tr>
   <tr class="memlist"><td><a class="el" href="classPreferences.htm#acf84d480de6216583261bcf3866834d6">signalMuteSoundChanged</a>(bool muteOn)</td><td><a class="el" href="classPreferences.htm">Preferences</a></td><td><code> [signal]</code></td></tr>
   <tr class="memlist"><td><a class="el" href="classPreferences.htm#a3238cf4a121baed1cf53129b3a3506bd">signalRoamingIndicatorChanged</a>()</td><td><a class="el" href="classPreferences.htm">Preferences</a></td><td><code> [signal]</code></td></tr>
   <tr class="memlist"><td><a class="el" href="classPreferences.htm#ab1dea64c4935b0339b290654af8b6d3e">signalRotationLockChanged</a>(OrientationEvent::Orientation rotationLock)</td><td><a class="el" href="classPreferences.htm">Preferences</a></td><td><code> [signal]</code></td></tr>
@@ -155,9 +156,12 @@ This is the complete list of members for <a class="el" href="classPreferences.ht
   <tr class="memlist"><td><a class="el" href="classPreferences.htm#adf97810b8c6e577bfff5fa527cb847e6">sysUiCarrierString</a>()</td><td><a class="el" href="classPreferences.htm">Preferences</a></td><td><code> [inline]</code></td></tr>
   <tr class="memlist"><td><a class="el" href="classPreferences.htm#a7cb5ad67f90dc62ff8c1c2a54b809a69">sysUiEnableAppSwitchGestures</a>() const </td><td><a class="el" href="classPreferences.htm">Preferences</a></td><td><code> [inline]</code></td></tr>
   <tr class="memlist"><td><a class="el" href="classPreferences.htm#a429836501a660fe624ae81c4c6a8295e">sysUiEnableMaximizeEdges</a>() const </td><td><a class="el" href="classPreferences.htm">Preferences</a></td><td><code> [inline]</code></td></tr>
+  <tr class="memlist"><td><a class="el" href="classPreferences.htm#a960bed06603a5d593383af71b23fccd5">sysUiEnableMiniCards</a>() const </td><td><a class="el" href="classPreferences.htm">Preferences</a></td><td><code> [inline]</code></td></tr>
   <tr class="memlist"><td><a class="el" href="classPreferences.htm#aff56ecee0b6c78a2ac8367fd4d729a30">sysUiEnableNextPrevGestures</a>() const </td><td><a class="el" href="classPreferences.htm">Preferences</a></td><td><code> [inline]</code></td></tr>
   <tr class="memlist"><td><a class="el" href="classPreferences.htm#a30636dbe0898b3ce08473bbc6ed4507c">sysUiEnableSpreadGesture</a>() const </td><td><a class="el" href="classPreferences.htm">Preferences</a></td><td><code> [inline]</code></td></tr>
   <tr class="memlist"><td><a class="el" href="classPreferences.htm#ab350f12648cd67ecd6c1beeb1d433fec">sysUiEnableStatusBarSearch</a>() const </td><td><a class="el" href="classPreferences.htm">Preferences</a></td><td><code> [inline]</code></td></tr>
+  <tr class="memlist"><td><a class="el" href="classPreferences.htm#a62f125ea61afeafbb31be1b4601a244b">sysUiEnableWaveLauncher</a>() const </td><td><a class="el" href="classPreferences.htm">Preferences</a></td><td><code> [inline]</code></td></tr>
+  <tr class="memlist"><td><a class="el" href="classPreferences.htm#a2525c72604de697bc51a4d17be5a0884">sysUiEnableZoomGesture</a>() const </td><td><a class="el" href="classPreferences.htm">Preferences</a></td><td><code> [inline]</code></td></tr>
   <tr class="memlist"><td><a class="el" href="classPreferences.htm#acbbfb93017b691cb11baad32639caf07">sysUiGestureDetection</a>() const </td><td><a class="el" href="classPreferences.htm">Preferences</a></td><td><code> [inline]</code></td></tr>
   <tr class="memlist"><td><a class="el" href="classPreferences.htm#a1da3fab2e7af2a6b83509d9ede62b674">sysUiNoHomeButtonMode</a>() const </td><td><a class="el" href="classPreferences.htm">Preferences</a></td><td><code> [inline]</code></td></tr>
   <tr class="memlist"><td><a class="el" href="classPreferences.htm#ab4d39127c49c78c4f953ac38a55bb3e0">sysUiShowDeviceNameAsCarrierText</a>() const </td><td><a class="el" href="classPreferences.htm">Preferences</a></td><td><code> [inline]</code></td></tr>
@@ -185,7 +189,7 @@ This is the complete list of members for <a class="el" href="classPreferences.ht
   <div id="nav-path" class="navpath">
     <ul>
 
-    <li class="footer">Generated on Wed Sep 26 2012 07:32:51 for LunaSysMgr by
+    <li class="footer">Generated on Tue Oct 2 2012 22:44:00 for LunaSysMgr by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.7.6.1 </li>
    </ul>

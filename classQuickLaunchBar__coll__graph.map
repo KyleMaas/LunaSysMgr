@@ -1,7 +1,7 @@
 <map id="G" name="G">
-<area shape="rect" id="node2" href="$classThingPaintable.htm" title="ThingPaintable" alt="" coords="645,639,760,668"/>
-<area shape="rect" id="node34" href="$classIconBase.htm" title="IconBase" alt="" coords="1235,916,1315,945"/>
-<area shape="rect" id="node4" href="$classThing.htm" title="Thing" alt="" coords="321,639,380,668"/>
-<area shape="rect" id="node6" href="$classQGraphicsObject.htm" title="QGraphicsObject" alt="" coords="9,612,140,641"/>
-<area shape="rect" id="node14" href="$classint.htm" title="int" alt="" coords="332,749,369,779"/>
+<area shape="rect" id="node2" href="$classThingPaintable.htm" title="ThingPaintable" alt="" coords="645,757,760,787"/>
+<area shape="rect" id="node33" href="$classIconBase.htm" title="IconBase" alt="" coords="1235,1328,1315,1357"/>
+<area shape="rect" id="node4" href="$classThing.htm" title="Thing" alt="" coords="321,793,380,823"/>
+<area shape="rect" id="node6" href="$classQGraphicsObject.htm" title="QGraphicsObject" alt="" coords="9,767,140,796"/>
+<area shape="rect" id="node14" href="$classint.htm" title="int" alt="" coords="332,695,369,724"/>
 </map>

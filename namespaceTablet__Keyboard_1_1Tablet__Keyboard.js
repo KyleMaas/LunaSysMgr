@@ -58,5 +58,6 @@ var namespaceTablet__Keyboard_1_1Tablet__Keyboard =
     [ "cKey_ToggleLanguage", "namespaceTablet__Keyboard_1_1Tablet__Keyboard.htm#a03081f7695bd1f5955486cb3488bc7e3", null ],
     [ "cKey_ToggleSoundFeedback", "namespaceTablet__Keyboard_1_1Tablet__Keyboard.htm#aa0a4ad90514a956b0e09b6762166b955", null ],
     [ "cKey_ToggleSuggestions", "namespaceTablet__Keyboard_1_1Tablet__Keyboard.htm#ac697a583370cf321059a12e017ce9a43", null ],
+    [ "cKey_Trackball", "namespaceTablet__Keyboard_1_1Tablet__Keyboard.htm#a08f639ca49f1f25452cf5236d1804498", null ],
     [ "cKey_WWW", "namespaceTablet__Keyboard_1_1Tablet__Keyboard.htm#a3f4eb79a5d79b3f9044a63bf11fd472d", null ]
 ];

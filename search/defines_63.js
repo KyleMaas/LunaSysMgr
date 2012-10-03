@@ -11,7 +11,7 @@ var searchData=
   ['charger_5finductive',['CHARGER_INDUCTIVE',['../DisplayManager_8cpp.htm#ac43c85fec55cc2ad05038a79aa0c22a1',1,'DisplayManager.cpp']]],
   ['charger_5fnone',['CHARGER_NONE',['../DisplayManager_8cpp.htm#abb3d7fe1599ce904ebb18ca4bf7c0c70',1,'DisplayManager.cpp']]],
   ['charger_5fusb',['CHARGER_USB',['../DisplayManager_8cpp.htm#aa53364377b02d5679997ba269dbe5b5f',1,'DisplayManager.cpp']]],
-  ['check',['CHECK',['../Logging_8h.htm#a4b98e8092d690034c069c2beea935c2c',1,'CHECK():&#160;Logging.h'],['../qtjsonabstract_8cpp.htm#a0540186b16c15f6bffe334da78eeb299',1,'check():&#160;qtjsonabstract.cpp']]],
+  ['check',['check',['../qtjsonabstract_8cpp.htm#a0540186b16c15f6bffe334da78eeb299',1,'check():&#160;qtjsonabstract.cpp'],['../Logging_8h.htm#a4b98e8092d690034c069c2beea935c2c',1,'CHECK():&#160;Logging.h']]],
   ['check_5ferror',['CHECK_ERROR',['../HALSensorConnector_8cpp.htm#ad1d8f069d1ad366da480e715fbbd2327',1,'HALSensorConnector.cpp']]],
   ['clamp',['clamp',['../VolumeControlAlertWindow_8cpp.htm#a51ac384f0eb70be2b0e64d9017a33ce9',1,'VolumeControlAlertWindow.cpp']]],
   ['cod_5faudio',['COD_AUDIO',['../BtDeviceClass_8h.htm#a9a3467162499a7e816e93bb9f0a11195',1,'BtDeviceClass.h']]],

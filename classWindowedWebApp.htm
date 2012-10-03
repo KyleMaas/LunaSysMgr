@@ -114,14 +114,12 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="dynheader">
 Inheritance diagram for WindowedWebApp:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classWindowedWebApp__inherit__graph.svg" width="414" height="350"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classWindowedWebApp__inherit__graph.svg" width="414" height="350"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 <center><span class="legend">[<a target="top" href="graph_legend.htm">legend</a>]</span></center></div>
 <div class="dynheader">
 Collaboration diagram for WindowedWebApp:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classWindowedWebApp__coll__graph.svg" width="1206" height="1575"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classWindowedWebApp__coll__graph.svg" width="1206" height="1575"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 <center><span class="legend">[<a target="top" href="graph_legend.htm">legend</a>]</span></center></div>
 
 <p><a href="classWindowedWebApp-members.htm">List of all members.</a></p>
@@ -243,7 +241,9 @@ Friends</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWindowedWebApp.htm#adde74168d71d7bdbd1c678daff261c8e">WebAppBase</a></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWindowedWebApp.htm#af04fabd91189ed6162b4346d5564b37a">JsSysObject</a></td></tr>
 </table>
-<hr/><h2>Member Enumeration Documentation</h2>
+<hr/><a name="details" id="details"></a><h2>Detailed Description</h2>
+<div class="textblock"><p>Base UI functionality for app container classes to derive from. </p>
+</div><hr/><h2>Member Enumeration Documentation</h2>
 <a class="anchor" id="a92d98b65220528d99a2eb2360c7335b5"></a><!-- doxytag: member="WindowedWebApp::PendingFocus" ref="a92d98b65220528d99a2eb2360c7335b5" args="" -->
 <div class="memitem">
 <div class="memproto">
@@ -254,12 +254,16 @@ Friends</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
+<p>Possible states of app focus </p>
 <dl><dt><b>Enumerator: </b></dt><dd><table border="0" cellspacing="2" cellpadding="0">
 <tr><td valign="top"><em><a class="anchor" id="a92d98b65220528d99a2eb2360c7335b5aa3c6777cef159753c53951334eb6a0b0"></a><!-- doxytag: member="PendingFocusNone" ref="a92d98b65220528d99a2eb2360c7335b5aa3c6777cef159753c53951334eb6a0b0" args="" -->PendingFocusNone</em>&nbsp;</td><td>
+<p>Indicates that we have not yet received a focus event while the app is loading </p>
 </td></tr>
 <tr><td valign="top"><em><a class="anchor" id="a92d98b65220528d99a2eb2360c7335b5a004ff6447f2dd16e222be9c3856f0992"></a><!-- doxytag: member="PendingFocusTrue" ref="a92d98b65220528d99a2eb2360c7335b5a004ff6447f2dd16e222be9c3856f0992" args="" -->PendingFocusTrue</em>&nbsp;</td><td>
+<p>Indicates that while the app was still loading we were informed that our app currently has the system focus </p>
 </td></tr>
 <tr><td valign="top"><em><a class="anchor" id="a92d98b65220528d99a2eb2360c7335b5ae590fdc721b980c9a8a4ab2d030c1f87"></a><!-- doxytag: member="PendingFocusFalse" ref="a92d98b65220528d99a2eb2360c7335b5ae590fdc721b980c9a8a4ab2d030c1f87" args="" -->PendingFocusFalse</em>&nbsp;</td><td>
+<p>Indicates that while the app was still loading we were informed that our app currently does not have the system focus </p>
 </td></tr>
 </table>
 </dd>
@@ -304,6 +308,17 @@ Friends</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
+<p>Constructs a new instance of this class</p>
+<p><a class="el" href="classWindowedWebApp.htm">WindowedWebApp</a> provides base functionality for talking with the OS and other UI components for any kind of an app or other HTML/JS-driven system component. If you need something to display content on the screen, this is probably the class you'll want to derive from.</p>
+<dl class="params"><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">width</td><td>Width (in pixels) of the new window to display in. </td></tr>
+    <tr><td class="paramname">height</td><td>Height (in pixels) of the new window to display in. </td></tr>
+    <tr><td class="paramname">type</td><td>What type of window to create. </td></tr>
+    <tr><td class="paramname">channel</td><td>IPC channel to send and receive messages on. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -320,6 +335,8 @@ Friends</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
+<p>Cleans up this instance</p>
+<p>Cleans up the app. Stops the redraw timer, and if it's a child card of another app, it sends the parent app a ViewHost_RemoveWindow IPC message and calls <a class="el" href="classWebAppManager.htm#a409179dea97cca3400e642d3eebbb037">WebAppManager::windowedAppRemoved()</a> to let it know that we're closed. </p>
 
 </div>
 </div>
@@ -337,6 +354,9 @@ Friends</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
+<p>Returns whether or not the initial page content of this app is completely loaded and ready to run</p>
+<p>If the stage is still preparing or is somehow just not ready, this method will return false.</p>
+<dl class="return"><dt><b>Returns:</b></dt><dd>True if the app is completely loaded, false otherwise. </dd></dl>
 
 </div>
 </div>
@@ -364,6 +384,9 @@ Friends</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
+<p>Indirectly calls <a class="el" href="classOverlayWindowManager.htm#ab5197fd7de61a93ba3c1bab234644ade">OverlayWindowManager::applyLaunchFeedback()</a></p>
+<dl class="todo"><dt><b><a class="el" href="todo.htm#_todo000098">Todo:</a></b></dt><dd>Document this once <a class="el" href="classOverlayWindowManager.htm">OverlayWindowManager</a> is documented.</dd></dl>
+<dl class="see"><dt><b>See also:</b></dt><dd><a class="el" href="classOverlayWindowManager.htm#ab5197fd7de61a93ba3c1bab234644ade">OverlayWindowManager::applyLaunchFeedback()</a> </dd></dl>
 
 </div>
 </div>
@@ -403,6 +426,20 @@ Friends</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
+<p>Flips the app's orientation from horizontal to vertical and vise versa, then sends a ViewHost_AsyncFlipCompleted message.</p>
+<p>Flips the app contents' back buffer to the front buffer and displays it. Repaints all other graphics associated with this app which are not part of the content of the app (card decorations, etc.).</p>
+<p>Exactly the same as <a class="el" href="classWindowedWebApp.htm#a7f150053dd25f0bfe7840d36797eed21">WindowedWebApp::flipEvent()</a> except that when complete, it sends an async ViewHost_AsyncFlipCompleted IPC message. In other words, this is the method you'd want to use if you need to know when it's done flipping orientations.</p>
+<p>Can be called indirectly by IPC via a View_AsyncFlip IPC call.</p>
+<dl class="todo"><dt><b><a class="el" href="todo.htm#_todo000097">Todo:</a></b></dt><dd>Change this to call <a class="el" href="classWindowedWebApp.htm#a7f150053dd25f0bfe7840d36797eed21">WindowedWebApp::flipEvent()</a>, since internally they're pretty much the same except for the callback.</dd></dl>
+<dl class="params"><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">newWidth</td><td>Unused internally. Passed through unchanged to the completion handler. </td></tr>
+    <tr><td class="paramname">newHeight</td><td>Unused internally. Passed through unchanged to the completion handler. </td></tr>
+    <tr><td class="paramname">newScreenWidth</td><td>Unused internally. Passed through unchanged to the completion handler. </td></tr>
+    <tr><td class="paramname">newScreenHeight</td><td>Unused internally. Passed through unchanged to the completion handler. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>Reimplemented in <a class="el" href="classCardWebApp.htm#a710a96dbe077623ab27a39e79c741ee3">CardWebApp</a>.</p>
 
@@ -485,6 +522,8 @@ Friends</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
+<p>Suspend all scheduled redrawing until further notice</p>
+<dl class="see"><dt><b>See also:</b></dt><dd><a class="el" href="classWindowedWebApp.htm#aa87bac0dbbd488fd6bd17a65b9ff312b">WindowedWebApp::displayOff()</a> </dd></dl>
 
 <p>Reimplemented in <a class="el" href="classCardWebApp.htm#afde64f0d2e0b2b8454391301ddc7d6ee">CardWebApp</a>.</p>
 
@@ -503,6 +542,8 @@ Friends</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
+<p>Resume scheduled redrawing</p>
+<dl class="see"><dt><b>See also:</b></dt><dd><a class="el" href="classWindowedWebApp.htm#a5cec3f8b38eba8e48736868f7ad7a67c">WindowedWebApp::displayOn()</a> </dd></dl>
 
 <p>Reimplemented in <a class="el" href="classCardWebApp.htm#af800b81a51119eedd21b65ddf2b91bfd">CardWebApp</a>.</p>
 
@@ -570,6 +611,17 @@ Friends</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
+<p>Flips the app's orientation from horizontal to vertical and vise versa</p>
+<p>Flips the app contents' back buffer to the front buffer and displays it. Repaints all other graphics associated with this app which are not part of the content of the app (card decorations, etc.).</p>
+<p>Exactly the same as <a class="el" href="classWindowedWebApp.htm#a7003e0932cea137b160da30b1fb09718">WindowedWebApp::asyncFlipEvent()</a> except that it doesn't call a callback when done. In other words, this is the method you'd want to use if you don't need to know when it's done flipping orientations.</p>
+<p>Can be called indirectly by IPC via a View_Flip IPC call.</p>
+<dl class="params"><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">newWidth</td><td>Unused. </td></tr>
+    <tr><td class="paramname">newHeight</td><td>Unused. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>Reimplemented in <a class="el" href="classCardWebApp.htm#ac8be100c5a27297e31f10bfe1a69d26b">CardWebApp</a>.</p>
 
@@ -610,6 +662,17 @@ Friends</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
+<p>Sets the focus state of this app</p>
+<p>This method is called by IPC and a couple other places to let us know whether or not this app has the system focus. It also sets the initial state of the editor if we're focused and a leaf app.</p>
+<p>This method then lets the HTML/JS app contents and the Mojo framework know.</p>
+<p>If we have acquired focus and Mojo is active in our app, this method calls Mojo.stageActivated() to let it know.</p>
+<p>If we are losing focus and Mojo is active in our app, this method calls Mojo.stageDeactivated() to let it know.</p>
+<dl class="params"><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">focused</td><td>True if this app has focus, false otherwise. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>Reimplemented in <a class="el" href="classCardWebApp.htm#aaf569f57b97bfc89916648b1599f22cc">CardWebApp</a>.</p>
 
@@ -682,6 +745,33 @@ Friends</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
+<p>Builds a JSON string based on properties contained in winProp</p>
+<p>JSON object may contain any of the following properties depending on winProp.flags:</p>
+<ul>
+<li>blockScreenTimeout</li>
+<li>subtleLightbar</li>
+<li>fullScreen</li>
+<li>activeTouchpanel</li>
+<li>alsDisabled</li>
+<li>enableCompass</li>
+<li>enableGyro</li>
+<li>overlayNotificationsPosition</li>
+<li>suppressBannerMessages</li>
+<li>hasPauseUi</li>
+<li>suppressGestures</li>
+<li>webosDragMode</li>
+<li>dashHeight</li>
+<li>statusBarColor</li>
+<li>rotationLockMaximized</li>
+<li>allowResizeOnPositiveSpaceChange</li>
+</ul>
+<dl class="params"><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">winProp</td><td><a class="el" href="classWindow.htm">Window</a> properties to read from. </td></tr>
+    <tr><td class="paramname">propString</td><td>String to return JSON object into. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -698,6 +788,18 @@ Friends</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
+<p>Initializes the window for the app</p>
+<p>Call this from subclasses after setting width and height.</p>
+<p>This method sets up the rendering system, connects it to IPC, and enables/disables direct rendering.</p>
+<p>Sequence is as follows:</p>
+<ul>
+<li>Sets up <a class="el" href="classWindowedWebApp.htm#aab2f7f177159e5b3bc05c523e41a57a3">WindowedWebApp::m_data</a> as a <a class="el" href="classRemoteWindowDataFactory.htm">RemoteWindowDataFactory</a>.</li>
+<li>Sets m_data's IPC channel to the one we're running on.</li>
+<li>Creates an IPC buffer m_metaDataBuffer and m_metaData to give to m_data.</li>
+<li>Calls m_data's <a class="el" href="classRemoteWindowData.htm#a3f3bc671a98273a5b23043415d51a4a9">RemoteWindowData::setWindowMetaDataBuffer()</a> to set its data buffer.</li>
+<li>If this is a card, enables direct rendering for m_data, otherwise it disables it.</li>
+</ul>
+<dl class="note"><dt><b>Note:</b></dt><dd>If this app is a card, this method enables direct rendering. Otherwise, it is disabled. </dd></dl>
 
 </div>
 </div>
@@ -715,6 +817,17 @@ Friends</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
+<p>Process pen/mouse/finger input events</p>
+<p>This method takes an input event from IPC and processes it. For example, it takes pen events and translates them into simulated mouse events for JavaScript event processing in the app.</p>
+<p>Recognized events are interpreted and passed to specific methods of the page's view object, such as pen, mouse, and gesture events.</p>
+<p>In the case of a PenSingleTap event in an app that supports Mojo, a small chunk of JavaScript is run to feed the event to Mojo to be dispatched to the app.</p>
+<p>Can be indirectly called by an IPC View_InputEvent message.</p>
+<dl class="params"><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">e</td><td>Smart pointer to the event to process. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>Reimplemented in <a class="el" href="classCardWebApp.htm#a41e3aa5ce2fc033d4c38475effc626ae">CardWebApp</a>.</p>
 
@@ -787,6 +900,9 @@ Friends</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
+<p>Signals the rendering system that the entire app display needs to be redrawn</p>
+<p>Adds the entire app display area to the rendering queue so that the next time the app is redrawn, the rendering system draws the whole app instead of just part of it.</p>
+<p>To save on processing devoted to rendering, only call this method if the entire display (not just a smaller part of it) needs to be drawn. If you're calling it from a derived class, please consider calling <a class="el" href="classWindowedWebApp.htm#a62585b221b90666b150e6acfa0733982">invalContents()</a> instead so you're not spending the time to redraw everything. </p>
 
 <p>Reimplemented in <a class="el" href="classCardWebApp.htm#a88c553b4a8c5ea0d0383fe2d826778f5">CardWebApp</a>.</p>
 
@@ -805,6 +921,9 @@ Friends</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
+<p>Checks if this app is a card</p>
+<p>Since many types of apps can be derived from <a class="el" href="classWindowedWebApp.htm">WindowedWebApp</a>, this tells you a bit about specifically what type this app is.</p>
+<dl class="return"><dt><b>Returns:</b></dt><dd>True if this app is a card, false otherwise. </dd></dl>
 
 <p>Reimplemented from <a class="el" href="classWebAppBase.htm#ae783f792a2cbd3d91dc2bd593ebf215e">WebAppBase</a>.</p>
 
@@ -825,6 +944,9 @@ Friends</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
+<p>Checks if this app is a dashboard app</p>
+<p>Since many types of apps can be derived from <a class="el" href="classWindowedWebApp.htm">WindowedWebApp</a>, this tells you a bit about specifically what type this app is.</p>
+<dl class="return"><dt><b>Returns:</b></dt><dd>True if this app is a dashboard app, false otherwise. </dd></dl>
 
 <p>Reimplemented from <a class="el" href="classWebAppBase.htm#a63d98b8c43d0d36d457c8abc9e77b321">WebAppBase</a>.</p>
 
@@ -845,6 +967,9 @@ Friends</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
+<p>Checks whether, as of our last update, our app has the system focus</p>
+<p>We are periodically notified via IPC whether or not our app has the system focus (main app on the screen). This method returns the state as of our latest update.</p>
+<dl class="return"><dt><b>Returns:</b></dt><dd>True if this app has the system focus, false otherwise. </dd></dl>
 
 </div>
 </div>
@@ -861,6 +986,10 @@ Friends</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
+<p>Checks if this app is a leaf app</p>
+<p>Since many types of apps can be derived from <a class="el" href="classWindowedWebApp.htm">WindowedWebApp</a>, this tells you a bit about specifically what type this app is.</p>
+<p>Since nothing currently returns anything other than true, this method is probably not going to be of much use right now.</p>
+<dl class="return"><dt><b>Returns:</b></dt><dd>True if this app is a leaf app, false otherwise. </dd></dl>
 
 </div>
 </div>
@@ -877,6 +1006,8 @@ Friends</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
+<p>Checks whether the background of this app should be transparent when drawn</p>
+<dl class="return"><dt><b>Returns:</b></dt><dd>True if transparent, false otherwise. </dd></dl>
 
 </div>
 </div>
@@ -893,6 +1024,9 @@ Friends</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
+<p>Checks if this app is windowed (displayable)</p>
+<p>Since many types of apps can be derived from <a class="el" href="classWindowedWebApp.htm">WindowedWebApp</a>, this tells you a bit about specifically what type this app is.</p>
+<dl class="return"><dt><b>Returns:</b></dt><dd>True if this app is windowed (displayable), false otherwise. </dd></dl>
 
 <p>Reimplemented from <a class="el" href="classWebAppBase.htm#a76d41ed8cb42a7cc5d1205f160c5f9b4">WebAppBase</a>.</p>
 
@@ -1220,6 +1354,15 @@ Friends</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
+<p>Take a View_InputEvent message from IPC and feed it to <a class="el" href="classWindowedWebApp.htm#adaee948c35363dedf14ab848fb2812b2">inputEvent()</a></p>
+<p>Pulls the event out of the IPC message and feeds it to <a class="el" href="classWindowedWebApp.htm#adaee948c35363dedf14ab848fb2812b2">inputEvent()</a>. For more details, please see the documentation for <a class="el" href="classWindowedWebApp.htm#adaee948c35363dedf14ab848fb2812b2">inputEvent()</a>.</p>
+<dl class="see"><dt><b>See also:</b></dt><dd><a class="el" href="classWindowedWebApp.htm#adaee948c35363dedf14ab848fb2812b2">inputEvent()</a></dd></dl>
+<dl class="params"><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">wrapper</td><td><a class="el" href="classEvent.htm">Event</a> wrapper parameter from the IPC message. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -1271,6 +1414,38 @@ Friends</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
+<p>Dispatches incoming IPC messages and calls the class methods associated with them</p>
+<p>The following is a list of the mssages we handle and which methods they call:</p>
+<ul>
+<li>View_Focus -&gt; <a class="el" href="classWindowedWebApp.htm#a2b19281130eb71cf424e906a915ee485">focusedEvent()</a></li>
+<li>View_Resize -&gt; <a class="el" href="classWindowedWebApp.htm#aa7a9684923a884b1be3699cc4c4f70bc">onResize()</a></li>
+<li>View_SyncResize -&gt; <a class="el" href="classWindowedWebApp.htm#a016890a5b1f0629f420cf70dfb344098">onSyncResize()</a></li>
+<li>View_InputEvent -&gt; <a class="el" href="classWindowedWebApp.htm#a64bb314bd1ad91dca4fb75baa48688ca">onInputEvent()</a></li>
+<li>View_KeyEvent -&gt; <a class="el" href="classWindowedWebApp.htm#ad2b4a7c006da4a01ce6c139c7773f464">onKeyEvent()</a></li>
+<li>View_TouchEvent -&gt; <a class="el" href="classWindowedWebApp.htm#a0d92d1799dcf5205c7538f532f6863cd">onTouchEvent()</a></li>
+<li>View_Close -&gt; <a class="el" href="classWindowedWebApp.htm#a530dcd08ace45d44811ed5b74629ffdc">onClose()</a></li>
+<li>View_DirectRenderingChanged -&gt; <a class="el" href="classWindowedWebApp.htm#ac4acdf674c148cb77cc663f898c5a570">onDirectRenderingChanged()</a></li>
+<li>View_SceneTransitionFinished -&gt; <a class="el" href="classWindowedWebApp.htm#a51473d2192af3e6a66ba1558132882bf">onSceneTransitionFinished()</a></li>
+<li>View_ClipboardEvent_Cut -&gt; <a class="el" href="classWindowedWebApp.htm#a12f93802928834981142387ade1a9212">onClipboardEvent_Cut()</a></li>
+<li>View_ClipboardEvent_Copy -&gt; <a class="el" href="classWindowedWebApp.htm#ab344f9182104de6d64def7c57a4a6eff">onClipboardEvent_Copy()</a></li>
+<li>View_ClipboardEvent_Paste -&gt; <a class="el" href="classWindowedWebApp.htm#ac45bdbe640655679f5d13be4b30fa964">onClipboardEvent_Paste()</a></li>
+<li>View_SelectAll -&gt; <a class="el" href="classWindowedWebApp.htm#aeb13ac1a990d0762b615d82db03ee67a">onSelectAll()</a></li>
+<li>View_Flip -&gt; <a class="el" href="classWindowedWebApp.htm#a61914679d83ce9c00fd43100f53feff8">onFlip()</a></li>
+<li>View_AsyncFlip -&gt; <a class="el" href="classWindowedWebApp.htm#ad82500296f4a89ecd6a059c41eb66bb7">onAsyncFlip()</a></li>
+<li>View_AdjustForPositiveSpace -&gt; <a class="el" href="classWindowedWebApp.htm#af8f447324814fe48572008ef78ca782d">onAdjustForPositiveSpace()</a></li>
+<li>View_KeyboardShown -&gt; <a class="el" href="classWindowedWebApp.htm#ac2d89064323989d7adb59424f9664dc6">onKeyboardShow()</a></li>
+<li>View_SetComposingText -&gt; <a class="el" href="classWindowedWebApp.htm#a234a904ea3b3d23960c60be10d6269d6">onSetComposingText()</a></li>
+<li>View_CommitComposingText -&gt; <a class="el" href="classWindowedWebApp.htm#a71dc334c6b37772643adf430d076dc2c">onCommitComposingText()</a></li>
+<li>View_CommitText -&gt; <a class="el" href="classWindowedWebApp.htm#a142e0126da6a52df9b3ba052030446c2">onCommitText()</a></li>
+<li>View_PerformEditorAction -&gt; <a class="el" href="classWindowedWebApp.htm#af44fc041ce74f48b100d4a195a2c03cb">onPerformEditorAction()</a></li>
+<li>View_RemoveInputFocus -&gt; <a class="el" href="classWindowedWebApp.htm#acf137e907abf71f4fbaa062de1d3dfb9">onRemoveInputFocus()</a></li>
+</ul>
+<dl class="params"><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">msg</td><td>IPC message to dispatch. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -1459,6 +1634,20 @@ Friends</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
+<p>Manually draw the contents of this app to the back buffer</p>
+<ul>
+<li>Stops the normal redraw timer.</li>
+<li>If transparent, clears the image to a transparent color so the alpha channel's filled with zeros.</li>
+<li>Draws the content (clipped to m_paintRect).</li>
+<li>If page statistics are requested, draws them.</li>
+<li>Starts the normal redraw timer again.</li>
+</ul>
+<dl class="params"><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">clipToWindow</td><td>Whether or not to clip the contents to the window border (presumably). Currently unused. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>Reimplemented in <a class="el" href="classCardWebApp.htm#a53634a52112c58873f7f988bac6c8aa4">CardWebApp</a>.</p>
 
@@ -1935,6 +2124,8 @@ Friends</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
+<p>Whether or not our app is currently cleaning up in the destructor.</p>
+<p>This is mainly used so we don't try to redraw the app while we're being told to stop. There's no point in drawing if we're actively being asked to stop running. </p>
 
 </div>
 </div>
@@ -1987,6 +2178,8 @@ Friends</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
+<p>Whether or not our app is focused or unfocused</p>
+<p>Similar to m_pendingFocus, but tracked even if the app has already loaded. </p>
 
 </div>
 </div>
@@ -2104,6 +2297,9 @@ Friends</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
+<p>Whether or not our app is focused or unfocused</p>
+<p>Used as temporary storage while we're still loading the page contents so that once they load, we can notify the app itself of the focus state.</p>
+<p>Similar to m_focused, but only tracked when the app is still loading. After the app has loaded, the state of this variable remains the same as when it finished loading. </p>
 
 </div>
 </div>
@@ -2248,7 +2444,7 @@ Friends</h2></td></tr>
     <ul>
       <li class="navelem"><a class="el" href="classWindowedWebApp.htm">WindowedWebApp</a>      </li>
 
-    <li class="footer">Generated on Wed Sep 26 2012 07:32:51 for LunaSysMgr by
+    <li class="footer">Generated on Tue Oct 2 2012 22:44:01 for LunaSysMgr by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.7.6.1 </li>
    </ul>

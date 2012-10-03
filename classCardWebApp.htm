@@ -113,14 +113,12 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="dynheader">
 Inheritance diagram for CardWebApp:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classCardWebApp__inherit__graph.svg" width="302" height="350"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classCardWebApp__inherit__graph.svg" width="302" height="350"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 <center><span class="legend">[<a target="top" href="graph_legend.htm">legend</a>]</span></center></div>
 <div class="dynheader">
 Collaboration diagram for CardWebApp:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classCardWebApp__coll__graph.svg" width="1623" height="1872"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classCardWebApp__coll__graph.svg" width="1623" height="1872"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 <center><span class="legend">[<a target="top" href="graph_legend.htm">legend</a>]</span></center></div>
 
 <p><a href="classCardWebApp-members.htm">List of all members.</a></p>
@@ -450,6 +448,20 @@ Static Protected Attributes</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
+<p>Flips the app's orientation from horizontal to vertical and vise versa, then sends a ViewHost_AsyncFlipCompleted message.</p>
+<p>Flips the app contents' back buffer to the front buffer and displays it. Repaints all other graphics associated with this app which are not part of the content of the app (card decorations, etc.).</p>
+<p>Exactly the same as <a class="el" href="classWindowedWebApp.htm#a7f150053dd25f0bfe7840d36797eed21">WindowedWebApp::flipEvent()</a> except that when complete, it sends an async ViewHost_AsyncFlipCompleted IPC message. In other words, this is the method you'd want to use if you need to know when it's done flipping orientations.</p>
+<p>Can be called indirectly by IPC via a View_AsyncFlip IPC call.</p>
+<dl class="todo"><dt><b><a class="el" href="todo.htm#_todo000097">Todo:</a></b></dt><dd>Change this to call <a class="el" href="classWindowedWebApp.htm#a7f150053dd25f0bfe7840d36797eed21">WindowedWebApp::flipEvent()</a>, since internally they're pretty much the same except for the callback.</dd></dl>
+<dl class="params"><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">newWidth</td><td>Unused internally. Passed through unchanged to the completion handler. </td></tr>
+    <tr><td class="paramname">newHeight</td><td>Unused internally. Passed through unchanged to the completion handler. </td></tr>
+    <tr><td class="paramname">newScreenWidth</td><td>Unused internally. Passed through unchanged to the completion handler. </td></tr>
+    <tr><td class="paramname">newScreenHeight</td><td>Unused internally. Passed through unchanged to the completion handler. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>Reimplemented from <a class="el" href="classWindowedWebApp.htm#a7003e0932cea137b160da30b1fb09718">WindowedWebApp</a>.</p>
 
@@ -603,6 +615,8 @@ Static Protected Attributes</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
+<p>Suspend all scheduled redrawing until further notice</p>
+<dl class="see"><dt><b>See also:</b></dt><dd><a class="el" href="classWindowedWebApp.htm#aa87bac0dbbd488fd6bd17a65b9ff312b">WindowedWebApp::displayOff()</a> </dd></dl>
 
 <p>Reimplemented from <a class="el" href="classWindowedWebApp.htm#aa87bac0dbbd488fd6bd17a65b9ff312b">WindowedWebApp</a>.</p>
 
@@ -621,6 +635,8 @@ Static Protected Attributes</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
+<p>Resume scheduled redrawing</p>
+<dl class="see"><dt><b>See also:</b></dt><dd><a class="el" href="classWindowedWebApp.htm#a5cec3f8b38eba8e48736868f7ad7a67c">WindowedWebApp::displayOn()</a> </dd></dl>
 
 <p>Reimplemented from <a class="el" href="classWindowedWebApp.htm#a5cec3f8b38eba8e48736868f7ad7a67c">WindowedWebApp</a>.</p>
 
@@ -702,6 +718,17 @@ Static Protected Attributes</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
+<p>Flips the app's orientation from horizontal to vertical and vise versa</p>
+<p>Flips the app contents' back buffer to the front buffer and displays it. Repaints all other graphics associated with this app which are not part of the content of the app (card decorations, etc.).</p>
+<p>Exactly the same as <a class="el" href="classWindowedWebApp.htm#a7003e0932cea137b160da30b1fb09718">WindowedWebApp::asyncFlipEvent()</a> except that it doesn't call a callback when done. In other words, this is the method you'd want to use if you don't need to know when it's done flipping orientations.</p>
+<p>Can be called indirectly by IPC via a View_Flip IPC call.</p>
+<dl class="params"><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">newWidth</td><td>Unused. </td></tr>
+    <tr><td class="paramname">newHeight</td><td>Unused. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>Reimplemented from <a class="el" href="classWindowedWebApp.htm#a7f150053dd25f0bfe7840d36797eed21">WindowedWebApp</a>.</p>
 
@@ -740,6 +767,17 @@ Static Protected Attributes</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
+<p>Sets the focus state of this app</p>
+<p>This method is called by IPC and a couple other places to let us know whether or not this app has the system focus. It also sets the initial state of the editor if we're focused and a leaf app.</p>
+<p>This method then lets the HTML/JS app contents and the Mojo framework know.</p>
+<p>If we have acquired focus and Mojo is active in our app, this method calls Mojo.stageActivated() to let it know.</p>
+<p>If we are losing focus and Mojo is active in our app, this method calls Mojo.stageDeactivated() to let it know.</p>
+<dl class="params"><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">focused</td><td>True if this app has focus, false otherwise. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>Reimplemented from <a class="el" href="classWindowedWebApp.htm#a2b19281130eb71cf424e906a915ee485">WindowedWebApp</a>.</p>
 
@@ -810,6 +848,17 @@ Static Protected Attributes</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
+<p>Process pen/mouse/finger input events</p>
+<p>This method takes an input event from IPC and processes it. For example, it takes pen events and translates them into simulated mouse events for JavaScript event processing in the app.</p>
+<p>Recognized events are interpreted and passed to specific methods of the page's view object, such as pen, mouse, and gesture events.</p>
+<p>In the case of a PenSingleTap event in an app that supports Mojo, a small chunk of JavaScript is run to feed the event to Mojo to be dispatched to the app.</p>
+<p>Can be indirectly called by an IPC View_InputEvent message.</p>
+<dl class="params"><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">e</td><td>Smart pointer to the event to process. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>Reimplemented from <a class="el" href="classWindowedWebApp.htm#adaee948c35363dedf14ab848fb2812b2">WindowedWebApp</a>.</p>
 
@@ -828,6 +877,9 @@ Static Protected Attributes</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
+<p>Signals the rendering system that the entire app display needs to be redrawn</p>
+<p>Adds the entire app display area to the rendering queue so that the next time the app is redrawn, the rendering system draws the whole app instead of just part of it.</p>
+<p>To save on processing devoted to rendering, only call this method if the entire display (not just a smaller part of it) needs to be drawn. If you're calling it from a derived class, please consider calling invalContents() instead so you're not spending the time to redraw everything. </p>
 
 <p>Reimplemented from <a class="el" href="classWindowedWebApp.htm#a5e7cb2f759491d0b052c243bfd823a9f">WindowedWebApp</a>.</p>
 
@@ -846,6 +898,9 @@ Static Protected Attributes</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
+<p>Checks if this app is a card</p>
+<p>Since many types of apps can be derived from <a class="el" href="classWindowedWebApp.htm">WindowedWebApp</a>, this tells you a bit about specifically what type this app is.</p>
+<dl class="return"><dt><b>Returns:</b></dt><dd>True if this app is a card, false otherwise. </dd></dl>
 
 <p>Reimplemented from <a class="el" href="classWindowedWebApp.htm#a5e5c5cda2c5de6d1822eefbdf76746b6">WindowedWebApp</a>.</p>
 
@@ -970,6 +1025,20 @@ Static Protected Attributes</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
+<p>Manually draw the contents of this app to the back buffer</p>
+<ul>
+<li>Stops the normal redraw timer.</li>
+<li>If transparent, clears the image to a transparent color so the alpha channel's filled with zeros.</li>
+<li>Draws the content (clipped to m_paintRect).</li>
+<li>If page statistics are requested, draws them.</li>
+<li>Starts the normal redraw timer again.</li>
+</ul>
+<dl class="params"><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">clipToWindow</td><td>Whether or not to clip the contents to the window border (presumably). Currently unused. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>Reimplemented from <a class="el" href="classWindowedWebApp.htm#a509f3ca21c7872aed35fdc55196e89d1">WindowedWebApp</a>.</p>
 
@@ -1902,7 +1971,7 @@ Static Protected Attributes</h2></td></tr>
     <ul>
       <li class="navelem"><a class="el" href="classCardWebApp.htm">CardWebApp</a>      </li>
 
-    <li class="footer">Generated on Wed Sep 26 2012 07:32:50 for LunaSysMgr by
+    <li class="footer">Generated on Tue Oct 2 2012 22:43:59 for LunaSysMgr by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.7.6.1 </li>
    </ul>

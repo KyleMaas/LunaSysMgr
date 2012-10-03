@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['tab',['Tab',['../CardGroup_8h.htm#a9c82121d577b4cc566759f37e98455b6a02c3b925fc688db12200d8e22af30276',1,'CardGroup.h']]],
   ['tabbar',['TabBar',['../classLauncherPageIconTransferRedirectContext.htm#a6ff6de4b6d7ad31585cbe9f23f439c85adcac47dc50af8bbc216a2d4cc49282cb',1,'LauncherPageIconTransferRedirectContext']]],
   ['tap',['Tap',['../namespaceTouchTriggerType.htm#a3f8fb8c5999f1d80e8908a61027dc8efa5a1422545ec5c4046b734e19965574a4',1,'TouchTriggerType']]],
   ['tapandhold',['TapAndHold',['../namespaceTouchTriggerType.htm#a3f8fb8c5999f1d80e8908a61027dc8efaa75734e5d47522e2e33ef90184abd8e2',1,'TouchTriggerType']]],

@@ -154,96 +154,94 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <a name="l00052"></a>00052 <span class="preprocessor">                                                                                { w, Qt::Key_7,                 Qt::Key_Slash,                                                  sDeQwertz7_extended },\</span>
 <a name="l00053"></a>00053 <span class="preprocessor">                                                                                { w, Qt::Key_8,                 Qt::Key_ParenLeft,                                              sDeQwertz8_extended },\</span>
 <a name="l00054"></a>00054 <span class="preprocessor">                                                                                { w, Qt::Key_9,                 Qt::Key_ParenRight,                                             sDeQwertz9_extended },\</span>
-<a name="l00055"></a>00055 <span class="preprocessor">                                                                                { w, Qt::Key_0,                 Qt::Key_Equal,                                                  sDeQwertz0_extended },\</span>
-<a name="l00056"></a>00056 <span class="preprocessor">                                                                                { w, Qt::Key_Left,              Qt::Key_Up,                                                         NULL },\</span>
-<a name="l00057"></a>00057 <span class="preprocessor">                                                                                { w, Qt::Key_Right,             Qt::Key_Down,                                                   NULL }</span>
-<a name="l00058"></a>00058 <span class="preprocessor"></span>
-<a name="l00059"></a><a class="code" href="de_8h.htm#a04d12b0a1237739b7a841aeac22468ee">00059</a> <span class="preprocessor">#define DE_QWERTZ_TOP_10(w)                             { w, Qt::Key_Q,                 Qt::Key_QuoteLeft,                                              NULL },\</span>
-<a name="l00060"></a>00060 <span class="preprocessor">                                                                                { w, Qt::Key_W,                 Qt::Key_AsciiTilde,                                             NULL },\</span>
-<a name="l00061"></a>00061 <span class="preprocessor">                                                                                { w, Qt::Key_E,                 cKey_Euro,                                                              sE_extended },\</span>
-<a name="l00062"></a>00062 <span class="preprocessor">                                                                                { w, Qt::Key_R,                 Qt::Key_AsciiCircum,                                    sR_extended },\</span>
-<a name="l00063"></a>00063 <span class="preprocessor">                                                                                { w, Qt::Key_T,                 Qt::Key_Backslash,                                              sT_extended },\</span>
-<a name="l00064"></a>00064 <span class="preprocessor">                                                                                { w, Qt::Key_Z,                 Qt::Key_Bar,                                                    sZ_extended },\</span>
-<a name="l00065"></a>00065 <span class="preprocessor">                                                                                { w, Qt::Key_U,                 Qt::Key_BraceLeft,                                              sU_extended },\</span>
-<a name="l00066"></a>00066 <span class="preprocessor">                                                                                { w, Qt::Key_I,                 Qt::Key_BraceRight,                                             sI_extended },\</span>
-<a name="l00067"></a>00067 <span class="preprocessor">                                                                                { w, Qt::Key_O,                 Qt::Key_BracketLeft,                                    sO_extended },\</span>
-<a name="l00068"></a>00068 <span class="preprocessor">                                                                                { w, Qt::Key_P,                 Qt::Key_BracketRight,                                   sP_extended },\</span>
-<a name="l00069"></a>00069 <span class="preprocessor">                                                                                { w, Qt::Key_Udiaeresis,cKey_None,                                                              NULL }</span>
-<a name="l00070"></a>00070 <span class="preprocessor"></span>
-<a name="l00071"></a><a class="code" href="de_8h.htm#a8592e1d020e394a4ca0a2669c98b6589">00071</a> <span class="preprocessor">#define DE_QWERTZ_MID_9(w)                              { w, Qt::Key_A,                 Qt::Key_Less,                                                   sA_extended },\</span>
-<a name="l00072"></a>00072 <span class="preprocessor">                                                                                { w, Qt::Key_S,                 Qt::Key_Greater,                                                sS_extended },\</span>
-<a name="l00073"></a>00073 <span class="preprocessor">                                                                                { w, Qt::Key_D,                 Qt::Key_Underscore,                                             sD_extended },\</span>
-<a name="l00074"></a>00074 <span class="preprocessor">                                                                                { w, Qt::Key_F,                 Qt::Key_Plus,                                                   NULL },\</span>
-<a name="l00075"></a>00075 <span class="preprocessor">                                                                                { w, Qt::Key_G,                 UKey(0x00D7) </span><span class="comment">/* multiplication sign */</span>, sG_extended },\
-<a name="l00076"></a>00076                                                                                 { w, Qt::Key_H,                 UKey(0x00F7) <span class="comment">/* division sign */</span>,               NULL },\
-<a name="l00077"></a>00077                                                                                 { w, Qt::Key_J,                 Qt::Key_degree,                                                 NULL },\
-<a name="l00078"></a>00078                                                                                 { w, Qt::Key_K,                 Qt::Key_Asterisk,                                               NULL },\
-<a name="l00079"></a>00079                                                                                 { w, Qt::Key_L,                 Qt::Key_NumberSign,                                             sL_extended },\
-<a name="l00080"></a>00080                                                                                 { w, Qt::Key_Odiaeresis,cKey_None,                                                              NULL },\
-<a name="l00081"></a>00081                                                                                 { w, Qt::Key_Adiaeresis,cKey_None,                                                              NULL }
-<a name="l00082"></a>00082 
-<a name="l00083"></a><a class="code" href="de_8h.htm#a506e03618df86031fb7289864038d09b">00083</a> <span class="preprocessor">#define DE_QWERTZ_LOW_9(w)                              { w, Qt::Key_Y,                 cKey_Emoticon_Smile,                                    sY_extended },\</span>
-<a name="l00084"></a>00084 <span class="preprocessor">                                                                                { w, Qt::Key_X,                 cKey_Emoticon_Wink,                                             sOptions },\</span>
-<a name="l00085"></a>00085 <span class="preprocessor">                                                                                { w, Qt::Key_C,                 cKey_Emoticon_Frown,                                    sC_extended },\</span>
-<a name="l00086"></a>00086 <span class="preprocessor">                                                                                { w, Qt::Key_V,                 cKey_Emoticon_Cry,                                              NULL },\</span>
-<a name="l00087"></a>00087 <span class="preprocessor">                                                                                { w, Qt::Key_B,                 cKey_Emoticon_Yuck,                                             sToggleLanguage_extended },\</span>
-<a name="l00088"></a>00088 <span class="preprocessor">                                                                                { w, Qt::Key_N,                 cKey_Emoticon_Gasp,                                             sN_extended },\</span>
-<a name="l00089"></a>00089 <span class="preprocessor">                                                                                { w, Qt::Key_M,                 cKey_Emoticon_Heart,                                    sM_extended },\</span>
-<a name="l00090"></a>00090 <span class="preprocessor">                                                                                { w, Qt::Key_Comma,     Qt::Key_Semicolon,                                              sCommaSemiColon_extended },\</span>
-<a name="l00091"></a>00091 <span class="preprocessor">                                                                                { w, Qt::Key_Period,    Qt::Key_Colon,                                                  sPeriodColon_extended }</span>
-<a name="l00092"></a>00092 <span class="preprocessor"></span>
-<a name="l00093"></a><a class="code" href="de_8h.htm#ada9d4050519bc313cf3c868b957bc69d">00093</a> <span class="preprocessor">#define DE_QWERTZ_BOTTOM_ROW_DEFAULT \</span>
-<a name="l00094"></a>00094 <span class="preprocessor">                                                                        KEY_1(1, Qt::Key_Tab),\</span>
-<a name="l00095"></a>00095 <span class="preprocessor">                                                                        KEY_1(2, cKey_Symbol),\</span>
-<a name="l00096"></a>00096 <span class="preprocessor">                                                                        NOKEY_1,\</span>
+<a name="l00055"></a>00055 <span class="preprocessor">                                                                                { w, Qt::Key_0,                 Qt::Key_Equal,                                                  sDeQwertz0_extended }</span>
+<a name="l00056"></a>00056 <span class="preprocessor"></span>
+<a name="l00057"></a><a class="code" href="de_8h.htm#a04d12b0a1237739b7a841aeac22468ee">00057</a> <span class="preprocessor">#define DE_QWERTZ_TOP_10(w)                             { w, Qt::Key_Q,                 Qt::Key_QuoteLeft,                                              NULL },\</span>
+<a name="l00058"></a>00058 <span class="preprocessor">                                                                                { w, Qt::Key_W,                 Qt::Key_AsciiTilde,                                             NULL },\</span>
+<a name="l00059"></a>00059 <span class="preprocessor">                                                                                { w, Qt::Key_E,                 cKey_Euro,                                                              sE_extended },\</span>
+<a name="l00060"></a>00060 <span class="preprocessor">                                                                                { w, Qt::Key_R,                 Qt::Key_AsciiCircum,                                    sR_extended },\</span>
+<a name="l00061"></a>00061 <span class="preprocessor">                                                                                { w, Qt::Key_T,                 Qt::Key_Backslash,                                              sT_extended },\</span>
+<a name="l00062"></a>00062 <span class="preprocessor">                                                                                { w, Qt::Key_Z,                 Qt::Key_Bar,                                                    sZ_extended },\</span>
+<a name="l00063"></a>00063 <span class="preprocessor">                                                                                { w, Qt::Key_U,                 Qt::Key_BraceLeft,                                              sU_extended },\</span>
+<a name="l00064"></a>00064 <span class="preprocessor">                                                                                { w, Qt::Key_I,                 Qt::Key_BraceRight,                                             sI_extended },\</span>
+<a name="l00065"></a>00065 <span class="preprocessor">                                                                                { w, Qt::Key_O,                 Qt::Key_BracketLeft,                                    sO_extended },\</span>
+<a name="l00066"></a>00066 <span class="preprocessor">                                                                                { w, Qt::Key_P,                 Qt::Key_BracketRight,                                   sP_extended },\</span>
+<a name="l00067"></a>00067 <span class="preprocessor">                                                                                { w, Qt::Key_Udiaeresis,cKey_None,                                                              NULL }</span>
+<a name="l00068"></a>00068 <span class="preprocessor"></span>
+<a name="l00069"></a><a class="code" href="de_8h.htm#a8592e1d020e394a4ca0a2669c98b6589">00069</a> <span class="preprocessor">#define DE_QWERTZ_MID_9(w)                              { w, Qt::Key_A,                 Qt::Key_Less,                                                   sA_extended },\</span>
+<a name="l00070"></a>00070 <span class="preprocessor">                                                                                { w, Qt::Key_S,                 Qt::Key_Greater,                                                sS_extended },\</span>
+<a name="l00071"></a>00071 <span class="preprocessor">                                                                                { w, Qt::Key_D,                 Qt::Key_Underscore,                                             sD_extended },\</span>
+<a name="l00072"></a>00072 <span class="preprocessor">                                                                                { w, Qt::Key_F,                 Qt::Key_Plus,                                                   NULL },\</span>
+<a name="l00073"></a>00073 <span class="preprocessor">                                                                                { w, Qt::Key_G,                 UKey(0x00D7) </span><span class="comment">/* multiplication sign */</span>, sG_extended },\
+<a name="l00074"></a>00074                                                                                 { w, Qt::Key_H,                 UKey(0x00F7) <span class="comment">/* division sign */</span>,               NULL },\
+<a name="l00075"></a>00075                                                                                 { w, Qt::Key_J,                 Qt::Key_degree,                                                 NULL },\
+<a name="l00076"></a>00076                                                                                 { w, Qt::Key_K,                 Qt::Key_Asterisk,                                               NULL },\
+<a name="l00077"></a>00077                                                                                 { w, Qt::Key_L,                 Qt::Key_NumberSign,                                             sL_extended },\
+<a name="l00078"></a>00078                                                                                 { w, Qt::Key_Odiaeresis,cKey_None,                                                              NULL },\
+<a name="l00079"></a>00079                                                                                 { w, Qt::Key_Adiaeresis,cKey_None,                                                              NULL }
+<a name="l00080"></a>00080 
+<a name="l00081"></a><a class="code" href="de_8h.htm#a506e03618df86031fb7289864038d09b">00081</a> <span class="preprocessor">#define DE_QWERTZ_LOW_9(w)                              { w, Qt::Key_Y,                 cKey_Emoticon_Smile,                                    sY_extended },\</span>
+<a name="l00082"></a>00082 <span class="preprocessor">                                                                                { w, Qt::Key_X,                 cKey_Emoticon_Wink,                                             sOptions },\</span>
+<a name="l00083"></a>00083 <span class="preprocessor">                                                                                { w, Qt::Key_C,                 cKey_Emoticon_Frown,                                    sC_extended },\</span>
+<a name="l00084"></a>00084 <span class="preprocessor">                                                                                { w, Qt::Key_V,                 cKey_Emoticon_Cry,                                              NULL },\</span>
+<a name="l00085"></a>00085 <span class="preprocessor">                                                                                { w, Qt::Key_B,                 cKey_Emoticon_Yuck,                                             sToggleLanguage_extended },\</span>
+<a name="l00086"></a>00086 <span class="preprocessor">                                                                                { w, Qt::Key_N,                 cKey_Emoticon_Gasp,                                             sN_extended },\</span>
+<a name="l00087"></a>00087 <span class="preprocessor">                                                                                { w, Qt::Key_M,                 cKey_Emoticon_Heart,                                    sM_extended },\</span>
+<a name="l00088"></a>00088 <span class="preprocessor">                                                                                { w, Qt::Key_Comma,     Qt::Key_Semicolon,                                              sCommaSemiColon_extended },\</span>
+<a name="l00089"></a>00089 <span class="preprocessor">                                                                                { w, Qt::Key_Period,    Qt::Key_Colon,                                                  sPeriodColon_extended }</span>
+<a name="l00090"></a>00090 <span class="preprocessor"></span>
+<a name="l00091"></a><a class="code" href="de_8h.htm#ada9d4050519bc313cf3c868b957bc69d">00091</a> <span class="preprocessor">#define DE_QWERTZ_BOTTOM_ROW_DEFAULT \</span>
+<a name="l00092"></a>00092 <span class="preprocessor">                                                                        KEY_1(1, Qt::Key_Tab),\</span>
+<a name="l00093"></a>00093 <span class="preprocessor">                                                                        KEY_1(2, cKey_Symbol),\</span>
+<a name="l00094"></a>00094 <span class="preprocessor">                                                                        NOKEY_1,\</span>
+<a name="l00095"></a>00095 <span class="preprocessor">                                                                        NOKEY_1,\</span>
+<a name="l00096"></a>00096 <span class="preprocessor">                                                                        KEY_1(SPACE_SIZE, Qt::Key_Space),\</span>
 <a name="l00097"></a>00097 <span class="preprocessor">                                                                        NOKEY_1,\</span>
-<a name="l00098"></a>00098 <span class="preprocessor">                                                                        KEY_1(SPACE_SIZE, Qt::Key_Space),\</span>
-<a name="l00099"></a>00099 <span class="preprocessor">                                                                        NOKEY_1,\</span>
-<a name="l00100"></a>00100 <span class="preprocessor">                                                                        KEY_3(1, Qt::Key_ssharp, Qt::Key_Question, sSSharpQuestion_extended),\</span>
-<a name="l00101"></a>00101 <span class="preprocessor">                                                                        KEY_3(1, Qt::Key_Minus, Qt::Key_Apostrophe, sMinusApostrophe_extended),\</span>
-<a name="l00102"></a>00102 <span class="preprocessor">                                                                        KEY_3(1, cKey_Hide, cKey_Hide, sHide_extended),\</span>
-<a name="l00103"></a>00103 <span class="preprocessor">                                                                        NOKEY_3</span>
-<a name="l00104"></a>00104 <span class="preprocessor"></span>
-<a name="l00105"></a><a class="code" href="de_8h.htm#a3a55128231c918c5aa1003391e89af88">00105</a> <span class="preprocessor">#define DE_QWERTZ_BOTTOM_ROW_URL \</span>
-<a name="l00106"></a>00106 <span class="preprocessor">                                                                        KEY_1(1, Qt::Key_Tab),\</span>
-<a name="l00107"></a>00107 <span class="preprocessor">                                                                        KEY_1(2, cKey_Symbol),\</span>
-<a name="l00108"></a>00108 <span class="preprocessor">                                                                        NOKEY_1,\</span>
-<a name="l00109"></a>00109 <span class="preprocessor">                                                                        KEY_1(1, Qt::Key_Slash),\</span>
-<a name="l00110"></a>00110 <span class="preprocessor">                                                                        KEY_1(SPACE_SIZE - 2, Qt::Key_Space),\</span>
-<a name="l00111"></a>00111 <span class="preprocessor">                                                                        KEY_3(1, cKey_DotCom, cKey_DotCom, sGerman_DotCom_Extended),\</span>
-<a name="l00112"></a>00112 <span class="preprocessor">                                                                        KEY_3(1, Qt::Key_ssharp, Qt::Key_Question, sSSharpQuestion_extended),\</span>
-<a name="l00113"></a>00113 <span class="preprocessor">                                                                        KEY_3(1, Qt::Key_Minus, Qt::Key_Apostrophe, sMinusApostrophe_extended),\</span>
-<a name="l00114"></a>00114 <span class="preprocessor">                                                                        KEY_3(1, cKey_Hide, cKey_Hide, sHide_extended),\</span>
-<a name="l00115"></a>00115 <span class="preprocessor">                                                                        NOKEY_3</span>
-<a name="l00116"></a>00116 <span class="preprocessor"></span>
-<a name="l00117"></a><a class="code" href="de_8h.htm#a54e772188c029f62754700bc70d2dec1">00117</a> <span class="preprocessor">#define DE_QWERTZ_BOTTOM_ROW_EMAIL \</span>
-<a name="l00118"></a>00118 <span class="preprocessor">                                                                        KEY_1(1, Qt::Key_Tab),\</span>
-<a name="l00119"></a>00119 <span class="preprocessor">                                                                        KEY_1(2, cKey_Symbol),\</span>
-<a name="l00120"></a>00120 <span class="preprocessor">                                                                        NOKEY_1,\</span>
-<a name="l00121"></a>00121 <span class="preprocessor">                                                                        KEY_1(1, Qt::Key_At),\</span>
-<a name="l00122"></a>00122 <span class="preprocessor">                                                                        KEY_1(SPACE_SIZE - 2, Qt::Key_Space),\</span>
-<a name="l00123"></a>00123 <span class="preprocessor">                                                                        KEY_3(1, cKey_DotCom, cKey_DotCom, sGerman_DotCom_Extended),\</span>
-<a name="l00124"></a>00124 <span class="preprocessor">                                                                        KEY_3(1, Qt::Key_ssharp, Qt::Key_Question, sSSharpQuestion_extended),\</span>
-<a name="l00125"></a>00125 <span class="preprocessor">                                                                        KEY_3(1, Qt::Key_Minus, Qt::Key_Apostrophe, sMinusApostrophe_extended),\</span>
-<a name="l00126"></a>00126 <span class="preprocessor">                                                                        KEY_3(1, cKey_Hide, cKey_Hide, sHide_extended),\</span>
-<a name="l00127"></a>00127 <span class="preprocessor">                                                                        NOKEY_3</span>
-<a name="l00128"></a>00128 <span class="preprocessor"></span>
-<a name="l00129"></a>00129 <span class="keyword">static</span> TabletKeymap::Layout sDeQwertz = {
-<a name="l00130"></a>00130         { <a class="code" href="de_8h.htm#af1b0f0524682dea072f124aa7f821b71">DE_QWERTZ_NUMBERS_10</a>(1) },
-<a name="l00131"></a>00131         { <a class="code" href="de_8h.htm#a04d12b0a1237739b7a841aeac22468ee">DE_QWERTZ_TOP_10</a>(1), <a class="code" href="PhoneKeymap_8cpp.htm#aa53c45f0a3f70a9b3f0cecf07f72b502">KEY_1</a>(1, Qt::Key_Backspace), <a class="code" href="PhoneKeymap_8cpp.htm#a92737b618bbe23701ee56de9f44363ab">NOKEY_1</a> },
-<a name="l00132"></a>00132         { <a class="code" href="PhoneKeymap_8cpp.htm#a89251eed6aaef5f61653a251e9ff1401">KEY_2</a>(-0.2, Qt::Key_A, Qt::Key_Less), <a class="code" href="de_8h.htm#a8592e1d020e394a4ca0a2669c98b6589">DE_QWERTZ_MID_9</a>(1), <a class="code" href="PhoneKeymap_8cpp.htm#aa53c45f0a3f70a9b3f0cecf07f72b502">KEY_1</a>(0.8, Qt::Key_Return), <a class="code" href="PhoneKeymap_8cpp.htm#a92737b618bbe23701ee56de9f44363ab">NOKEY_1</a> },
-<a name="l00133"></a>00133         { <a class="code" href="PhoneKeymap_8cpp.htm#aa53c45f0a3f70a9b3f0cecf07f72b502">KEY_1</a>(0.8, Qt::Key_Shift), <a class="code" href="de_8h.htm#a506e03618df86031fb7289864038d09b">DE_QWERTZ_LOW_9</a>(1), <a class="code" href="PhoneKeymap_8cpp.htm#aa53c45f0a3f70a9b3f0cecf07f72b502">KEY_1</a>(2, Qt::Key_Shift), <a class="code" href="PhoneKeymap_8cpp.htm#a92737b618bbe23701ee56de9f44363ab">NOKEY_1</a> },
-<a name="l00134"></a>00134         { <a class="code" href="de_8h.htm#ada9d4050519bc313cf3c868b957bc69d">DE_QWERTZ_BOTTOM_ROW_DEFAULT</a> },
-<a name="l00135"></a>00135 };
-<a name="l00136"></a>00136 
-<a name="l00137"></a>00137 <span class="keyword">static</span> TabletKeymap::LayoutRow sDeQwertzBottomRow_default = { <a class="code" href="de_8h.htm#ada9d4050519bc313cf3c868b957bc69d">DE_QWERTZ_BOTTOM_ROW_DEFAULT</a> };
-<a name="l00138"></a>00138 <span class="keyword">static</span> TabletKeymap::LayoutRow sDeQwertzBottomRow_url = { <a class="code" href="de_8h.htm#a3a55128231c918c5aa1003391e89af88">DE_QWERTZ_BOTTOM_ROW_URL</a> };
-<a name="l00139"></a>00139 <span class="keyword">static</span> TabletKeymap::LayoutRow sDeQwertzBottomRow_email = { <a class="code" href="de_8h.htm#a54e772188c029f62754700bc70d2dec1">DE_QWERTZ_BOTTOM_ROW_EMAIL</a> };
-<a name="l00140"></a>00140 
-<a name="l00141"></a>00141 <span class="keyword">static</span> TabletKeymap::Keymap sDeQwertzFamily(&amp;sLayoutGerman, <span class="stringliteral">&quot;Qwertz&quot;</span>, IME_KBD_LANG_German, IME_KBD_SEC_REGQwerty,
-<a name="l00142"></a>00142                                                 <span class="stringliteral">&quot;+ ~ [  ]&quot;</span> <span class="comment">/* Spaces are &quot;Unicode Character &#39;HAIR SPACE&#39; (U+200A) &#39; &#39; &quot; */</span>, <span class="stringliteral">&quot;Q w z&quot;</span> <span class="comment">/* Spaces are &quot;Unicode Character &#39;HAIR SPACE&#39; (U+200A) &#39; &#39; &quot; */</span>,
-<a name="l00143"></a>00143                                                 0, 1, 10, 2, <span class="keyword">false</span>, sDeQwertz, sDeQwertzBottomRow_default, sDeQwertzBottomRow_url, sDeQwertzBottomRow_email);
-<a name="l00144"></a>00144 <span class="preprocessor">#endif // KEYBOARD_DE_H</span>
+<a name="l00098"></a>00098 <span class="preprocessor">                                                                        KEY_3(1, Qt::Key_ssharp, Qt::Key_Question, sSSharpQuestion_extended),\</span>
+<a name="l00099"></a>00099 <span class="preprocessor">                                                                        KEY_3(1, Qt::Key_Minus, Qt::Key_Apostrophe, sMinusApostrophe_extended),\</span>
+<a name="l00100"></a>00100 <span class="preprocessor">                                                                        KEY_3(1, cKey_Hide, cKey_Hide, sHide_extended),\</span>
+<a name="l00101"></a>00101 <span class="preprocessor">                                                                        NOKEY_3</span>
+<a name="l00102"></a>00102 <span class="preprocessor"></span>
+<a name="l00103"></a><a class="code" href="de_8h.htm#a3a55128231c918c5aa1003391e89af88">00103</a> <span class="preprocessor">#define DE_QWERTZ_BOTTOM_ROW_URL \</span>
+<a name="l00104"></a>00104 <span class="preprocessor">                                                                        KEY_1(1, Qt::Key_Tab),\</span>
+<a name="l00105"></a>00105 <span class="preprocessor">                                                                        KEY_1(2, cKey_Symbol),\</span>
+<a name="l00106"></a>00106 <span class="preprocessor">                                                                        NOKEY_1,\</span>
+<a name="l00107"></a>00107 <span class="preprocessor">                                                                        KEY_1(1, Qt::Key_Slash),\</span>
+<a name="l00108"></a>00108 <span class="preprocessor">                                                                        KEY_1(SPACE_SIZE - 2, Qt::Key_Space),\</span>
+<a name="l00109"></a>00109 <span class="preprocessor">                                                                        KEY_3(1, cKey_DotCom, cKey_DotCom, sGerman_DotCom_Extended),\</span>
+<a name="l00110"></a>00110 <span class="preprocessor">                                                                        KEY_3(1, Qt::Key_ssharp, Qt::Key_Question, sSSharpQuestion_extended),\</span>
+<a name="l00111"></a>00111 <span class="preprocessor">                                                                        KEY_3(1, Qt::Key_Minus, Qt::Key_Apostrophe, sMinusApostrophe_extended),\</span>
+<a name="l00112"></a>00112 <span class="preprocessor">                                                                        KEY_3(1, cKey_Hide, cKey_Hide, sHide_extended),\</span>
+<a name="l00113"></a>00113 <span class="preprocessor">                                                                        NOKEY_3</span>
+<a name="l00114"></a>00114 <span class="preprocessor"></span>
+<a name="l00115"></a><a class="code" href="de_8h.htm#a54e772188c029f62754700bc70d2dec1">00115</a> <span class="preprocessor">#define DE_QWERTZ_BOTTOM_ROW_EMAIL \</span>
+<a name="l00116"></a>00116 <span class="preprocessor">                                                                        KEY_1(1, Qt::Key_Tab),\</span>
+<a name="l00117"></a>00117 <span class="preprocessor">                                                                        KEY_1(2, cKey_Symbol),\</span>
+<a name="l00118"></a>00118 <span class="preprocessor">                                                                        NOKEY_1,\</span>
+<a name="l00119"></a>00119 <span class="preprocessor">                                                                        KEY_1(1, Qt::Key_At),\</span>
+<a name="l00120"></a>00120 <span class="preprocessor">                                                                        KEY_1(SPACE_SIZE - 2, Qt::Key_Space),\</span>
+<a name="l00121"></a>00121 <span class="preprocessor">                                                                        KEY_3(1, cKey_DotCom, cKey_DotCom, sGerman_DotCom_Extended),\</span>
+<a name="l00122"></a>00122 <span class="preprocessor">                                                                        KEY_3(1, Qt::Key_ssharp, Qt::Key_Question, sSSharpQuestion_extended),\</span>
+<a name="l00123"></a>00123 <span class="preprocessor">                                                                        KEY_3(1, Qt::Key_Minus, Qt::Key_Apostrophe, sMinusApostrophe_extended),\</span>
+<a name="l00124"></a>00124 <span class="preprocessor">                                                                        KEY_3(1, cKey_Hide, cKey_Hide, sHide_extended),\</span>
+<a name="l00125"></a>00125 <span class="preprocessor">                                                                        NOKEY_3</span>
+<a name="l00126"></a>00126 <span class="preprocessor"></span>
+<a name="l00127"></a>00127 <span class="keyword">static</span> TabletKeymap::Layout sDeQwertz = {
+<a name="l00128"></a>00128         { <a class="code" href="de_8h.htm#af1b0f0524682dea072f124aa7f821b71">DE_QWERTZ_NUMBERS_10</a>(1), <a class="code" href="PhoneKeymap_8cpp.htm#aa53c45f0a3f70a9b3f0cecf07f72b502">KEY_1</a>(2, <a class="code" href="namespaceTablet__Keyboard_1_1Tablet__Keyboard.htm#a08f639ca49f1f25452cf5236d1804498">cKey_Trackball</a>) },
+<a name="l00129"></a>00129         { <a class="code" href="de_8h.htm#a04d12b0a1237739b7a841aeac22468ee">DE_QWERTZ_TOP_10</a>(1), <a class="code" href="PhoneKeymap_8cpp.htm#aa53c45f0a3f70a9b3f0cecf07f72b502">KEY_1</a>(1, Qt::Key_Backspace), <a class="code" href="PhoneKeymap_8cpp.htm#a92737b618bbe23701ee56de9f44363ab">NOKEY_1</a> },
+<a name="l00130"></a>00130         { <a class="code" href="PhoneKeymap_8cpp.htm#a89251eed6aaef5f61653a251e9ff1401">KEY_2</a>(-0.2, Qt::Key_A, Qt::Key_Less), <a class="code" href="de_8h.htm#a8592e1d020e394a4ca0a2669c98b6589">DE_QWERTZ_MID_9</a>(1), <a class="code" href="PhoneKeymap_8cpp.htm#aa53c45f0a3f70a9b3f0cecf07f72b502">KEY_1</a>(0.8, Qt::Key_Return), <a class="code" href="PhoneKeymap_8cpp.htm#a92737b618bbe23701ee56de9f44363ab">NOKEY_1</a> },
+<a name="l00131"></a>00131         { <a class="code" href="PhoneKeymap_8cpp.htm#aa53c45f0a3f70a9b3f0cecf07f72b502">KEY_1</a>(0.8, Qt::Key_Shift), <a class="code" href="de_8h.htm#a506e03618df86031fb7289864038d09b">DE_QWERTZ_LOW_9</a>(1), <a class="code" href="PhoneKeymap_8cpp.htm#aa53c45f0a3f70a9b3f0cecf07f72b502">KEY_1</a>(2, Qt::Key_Shift), <a class="code" href="PhoneKeymap_8cpp.htm#a92737b618bbe23701ee56de9f44363ab">NOKEY_1</a> },
+<a name="l00132"></a>00132         { <a class="code" href="de_8h.htm#ada9d4050519bc313cf3c868b957bc69d">DE_QWERTZ_BOTTOM_ROW_DEFAULT</a> },
+<a name="l00133"></a>00133 };
+<a name="l00134"></a>00134 
+<a name="l00135"></a>00135 <span class="keyword">static</span> TabletKeymap::LayoutRow sDeQwertzBottomRow_default = { <a class="code" href="de_8h.htm#ada9d4050519bc313cf3c868b957bc69d">DE_QWERTZ_BOTTOM_ROW_DEFAULT</a> };
+<a name="l00136"></a>00136 <span class="keyword">static</span> TabletKeymap::LayoutRow sDeQwertzBottomRow_url = { <a class="code" href="de_8h.htm#a3a55128231c918c5aa1003391e89af88">DE_QWERTZ_BOTTOM_ROW_URL</a> };
+<a name="l00137"></a>00137 <span class="keyword">static</span> TabletKeymap::LayoutRow sDeQwertzBottomRow_email = { <a class="code" href="de_8h.htm#a54e772188c029f62754700bc70d2dec1">DE_QWERTZ_BOTTOM_ROW_EMAIL</a> };
+<a name="l00138"></a>00138 
+<a name="l00139"></a>00139 <span class="keyword">static</span> TabletKeymap::Keymap sDeQwertzFamily(&amp;sLayoutGerman, <span class="stringliteral">&quot;Qwertz&quot;</span>, IME_KBD_LANG_German, IME_KBD_SEC_REGQwerty,
+<a name="l00140"></a>00140                                                 <span class="stringliteral">&quot;+ ~ [  ]&quot;</span> <span class="comment">/* Spaces are &quot;Unicode Character &#39;HAIR SPACE&#39; (U+200A) &#39; &#39; &quot; */</span>, <span class="stringliteral">&quot;Q w z&quot;</span> <span class="comment">/* Spaces are &quot;Unicode Character &#39;HAIR SPACE&#39; (U+200A) &#39; &#39; &quot; */</span>,
+<a name="l00141"></a>00141                                                 0, 1, 10, 2, <span class="keyword">false</span>, sDeQwertz, sDeQwertzBottomRow_default, sDeQwertzBottomRow_url, sDeQwertzBottomRow_email);
+<a name="l00142"></a>00142 <span class="preprocessor">#endif // KEYBOARD_DE_H</span>
 </pre></div></div><!-- contents -->
 </div>
 <!-- window showing the filter options -->
@@ -264,7 +262,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul>
       <li class="navelem"><a class="el" href="de_8h.htm">de.h</a>      </li>
 
-    <li class="footer">Generated on Wed Sep 26 2012 07:32:48 for LunaSysMgr by
+    <li class="footer">Generated on Tue Oct 2 2012 22:43:57 for LunaSysMgr by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.7.6.1 </li>
    </ul>
