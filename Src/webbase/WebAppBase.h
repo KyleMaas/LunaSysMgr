@@ -160,10 +160,39 @@ public:
 	bool keepAlive() const { return m_keepAlive; }
 	
 	WebPage* page() const { return m_page; }
-
+	
+	/**
+	 * Checks if this app is windowed (displayable)
+	 * 
+	 * Since many types of apps can be derived
+	 * from WindowedWebApp, this tells you a bit
+	 * about specifically what type this app is.
+	 * 
+	 * @return				True if this app is windowed (displayable), false otherwise.
+	 */
 	virtual bool isWindowed() const { return false; }
+	
+	/**
+	 * Checks if this app is a card
+	 * 
+	 * Since many types of apps can be derived
+	 * from WindowedWebApp, this tells you a bit
+	 * about specifically what type this app is.
+	 * 
+	 * @return				True if this app is a card, false otherwise.
+	 */
 	virtual bool isCardApp() const { return false; }
 	virtual bool isChildApp() const { return false; }
+	
+	/**
+	 * Checks if this app is a dashboard app
+	 * 
+	 * Since many types of apps can be derived
+	 * from WindowedWebApp, this tells you a bit
+	 * about specifically what type this app is.
+	 * 
+	 * @return				True if this app is a dashboard app, false otherwise.
+	 */
 	virtual bool isDashboardApp() const { return false; }
 	virtual bool isAlertApp() const { return false; }
 
