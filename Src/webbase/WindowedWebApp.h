@@ -111,7 +111,7 @@ public:
 	virtual void paint(bool clipToWindow);
 	
 	/**
-	 * Process pen/mouse/finger input events
+	 * Process a pen/mouse/finger input event
 	 * 
 	 * This method takes an input event from IPC
 	 * and processes it.  For example, it takes
@@ -135,6 +135,21 @@ public:
 	 * @param	e			Smart pointer to the event to process.
 	 */
 	virtual void inputEvent(sptr<Event> e);
+	
+	/**
+	 * Process a keyboard input event
+	 * 
+	 * This method takes an input event from IPC
+	 * and processes it.
+	 * 
+	 * Converts hardware keys like NavBack and
+	 * the Orange key to corresponding
+	 * recognized keyboard keys, then passes the
+	 * key event to WebKit for processing by the
+	 * app.
+	 * 
+	 * @param	e			Qt key event to process.
+	 */
 	virtual void keyEvent(QKeyEvent* e);
 	
 	/**
@@ -327,12 +342,53 @@ public:
 	virtual int  getKey() const;
 	
 	int routingId() const;
+	
+	/**
+	 * IPC buffer ID for the WindowMetaData object for our window
+	 * 
+	 * Returns the ID of the shared memory buffer
+	 * containing this window's WindowMetaData
+	 * structure.  This can then be used by
+	 * another thread/process to access said
+	 * buffer and read from/write to it.
+	 * 
+	 * @todo Document this further once WindowMetaData is documented.
+	 * 
+	 * @return			Buffer ID of out WindowMetaData structure.
+	 */
 	int metadataId() const;
 
 	virtual void onResize(int width, int height, bool resizeBuffer);
 	virtual void onFlip(int newWidth, int newHeight);
+	
+	/**
+	 * IPC message handler for View_AsyncFlip messages
+	 * 
+	 * Dispatches the info to asyncFlipEvent().
+	 * Please see that method for details.
+	 * 
+	 * @see asyncFlipEvent()
+	 * 
+	 * @param	newWidth	Unused internally. Passed through unchanged to the completion handler.
+	 * @param	newHeight	Unused internally. Passed through unchanged to the completion handler.
+	 * @param	newScreenWidth	Unused internally. Passed through unchanged to the completion handler.
+	 * @param	newScreenHeight	Unused internally. Passed through unchanged to the completion handler.
+	 */
 	virtual void onAsyncFlip(int newWidth, int newHeight, int newScreenWidth, int newScreenHeight);
 	virtual void onSyncResize(int width, int height, bool resizeBuffer, int* newKey);
+	
+	/**
+	 * IPC message handler for View_AdjustForPositiveSpace messages
+	 * 
+	 * If Mojo is active in our app, dispatches
+	 * the event to Mojo as
+	 * positiveSpaceChanged().
+	 * 
+	 * @todo Document width and height.
+	 * 
+	 * @param	width		Specifics are unknown at this time as this is directly passed through to Mojo.
+	 * @param	height		Specifics are unknown at this time as this is directly passed through to Mojo.
+	 */
 	virtual void onAdjustForPositiveSpace(int width, int height);
 	virtual void onKeyboardShow(bool val);
 	virtual void onClose(bool disableKeepAlive);
@@ -490,7 +546,19 @@ protected:
 	};
 
 	RemoteWindowData* m_data;
+	
+	/**
+	 * IPC buffer for our WindowMetaData structure so it can be passed between threads/processes safely
+	 * 
+	 * @todo Document this further once WindowMetaData is documented.
+	 */
 	PIpcBuffer* m_metaDataBuffer;
+	
+	/**
+	 * Pointer to our WindowMetaData structure
+	 * 
+	 * @todo Document this further once WindowMetaData is documented.
+	 */
 	WindowMetaData* m_metaData;
 
 	WebKitPalmTimer*	m_paintTimer;
