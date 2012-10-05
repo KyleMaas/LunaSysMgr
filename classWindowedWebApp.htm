@@ -817,7 +817,7 @@ Friends</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
-<p>Process pen/mouse/finger input events</p>
+<p>Process a pen/mouse/finger input event</p>
 <p>This method takes an input event from IPC and processes it. For example, it takes pen events and translates them into simulated mouse events for JavaScript event processing in the app.</p>
 <p>Recognized events are interpreted and passed to specific methods of the page's view object, such as pen, mouse, and gesture events.</p>
 <p>In the case of a PenSingleTap event in an app that supports Mojo, a small chunk of JavaScript is run to feed the event to Mojo to be dispatched to the app.</p>
@@ -1046,6 +1046,15 @@ Friends</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
+<p>Process a keyboard input event</p>
+<p>This method takes an input event from IPC and processes it.</p>
+<p>Converts hardware keys like NavBack and the Orange key to corresponding recognized keyboard keys, then passes the key event to WebKit for processing by the app.</p>
+<dl class="params"><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">e</td><td>Qt key event to process. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>Reimplemented in <a class="el" href="classCardWebApp.htm#a148fc4aac7a9aadc5c74a7da3f86cbd6">CardWebApp</a>.</p>
 
@@ -1084,6 +1093,10 @@ Friends</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
+<p>IPC buffer ID for the <a class="el" href="structWindowMetaData.htm">WindowMetaData</a> object for our window</p>
+<p>Returns the ID of the shared memory buffer containing this window's <a class="el" href="structWindowMetaData.htm">WindowMetaData</a> structure. This can then be used by another thread/process to access said buffer and read from/write to it.</p>
+<dl class="todo"><dt><b><a class="el" href="todo.htm#_todo000099">Todo:</a></b></dt><dd>Document this further once <a class="el" href="structWindowMetaData.htm">WindowMetaData</a> is documented.</dd></dl>
+<dl class="return"><dt><b>Returns:</b></dt><dd>Buffer ID of out <a class="el" href="structWindowMetaData.htm">WindowMetaData</a> structure. </dd></dl>
 
 </div>
 </div>
@@ -1139,6 +1152,16 @@ Friends</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
+<p>IPC message handler for View_AdjustForPositiveSpace messages</p>
+<p>If Mojo is active in our app, dispatches the event to Mojo as positiveSpaceChanged().</p>
+<dl class="todo"><dt><b><a class="el" href="todo.htm#_todo000100">Todo:</a></b></dt><dd>Document width and height.</dd></dl>
+<dl class="params"><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">width</td><td>Specifics are unknown at this time as this is directly passed through to Mojo. </td></tr>
+    <tr><td class="paramname">height</td><td>Specifics are unknown at this time as this is directly passed through to Mojo. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -1178,6 +1201,18 @@ Friends</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
+<p>IPC message handler for View_AsyncFlip messages</p>
+<p>Dispatches the info to <a class="el" href="classWindowedWebApp.htm#a7003e0932cea137b160da30b1fb09718">asyncFlipEvent()</a>. Please see that method for details.</p>
+<dl class="see"><dt><b>See also:</b></dt><dd><a class="el" href="classWindowedWebApp.htm#a7003e0932cea137b160da30b1fb09718">asyncFlipEvent()</a></dd></dl>
+<dl class="params"><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">newWidth</td><td>Unused internally. Passed through unchanged to the completion handler. </td></tr>
+    <tr><td class="paramname">newHeight</td><td>Unused internally. Passed through unchanged to the completion handler. </td></tr>
+    <tr><td class="paramname">newScreenWidth</td><td>Unused internally. Passed through unchanged to the completion handler. </td></tr>
+    <tr><td class="paramname">newScreenHeight</td><td>Unused internally. Passed through unchanged to the completion handler. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -2245,6 +2280,8 @@ Friends</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
+<p>Pointer to our <a class="el" href="structWindowMetaData.htm">WindowMetaData</a> structure</p>
+<dl class="todo"><dt><b><a class="el" href="todo.htm#_todo000102">Todo:</a></b></dt><dd>Document this further once <a class="el" href="structWindowMetaData.htm">WindowMetaData</a> is documented. </dd></dl>
 
 </div>
 </div>
@@ -2258,6 +2295,8 @@ Friends</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
+<p>IPC buffer for our <a class="el" href="structWindowMetaData.htm">WindowMetaData</a> structure so it can be passed between threads/processes safely</p>
+<dl class="todo"><dt><b><a class="el" href="todo.htm#_todo000101">Todo:</a></b></dt><dd>Document this further once <a class="el" href="structWindowMetaData.htm">WindowMetaData</a> is documented. </dd></dl>
 
 </div>
 </div>
@@ -2444,7 +2483,7 @@ Friends</h2></td></tr>
     <ul>
       <li class="navelem"><a class="el" href="classWindowedWebApp.htm">WindowedWebApp</a>      </li>
 
-    <li class="footer">Generated on Tue Oct 2 2012 22:44:01 for LunaSysMgr by
+    <li class="footer">Generated on Fri Oct 5 2012 19:52:29 for LunaSysMgr by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.7.6.1 </li>
    </ul>

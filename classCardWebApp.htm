@@ -848,7 +848,7 @@ Static Protected Attributes</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
-<p>Process pen/mouse/finger input events</p>
+<p>Process a pen/mouse/finger input event</p>
 <p>This method takes an input event from IPC and processes it. For example, it takes pen events and translates them into simulated mouse events for JavaScript event processing in the app.</p>
 <p>Recognized events are interpreted and passed to specific methods of the page's view object, such as pen, mouse, and gesture events.</p>
 <p>In the case of a PenSingleTap event in an app that supports Mojo, a small chunk of JavaScript is run to feed the event to Mojo to be dispatched to the app.</p>
@@ -972,6 +972,15 @@ Static Protected Attributes</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
+<p>Process a keyboard input event</p>
+<p>This method takes an input event from IPC and processes it.</p>
+<p>Converts hardware keys like NavBack and the Orange key to corresponding recognized keyboard keys, then passes the key event to WebKit for processing by the app.</p>
+<dl class="params"><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">e</td><td>Qt key event to process. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>Reimplemented from <a class="el" href="classWindowedWebApp.htm#a7fe589cd5df7617459730b9744b36dfc">WindowedWebApp</a>.</p>
 
@@ -1971,7 +1980,7 @@ Static Protected Attributes</h2></td></tr>
     <ul>
       <li class="navelem"><a class="el" href="classCardWebApp.htm">CardWebApp</a>      </li>
 
-    <li class="footer">Generated on Tue Oct 2 2012 22:43:59 for LunaSysMgr by
+    <li class="footer">Generated on Fri Oct 5 2012 19:52:27 for LunaSysMgr by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.7.6.1 </li>
    </ul>
