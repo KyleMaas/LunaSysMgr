@@ -10,15 +10,15 @@
 <area shape="rect" id="node19" href="$Localization_8cpp.htm" title="Localization.cpp" alt="" coords="1472,83,1595,112"/>
 <area shape="rect" id="node21" href="$Preferences_8cpp.htm" title="Preferences.cpp" alt="" coords="1619,83,1744,112"/>
 <area shape="rect" id="node23" href="$SystemUiController_8cpp.htm" title="SystemUiController.cpp" alt="" coords="1439,160,1607,189"/>
-<area shape="rect" id="node25" href="$Utils_8cpp.htm" title="Utils.cpp" alt="" coords="2115,83,2189,112"/>
-<area shape="rect" id="node27" href="$ReticleItem_8cpp.htm" title="ReticleItem.cpp" alt="" coords="2213,83,2331,112"/>
-<area shape="rect" id="node29" href="$WindowServer_8cpp.htm" title="WindowServer.cpp" alt="" coords="2355,83,2493,112"/>
-<area shape="rect" id="node31" href="$VirtualKeyboardPreferences_8cpp.htm" title="VirtualKeyboardPreferences.cpp" alt="" coords="2517,83,2741,112"/>
-<area shape="rect" id="node33" href="$hiddtp__qws_8cpp.htm" title="hiddtp_qws.cpp" alt="" coords="2765,83,2885,112"/>
-<area shape="rect" id="node35" href="$JsSysObject_8cpp.htm" title="JsSysObject.cpp" alt="" coords="2909,83,3035,112"/>
-<area shape="rect" id="node37" href="$CardWindowManager_8h.htm" title="CardWindowManager.h" alt="" coords="1869,83,2040,112"/>
-<area shape="rect" id="node40" href="$CardWindowManager_8cpp.htm" title="CardWindowManager.cpp" alt="" coords="1631,160,1817,189"/>
-<area shape="rect" id="node48" href="$WindowServerLuna_8cpp.htm" title="WindowServerLuna.cpp" alt="" coords="2484,160,2655,189"/>
+<area shape="rect" id="node25" href="$CardWindowManager_8h.htm" title="CardWindowManager.h" alt="" coords="1869,83,2040,112"/>
+<area shape="rect" id="node28" href="$CardWindowManager_8cpp.htm" title="CardWindowManager.cpp" alt="" coords="1631,160,1817,189"/>
+<area shape="rect" id="node36" href="$WindowServerLuna_8cpp.htm" title="WindowServerLuna.cpp" alt="" coords="2484,160,2655,189"/>
+<area shape="rect" id="node38" href="$Utils_8cpp.htm" title="Utils.cpp" alt="" coords="2115,83,2189,112"/>
+<area shape="rect" id="node40" href="$ReticleItem_8cpp.htm" title="ReticleItem.cpp" alt="" coords="2213,83,2331,112"/>
+<area shape="rect" id="node42" href="$WindowServer_8cpp.htm" title="WindowServer.cpp" alt="" coords="2355,83,2493,112"/>
+<area shape="rect" id="node44" href="$VirtualKeyboardPreferences_8cpp.htm" title="VirtualKeyboardPreferences.cpp" alt="" coords="2517,83,2741,112"/>
+<area shape="rect" id="node46" href="$hiddtp__qws_8cpp.htm" title="hiddtp_qws.cpp" alt="" coords="2765,83,2885,112"/>
+<area shape="rect" id="node48" href="$JsSysObject_8cpp.htm" title="JsSysObject.cpp" alt="" coords="2909,83,3035,112"/>
 <area shape="rect" id="node51" href="$DockModeAppMenuContainer_8cpp.htm" title="DockModeAppMenuContainer.cpp" alt="" coords="3059,83,3296,112"/>
 <area shape="rect" id="node53" href="$DockModeWindowManager_8cpp.htm" title="DockModeWindowManager.cpp" alt="" coords="3320,83,3541,112"/>
 <area shape="rect" id="node55" href="$ClockWindow_8cpp.htm" title="ClockWindow.cpp" alt="" coords="3565,83,3699,112"/>
@@ -40,7 +40,7 @@
 <area shape="rect" id="node88" href="$SoundPlayerPool_8cpp.htm" title="SoundPlayerPool.cpp" alt="" coords="6421,83,6576,112"/>
 <area shape="rect" id="node90" href="$WebAppManager_8cpp.htm" title="WebAppManager.cpp" alt="" coords="6600,83,6757,112"/>
 <area shape="rect" id="node92" href="$WindowedWebApp_8cpp.htm" title="WindowedWebApp.cpp" alt="" coords="6781,83,6947,112"/>
-<area shape="rect" id="node42" href="$CardWindowManagerStates_8cpp.htm" title="CardWindowManagerStates.cpp" alt="" coords="1841,160,2068,189"/>
-<area shape="rect" id="node44" href="$quicklaunchbar_8cpp.htm" title="quicklaunchbar.cpp" alt="" coords="2092,160,2233,189"/>
-<area shape="rect" id="node46" href="$OverlayWindowManager_8cpp.htm" title="OverlayWindowManager.cpp" alt="" coords="2257,160,2460,189"/>
+<area shape="rect" id="node30" href="$CardWindowManagerStates_8cpp.htm" title="CardWindowManagerStates.cpp" alt="" coords="1841,160,2068,189"/>
+<area shape="rect" id="node32" href="$quicklaunchbar_8cpp.htm" title="quicklaunchbar.cpp" alt="" coords="2092,160,2233,189"/>
+<area shape="rect" id="node34" href="$OverlayWindowManager_8cpp.htm" title="OverlayWindowManager.cpp" alt="" coords="2257,160,2460,189"/>
 </map>

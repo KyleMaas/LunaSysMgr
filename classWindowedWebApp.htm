@@ -1772,6 +1772,25 @@ Friends</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
+<p>Resizes this app</p>
+<p>This method allows other modules to let us know that we need to resize.</p>
+<p>Can be called indirectly via View_Resize or View_SyncResize IPC messages.</p>
+<p>If a resize is needed (meaning the app is loaded and we're being resized to a different size than we were already at), this method performs the following steps:</p>
+<ul>
+<li>Resizes the HTML/CSS of the app.</li>
+<li>Resizes the back buffer.</li>
+<li>Redraws the app.</li>
+<li>Lets <a class="el" href="classWebAppManager.htm">WebAppManager</a> know we have a new back buffer.</li>
+</ul>
+<dl class="params"><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">newWidth</td><td>New width (in pixels) that our app should resize to. </td></tr>
+    <tr><td class="paramname">newHeight</td><td>New height (in pixels) that our app should resize to. </td></tr>
+    <tr><td class="paramname">resizeBuffer</td><td>Whether or not to resize the back buffer. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="return"><dt><b>Returns:</b></dt><dd>New back buffer key if it needed to be resized or -1 if the back buffer did not need to be resized </dd></dl>
 
 <p>Reimplemented in <a class="el" href="classCardWebApp.htm#a3ca48aee2f519351bba6d2f711e65309">CardWebApp</a>.</p>
 
@@ -1806,6 +1825,15 @@ Friends</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
+<p>Finish up a transition</p>
+<p>Should be called any time we had a scene transition that finishes.</p>
+<p>Can be called indirectly via View_SceneTransitionFinished IPC message.</p>
+<p>If needed, performs the following steps:</p>
+<ul>
+<li>Cleans up any resources allocated for the transition.</li>
+<li>Redraws the app to make sure we've got a clean copy with no transition effects applied.</li>
+<li>If Mojo is active in our app, runs Mojo.sceneTransitionCompleted() to let our app know the transition is complete. </li>
+</ul>
 
 <p>Reimplemented in <a class="el" href="classCardWebApp.htm#a31f00cfe5074ed9ff683b7a92e1a1a38">CardWebApp</a>.</p>
 
@@ -1895,6 +1923,20 @@ Friends</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
+<p>Process an orientation change event</p>
+<p>This method should be called any time the devices changes orientation (to rotate the screen, etc.).</p>
+<p>If UI rotation is not locked (see <a class="el" href="classSettings.htm#a07e2d53e3c19eb5bf83521c24e185555">Settings::displayUiRotates</a> ), this method performs the following steps, as needed:</p>
+<ul>
+<li>Changes our internal orientation state.</li>
+<li>Resizes the window, back buffer, and app contents to the new orientation.</li>
+<li>If the app supports Mojo, fires off a Mojo orientation change event.</li>
+</ul>
+<dl class="params"><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">orient</td><td>Orientation change event to process. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>Reimplemented in <a class="el" href="classCardWebApp.htm#aac72279a80707dfebad7a4183b991d6f">CardWebApp</a>, <a class="el" href="classDockWebApp.htm#add4d3ac1af8b5b0f6616497c2d9886fb">DockWebApp</a>, and <a class="el" href="classAlertWebApp.htm#a776c5d466de65e494aa5ccdf4244135b">AlertWebApp</a>.</p>
 
@@ -2035,6 +2077,10 @@ Friends</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
+<p>Gets our current app height</p>
+<p>Our app has to track the size of itself to be able to draw correctly. This gets the current the size we're using for our app (in pixels). This is also the same size that we're current using for a back buffer.</p>
+<p>Make sure to check this just before using it, as this size can and does change when our app is resized.</p>
+<dl class="return"><dt><b>Returns:</b></dt><dd>Height of our app, in pixels. </dd></dl>
 
 </div>
 </div>
@@ -2089,6 +2135,10 @@ Friends</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
+<p>Gets the type of window our app displays in</p>
+<p>This can be used to distinguish between, for example, cards, banner alerts, status items, etc. See <a class="el" href="classWindow.htm#ad1e881db9a42ec6c27e7e4978912534d">Window::Type</a> for more information.</p>
+<dl class="see"><dt><b>See also:</b></dt><dd><a class="el" href="classWindow.htm#ad1e881db9a42ec6c27e7e4978912534d">Window::Type</a></dd></dl>
+<dl class="return"><dt><b>Returns:</b></dt><dd>Type of window our app displays in. </dd></dl>
 
 </div>
 </div>
@@ -2105,6 +2155,10 @@ Friends</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
+<p>Gets our current app width</p>
+<p>Our app has to track the size of itself to be able to draw correctly. This gets the current the size we're using for our app (in pixels). This is also the same size that we're current using for a back buffer.</p>
+<p>Make sure to check this just before using it, as this size can and does change when our app is resized.</p>
+<dl class="return"><dt><b>Returns:</b></dt><dd>Width of our app, in pixels. </dd></dl>
 
 </div>
 </div>
@@ -2200,6 +2254,7 @@ Friends</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
+<p>Back buffer that we draw to </p>
 
 </div>
 </div>
@@ -2241,6 +2296,8 @@ Friends</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
+<p>Current width, in pixels, of our back buffer</p>
+<p>Should always track with and be exactly equal to <a class="el" href="classWindowedWebApp.htm#a0a50125180cd6925764efff84122692a">m_windowHeight</a>. </p>
 
 </div>
 </div>
@@ -2404,6 +2461,8 @@ Friends</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
+<p>Current width, in pixels, of our back buffer</p>
+<p>Should always track with and be exactly equal to <a class="el" href="classWindowedWebApp.htm#a4deb704cda19ca2f368e09f472f5e81e">m_windowWidth</a>. </p>
 
 </div>
 </div>
@@ -2417,6 +2476,9 @@ Friends</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
+<p>Current width, in pixels, of our app</p>
+<p>Available publicly via <a class="el" href="classWindowedWebApp.htm#aed30999b5b99dda654d63db4c0d2724b">windowHeight()</a>.</p>
+<p>Should always track with and be exactly equal to <a class="el" href="classWindowedWebApp.htm#adb06cef16aeda466d91d6517435d9a93">m_height</a>. </p>
 
 </div>
 </div>
@@ -2430,6 +2492,9 @@ Friends</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
+<p>Current width, in pixels, of our app</p>
+<p>Available publicly via <a class="el" href="classWindowedWebApp.htm#a649b6411499112ae411804d05ab12fc8">windowWidth()</a>.</p>
+<p>Should always track with and be exactly equal to <a class="el" href="classWindowedWebApp.htm#a0c270ba37ed88d1b067ed5527ad9c30f">m_width</a>. </p>
 
 </div>
 </div>
@@ -2456,6 +2521,8 @@ Friends</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
+<p>Type of window our app resides in</p>
+<dl class="see"><dt><b>See also:</b></dt><dd><a class="el" href="classWindow.htm#ad1e881db9a42ec6c27e7e4978912534d">Window::Type</a> </dd></dl>
 
 </div>
 </div>
@@ -2483,7 +2550,7 @@ Friends</h2></td></tr>
     <ul>
       <li class="navelem"><a class="el" href="classWindowedWebApp.htm">WindowedWebApp</a>      </li>
 
-    <li class="footer">Generated on Fri Oct 5 2012 20:00:34 for LunaSysMgr by
+    <li class="footer">Generated on Sun Oct 14 2012 10:11:01 for LunaSysMgr by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.7.6.1 </li>
    </ul>

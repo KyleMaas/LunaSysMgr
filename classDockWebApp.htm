@@ -250,6 +250,20 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
+<p>Process an orientation change event</p>
+<p>This method should be called any time the devices changes orientation (to rotate the screen, etc.).</p>
+<p>If UI rotation is not locked (see <a class="el" href="classSettings.htm#a07e2d53e3c19eb5bf83521c24e185555">Settings::displayUiRotates</a> ), this method performs the following steps, as needed:</p>
+<ul>
+<li>Changes our internal orientation state.</li>
+<li>Resizes the window, back buffer, and app contents to the new orientation.</li>
+<li>If the app supports Mojo, fires off a Mojo orientation change event.</li>
+</ul>
+<dl class="params"><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">orient</td><td>Orientation change event to process. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>Reimplemented from <a class="el" href="classCardWebApp.htm#aac72279a80707dfebad7a4183b991d6f">CardWebApp</a>.</p>
 
@@ -308,7 +322,7 @@ Protected Member Functions</h2></td></tr>
     <ul>
       <li class="navelem"><a class="el" href="classDockWebApp.htm">DockWebApp</a>      </li>
 
-    <li class="footer">Generated on Fri Oct 5 2012 20:00:33 for LunaSysMgr by
+    <li class="footer">Generated on Sun Oct 14 2012 10:11:00 for LunaSysMgr by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.7.6.1 </li>
    </ul>
