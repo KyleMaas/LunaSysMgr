@@ -175,6 +175,31 @@ public:
 	 * @param	focused			True if this app has focus, false otherwise.
 	 */
 	virtual void focusedEvent(bool focused);
+	
+	/**
+	 * Resizes this app
+	 * 
+	 * This method allows other modules to let
+	 * us know that we need to resize.
+	 * 
+	 * Can be called indirectly via View_Resize
+	 * or View_SyncResize IPC messages.
+	 * 
+	 * If a resize is needed (meaning the app
+	 * is loaded and we're being resized to a
+	 * different size than we were already at),
+	 * this method performs the following steps:
+	 * 
+	 * - Resizes the HTML/CSS of the app.
+	 * - Resizes the back buffer.
+	 * - Redraws the app.
+	 * - Lets WebAppManager know we have a new back buffer.
+	 * 
+	 * @param	newWidth		New width (in pixels) that our app should resize to.
+	 * @param	newHeight		New height (in pixels) that our app should resize to.
+	 * @param	resizeBuffer		Whether or not to resize the back buffer.
+	 * @return				New back buffer key if it needed to be resized or -1 if the back buffer did not need to be resized
+	 */
 	virtual int resizeEvent(int newWidth, int newHeight, bool resizeBuffer);
 	
 	/**
@@ -254,9 +279,39 @@ public:
 	 * @return				True if this app is a leaf app, false otherwise.
 	 */
 	virtual bool isLeafApp() const { return true; }
-
+	
+	/**
+	 * Gets the type of window our app displays in
+	 * 
+	 * This can be used to distinguish between,
+	 * for example, cards, banner alerts, status
+	 * items, etc.  See {@link Window::Type} for
+	 * more information.
+	 * 
+	 * @see Window::Type
+	 * 
+	 * @return				Type of window our app displays in.
+	 */
 	virtual Window::Type windowType() const { return m_winType; };
-
+	
+	/**
+	 * Process an orientation change event
+	 * 
+	 * This method should be called any time the
+	 * devices changes orientation (to rotate
+	 * the screen, etc.).
+	 * 
+	 * If UI rotation is not locked (see
+	 * {@link Settings::displayUiRotates}
+	 * ), this method performs the following
+	 * steps, as needed:
+	 * 
+	 * - Changes our internal orientation state.
+	 * - Resizes the window, back buffer, and app contents to the new orientation.
+	 * - If the app supports Mojo, fires off a Mojo orientation change event.
+	 * 
+	 * @param	orient			Orientation change event to process.
+	 */
 	virtual void setOrientation(Event::Orientation orient) {}
 	
 	/**
@@ -289,7 +344,22 @@ public:
 	 * @return				True if this app has the system focus, false otherwise.
 	 */
 	virtual bool isFocused() const { return m_focused; }
-
+	
+	/**
+	 * Finish up a transition
+	 * 
+	 * Should be called any time we had a scene
+	 * transition that finishes.
+	 * 
+	 * Can be called indirectly via
+	 * View_SceneTransitionFinished IPC message.
+	 * 
+	 * If needed, performs the following steps:
+	 * 
+	 * - Cleans up any resources allocated for the transition.
+	 * - Redraws the app to make sure we've got a clean copy with no transition effects applied.
+	 * - If Mojo is active in our app, runs Mojo.sceneTransitionCompleted() to let our app know the transition is complete.
+	 */
 	virtual void sceneTransitionFinished() {}
 	
 	/**
@@ -300,8 +370,39 @@ public:
 	 * @see OverlayWindowManager::applyLaunchFeedback()
 	 */
 	virtual void applyLaunchFeedback(int cx, int cy);
-
+	
+	/**
+	 * Gets our current app width
+	 * 
+	 * Our app has to track the size of itself to
+	 * be able to draw correctly.  This gets the
+	 * current the size we're using for our app
+	 * (in pixels).  This is also the same size
+	 * that we're current using for a back buffer.
+	 * 
+	 * Make sure to check this just before using
+	 * it, as this size can and does change when
+	 * our app is resized.
+	 * 
+	 * @return				Width of our app, in pixels.
+	 */
 	int windowWidth() const { return m_windowWidth; }
+	
+	/**
+	 * Gets our current app height
+	 * 
+	 * Our app has to track the size of itself to
+	 * be able to draw correctly.  This gets the
+	 * current the size we're using for our app
+	 * (in pixels).  This is also the same size
+	 * that we're current using for a back buffer.
+	 * 
+	 * Make sure to check this just before using
+	 * it, as this size can and does change when
+	 * our app is resized.
+	 * 
+	 * @return				Height of our app, in pixels.
+	 */
 	int windowHeight() const { return m_windowHeight; }
 	
 	/**
@@ -544,7 +645,10 @@ protected:
 		 */
 		PendingFocusFalse
 	};
-
+	
+	/**
+	 * Back buffer that we draw to
+	 */
 	RemoteWindowData* m_data;
 	
 	/**
@@ -562,8 +666,28 @@ protected:
 	WindowMetaData* m_metaData;
 
 	WebKitPalmTimer*	m_paintTimer;
+	
+	/**
+	 * Type of window our app resides in
+	 * 
+	 * @see Window::Type
+	 */
 	Window::Type		m_winType;
+	
+	/**
+	 * Current width, in pixels, of our back buffer
+	 * 
+	 * Should always track with and be exactly
+	 * equal to {@link m_windowWidth}.
+	 */
 	int					m_width;
+	
+	/**
+	 * Current width, in pixels, of our back buffer
+	 * 
+	 * Should always track with and be exactly
+	 * equal to {@link m_windowHeight}.
+	 */
 	int					m_height;
 	
 	/**
@@ -579,8 +703,25 @@ protected:
 	bool                m_stagePreparing;
 	bool                m_stageReady;
 	bool				m_addedToWindowMgr;
-
+	
+	/**
+	 * Current width, in pixels, of our app
+	 * 
+	 * Available publicly via windowWidth().
+	 * 
+	 * Should always track with and be exactly
+	 * equal to {@link m_width}.
+	 */
 	uint32_t            m_windowWidth;
+	
+	/**
+	 * Current width, in pixels, of our app
+	 * 
+	 * Available publicly via windowHeight().
+	 * 
+	 * Should always track with and be exactly
+	 * equal to {@link m_height}.
+	 */
 	uint32_t            m_windowHeight;
 
 	QRect m_paintRect;
