@@ -132,6 +132,8 @@ public:
 	 * Can be indirectly called by an IPC
 	 * View_InputEvent message.
 	 * 
+	 * @todo Remove use of {@link getAveragedGesture()} since, without {@link recordGesture()} being used, it's rather pointless.
+	 * 
 	 * @param	e			Smart pointer to the event to process.
 	 */
 	virtual void inputEvent(sptr<Event> e);
@@ -437,11 +439,26 @@ public:
 	 * @param	msg		IPC message to dispatch.
 	 */
 	virtual void onMessageReceived(const PIpcMessage& msg);
+	
+	/**
+	 * Unknown at this time
+	 * 
+	 * @todo Determine if there is any purpose for this, and if there is found to be no definitive purpose, remove it.
+	 */
 	virtual void onDisconnected();
 	
 	//Documented in parent
 	virtual int  getKey() const;
 	
+	/**
+	 * Gets the back buffer key
+	 * 
+	 * @see RemoteWindowData::key()
+	 * 
+	 * @todo Document this further once RemoteWindowData::key() is documented.
+	 * 
+	 * @return			Back buffer key.
+	 */
 	int routingId() const;
 	
 	/**
@@ -458,8 +475,39 @@ public:
 	 * @return			Buffer ID of out WindowMetaData structure.
 	 */
 	int metadataId() const;
-
+	
+	/**
+	 * IPC message handler for View_Resize messages
+	 * 
+	 * Used to notify us that we should resize
+	 * but that the caller doesn't need the back
+	 * buffer key.
+	 * 
+	 * Allows calling of {@link resizeEvent()} by
+	 * other processes via IPC.
+	 * 
+	 * See {@link resizeEvent()} for more details.
+	 * 
+	 * @see resizeEvent()
+	 * 
+	 * @param	newWidth		New width (in pixels) that our app should resize to.
+	 * @param	newHeight		New height (in pixels) that our app should resize to.
+	 * @param	resizeBuffer		Whether or not to resize the back buffer.
+	 */
 	virtual void onResize(int width, int height, bool resizeBuffer);
+	
+	/**
+	 * IPC message handler for View_Flip
+	 * 
+	 * Allows other processes to ask us to flip
+	 * the back buffer and redraw, essentially
+	 * updating the display for our app.
+	 * 
+	 * @see {@link flipEvent()} for more details.
+	 * 
+	 * @param	newWidth		Unused.
+	 * @param	newHeight		Unused.
+	 */
 	virtual void onFlip(int newWidth, int newHeight);
 	
 	/**
@@ -476,6 +524,26 @@ public:
 	 * @param	newScreenHeight	Unused internally. Passed through unchanged to the completion handler.
 	 */
 	virtual void onAsyncFlip(int newWidth, int newHeight, int newScreenWidth, int newScreenHeight);
+	
+	/**
+	 * IPC message handler for View_SyncResize messages
+	 * 
+	 * Used to notify us that we should resize
+	 * and that the caller wants the key for the
+	 * back buffer.
+	 * 
+	 * Allows calling of {@link resizeEvent()} by
+	 * other processes via IPC.
+	 * 
+	 * See {@link resizeEvent()} for more details.
+	 * 
+	 * @see resizeEvent()
+	 * 
+	 * @param	newWidth		New width (in pixels) that our app should resize to.
+	 * @param	newHeight		New height (in pixels) that our app should resize to.
+	 * @param	resizeBuffer		Whether or not to resize the back buffer.
+	 * @param	newKey			Pointer to int to place the new back buffer key into.
+	 */
 	virtual void onSyncResize(int width, int height, bool resizeBuffer, int* newKey);
 	
 	/**
@@ -491,7 +559,30 @@ public:
 	 * @param	height		Specifics are unknown at this time as this is directly passed through to Mojo.
 	 */
 	virtual void onAdjustForPositiveSpace(int width, int height);
+	
+	/**
+	 * IPC message handler for View_KeyboardShown messages
+	 * 
+	 * Given to us whenever the on-screen keyboard
+	 * is either shown or hidden, with the value of
+	 * val indicating whether it is now shown or
+	 * hidden.
+	 * 
+	 * If Mojo is active in our app, dispatches
+	 * the event to Mojo as
+	 * keyboardShown().
+	 * 
+	 * @param	val		Whether or not the keyboard is now visible.
+	 */
 	virtual void onKeyboardShow(bool val);
+	
+	/**
+	 * IPC message handler for View_Close messages
+	 * 
+	 * Called whenever our app is being asked to close.
+	 * 
+	 * @param	disableKeepAlive	True to force the app to quit, false to allow it to quit gracefully.
+	 */
 	virtual void onClose(bool disableKeepAlive);
 	
 	/**
@@ -506,29 +597,173 @@ public:
 	 * @param	wrapper		Event wrapper parameter from the IPC message.
 	 */
 	virtual void onInputEvent(const SysMgrEventWrapper& wrapper);
+	
+	/**
+	 * IPC message handler for View_KeyEvent messages
+	 * 
+	 * Translates an incoming event to a Qt event
+	 * and calls {@link keyEvent()}.
+	 * 
+	 * Allows calling of {@link keyEvent()} by
+	 * other processes via IPC.
+	 * 
+	 * See {@link keyEvent()} for more details.
+	 * 
+	 * @see keyEvent()
+	 * 
+	 * @param	keyEvent	Keyboard event to process.
+	 */
 	virtual void onKeyEvent(const SysMgrKeyEvent& keyEvent);
+	
+	/**
+	 * IPC message handler for View_TouchEvent messages
+	 * 
+	 * If the app has requested touch events
+	 * ({@link WebPage::isTouchEventsNeeded()}),
+	 * translate the Qt event to Palm event
+	 * structures/classes and pass them to the
+	 * app.
+	 * 
+	 * @param	touchEvent	Touch event to process.
+	 */
 	virtual void onTouchEvent(const SysMgrTouchEvent& touchEvent);
+	
+	/**
+	 * IPC message handler for View_DirectRenderingChanged messages
+	 * 
+	 * Called whenever the system needs us to
+	 * change from direct rendering to not or
+	 * vise versa.
+	 * 
+	 * Since we don't get a parameter telling
+	 * us what to change to, it's up to us to
+	 * check the setting for direct rendering
+	 * and change our rendering mode to match.
+	 */
 	virtual void onDirectRenderingChanged();
+	
+	/**
+	 * IPC message handler for View_SceneTransitionFinished messages
+	 * 
+	 * Called when a running transition is
+	 * finished, to allow us to clean up any
+	 * resources used in the process.
+	 * 
+	 * Allows calling of
+	 * {@link sceneTransitionFinished()} by
+	 * other processes via IPC.
+	 * 
+	 * See {@link sceneTransitionFinished()}
+	 * for more details.
+	 * 
+	 * @see sceneTransitionFinished()
+	 */
 	virtual void onSceneTransitionFinished();
+	
+	/**
+	 * IPC messasge handler for View_ClipboardEvent_Cut messages
+	 * 
+	 * Passes the Cut action to the app,
+	 * which should handle it.
+	 * 
+	 * @see WebPage::cut()
+	 */
 	virtual void onClipboardEvent_Cut();
+	
+	/**
+	 * IPC messasge handler for View_ClipboardEvent_Copy messages
+	 * 
+	 * Passes the Copy action to the app,
+	 * which should handle it.
+	 * 
+	 * @see WebPage::copy()
+	 */
 	virtual void onClipboardEvent_Copy();
+	
+	/**
+	 * IPC messasge handler for View_ClipboardEvent_Paste messages
+	 * 
+	 * Passes the Paste action to the app,
+	 * which should handle it.
+	 * 
+	 * @see WebPage::paste()
+	 */
 	virtual void onClipboardEvent_Paste();
-    virtual void onSelectAll();
-
+	
+	/**
+	 * IPC messasge handler for View_SelectAll messages
+	 * 
+	 * Passes the Select All action to the
+	 * app, which should handle it.
+	 * 
+	 * @see WebPage::selectAll()
+	 */
+	virtual void onSelectAll();
+	
+	/**
+	 * Unknown at this time
+	 * 
+	 * @todo Document this further once WebPage::setComposingText() is documented.
+	 */
 	virtual void onSetComposingText(const std::string& text);
+	
+	/**
+	 * Unknown at this time
+	 * 
+	 * @todo Document this further once WebPage::commitComposingText() is documented.
+	 */
 	virtual void onCommitComposingText();
-
+	
+	/**
+	 * Unknown at this time
+	 * 
+	 * @todo Document this further once WebPage::commitText() is documented.
+	 */
 	virtual void onCommitText(const std::string& text);
-
+	
+	/**
+	 * Unknown at this time
+	 * 
+	 * @todo Document this further once WebPage::performEditorAction() is documented.
+	 */
 	virtual void onPerformEditorAction(int action);
-
+	
+	/**
+	 * IPC message handler for View_RemoveInputFocus messages
+	 * 
+	 * Called to ask us to remove focus from
+	 * input areas within our app.
+	 * 
+	 * Allows calling of
+	 * {@link Page::removeInputFocus()} by
+	 * other processes via IPC.
+	 * 
+	 * See {@link Page::removeInputFocus()}
+	 * for more details.
+	 * 
+	 * @see Page::removeInputFocus()
+	 */
 	virtual void onRemoveInputFocus();
-
+	
+	//Documented in parent
 	virtual void windowSize(int& width, int& height);
 	
 	//Documented in parent
 	virtual void screenSize(int& width, int& height);
 	
+	/**
+	 * Changes our window properties
+	 * 
+	 * Changed our window properties and
+	 * sends a message via IPC to let
+	 * the view host know that our
+	 * properties have changed and to
+	 * what.
+	 * 
+	 * @todo Document this further once WindowProperties is documented.
+	 * 
+	 * @param	winProp		New window properties to use.
+	 */
 	virtual void setWindowProperties(WindowProperties &winProp);
 	
 	/**
@@ -578,11 +813,26 @@ protected:
 	
 	//Documented in parent
 	virtual void invalContents(int x, int y, int width, int height);
-    virtual void scrollContents(int newContentsX, int newContentsY);
+	
+	/**
+	 * Currently unused
+	 * 
+	 * Re-paints the entire app next redraw.
+	 * 
+	 * @todo Determine if this needs to exist anymore, as it is no longer called from anywhere.
+	 * 
+	 * @param	newContentsX		Unknown - currently unused.
+	 * @param	newContentsY		Unknown - currently unused.
+	 */
+	virtual void scrollContents(int newContentsX, int newContentsY);
 	
 	//Documented in parent
 	virtual void loadFinished();
+	
+	//Documented in parent
 	virtual void stagePreparing();
+	
+	//Documented in parent
 	virtual void stageReady();
 	
 	//Documented in parent
@@ -591,6 +841,7 @@ protected:
 	//Documented in parent
 	virtual void autoCapEnabled(bool enabled);
 	
+	//Documented in parent
 	virtual void needTouchEvents(bool needTouchEvents);
 	
 	/**
@@ -622,8 +873,32 @@ protected:
 	virtual void getWindowPropertiesString(WindowProperties &winProp, std::string &propString) const;
 	
 protected:
-
+	
+	/**
+	 * Queues a repaint of our app
+	 * 
+	 * Starts a WebKit timer to redraw our
+	 * app as soon as it's able to process
+	 * it (timer with a timeout of 0ms).
+	 * This allows it to neatly fall into
+	 * the event queue such that it
+	 * processes in order.
+	 * 
+	 * Has no effect if our app is currently
+	 * being closed or if we're already
+	 * waiting for a previously-queued
+	 * repaint timer to fire.
+	 */
 	void startPaintTimer();
+	
+	/**
+	 * Stops queued repaint timer
+	 * 
+	 * Stops the timer previously set by
+	 * {@link startPaintTimer()}, if
+	 * there is one.  If not, this method
+	 * has no effect.
+	 */
 	void stopPaintTimer();
 	
 	/**
@@ -664,7 +939,14 @@ protected:
 	 * @todo Document this further once WindowMetaData is documented.
 	 */
 	WindowMetaData* m_metaData;
-
+	
+	/**
+	 * Repaint timer used by {@link startPaintTimer()}
+	 * 
+	 * See {@link startPaintTimer()} for usage.
+	 * 
+	 * @see startPaintTimer()
+	 */
 	WebKitPalmTimer*	m_paintTimer;
 	
 	/**
@@ -700,8 +982,20 @@ protected:
 	 * running.
 	 */
 	bool                m_beingDeleted;
+	
+	/**
+	 * Whether or not our app is currently preparing the stage (still loading the app)
+	 */
 	bool                m_stagePreparing;
+	
+	/**
+	 * Whether or not our app is completely loaded
+	 */
 	bool                m_stageReady;
+	
+	/**
+	 * Whether or not our app has been added to the window manager via an IPC call from {@link loadFinished()}
+	 */
 	bool				m_addedToWindowMgr;
 	
 	/**
@@ -723,12 +1017,39 @@ protected:
 	 * equal to {@link m_height}.
 	 */
 	uint32_t            m_windowHeight;
-
+	
+	/**
+	 * Area of our app which needs to be redrawn next time {@link paint()} runs
+	 */
 	QRect m_paintRect;
 
-	int  m_blockCount; //Keeps track on how many PenDown's we blocked.
+	/**
+	 * Keeps track on how many PenDown's we blocked
+	 */
+	int  m_blockCount;
+	
+	/**
+	 * Whether or not to block PenDown events
+	 * 
+	 * @see m_blockCount
+	 * @see WindowedWebApp::inputEvent
+	 */
 	bool m_blockPenEvents;
+	
+	/**
+	 * Time that the latest gesture event ended
+	 * 
+	 * Set by WindowedWebApp::inputEvent()
+	 * 
+	 * @see WindowedWebApp::inputEvent()
+	 */
 	uint32_t m_lastGestureEndTime;
+	
+	/**
+	 * Whether or not to show memory statistics overlayed onto the app's display
+	 * 
+	 * Toggled via a Alt->Percent KeyPress event in WindowedWebApp::keyEvent().
+	 */
 	bool m_showPageStats;
 	
 	/**
@@ -753,19 +1074,84 @@ protected:
 	 * the same as when it finished loading.
 	 */
 	PendingFocus m_pendingFocus;
-
+	
+	/**
+	 * Unknown - currently unused
+	 * 
+	 * @todo Determine if this can be removed entirely.
+	 */
 	NativeGraphicsSurface* m_metaCaretHint;
-
+	
+	/**
+	 * Timer which is set to run while we're loading the contents of the app
+	 * 
+	 * If our app doesn't load quickly enough,
+	 * this timer ensures that we still register
+	 * our app with the window manager.
+	 * 
+	 * When triggered, calls {@link showWindowTimeout()}.
+	 * 
+	 * @see showWindowTimeout()
+	 */
 	Timer<WindowedWebApp> m_showWindowTimer;
-
-    bool m_generateMouseClick;
-
+	
+	/**
+	 * Whether currently-executing touch events should be translated to mouse events
+	 * 
+	 * Used by {@link onTouchEvent()} to
+	 * determine whether a series of touch
+	 * events should be translated to mouse
+	 * events.
+	 */
+	bool m_generateMouseClick;
+	
+	/**
+	 * Window properties for the current window
+	 * 
+	 * @todo Document this further once {@link WindowProperties} and its uses are documented.
+	 */
 	WindowProperties m_winProps;
 
 protected:
-	
+	/**
+	 * Renders various debugging statistics layered over the top of our app
+	 * 
+	 * Sequence of actions is as follows:
+	 * - Asks WebKit for some page statistics.
+	 * - Loads font from /usr/share/fonts/Prelude-Bold.ttf
+	 * - Gets the rendering context to draw to from {@link m_data}.
+	 * - If context getting was successful, renders a statistics report.
+	 * - Logs statistics report to the debug log.
+	 * 
+	 * Statistics include:
+	 * - Number of images used in the app and how much memory they're consuming.
+	 * - Number of DOM nodes.
+	 * - Number of render nodes.
+	 * - Number of render layers.
+	 * 
+	 * @param	offsetX			X coordinate to draw text at.
+	 * @param	offsetY			Y coordinate to draw text at.
+	 */
 	void renderPageStatistics(int offsetX=0, int offsetY=0);
+	
+	/**
+	 * Unknown at this time
+	 * 
+	 * @todo This method is currently undefined and unused.  Research whether this can be removed, and it so, remove it.
+	 */
 	void renderMetaHint(int offsetX=0, int offsetY=0);
+	
+	/**
+	 * Adds our app to the window manager
+	 * 
+	 * Used by {@link m_showWindowTimer} to
+	 * ensure that even if our app takes a
+	 * while to load, we still paint something
+	 * (even if the app's not done loading yet)
+	 * and add ourselves to the window manager.
+	 * 
+	 * @return				Always returns false.
+	 */
 	bool showWindowTimeout();
 	
 	/**
@@ -787,7 +1173,20 @@ protected:
 	
 private:
 
+	/**
+	 * Holds information about the orientation and size of a gesture
+	 * 
+	 * @todo This structure is rendered rather pointless by the unuse of {@link recordGesture()}.  Please research whether it can be removed entirely along with associated functionality.
+	 */
 	struct RecordedGestureEntry {
+		/**
+		 * Constructs a RecordedGestureEntry object
+		 * 
+		 * @param	s		Scale of gesture.
+		 * @param	r		Rotation of gesture.
+		 * @param	cX		Center X of gesture.
+		 * @param	cY		Center Y of gesture.
+		 */
 		RecordedGestureEntry(float s, float r, int cX, int cY)
 			: scale(s)
 			, rotate(r)
@@ -795,22 +1194,127 @@ private:
 			, centerY(cY) {
 		}
 		
+		/**
+		 * Scale of gesture
+		 */
 		float scale;
+		
+		/**
+		 * Rotation of gesture
+		 */
 		float rotate;
+		
+		/**
+		 * Center X of gesture
+		 */
 		int centerX;
+		
+		/**
+		 * Center Y of gesture
+		 */
 		int centerY;
 	};
-
+	
+	/**
+	 * List of orientation and size of the most recent gestures recorded by {@link recordGesture()}
+	 * 
+	 * @todo This list is rendered rather useless by {@link recordGesture()} never being called anywhere.  Determine if {@link recordGesture()} can be removed and, if so, remove this list and associated functionality.
+	 */
 	std::list<RecordedGestureEntry> m_recordedGestures;	
-
+	
+	/**
+	 * Adds information about a gesture to our list so we can average them
+	 * 
+	 * We currently hold a list of some rather
+	 * basic information about gestures so we
+	 * can return an "average" gesture with
+	 * {@link getAveragedGesture()}.
+	 * 
+	 * However, this method is currently
+	 * unused, making it rather pointless.
+	 * 
+	 * @note Unused at this time.
+	 * 
+	 * @todo This method is currently unused.  Determine if it can be removed, along with other associated functionality rendered mostly useless by this being gone such as {@link getAveragedGesture()}.
+	 * 
+	 * @param	s			Scale of gesture.
+	 * @param	r			Rotation of gesture.
+	 * @param	cX			Center X coordinate of gesture.
+	 * @param	cY			Center Y coordinate of gesture.
+	 */
 	void recordGesture(float s, float r, int cX, int cY);
+	
+	/**
+	 * Gets the average orientation and size for gestures recorded by {@link recordGesture()}
+	 * 
+	 * Goes through our list of recorded
+	 * gestures and averages components of
+	 * them to get an "average" gesture size.
+	 * 
+	 * @note Currently only used by {@link WindowedWebApp::inputEvent()}.
+	 * 
+	 * @todo This method is rendered rather useless by {@link recordGesture()} being left unused.  Determine if {@link recordGesture()} can be removed and, if so, remove this method and associated functionality.
+	 * 
+	 * @return				Average orientation and position of recorded gestures.
+	 */
 	RecordedGestureEntry getAveragedGesture() const;
-
+	
+	/**
+	 * Translates key events from hardware buttons to gestures
+	 * 
+	 * This method translates a hardware
+	 * button event such as a "Launcher"
+	 * button to a gesture for that action.
+	 * 
+	 * Translation table includes:
+	 * - Qt::Key_CoreNavi_Menu -> "forward"
+	 * - Qt::Key_CoreNavi_Launcher -> "up"
+	 * - Qt::Key_CoreNavi_SwipeDown -> "down"
+	 * 
+	 * This translated gesture is then
+	 * fed to Mojo in our app (if our app
+	 * uses Mojo) via Mojo.handleGesture().
+	 * 
+	 * @param	e			Key event to process into a gesture.
+	 */
 	void keyGesture(QKeyEvent* e);
 
 private:	
 	
+	/**
+	 * Operator to copy this instance to another instance
+	 * 
+	 * Defined here (as private) purely to
+	 * block anyone from copying a
+	 * WindowedWebApp instance without building
+	 * one from scratch.
+	 * 
+	 * @param	app			Instance to copy from.
+	 * @return				Instance copied to (our current instance).
+	 */
 	WindowedWebApp& operator=(const WindowedWebApp&);
+	
+	/**
+	 * Copy constructor
+	 * 
+	 * Called when someone runs something
+	 * like the following:
+	 * 
+	 * <code>
+	 * WindowedWebApp a = new WindowedWebApp();
+	 * WindowedWebApp b = a;
+	 * </code>
+	 * 
+	 * Except that we block that by
+	 * defining this method as private.
+	 * This prevents someone from copying
+	 * a WindowedWebApp without building
+	 * one from scratch (there's too much
+	 * initialization involved to support
+	 * this).
+	 * 
+	 * @param	app			Instance to copy from.
+	 */
 	WindowedWebApp(const WindowedWebApp&);
 
 	friend class WebAppBase;
