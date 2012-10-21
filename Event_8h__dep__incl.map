@@ -4,15 +4,15 @@
 <area shape="rect" id="node37" href="$WebAppMgrProxy_8cpp.htm" title="WebAppMgrProxy.cpp" alt="" coords="3619,315,3782,344"/>
 <area shape="rect" id="node66" href="$DisplayStates_8h.htm" title="DisplayStates.h" alt="" coords="1048,83,1166,112"/>
 <area shape="rect" id="node72" href="$SystemUiController_8h.htm" title="SystemUiController.h" alt="" coords="1951,83,2106,112"/>
-<area shape="rect" id="node85" href="$CardWindow_8h.htm" title="CardWindow.h" alt="" coords="3342,160,3456,189"/>
-<area shape="rect" id="node90" href="$EmulatedCardWindow_8h.htm" title="EmulatedCardWindow.h" alt="" coords="3530,237,3700,267"/>
-<area shape="rect" id="node94" href="$DockModeWindow_8h.htm" title="DockModeWindow.h" alt="" coords="3204,237,3354,267"/>
+<area shape="rect" id="node91" href="$CardWindow_8h.htm" title="CardWindow.h" alt="" coords="3342,160,3456,189"/>
+<area shape="rect" id="node96" href="$EmulatedCardWindow_8h.htm" title="EmulatedCardWindow.h" alt="" coords="3530,237,3700,267"/>
+<area shape="rect" id="node100" href="$DockModeWindow_8h.htm" title="DockModeWindow.h" alt="" coords="3204,237,3354,267"/>
 <area shape="rect" id="node114" href="$EventThrottler_8h.htm" title="EventThrottler.h" alt="" coords="3724,237,3847,267"/>
 <area shape="rect" id="node118" href="$EventThrottlerIme_8h.htm" title="EventThrottlerIme.h" alt="" coords="4358,160,4504,189"/>
 <area shape="rect" id="node122" href="$HostArm_8h.htm" title="HostArm.h" alt="" coords="470,83,555,112"/>
 <area shape="rect" id="node125" href="$KeyboardMapping_8cpp.htm" title="KeyboardMapping.cpp" alt="" coords="3079,83,3242,112"/>
-<area shape="rect" id="node128" href="$TaskBase_8h.htm" title="TaskBase.h" alt="" coords="3266,83,3362,112"/>
-<area shape="rect" id="node130" href="$JsSysObject_8cpp.htm" title="JsSysObject.cpp" alt="" coords="4158,160,4283,189"/>
+<area shape="rect" id="node127" href="$TaskBase_8h.htm" title="TaskBase.h" alt="" coords="3266,83,3362,112"/>
+<area shape="rect" id="node129" href="$JsSysObject_8cpp.htm" title="JsSysObject.cpp" alt="" coords="4158,160,4283,189"/>
 <area shape="rect" id="node133" href="$GestureFeedbackItem_8cpp.htm" title="GestureFeedbackItem.cpp" alt="" coords="3436,83,3623,112"/>
 <area shape="rect" id="node135" href="$VirtualCoreNavi_8cpp.htm" title="VirtualCoreNavi.cpp" alt="" coords="3647,83,3794,112"/>
 <area shape="rect" id="node137" href="$VirtualGestureStrip_8cpp.htm" title="VirtualGestureStrip.cpp" alt="" coords="3818,83,3983,112"/>
@@ -46,6 +46,6 @@
 <area shape="rect" id="node45" href="$LockWindow_8cpp.htm" title="LockWindow.cpp" alt="" coords="2590,315,2718,344"/>
 <area shape="rect" id="node74" href="$AppDirectRenderingArbitrator_8cpp.htm" title="AppDirectRenderingArbitrator.cpp" alt="" coords="2167,160,2402,189"/>
 <area shape="rect" id="node82" href="$ProgressAnimation_8cpp.htm" title="ProgressAnimation.cpp" alt="" coords="2426,160,2591,189"/>
-<area shape="rect" id="node102" href="$InputWindowManager_8cpp.htm" title="InputWindowManager.cpp" alt="" coords="2615,160,2802,189"/>
-<area shape="rect" id="node104" href="$SysmgrIMEDataInterface_8cpp.htm" title="SysmgrIMEDataInterface.cpp" alt="" coords="1634,160,1839,189"/>
+<area shape="rect" id="node87" href="$InputWindowManager_8cpp.htm" title="InputWindowManager.cpp" alt="" coords="2615,160,2802,189"/>
+<area shape="rect" id="node89" href="$SysmgrIMEDataInterface_8cpp.htm" title="SysmgrIMEDataInterface.cpp" alt="" coords="1634,160,1839,189"/>
 </map>

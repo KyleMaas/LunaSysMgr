@@ -307,18 +307,42 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <dd>See if we can remove this. </dd>
 <dt><a class="anchor" id="_todo000090"></a>Member <a class="el" href="classWebPageClient.htm#aac2d85a2975c1639444b2adeb458fdcf">WebPageClient::zoomedContents</a>  (double scaleFactor, int contentsWidth, int contentsHeight, int newScrollOffsetX, int newScrollOffsetY)=0</dt>
 <dd>Document this once an actual use for it is found.  </dd>
-<dt><a class="anchor" id="_todo000098"></a>Member <a class="el" href="classWindowedWebApp.htm#a53c7434480c1f6081029fe519da4ce79">WindowedWebApp::applyLaunchFeedback</a>  (int cx, int cy)</dt>
+<dt><a class="anchor" id="_todo000099"></a>Member <a class="el" href="classWindowedWebApp.htm#a53c7434480c1f6081029fe519da4ce79">WindowedWebApp::applyLaunchFeedback</a>  (int cx, int cy)</dt>
 <dd>Document this once <a class="el" href="classOverlayWindowManager.htm">OverlayWindowManager</a> is documented. </dd>
-<dt><a class="anchor" id="_todo000097"></a>Member <a class="el" href="classWindowedWebApp.htm#a7003e0932cea137b160da30b1fb09718">WindowedWebApp::asyncFlipEvent</a>  (int newWidth, int newHeight, int newScreenWidth, int newScreenHeight)</dt>
+<dt><a class="anchor" id="_todo000098"></a>Member <a class="el" href="classWindowedWebApp.htm#a7003e0932cea137b160da30b1fb09718">WindowedWebApp::asyncFlipEvent</a>  (int newWidth, int newHeight, int newScreenWidth, int newScreenHeight)</dt>
 <dd>Change this to call <a class="el" href="classWindowedWebApp.htm#a7f150053dd25f0bfe7840d36797eed21">WindowedWebApp::flipEvent()</a>, since internally they're pretty much the same except for the callback. </dd>
-<dt><a class="anchor" id="_todo000102"></a>Member <a class="el" href="classWindowedWebApp.htm#ac9d5836feba2c3a7a49ba7a13a6d9197">WindowedWebApp::m_metaData</a>  </dt>
+<dt><a class="anchor" id="_todo000097"></a>Member <a class="el" href="classWindowedWebApp.htm#adaee948c35363dedf14ab848fb2812b2">WindowedWebApp::inputEvent</a>  (<a class="el" href="classsptr.htm">sptr&lt; Event &gt;</a> e)</dt>
+<dd>Remove use of <a class="el" href="">getAveragedGesture()</a> since, without <a class="el" href="">recordGesture()</a> being used, it's rather pointless. </dd>
+<dt><a class="anchor" id="_todo000112"></a>Member <a class="el" href="classWindowedWebApp.htm#a0b57cd5a30d8337e8215e1721f117156">WindowedWebApp::m_metaCaretHint</a>  </dt>
+<dd>Determine if this can be removed entirely.  </dd>
+<dt><a class="anchor" id="_todo000111"></a>Member <a class="el" href="classWindowedWebApp.htm#ac9d5836feba2c3a7a49ba7a13a6d9197">WindowedWebApp::m_metaData</a>  </dt>
 <dd>Document this further once <a class="el" href="structWindowMetaData.htm">WindowMetaData</a> is documented.  </dd>
-<dt><a class="anchor" id="_todo000101"></a>Member <a class="el" href="classWindowedWebApp.htm#a2ca34925f3d7dd068b639e33ad07062e">WindowedWebApp::m_metaDataBuffer</a>  </dt>
+<dt><a class="anchor" id="_todo000110"></a>Member <a class="el" href="classWindowedWebApp.htm#a2ca34925f3d7dd068b639e33ad07062e">WindowedWebApp::m_metaDataBuffer</a>  </dt>
 <dd>Document this further once <a class="el" href="structWindowMetaData.htm">WindowMetaData</a> is documented.  </dd>
-<dt><a class="anchor" id="_todo000099"></a>Member <a class="el" href="classWindowedWebApp.htm#aad4ace303bb4113cb5a1df22b1d94f1d">WindowedWebApp::metadataId</a>  () const </dt>
+<dt><a class="anchor" id="_todo000113"></a>Member <a class="el" href="classWindowedWebApp.htm#a624b178789c34734cc58804149524abb">WindowedWebApp::m_winProps</a>  </dt>
+<dd>Document this further once <a class="el" href="structWindowProperties.htm">WindowProperties</a> and its uses are documented.  </dd>
+<dt><a class="anchor" id="_todo000102"></a>Member <a class="el" href="classWindowedWebApp.htm#aad4ace303bb4113cb5a1df22b1d94f1d">WindowedWebApp::metadataId</a>  () const </dt>
 <dd>Document this further once <a class="el" href="structWindowMetaData.htm">WindowMetaData</a> is documented. </dd>
-<dt><a class="anchor" id="_todo000100"></a>Member <a class="el" href="classWindowedWebApp.htm#af8f447324814fe48572008ef78ca782d">WindowedWebApp::onAdjustForPositiveSpace</a>  (int width, int height)</dt>
-<dd>Document width and height.</dd>
+<dt><a class="anchor" id="_todo000103"></a>Member <a class="el" href="classWindowedWebApp.htm#af8f447324814fe48572008ef78ca782d">WindowedWebApp::onAdjustForPositiveSpace</a>  (int width, int height)</dt>
+<dd>Document width and height. </dd>
+<dt><a class="anchor" id="_todo000105"></a>Member <a class="el" href="classWindowedWebApp.htm#a71dc334c6b37772643adf430d076dc2c">WindowedWebApp::onCommitComposingText</a>  ()</dt>
+<dd>Document this further once <a class="el" href="classWebPage.htm#aafd234b3eba47e55c08af68f154ca245">WebPage::commitComposingText()</a> is documented.  </dd>
+<dt><a class="anchor" id="_todo000106"></a>Member <a class="el" href="classWindowedWebApp.htm#a142e0126da6a52df9b3ba052030446c2">WindowedWebApp::onCommitText</a>  (const std::string &amp;text)</dt>
+<dd>Document this further once <a class="el" href="classWebPage.htm#afb0422ace7db3d7d9291d6922b4c327f">WebPage::commitText()</a> is documented.  </dd>
+<dt><a class="anchor" id="_todo000100"></a>Member <a class="el" href="classWindowedWebApp.htm#a5011e614b6654308b1b265145276ba68">WindowedWebApp::onDisconnected</a>  ()</dt>
+<dd>Determine if there is any purpose for this, and if there is found to be no definitive purpose, remove it.  </dd>
+<dt><a class="anchor" id="_todo000107"></a>Member <a class="el" href="classWindowedWebApp.htm#af44fc041ce74f48b100d4a195a2c03cb">WindowedWebApp::onPerformEditorAction</a>  (int action)</dt>
+<dd>Document this further once <a class="el" href="classWebPage.htm#a4df82b58c045d3966beb77514f9d1def">WebPage::performEditorAction()</a> is documented.  </dd>
+<dt><a class="anchor" id="_todo000104"></a>Member <a class="el" href="classWindowedWebApp.htm#a234a904ea3b3d23960c60be10d6269d6">WindowedWebApp::onSetComposingText</a>  (const std::string &amp;text)</dt>
+<dd>Document this further once <a class="el" href="classWebPage.htm#a9666f9213a400741512cae1366ab1c53">WebPage::setComposingText()</a> is documented.  </dd>
+<dt><a class="anchor" id="_todo000114"></a>Member <a class="el" href="classWindowedWebApp.htm#a60edafee274e26401b4f86495dbee589">WindowedWebApp::renderMetaHint</a>  (int offsetX=0, int offsetY=0)</dt>
+<dd>This method is currently undefined and unused. Research whether this can be removed, and it so, remove it.  </dd>
+<dt><a class="anchor" id="_todo000101"></a>Member <a class="el" href="classWindowedWebApp.htm#a8a5bc3dd25d61dfcbc32ab8d7e0f8358">WindowedWebApp::routingId</a>  () const </dt>
+<dd>Document this further once <a class="el" href="classRemoteWindowData.htm#afb33f4dbcc5eaa52ce918352515da401">RemoteWindowData::key()</a> is documented. </dd>
+<dt><a class="anchor" id="_todo000109"></a>Member <a class="el" href="classWindowedWebApp.htm#a4c7126b8a0f41edbe5be11b44efa8e45">WindowedWebApp::scrollContents</a>  (int newContentsX, int newContentsY)</dt>
+<dd>Determine if this needs to exist anymore, as it is no longer called from anywhere. </dd>
+<dt><a class="anchor" id="_todo000108"></a>Member <a class="el" href="classWindowedWebApp.htm#abc54f96fcb2d4176dc7ec5c67e5bce6f">WindowedWebApp::setWindowProperties</a>  (<a class="el" href="structWindowProperties.htm">WindowProperties</a> &amp;winProp)</dt>
+<dd>Document this further once <a class="el" href="structWindowProperties.htm">WindowProperties</a> is documented.</dd>
 </dl>
 </div></div><!-- contents -->
 <!-- window showing the filter options -->
@@ -339,7 +363,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="nav-path" class="navpath">
     <ul>
 
-    <li class="footer">Generated on Sun Oct 14 2012 10:11:00 for LunaSysMgr by
+    <li class="footer">Generated on Sun Oct 21 2012 15:07:45 for LunaSysMgr by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.7.6.1 </li>
    </ul>

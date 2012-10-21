@@ -452,7 +452,7 @@ Static Protected Attributes</h2></td></tr>
 <p>Flips the app contents' back buffer to the front buffer and displays it. Repaints all other graphics associated with this app which are not part of the content of the app (card decorations, etc.).</p>
 <p>Exactly the same as <a class="el" href="classWindowedWebApp.htm#a7f150053dd25f0bfe7840d36797eed21">WindowedWebApp::flipEvent()</a> except that when complete, it sends an async ViewHost_AsyncFlipCompleted IPC message. In other words, this is the method you'd want to use if you need to know when it's done flipping orientations.</p>
 <p>Can be called indirectly by IPC via a View_AsyncFlip IPC call.</p>
-<dl class="todo"><dt><b><a class="el" href="todo.htm#_todo000097">Todo:</a></b></dt><dd>Change this to call <a class="el" href="classWindowedWebApp.htm#a7f150053dd25f0bfe7840d36797eed21">WindowedWebApp::flipEvent()</a>, since internally they're pretty much the same except for the callback.</dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.htm#_todo000098">Todo:</a></b></dt><dd>Change this to call <a class="el" href="classWindowedWebApp.htm#a7f150053dd25f0bfe7840d36797eed21">WindowedWebApp::flipEvent()</a>, since internally they're pretty much the same except for the callback.</dd></dl>
 <dl class="params"><dt><b>Parameters:</b></dt><dd>
   <table class="params">
     <tr><td class="paramname">newWidth</td><td>Unused internally. Passed through unchanged to the completion handler. </td></tr>
@@ -853,6 +853,7 @@ Static Protected Attributes</h2></td></tr>
 <p>Recognized events are interpreted and passed to specific methods of the page's view object, such as pen, mouse, and gesture events.</p>
 <p>In the case of a PenSingleTap event in an app that supports Mojo, a small chunk of JavaScript is run to feed the event to Mojo to be dispatched to the app.</p>
 <p>Can be indirectly called by an IPC View_InputEvent message.</p>
+<dl class="todo"><dt><b><a class="el" href="todo.htm#_todo000097">Todo:</a></b></dt><dd>Remove use of <a class="el" href="">getAveragedGesture()</a> since, without <a class="el" href="">recordGesture()</a> being used, it's rather pointless.</dd></dl>
 <dl class="params"><dt><b>Parameters:</b></dt><dd>
   <table class="params">
     <tr><td class="paramname">e</td><td>Smart pointer to the event to process. </td></tr>
@@ -999,6 +1000,9 @@ Static Protected Attributes</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
+<p>IPC message handler for View_DirectRenderingChanged messages</p>
+<p>Called whenever the system needs us to change from direct rendering to not or vise versa.</p>
+<p>Since we don't get a parameter telling us what to change to, it's up to us to check the setting for direct rendering and change our rendering mode to match. </p>
 
 <p>Reimplemented from <a class="el" href="classWindowedWebApp.htm#ac4acdf674c148cb77cc663f898c5a570">WindowedWebApp</a>.</p>
 
@@ -2022,7 +2026,7 @@ Static Protected Attributes</h2></td></tr>
     <ul>
       <li class="navelem"><a class="el" href="classCardWebApp.htm">CardWebApp</a>      </li>
 
-    <li class="footer">Generated on Sun Oct 14 2012 10:11:00 for LunaSysMgr by
+    <li class="footer">Generated on Sun Oct 21 2012 15:07:46 for LunaSysMgr by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.7.6.1 </li>
    </ul>

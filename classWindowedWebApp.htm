@@ -385,7 +385,7 @@ Friends</h2></td></tr>
 </div>
 <div class="memdoc">
 <p>Indirectly calls <a class="el" href="classOverlayWindowManager.htm#ab5197fd7de61a93ba3c1bab234644ade">OverlayWindowManager::applyLaunchFeedback()</a></p>
-<dl class="todo"><dt><b><a class="el" href="todo.htm#_todo000098">Todo:</a></b></dt><dd>Document this once <a class="el" href="classOverlayWindowManager.htm">OverlayWindowManager</a> is documented.</dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.htm#_todo000099">Todo:</a></b></dt><dd>Document this once <a class="el" href="classOverlayWindowManager.htm">OverlayWindowManager</a> is documented.</dd></dl>
 <dl class="see"><dt><b>See also:</b></dt><dd><a class="el" href="classOverlayWindowManager.htm#ab5197fd7de61a93ba3c1bab234644ade">OverlayWindowManager::applyLaunchFeedback()</a> </dd></dl>
 
 </div>
@@ -430,7 +430,7 @@ Friends</h2></td></tr>
 <p>Flips the app contents' back buffer to the front buffer and displays it. Repaints all other graphics associated with this app which are not part of the content of the app (card decorations, etc.).</p>
 <p>Exactly the same as <a class="el" href="classWindowedWebApp.htm#a7f150053dd25f0bfe7840d36797eed21">WindowedWebApp::flipEvent()</a> except that when complete, it sends an async ViewHost_AsyncFlipCompleted IPC message. In other words, this is the method you'd want to use if you need to know when it's done flipping orientations.</p>
 <p>Can be called indirectly by IPC via a View_AsyncFlip IPC call.</p>
-<dl class="todo"><dt><b><a class="el" href="todo.htm#_todo000097">Todo:</a></b></dt><dd>Change this to call <a class="el" href="classWindowedWebApp.htm#a7f150053dd25f0bfe7840d36797eed21">WindowedWebApp::flipEvent()</a>, since internally they're pretty much the same except for the callback.</dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.htm#_todo000098">Todo:</a></b></dt><dd>Change this to call <a class="el" href="classWindowedWebApp.htm#a7f150053dd25f0bfe7840d36797eed21">WindowedWebApp::flipEvent()</a>, since internally they're pretty much the same except for the callback.</dd></dl>
 <dl class="params"><dt><b>Parameters:</b></dt><dd>
   <table class="params">
     <tr><td class="paramname">newWidth</td><td>Unused internally. Passed through unchanged to the completion handler. </td></tr>
@@ -822,6 +822,7 @@ Friends</h2></td></tr>
 <p>Recognized events are interpreted and passed to specific methods of the page's view object, such as pen, mouse, and gesture events.</p>
 <p>In the case of a PenSingleTap event in an app that supports Mojo, a small chunk of JavaScript is run to feed the event to Mojo to be dispatched to the app.</p>
 <p>Can be indirectly called by an IPC View_InputEvent message.</p>
+<dl class="todo"><dt><b><a class="el" href="todo.htm#_todo000097">Todo:</a></b></dt><dd>Remove use of <a class="el" href="">getAveragedGesture()</a> since, without <a class="el" href="">recordGesture()</a> being used, it's rather pointless.</dd></dl>
 <dl class="params"><dt><b>Parameters:</b></dt><dd>
   <table class="params">
     <tr><td class="paramname">e</td><td>Smart pointer to the event to process. </td></tr>
@@ -1095,7 +1096,7 @@ Friends</h2></td></tr>
 <div class="memdoc">
 <p>IPC buffer ID for the <a class="el" href="structWindowMetaData.htm">WindowMetaData</a> object for our window</p>
 <p>Returns the ID of the shared memory buffer containing this window's <a class="el" href="structWindowMetaData.htm">WindowMetaData</a> structure. This can then be used by another thread/process to access said buffer and read from/write to it.</p>
-<dl class="todo"><dt><b><a class="el" href="todo.htm#_todo000099">Todo:</a></b></dt><dd>Document this further once <a class="el" href="structWindowMetaData.htm">WindowMetaData</a> is documented.</dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.htm#_todo000102">Todo:</a></b></dt><dd>Document this further once <a class="el" href="structWindowMetaData.htm">WindowMetaData</a> is documented.</dd></dl>
 <dl class="return"><dt><b>Returns:</b></dt><dd>Buffer ID of out <a class="el" href="structWindowMetaData.htm">WindowMetaData</a> structure. </dd></dl>
 
 </div>
@@ -1154,7 +1155,7 @@ Friends</h2></td></tr>
 <div class="memdoc">
 <p>IPC message handler for View_AdjustForPositiveSpace messages</p>
 <p>If Mojo is active in our app, dispatches the event to Mojo as positiveSpaceChanged().</p>
-<dl class="todo"><dt><b><a class="el" href="todo.htm#_todo000100">Todo:</a></b></dt><dd>Document width and height.</dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.htm#_todo000103">Todo:</a></b></dt><dd>Document width and height.</dd></dl>
 <dl class="params"><dt><b>Parameters:</b></dt><dd>
   <table class="params">
     <tr><td class="paramname">width</td><td>Specifics are unknown at this time as this is directly passed through to Mojo. </td></tr>
@@ -1229,6 +1230,9 @@ Friends</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
+<p>IPC messasge handler for View_ClipboardEvent_Copy messages</p>
+<p>Passes the Copy action to the app, which should handle it.</p>
+<dl class="see"><dt><b>See also:</b></dt><dd><a class="el" href="classWebPage.htm#aa3d1b26f44175a89b5bd4a5fe5679cec">WebPage::copy()</a> </dd></dl>
 
 </div>
 </div>
@@ -1245,6 +1249,9 @@ Friends</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
+<p>IPC messasge handler for View_ClipboardEvent_Cut messages</p>
+<p>Passes the Cut action to the app, which should handle it.</p>
+<dl class="see"><dt><b>See also:</b></dt><dd><a class="el" href="classWebPage.htm#a8734e076eb555346805381cd85580b8b">WebPage::cut()</a> </dd></dl>
 
 </div>
 </div>
@@ -1261,6 +1268,9 @@ Friends</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
+<p>IPC messasge handler for View_ClipboardEvent_Paste messages</p>
+<p>Passes the Paste action to the app, which should handle it.</p>
+<dl class="see"><dt><b>See also:</b></dt><dd><a class="el" href="classWebPage.htm#ab25a87f0da534662585832818e77b5aa">WebPage::paste()</a> </dd></dl>
 
 </div>
 </div>
@@ -1278,6 +1288,14 @@ Friends</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
+<p>IPC message handler for View_Close messages</p>
+<p>Called whenever our app is being asked to close.</p>
+<dl class="params"><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">disableKeepAlive</td><td>True to force the app to quit, false to allow it to quit gracefully. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -1294,6 +1312,8 @@ Friends</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
+<p>Unknown at this time</p>
+<dl class="todo"><dt><b><a class="el" href="todo.htm#_todo000105">Todo:</a></b></dt><dd>Document this further once <a class="el" href="classWebPage.htm#aafd234b3eba47e55c08af68f154ca245">WebPage::commitComposingText()</a> is documented. </dd></dl>
 
 </div>
 </div>
@@ -1311,6 +1331,8 @@ Friends</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
+<p>Unknown at this time</p>
+<dl class="todo"><dt><b><a class="el" href="todo.htm#_todo000106">Todo:</a></b></dt><dd>Document this further once <a class="el" href="classWebPage.htm#afb0422ace7db3d7d9291d6922b4c327f">WebPage::commitText()</a> is documented. </dd></dl>
 
 </div>
 </div>
@@ -1327,6 +1349,9 @@ Friends</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
+<p>IPC message handler for View_DirectRenderingChanged messages</p>
+<p>Called whenever the system needs us to change from direct rendering to not or vise versa.</p>
+<p>Since we don't get a parameter telling us what to change to, it's up to us to check the setting for direct rendering and change our rendering mode to match. </p>
 
 <p>Reimplemented in <a class="el" href="classCardWebApp.htm#a0ee27f4c0205da669e624074d8ddf88c">CardWebApp</a>.</p>
 
@@ -1345,6 +1370,8 @@ Friends</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
+<p>Unknown at this time</p>
+<dl class="todo"><dt><b><a class="el" href="todo.htm#_todo000100">Todo:</a></b></dt><dd>Determine if there is any purpose for this, and if there is found to be no definitive purpose, remove it. </dd></dl>
 
 </div>
 </div>
@@ -1372,6 +1399,16 @@ Friends</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
+<p>IPC message handler for View_Flip</p>
+<p>Allows other processes to ask us to flip the back buffer and redraw, essentially updating the display for our app.</p>
+<dl class="see"><dt><b>See also:</b></dt><dd><a class="el" href="classWindowedWebApp.htm#a7f150053dd25f0bfe7840d36797eed21">flipEvent()</a> for more details.</dd></dl>
+<dl class="params"><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">newWidth</td><td>Unused. </td></tr>
+    <tr><td class="paramname">newHeight</td><td>Unused. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -1415,6 +1452,15 @@ Friends</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
+<p>IPC message handler for View_KeyboardShown messages</p>
+<p>Given to us whenever the on-screen keyboard is either shown or hidden, with the value of val indicating whether it is now shown or hidden.</p>
+<p>If Mojo is active in our app, dispatches the event to Mojo as keyboardShown().</p>
+<dl class="params"><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">val</td><td>Whether or not the keyboard is now visible. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -1432,6 +1478,17 @@ Friends</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
+<p>IPC message handler for View_KeyEvent messages</p>
+<p>Translates an incoming event to a Qt event and calls <a class="el" href="classWindowedWebApp.htm#a7fe589cd5df7617459730b9744b36dfc">keyEvent()</a>.</p>
+<p>Allows calling of <a class="el" href="classWindowedWebApp.htm#a7fe589cd5df7617459730b9744b36dfc">keyEvent()</a> by other processes via IPC.</p>
+<p>See <a class="el" href="classWindowedWebApp.htm#a7fe589cd5df7617459730b9744b36dfc">keyEvent()</a> for more details.</p>
+<dl class="see"><dt><b>See also:</b></dt><dd><a class="el" href="classWindowedWebApp.htm#a7fe589cd5df7617459730b9744b36dfc">keyEvent()</a></dd></dl>
+<dl class="params"><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">keyEvent</td><td>Keyboard event to process. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -1498,6 +1555,8 @@ Friends</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
+<p>Unknown at this time</p>
+<dl class="todo"><dt><b><a class="el" href="todo.htm#_todo000107">Todo:</a></b></dt><dd>Document this further once <a class="el" href="classWebPage.htm#a4df82b58c045d3966beb77514f9d1def">WebPage::performEditorAction()</a> is documented. </dd></dl>
 
 </div>
 </div>
@@ -1514,6 +1573,11 @@ Friends</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
+<p>IPC message handler for View_RemoveInputFocus messages</p>
+<p>Called to ask us to remove focus from input areas within our app.</p>
+<p>Allows calling of <a class="el" href="">Page::removeInputFocus()</a> by other processes via IPC.</p>
+<p>See <a class="el" href="">Page::removeInputFocus()</a> for more details.</p>
+<dl class="see"><dt><b>See also:</b></dt><dd>Page::removeInputFocus() </dd></dl>
 
 </div>
 </div>
@@ -1547,6 +1611,19 @@ Friends</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
+<p>IPC message handler for View_Resize messages</p>
+<p>Used to notify us that we should resize but that the caller doesn't need the back buffer key.</p>
+<p>Allows calling of <a class="el" href="classWindowedWebApp.htm#a51cab738f31a0f2e10d6a81f44051854">resizeEvent()</a> by other processes via IPC.</p>
+<p>See <a class="el" href="classWindowedWebApp.htm#a51cab738f31a0f2e10d6a81f44051854">resizeEvent()</a> for more details.</p>
+<dl class="see"><dt><b>See also:</b></dt><dd><a class="el" href="classWindowedWebApp.htm#a51cab738f31a0f2e10d6a81f44051854">resizeEvent()</a></dd></dl>
+<dl class="params"><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">newWidth</td><td>New width (in pixels) that our app should resize to. </td></tr>
+    <tr><td class="paramname">newHeight</td><td>New height (in pixels) that our app should resize to. </td></tr>
+    <tr><td class="paramname">resizeBuffer</td><td>Whether or not to resize the back buffer. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -1563,6 +1640,11 @@ Friends</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
+<p>IPC message handler for View_SceneTransitionFinished messages</p>
+<p>Called when a running transition is finished, to allow us to clean up any resources used in the process.</p>
+<p>Allows calling of <a class="el" href="classWindowedWebApp.htm#a515e97b04ca5e78a83f5ebbe8411ead3">sceneTransitionFinished()</a> by other processes via IPC.</p>
+<p>See <a class="el" href="classWindowedWebApp.htm#a515e97b04ca5e78a83f5ebbe8411ead3">sceneTransitionFinished()</a> for more details.</p>
+<dl class="see"><dt><b>See also:</b></dt><dd><a class="el" href="classWindowedWebApp.htm#a515e97b04ca5e78a83f5ebbe8411ead3">sceneTransitionFinished()</a> </dd></dl>
 
 </div>
 </div>
@@ -1579,6 +1661,9 @@ Friends</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
+<p>IPC messasge handler for View_SelectAll messages</p>
+<p>Passes the Select All action to the app, which should handle it.</p>
+<dl class="see"><dt><b>See also:</b></dt><dd><a class="el" href="classWebPage.htm#a8e154bcd3e85e19a0dfe92481e400082">WebPage::selectAll()</a> </dd></dl>
 
 </div>
 </div>
@@ -1596,6 +1681,8 @@ Friends</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
+<p>Unknown at this time</p>
+<dl class="todo"><dt><b><a class="el" href="todo.htm#_todo000104">Todo:</a></b></dt><dd>Document this further once <a class="el" href="classWebPage.htm#a9666f9213a400741512cae1366ab1c53">WebPage::setComposingText()</a> is documented. </dd></dl>
 
 </div>
 </div>
@@ -1635,6 +1722,20 @@ Friends</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
+<p>IPC message handler for View_SyncResize messages</p>
+<p>Used to notify us that we should resize and that the caller wants the key for the back buffer.</p>
+<p>Allows calling of <a class="el" href="classWindowedWebApp.htm#a51cab738f31a0f2e10d6a81f44051854">resizeEvent()</a> by other processes via IPC.</p>
+<p>See <a class="el" href="classWindowedWebApp.htm#a51cab738f31a0f2e10d6a81f44051854">resizeEvent()</a> for more details.</p>
+<dl class="see"><dt><b>See also:</b></dt><dd><a class="el" href="classWindowedWebApp.htm#a51cab738f31a0f2e10d6a81f44051854">resizeEvent()</a></dd></dl>
+<dl class="params"><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">newWidth</td><td>New width (in pixels) that our app should resize to. </td></tr>
+    <tr><td class="paramname">newHeight</td><td>New height (in pixels) that our app should resize to. </td></tr>
+    <tr><td class="paramname">resizeBuffer</td><td>Whether or not to resize the back buffer. </td></tr>
+    <tr><td class="paramname">newKey</td><td>Pointer to int to place the new back buffer key into. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -1652,6 +1753,14 @@ Friends</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
+<p>IPC message handler for View_TouchEvent messages</p>
+<p>If the app has requested touch events (<a class="el" href="classWebPage.htm#aefb148adbc801daed112ba2b815473c6">WebPage::isTouchEventsNeeded()</a>), translate the Qt event to <a class="el" href="namespacePalm.htm">Palm</a> event structures/classes and pass them to the app.</p>
+<dl class="params"><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">touchEvent</td><td>Touch event to process. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -1712,6 +1821,8 @@ Friends</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
+<p>Unknown at this time</p>
+<dl class="todo"><dt><b><a class="el" href="todo.htm#_todo000114">Todo:</a></b></dt><dd>This method is currently undefined and unused. Research whether this can be removed, and it so, remove it. </dd></dl>
 
 </div>
 </div>
@@ -1739,6 +1850,29 @@ Friends</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
+<p>Renders various debugging statistics layered over the top of our app</p>
+<p>Sequence of actions is as follows:</p>
+<ul>
+<li>Asks WebKit for some page statistics.</li>
+<li>Loads font from /usr/share/fonts/Prelude-Bold.ttf</li>
+<li>Gets the rendering context to draw to from <a class="el" href="classWindowedWebApp.htm#aab2f7f177159e5b3bc05c523e41a57a3">m_data</a>.</li>
+<li>If context getting was successful, renders a statistics report.</li>
+<li>Logs statistics report to the debug log.</li>
+</ul>
+<p>Statistics include:</p>
+<ul>
+<li>Number of images used in the app and how much memory they're consuming.</li>
+<li>Number of DOM nodes.</li>
+<li>Number of render nodes.</li>
+<li>Number of render layers.</li>
+</ul>
+<dl class="params"><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">offsetX</td><td>X coordinate to draw text at. </td></tr>
+    <tr><td class="paramname">offsetY</td><td>Y coordinate to draw text at. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -1809,6 +1943,10 @@ Friends</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
+<p>Gets the back buffer key</p>
+<dl class="see"><dt><b>See also:</b></dt><dd><a class="el" href="classRemoteWindowData.htm#afb33f4dbcc5eaa52ce918352515da401">RemoteWindowData::key()</a></dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.htm#_todo000101">Todo:</a></b></dt><dd>Document this further once <a class="el" href="classRemoteWindowData.htm#afb33f4dbcc5eaa52ce918352515da401">RemoteWindowData::key()</a> is documented.</dd></dl>
+<dl class="return"><dt><b>Returns:</b></dt><dd>Back buffer key. </dd></dl>
 
 </div>
 </div>
@@ -1906,6 +2044,16 @@ Friends</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
+<p>Currently unused</p>
+<p>Re-paints the entire app next redraw.</p>
+<dl class="todo"><dt><b><a class="el" href="todo.htm#_todo000109">Todo:</a></b></dt><dd>Determine if this needs to exist anymore, as it is no longer called from anywhere.</dd></dl>
+<dl class="params"><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">newContentsX</td><td>Unknown - currently unused. </td></tr>
+    <tr><td class="paramname">newContentsY</td><td>Unknown - currently unused. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -1956,6 +2104,15 @@ Friends</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
+<p>Changes our window properties</p>
+<p>Changed our window properties and sends a message via IPC to let the view host know that our properties have changed and to what.</p>
+<dl class="todo"><dt><b><a class="el" href="todo.htm#_todo000108">Todo:</a></b></dt><dd>Document this further once <a class="el" href="structWindowProperties.htm">WindowProperties</a> is documented.</dd></dl>
+<dl class="params"><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">winProp</td><td>New window properties to use. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -1972,6 +2129,9 @@ Friends</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
+<p>Adds our app to the window manager</p>
+<p>Used by <a class="el" href="classWindowedWebApp.htm#a0b0cbbad63749c0985d48e0040e3b1d4">m_showWindowTimer</a> to ensure that even if our app takes a while to load, we still paint something (even if the app's not done loading yet) and add ourselves to the window manager.</p>
+<dl class="return"><dt><b>Returns:</b></dt><dd>Always returns false. </dd></dl>
 
 </div>
 </div>
@@ -2026,6 +2186,9 @@ Friends</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
+<p>Queues a repaint of our app</p>
+<p>Starts a WebKit timer to redraw our app as soon as it's able to process it (timer with a timeout of 0ms). This allows it to neatly fall into the event queue such that it processes in order.</p>
+<p>Has no effect if our app is currently being closed or if we're already waiting for a previously-queued repaint timer to fire. </p>
 
 </div>
 </div>
@@ -2042,6 +2205,8 @@ Friends</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
+<p>Stops queued repaint timer</p>
+<p>Stops the timer previously set by <a class="el" href="classWindowedWebApp.htm#ae7f2ad157d4b85f853d1b89e902b196d">startPaintTimer()</a>, if there is one. If not, this method has no effect. </p>
 
 </div>
 </div>
@@ -2200,6 +2365,7 @@ Friends</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
+<p>Whether or not our app has been added to the window manager via an IPC call from <a class="el" href="classWindowedWebApp.htm#a2591d80abc0ce5370129f8580dd142c7">loadFinished()</a> </p>
 
 </div>
 </div>
@@ -2228,6 +2394,7 @@ Friends</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
+<p>Keeps track on how many PenDown's we blocked </p>
 
 </div>
 </div>
@@ -2241,6 +2408,10 @@ Friends</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
+<p>Whether or not to block PenDown events</p>
+<dl class="see"><dt><b>See also:</b></dt><dd><a class="el" href="classWindowedWebApp.htm#a8af491bbde394e0d2ebe531b107e5db4">m_blockCount</a> </dd>
+<dd>
+<a class="el" href="classWindowedWebApp.htm#adaee948c35363dedf14ab848fb2812b2">WindowedWebApp::inputEvent</a> </dd></dl>
 
 </div>
 </div>
@@ -2283,6 +2454,8 @@ Friends</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
+<p>Whether currently-executing touch events should be translated to mouse events</p>
+<p>Used by <a class="el" href="classWindowedWebApp.htm#a0d92d1799dcf5205c7538f532f6863cd">onTouchEvent()</a> to determine whether a series of touch events should be translated to mouse events. </p>
 
 </div>
 </div>
@@ -2311,6 +2484,9 @@ Friends</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
+<p><a class="el" href="classTime.htm">Time</a> that the latest gesture event ended</p>
+<p>Set by <a class="el" href="classWindowedWebApp.htm#adaee948c35363dedf14ab848fb2812b2">WindowedWebApp::inputEvent()</a></p>
+<dl class="see"><dt><b>See also:</b></dt><dd><a class="el" href="classWindowedWebApp.htm#adaee948c35363dedf14ab848fb2812b2">WindowedWebApp::inputEvent()</a> </dd></dl>
 
 </div>
 </div>
@@ -2324,6 +2500,8 @@ Friends</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
+<p>Unknown - currently unused</p>
+<dl class="todo"><dt><b><a class="el" href="todo.htm#_todo000112">Todo:</a></b></dt><dd>Determine if this can be removed entirely. </dd></dl>
 
 </div>
 </div>
@@ -2338,7 +2516,7 @@ Friends</h2></td></tr>
 </div>
 <div class="memdoc">
 <p>Pointer to our <a class="el" href="structWindowMetaData.htm">WindowMetaData</a> structure</p>
-<dl class="todo"><dt><b><a class="el" href="todo.htm#_todo000102">Todo:</a></b></dt><dd>Document this further once <a class="el" href="structWindowMetaData.htm">WindowMetaData</a> is documented. </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.htm#_todo000111">Todo:</a></b></dt><dd>Document this further once <a class="el" href="structWindowMetaData.htm">WindowMetaData</a> is documented. </dd></dl>
 
 </div>
 </div>
@@ -2353,7 +2531,7 @@ Friends</h2></td></tr>
 </div>
 <div class="memdoc">
 <p>IPC buffer for our <a class="el" href="structWindowMetaData.htm">WindowMetaData</a> structure so it can be passed between threads/processes safely</p>
-<dl class="todo"><dt><b><a class="el" href="todo.htm#_todo000101">Todo:</a></b></dt><dd>Document this further once <a class="el" href="structWindowMetaData.htm">WindowMetaData</a> is documented. </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.htm#_todo000110">Todo:</a></b></dt><dd>Document this further once <a class="el" href="structWindowMetaData.htm">WindowMetaData</a> is documented. </dd></dl>
 
 </div>
 </div>
@@ -2367,6 +2545,7 @@ Friends</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
+<p>Area of our app which needs to be redrawn next time <a class="el" href="classWindowedWebApp.htm#a509f3ca21c7872aed35fdc55196e89d1">paint()</a> runs </p>
 
 </div>
 </div>
@@ -2380,6 +2559,9 @@ Friends</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
+<p>Repaint timer used by <a class="el" href="classWindowedWebApp.htm#ae7f2ad157d4b85f853d1b89e902b196d">startPaintTimer()</a></p>
+<p>See <a class="el" href="classWindowedWebApp.htm#ae7f2ad157d4b85f853d1b89e902b196d">startPaintTimer()</a> for usage.</p>
+<dl class="see"><dt><b>See also:</b></dt><dd><a class="el" href="classWindowedWebApp.htm#ae7f2ad157d4b85f853d1b89e902b196d">startPaintTimer()</a> </dd></dl>
 
 </div>
 </div>
@@ -2409,6 +2591,8 @@ Friends</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
+<p>Whether or not to show memory statistics overlayed onto the app's display</p>
+<p>Toggled via a Alt-&gt;Percent KeyPress event in <a class="el" href="classWindowedWebApp.htm#a7fe589cd5df7617459730b9744b36dfc">WindowedWebApp::keyEvent()</a>. </p>
 
 </div>
 </div>
@@ -2422,6 +2606,10 @@ Friends</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
+<p><a class="el" href="classTimer.htm">Timer</a> which is set to run while we're loading the contents of the app</p>
+<p>If our app doesn't load quickly enough, this timer ensures that we still register our app with the window manager.</p>
+<p>When triggered, calls <a class="el" href="classWindowedWebApp.htm#ab19d29c50b2b273cb0149a2b9ff1a9dd">showWindowTimeout()</a>.</p>
+<dl class="see"><dt><b>See also:</b></dt><dd><a class="el" href="classWindowedWebApp.htm#ab19d29c50b2b273cb0149a2b9ff1a9dd">showWindowTimeout()</a> </dd></dl>
 
 </div>
 </div>
@@ -2435,6 +2623,7 @@ Friends</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
+<p>Whether or not our app is currently preparing the stage (still loading the app) </p>
 
 </div>
 </div>
@@ -2448,6 +2637,7 @@ Friends</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
+<p>Whether or not our app is completely loaded </p>
 
 </div>
 </div>
@@ -2508,6 +2698,8 @@ Friends</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
+<p><a class="el" href="classWindow.htm">Window</a> properties for the current window</p>
+<dl class="todo"><dt><b><a class="el" href="todo.htm#_todo000113">Todo:</a></b></dt><dd>Document this further once <a class="el" href="structWindowProperties.htm">WindowProperties</a> and its uses are documented. </dd></dl>
 
 </div>
 </div>
@@ -2550,7 +2742,7 @@ Friends</h2></td></tr>
     <ul>
       <li class="navelem"><a class="el" href="classWindowedWebApp.htm">WindowedWebApp</a>      </li>
 
-    <li class="footer">Generated on Sun Oct 14 2012 10:11:01 for LunaSysMgr by
+    <li class="footer">Generated on Sun Oct 21 2012 15:07:49 for LunaSysMgr by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.7.6.1 </li>
    </ul>

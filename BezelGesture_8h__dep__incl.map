@@ -1,6 +1,6 @@
 <map id="G" name="G">
 <area shape="rect" id="node3" href="$SystemUiController_8h.htm" title="SystemUiController.h" alt="" coords="3183,83,3337,112"/>
-<area shape="rect" id="node41" href="$CardWindowManager_8cpp.htm" title="CardWindowManager.cpp" alt="" coords="96,237,283,267"/>
+<area shape="rect" id="node49" href="$CardWindowManager_8cpp.htm" title="CardWindowManager.cpp" alt="" coords="96,237,283,267"/>
 <area shape="rect" id="node110" href="$BezelGestureRecognizer_8cpp.htm" title="BezelGestureRecognizer.cpp" alt="" coords="260,160,465,189"/>
 <area shape="rect" id="node112" href="$BezelGestureRecognizer_8h.htm" title="BezelGestureRecognizer.h" alt="" coords="400,83,589,112"/>
 <area shape="rect" id="node116" href="$CardWindowManager_8h.htm" title="CardWindowManager.h" alt="" coords="591,160,761,189"/>
@@ -19,14 +19,14 @@
 <area shape="rect" id="node29" href="$HostWindow_8cpp.htm" title="HostWindow.cpp" alt="" coords="1959,160,2084,189"/>
 <area shape="rect" id="node31" href="$ProgressAnimation_8cpp.htm" title="ProgressAnimation.cpp" alt="" coords="2108,160,2273,189"/>
 <area shape="rect" id="node33" href="$SystemService_8cpp.htm" title="SystemService.cpp" alt="" coords="1171,237,1312,267"/>
-<area shape="rect" id="node35" href="$CardWindow_8h.htm" title="CardWindow.h" alt="" coords="1167,160,1281,189"/>
-<area shape="rect" id="node39" href="$CardWindow_8cpp.htm" title="CardWindow.cpp" alt="" coords="1336,237,1464,267"/>
-<area shape="rect" id="node43" href="$CardWindowManagerStates_8cpp.htm" title="CardWindowManagerStates.cpp" alt="" coords="307,237,533,267"/>
-<area shape="rect" id="node45" href="$EmergencyWindowManager_8cpp.htm" title="EmergencyWindowManager.cpp" alt="" coords="1488,237,1715,267"/>
-<area shape="rect" id="node49" href="$WindowManagerMinimal_8cpp.htm" title="WindowManagerMinimal.cpp" alt="" coords="1739,237,1941,267"/>
-<area shape="rect" id="node53" href="$InputWindowManager_8cpp.htm" title="InputWindowManager.cpp" alt="" coords="2297,160,2484,189"/>
-<area shape="rect" id="node55" href="$SysmgrIMEDataInterface_8cpp.htm" title="SysmgrIMEDataInterface.cpp" alt="" coords="2508,160,2713,189"/>
-<area shape="rect" id="node57" href="$VirtualKeyboardPreferences_8cpp.htm" title="VirtualKeyboardPreferences.cpp" alt="" coords="2737,160,2961,189"/>
+<area shape="rect" id="node37" href="$InputWindowManager_8cpp.htm" title="InputWindowManager.cpp" alt="" coords="2297,160,2484,189"/>
+<area shape="rect" id="node39" href="$SysmgrIMEDataInterface_8cpp.htm" title="SysmgrIMEDataInterface.cpp" alt="" coords="2508,160,2713,189"/>
+<area shape="rect" id="node41" href="$VirtualKeyboardPreferences_8cpp.htm" title="VirtualKeyboardPreferences.cpp" alt="" coords="2737,160,2961,189"/>
+<area shape="rect" id="node43" href="$CardWindow_8h.htm" title="CardWindow.h" alt="" coords="1167,160,1281,189"/>
+<area shape="rect" id="node47" href="$CardWindow_8cpp.htm" title="CardWindow.cpp" alt="" coords="1336,237,1464,267"/>
+<area shape="rect" id="node51" href="$CardWindowManagerStates_8cpp.htm" title="CardWindowManagerStates.cpp" alt="" coords="307,237,533,267"/>
+<area shape="rect" id="node53" href="$EmergencyWindowManager_8cpp.htm" title="EmergencyWindowManager.cpp" alt="" coords="1488,237,1715,267"/>
+<area shape="rect" id="node57" href="$WindowManagerMinimal_8cpp.htm" title="WindowManagerMinimal.cpp" alt="" coords="1739,237,1941,267"/>
 <area shape="rect" id="node59" href="$CardHostWindow_8cpp.htm" title="CardHostWindow.cpp" alt="" coords="2985,160,3143,189"/>
 <area shape="rect" id="node64" href="$EmulatedCardWindow_8cpp.htm" title="EmulatedCardWindow.cpp" alt="" coords="3167,160,3353,189"/>
 <area shape="rect" id="node66" href="$DockModeAppMenuContainer_8cpp.htm" title="DockModeAppMenuContainer.cpp" alt="" coords="3377,160,3615,189"/>
